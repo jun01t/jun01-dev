@@ -5,6 +5,9 @@ on:
     # 08:00 JST. GitHub runs this only after the file is on the default branch.
     - cron: '0 23 * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - cursor/jun01-desk-digest
 
 permissions:
   contents: write
@@ -44,7 +47,7 @@ jobs:
 
   deploy:
     needs: update
-    if: needs.update.outputs.changed == 'true'
+    if: needs.update.outputs.changed == 'true' || github.event_name == 'push' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
