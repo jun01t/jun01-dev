@@ -6,6 +6,7 @@
     "dev": "vite",
     "update": "node scripts/update-digest.mjs",
     "build": "vue-tsc --noEmit && vite build && node scripts/copy-spa-fallback.mjs",
+    "test": "node --test scripts/digest.test.mjs scripts/saved-store.test.mjs scripts/spa-fallback.test.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

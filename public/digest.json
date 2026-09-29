@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T12:42:46.549Z",
+  "updatedAt": "2026-09-29T22:55:15+09:00",
   "items": [
     {
       "slug": "auto-39d70b10c8",
@@ -166,7 +166,7 @@
     {
       "slug": "auto-2219be660a",
       "title": "Claude Codeが「AGENTS.md」に対応。CLAUDE.mdが存在しない場合、自動的に読み込み",
-      "category": "ai",
+      "category": "cloud",
       "date": "2026-09-24",
       "summary": "Anthropicは、Claude Codeの9月18日付けアップデートClaude Code 2.1.277で「AGENTS.md」の読み込みに対応したことを明らかにしました。 以下のように説明されています。…",
       "why": "「claude code」に触れているので拾いました。全文の判断は出典を見てください。",

@@ -1,5 +1,7 @@
 import { createHash } from 'node:crypto'
 import { readFile, writeFile } from 'node:fs/promises'
+import { pathToFileURL } from 'node:url'
+import { cutoffDay, dayInTokyo, safeHttpUrl, timestampInTokyo } from './digest-lib.mjs'
 
 const OUT = new URL('../public/digest.json', import.meta.url)
 const MAX_AGE_DAYS = 21
@@ -101,8 +103,6 @@ const rules = [
   { category: 'gadget', words: ['モニター', 'キーボード', 'マウス', 'デスク', 'ガジェット', 'ロジクール', 'logicool', 'benq', 'kvm', 'usb-c', 'usb type-c', 'ドッキング', '在宅', 'ディスプレイ', 'トラックボール'] },
 ]
 
-const categories = new Set(['web', 'ai', 'cloud', 'gadget'])
-
 function decode(text) {
   return text
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
@@ -150,15 +150,6 @@ function dateOf(block) {
   return Number.isNaN(date.getTime()) ? null : date
 }
 
-function dayInTokyo(date) {
-  return new Intl.DateTimeFormat('en-CA', {
-    timeZone: 'Asia/Tokyo',
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-  }).format(date)
-}
-
 function excerpt(text) {
   const clean = text.replace(/\s+/g, ' ').trim()
   if (clean.length <= 220) return clean
@@ -200,7 +191,40 @@ async function readPrevious() {
   }
 }
 
-async function fetchFeed(feed) {
+export function buildItem(feed, block, now = new Date()) {
+  const rawTitle = tagText(block, 'title')
+  const title = /^(v?\d+\.\d+)/i.test(rawTitle) ? `${feed.name} ${rawTitle}` : rawTitle
+  const url = safeHttpUrl(linkOf(block))
+  const date = dateOf(block)
+  if (!rawTitle || !url || !date || dayInTokyo(date) < cutoffDay(now, MAX_AGE_DAYS)) return null
+  if (/todays_sales|yajiuma|dependabot/i.test(url + title)) return null
+  const summary = excerpt(
+    [tagText(block, 'description'), tagText(block, 'summary'), tagText(block, 'content'), tagText(block, 'content:encoded')]
+      .sort((a, b) => b.length - a.length)[0] ?? '',
+  )
+  if (/release highlights could not be determined/i.test(summary)) return null
+  const found = matches(`${title} ${summary}`)
+  if (feed.mode === 'match' && found.length === 0) return null
+  const words = [...new Set(found.map((item) => item.word))].slice(0, 3)
+  const why = feed.mode === 'all'
+    ? `${feed.name}の更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。`
+    : `「${words.join('、')}」に触れているので拾いました。全文の判断は出典を見てください。`
+  return {
+    slug: slugFor(url),
+    title,
+    category: feed.category,
+    date: dayInTokyo(date),
+    summary: summary || title,
+    why,
+    points: [],
+    tags: words,
+    source: { name: feed.name, url, kind: feed.kind },
+    auto: true,
+    sort: date.getTime(),
+  }
+}
+
+async function fetchFeed(feed, now) {
   const response = await fetch(feed.url, {
     headers: { 'user-agent': USER_AGENT, accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml' },
     redirect: 'follow',
@@ -209,99 +233,86 @@ async function fetchFeed(feed) {
   if (!response.ok) throw new Error(`${response.status}`)
   const xml = await response.text()
   if (!/<(rss|feed|rdf:RDF)\b/i.test(xml)) throw new Error('not a feed')
-  const cutoff = Date.now() - MAX_AGE_DAYS * 24 * 60 * 60 * 1000
   const picked = []
   for (const block of blocks(xml)) {
-    const rawTitle = tagText(block, 'title')
-    const title = /^(v?\d+\.\d+)/i.test(rawTitle) ? `${feed.name} ${rawTitle}` : rawTitle
-    const url = linkOf(block)
-    const date = dateOf(block)
-    if (!rawTitle || !url || !date || date.getTime() < cutoff) continue
-    if (/todays_sales|yajiuma|dependabot/i.test(url + title)) continue
-    const summary = excerpt(
-      [tagText(block, 'description'), tagText(block, 'summary'), tagText(block, 'content'), tagText(block, 'content:encoded')]
-        .sort((a, b) => b.length - a.length)[0] ?? '',
-    )
-    if (/release highlights could not be determined/i.test(summary)) continue
-    const found = matches(`${title} ${summary}`)
-    if (feed.mode === 'match' && found.length === 0) continue
-    const category = found[0]?.category && categories.has(found[0].category) ? found[0].category : feed.category
-    const words = [...new Set(found.map((item) => item.word))].slice(0, 3)
-    const why = feed.mode === 'all'
-      ? `${feed.name}の更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。`
-      : `「${words.join('、')}」に触れているので拾いました。全文の判断は出典を見てください。`
-    picked.push({
-      slug: slugFor(url),
-      title,
-      category,
-      date: dayInTokyo(date),
-      summary: summary || title,
-      why,
-      points: [],
-      tags: words,
-      source: { name: feed.name, url, kind: feed.kind },
-      auto: true,
-      sort: date.getTime(),
-    })
+    const item = buildItem(feed, block, now)
+    if (!item) continue
+    picked.push(item)
     if (picked.length >= PER_FEED) break
   }
   return picked
 }
 
-const previous = await readPrevious()
-const fresh = []
-const errors = []
+export function assembleItems(fresh, previousItems, now = new Date()) {
+  const cutoff = cutoffDay(now, MAX_AGE_DAYS)
+  const seen = new Set(fresh.map((item) => item.source.url))
+  const kept = (previousItems ?? []).flatMap((item) => {
+    if (!item?.source?.url || seen.has(item.source.url)) return []
+    if (/release highlights could not be determined/i.test(item.summary ?? '')) return []
+    if (typeof item.date !== 'string' || item.date < cutoff) return []
+    const time = Date.parse(item.date)
+    return [{ ...item, sort: Number.isNaN(time) ? 0 : time }]
+  })
 
-for (const feed of feeds) {
-  try {
-    const items = await fetchFeed(feed)
-    fresh.push(...items)
-    console.log(`${items.length}\t${feed.name}`)
-  } catch (error) {
-    errors.push(`${feed.name}: ${error instanceof Error ? error.message : error}`)
-    console.warn(`skip\t${feed.name}\t${error instanceof Error ? error.message : error}`)
+  const ranked = [...fresh, ...kept]
+    .sort((a, b) => (b.sort ?? 0) - (a.sort ?? 0) || String(b.date).localeCompare(String(a.date)))
+    .filter((item, index, list) => list.findIndex((other) => other.source.url === item.source.url) === index)
+
+  const perSource = new Map()
+  const items = []
+  for (const item of ranked) {
+    const count = perSource.get(item.source.name) ?? 0
+    if (count >= 2) continue
+    perSource.set(item.source.name, count + 1)
+    const { sort, ...rest } = item
+    items.push(rest)
+    if (items.length >= MAX_ITEMS) break
   }
+  return items
 }
 
-const cutoff = Date.now() - MAX_AGE_DAYS * 24 * 60 * 60 * 1000
-const seen = new Set(fresh.map((item) => item.source.url))
-const kept = (previous?.items ?? []).flatMap((item) => {
-  if (!item?.source?.url || seen.has(item.source.url)) return []
-  if (/release highlights could not be determined/i.test(item.summary ?? '')) return []
-  const time = new Date(item.date).getTime()
-  if (Number.isNaN(time) || time < cutoff) return []
-  return [{ ...item, sort: time }]
-})
-
-const ranked = [...fresh, ...kept]
-  .sort((a, b) => (b.sort ?? 0) - (a.sort ?? 0) || String(b.date).localeCompare(String(a.date)))
-  .filter((item, index, list) => list.findIndex((other) => other.source.url === item.source.url) === index)
-
-const perSource = new Map()
-const items = []
-for (const item of ranked) {
-  const count = perSource.get(item.source.name) ?? 0
-  if (count >= 2) continue
-  perSource.set(item.source.name, count + 1)
-  const { sort, ...rest } = item
-  items.push(rest)
-  if (items.length >= MAX_ITEMS) break
+export function signature(list) {
+  return JSON.stringify(list.map((item) => [item.slug, item.title, item.date, item.summary, item.category, item.source.url]))
 }
 
-if (items.length === 0) {
-  console.error(errors.join('\n') || 'no items')
-  process.exit(previous ? 0 : 1)
+export function planDigest(previous, items) {
+  if (items.length === 0 && !previous) return { write: false, exitCode: 1 }
+  if (previous && signature(previous.items ?? []) === signature(items)) return { write: false, exitCode: 0 }
+  return { write: true, exitCode: 0 }
 }
 
-const signature = (list) => JSON.stringify(list.map((item) => [item.slug, item.title, item.date, item.summary, item.source.url]))
-if (previous && signature(previous.items ?? []) === signature(items)) {
-  console.log('unchanged')
-  process.exit(0)
+async function main() {
+  const now = new Date()
+  const previous = await readPrevious()
+  const fresh = []
+  const errors = []
+
+  for (const feed of feeds) {
+    try {
+      const items = await fetchFeed(feed, now)
+      fresh.push(...items)
+      console.log(`${items.length}\t${feed.name}`)
+    } catch (error) {
+      errors.push(`${feed.name}: ${error instanceof Error ? error.message : error}`)
+      console.warn(`skip\t${feed.name}\t${error instanceof Error ? error.message : error}`)
+    }
+  }
+
+  const items = assembleItems(fresh, previous?.items, now)
+  const plan = planDigest(previous, items)
+  if (!plan.write) {
+    if (plan.exitCode !== 0) console.error(errors.join('\n') || 'no items')
+    else console.log('unchanged')
+    process.exit(plan.exitCode)
+  }
+
+  const digest = {
+    updatedAt: timestampInTokyo(now),
+    items,
+  }
+  await writeFile(OUT, `${JSON.stringify(digest, null, 2)}\n`)
+  console.log(`wrote ${items.length} items`)
 }
 
-const digest = {
-  updatedAt: new Date().toISOString(),
-  items,
-}
-await writeFile(OUT, `${JSON.stringify(digest, null, 2)}\n`)
-console.log(`wrote ${items.length} items`)
+const isDirect = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href
+if (isDirect) await main()
