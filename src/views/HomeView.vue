@@ -26,7 +26,7 @@ const gadgets = items
     </p>
     <h1 class="display xl">机に置くものだけを、毎朝集めている。</h1>
     <p class="dek">
-      Rails、Nuxt、Cursor、AWS、デスク周りの公開フィードから、キーワードが一致した抜粋です。収集にAPI料金はかかっていません。
+      Rails、Nuxt、Cursor、Claude Code、Codex、AWS、デスク周りの公開フィードから、キーワードが一致した抜粋です。収集にAPI料金はかかっていません。
       <template v-if="updatedAt">最終更新は {{ formatDate(updatedAt) }} です。</template>
     </p>
 

@@ -103,7 +103,7 @@ onUnmounted(() => window.removeEventListener('keydown', focusSearch))
       <input
         v-model="search"
         type="search"
-        placeholder="Nuxt、KVM、Cursor…"
+        placeholder="Nuxt、Codex、Claude Code…"
         aria-label="記事を検索"
         @keydown.esc="search = ''"
       />

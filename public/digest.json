@@ -1,6 +1,78 @@
 {
-  "updatedAt": "2026-09-29T12:38:19.656Z",
+  "updatedAt": "2026-09-29T12:42:46.549Z",
   "items": [
+    {
+      "slug": "auto-39d70b10c8",
+      "title": "Claude Code 2.1.284",
+      "category": "ai",
+      "date": "2026-09-29",
+      "summary": "Added Claude Sonnet 5.5 ( claude-sonnet-5-5 ), now the default Sonnet model on the Anthropic API — 1M context, $2/$10 per Mtok with $0.20/Mtok cache reads Added a \"Yes, but ask again next time\" answer to auto mode's prom…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog#2-1-284",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-15be9c198f",
+      "title": "Codex CLI Release: 0.158.0",
+      "category": "ai",
+      "date": "2026-09-28",
+      "summary": "New Features Configure copy-on-select and right-click paste in the fullscreen TUI. Copied transcript selections now preserve Markdown formatting.…",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/#github-release-397962047",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-1ebfe91874",
+      "title": "Claude Code 2.1.283",
+      "category": "ai",
+      "date": "2026-09-26",
+      "summary": "Added x-claude-code-prompt-id to the gateway hint headers so LLM gateways can group the requests that serve one user prompt; opt in with CLAUDE_CODE_GATEWAY_HINT_HEADERS=1 Added availableModelsMatch managed setting: with…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog#2-1-283",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-c4f4ecf67c",
+      "title": "Codex CLI Release: 0.157.0",
+      "category": "ai",
+      "date": "2026-09-25",
+      "summary": "New Features Added GPT-6 Sol and Luna, including Amazon Bedrock support and migration prompts for older models.…",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/#github-release-396234532",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-66f3ff620d",
       "title": "See you in Lisbon!",
@@ -92,6 +164,24 @@
       "auto": true
     },
     {
+      "slug": "auto-2219be660a",
+      "title": "Claude Codeが「AGENTS.md」に対応。CLAUDE.mdが存在しない場合、自動的に読み込み",
+      "category": "ai",
+      "date": "2026-09-24",
+      "summary": "Anthropicは、Claude Codeの9月18日付けアップデートClaude Code 2.1.277で「AGENTS.md」の読み込みに対応したことを明らかにしました。 以下のように説明されています。…",
+      "why": "「claude code」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/claude_codeagentsmdclaudemd.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
       "slug": "auto-73d05ec3e0",
       "title": "Terraform Releases v1.16.4",
       "category": "cloud",
@@ -114,10 +204,12 @@
       "title": "Rollouts and Security Review",
       "category": "ai",
       "date": "2026-09-23",
-      "summary": "Two bots for the last mile of shipping code: Rollouts watches every change as it deploys, and Security Review reports exploitable bugs on every pull request.",
+      "summary": "Today we're launching two Cursor bots for the last mile of shipping code. Rollouts watches every change as it deploys and reports its health per environment.…",
       "why": "Cursor Changelogの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
-      "tags": [],
+      "tags": [
+        "cursor"
+      ],
       "source": {
         "name": "Cursor Changelog",
         "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
@@ -180,30 +272,11 @@
       "auto": true
     },
     {
-      "slug": "auto-256054d473",
-      "title": "AnthropicのMCP共同作者が来日、基調講演で語るこれからのMCP注力領域。AGNTCon＋MCPCon Japan 2026",
-      "category": "ai",
-      "date": "2026-09-15",
-      "summary": "AIエージェントおよびMCP（Model Context Protocol）を主題としたイベント「AGNTCon＋MCPCon Japan 2026」が9月10日に東京渋谷のイベントホールで開催されました。主催はLinux Foundationです。 基調講演には、MCPの作者の一人であるAnthropicのDavid Soria Parra氏が登壇。…",
-      "why": "「mcp、model context protocol」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "mcp",
-        "model context protocol"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/anthropicmcpmcpagntconmcpcon_japan_2026.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-8e4f416112",
       "title": "Cursor Projects",
       "category": "ai",
       "date": "2026-09-10",
-      "summary": "Projects lets you take on larger bodies of work, maintain context over months, and delegate tasks to thousands of subagents.",
+      "summary": "Today we're launching Projects in Cursor. Projects lets you take on larger bodies of work, such as a feature, a migration, or a full app.…",
       "why": "Cursor Changelogの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [

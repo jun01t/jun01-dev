@@ -16,6 +16,20 @@ const feeds = [
     mode: 'all',
   },
   {
+    name: 'Claude Code',
+    url: 'https://code.claude.com/docs/en/changelog/rss.xml',
+    category: 'ai',
+    kind: 'primary',
+    mode: 'all',
+  },
+  {
+    name: 'Codex',
+    url: 'https://developers.openai.com/codex/changelog/rss.xml',
+    category: 'ai',
+    kind: 'primary',
+    mode: 'match',
+  },
+  {
     name: 'Ruby on Rails',
     url: 'https://rubyonrails.org/feed.xml',
     category: 'web',
@@ -81,7 +95,7 @@ const feeds = [
 ]
 
 const rules = [
-  { category: 'ai', words: ['cursor', 'mcp', 'model context protocol'] },
+  { category: 'ai', words: ['cursor', 'claude code', 'codex', 'mcp', 'model context protocol'] },
   { category: 'cloud', words: ['terraform', 'rds', 'aurora', 'cloudfront', 'postgresql', 'route 53', 'route53', 'lambda', 'ecs'] },
   { category: 'web', words: ['nuxt', 'vue', 'rails', 'ruby on rails', 'vite', 'web components', 'typescript'] },
   { category: 'gadget', words: ['モニター', 'キーボード', 'マウス', 'デスク', 'ガジェット', 'ロジクール', 'logicool', 'benq', 'kvm', 'usb-c', 'usb type-c', 'ドッキング', '在宅', 'ディスプレイ', 'トラックボール'] },
@@ -205,8 +219,10 @@ async function fetchFeed(feed) {
     if (!rawTitle || !url || !date || date.getTime() < cutoff) continue
     if (/todays_sales|yajiuma|dependabot/i.test(url + title)) continue
     const summary = excerpt(
-      [tagText(block, 'description'), tagText(block, 'summary'), tagText(block, 'content')].sort((a, b) => b.length - a.length)[0] ?? '',
+      [tagText(block, 'description'), tagText(block, 'summary'), tagText(block, 'content'), tagText(block, 'content:encoded')]
+        .sort((a, b) => b.length - a.length)[0] ?? '',
     )
+    if (/release highlights could not be determined/i.test(summary)) continue
     const found = matches(`${title} ${summary}`)
     if (feed.mode === 'match' && found.length === 0) continue
     const category = found[0]?.category && categories.has(found[0].category) ? found[0].category : feed.category
@@ -251,6 +267,7 @@ const cutoff = Date.now() - MAX_AGE_DAYS * 24 * 60 * 60 * 1000
 const seen = new Set(fresh.map((item) => item.source.url))
 const kept = (previous?.items ?? []).flatMap((item) => {
   if (!item?.source?.url || seen.has(item.source.url)) return []
+  if (/release highlights could not be determined/i.test(item.summary ?? '')) return []
   const time = new Date(item.date).getTime()
   if (Number.isNaN(time) || time < cutoff) return []
   return [{ ...item, sort: time }]

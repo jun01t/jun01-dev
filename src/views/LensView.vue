@@ -17,7 +17,7 @@ import { categories } from '../data/items'
           <li>Ruby on Rails、Vue.js、Nuxt、TypeScript。APIから画面、公開まで一人で閉じる構成。</li>
           <li>Web Components を、PHP、Rails、WordPress、Nuxt の境目に置く。</li>
           <li>AWSは S3、CloudFront、Route 53、EC2、RDS。構成は Terraform。データベースは PostgreSQL。</li>
-          <li>Cursor、MCP、エージェントにまとまった仕事を渡す開発。</li>
+          <li>Cursor、Claude Code、Codex、MCP。エージェントにまとまった仕事を渡す開発。</li>
           <li>AIでコードが速くなっても、コンピュータ、ネットワーク、データベース、セキュリティの基礎を横に置く。</li>
         </ul>
       </section>
