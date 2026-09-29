@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "update": "node scripts/update-digest.mjs",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },

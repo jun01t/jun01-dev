@@ -2,7 +2,8 @@
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import ItemCard from '../components/ItemCard.vue'
-import { categories, items, type CategoryId } from '../data/items'
+import { getItems } from '../data/catalog'
+import { categories, type CategoryId } from '../data/items'
 import { useSaved } from '../composables/useSaved'
 
 const route = useRoute()
@@ -16,6 +17,7 @@ const category = computed(() => {
 })
 
 const savedOnly = computed(() => route.query.saved === '1')
+const autoOnly = computed(() => route.query.source === 'auto')
 
 watch(search, (value) => {
   const query = { ...route.query }
@@ -33,8 +35,9 @@ watch(
 
 const visible = computed(() => {
   const needle = search.value.trim().toLowerCase()
-  return items
+  return getItems()
     .filter((item) => (category.value ? item.category === category.value : true))
+    .filter((item) => (autoOnly.value ? item.auto : true))
     .filter((item) => (savedOnly.value ? slugs.value.includes(item.slug) : true))
     .filter((item) => {
       if (!needle) return true
@@ -56,6 +59,16 @@ function setCategory(id: CategoryId | '') {
   pushQuery({
     q: search.value,
     category: id,
+    saved: savedOnly.value ? '1' : '',
+    source: autoOnly.value ? 'auto' : '',
+  })
+}
+
+function showCollected() {
+  pushQuery({
+    q: search.value,
+    source: autoOnly.value ? '' : 'auto',
+    category: category.value,
     saved: savedOnly.value ? '1' : '',
   })
 }
@@ -83,7 +96,7 @@ onUnmounted(() => window.removeEventListener('keydown', focusSearch))
       <span>アーカイブ</span>
       <span>{{ visible.length }}件</span>
     </p>
-    <h1 class="display">{{ savedOnly ? '保存した記事' : 'すべての要約' }}</h1>
+    <h1 class="display">{{ savedOnly ? '保存した記事' : autoOnly ? '収集した更新' : 'すべての要約' }}</h1>
     <p class="dek">タイトル、要約、タグから探せます。スラッシュキーで検索欄に戻ります。</p>
 
     <form class="search" role="search" @submit.prevent>
@@ -97,7 +110,7 @@ onUnmounted(() => window.removeEventListener('keydown', focusSearch))
     </form>
 
     <div class="filters">
-      <button type="button" class="chip" :aria-pressed="!category && !savedOnly" @click="showAll">すべて</button>
+      <button type="button" class="chip" :aria-pressed="!category && !savedOnly && !autoOnly" @click="showAll">すべて</button>
       <button
         v-for="item in categories"
         :key="item.id"
@@ -108,6 +121,7 @@ onUnmounted(() => window.removeEventListener('keydown', focusSearch))
       >
         {{ item.label }}
       </button>
+      <button type="button" class="chip" :aria-pressed="autoOnly" @click="showCollected">収集</button>
       <RouterLink v-slot="{ href, navigate }" to="/archive?saved=1" custom>
         <a
           :href="href"

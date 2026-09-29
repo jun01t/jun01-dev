@@ -1,0 +1,220 @@
+{
+  "updatedAt": "2026-09-29T12:38:19.656Z",
+  "items": [
+    {
+      "slug": "auto-66f3ff620d",
+      "title": "See you in Lisbon!",
+      "category": "web",
+      "date": "2026-09-25",
+      "summary": "Hi, it’s Claudio Baccigalupo with your updates on the Rails codebase. What a week! Rails World took over Austin with more than a thousand attendees from all over the world.…",
+      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "rails"
+      ],
+      "source": {
+        "name": "Ruby on Rails",
+        "url": "https://rubyonrails.org/2026/9/25/this-week-in-rails",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-f95fa9e33c",
+      "title": "Rails Version 7.2.4 has been released!",
+      "category": "web",
+      "date": "2026-09-25",
+      "summary": "Hi everyone, I am happy to announce that Rails 7.2.4 has been released. As stated in the maintenance policy , this is the last release of the 7.2.x series.…",
+      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "rails"
+      ],
+      "source": {
+        "name": "Ruby on Rails",
+        "url": "https://rubyonrails.org/2026/9/24/Rails-Version-7-2-4-has-been-released",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0bd2530871",
+      "title": "Rails Releases 7.2.4",
+      "category": "web",
+      "date": "2026-09-25",
+      "summary": "Active Support Improve number_to_delimited performance when delimiter_pattern is not specified. Shinichi Maeshima Silence Dalli 4.0+ warning when using ActiveSupport::Cache::MemCacheStore .…",
+      "why": "Rails Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "rails"
+      ],
+      "source": {
+        "name": "Rails Releases",
+        "url": "https://github.com/rails/rails/releases/tag/v7.2.4",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-ccee78e5b0",
+      "title": "Rails Releases 8.1.4",
+      "category": "web",
+      "date": "2026-09-24",
+      "summary": "Active Support Fix the debug error page rendering for SyntaxError s with multi-line messages. Marco Roth Make ActiveSupport::JSON.decode compatible with the upcoming json 3.0 gem.…",
+      "why": "Rails Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "rails"
+      ],
+      "source": {
+        "name": "Rails Releases",
+        "url": "https://github.com/rails/rails/releases/tag/v8.1.4",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-c79ceb465e",
+      "title": "Terraform Releases v1.17.0-beta2",
+      "category": "cloud",
+      "date": "2026-09-24",
+      "summary": "1.17.0-beta2 (September 23, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources tha…",
+      "why": "Terraform Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "terraform"
+      ],
+      "source": {
+        "name": "Terraform Releases",
+        "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta2",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-73d05ec3e0",
+      "title": "Terraform Releases v1.16.4",
+      "category": "cloud",
+      "date": "2026-09-23",
+      "summary": "1.16.4 (September 23, 2026) BUG FIXES: Fixed an issue where Terraform fails when rendering policy evaluation outcomes for older versions of Terraform Enterprise ( #39095 ) stacks: Fix invalid deferred error triggered by…",
+      "why": "Terraform Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "terraform"
+      ],
+      "source": {
+        "name": "Terraform Releases",
+        "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.4",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-089c4ff63d",
+      "title": "Rollouts and Security Review",
+      "category": "ai",
+      "date": "2026-09-23",
+      "summary": "Two bots for the last mile of shipping code: Rollouts watches every change as it deploys, and Security Review reports exploitable bugs on every pull request.",
+      "why": "Cursor Changelogの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [],
+      "source": {
+        "name": "Cursor Changelog",
+        "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-4a85a3dc79",
+      "title": "Vue Releases v3.6.0-rc.9",
+      "category": "web",
+      "date": "2026-09-18",
+      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
+      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vue"
+      ],
+      "source": {
+        "name": "Vue Releases",
+        "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.9",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-d3d8edfcc6",
+      "title": "PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開",
+      "category": "cloud",
+      "date": "2026-09-18",
+      "summary": "データベースサービスを提供しているPlanetScaleは、PostgreSQLのシャーディングを自動化してスケーラブルなデータベースサービスを提供する「Neki」をプレビュー公開しました。…",
+      "why": "「postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "postgresql"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e3594276c0",
+      "title": "Vue Releases v3.5.43",
+      "category": "web",
+      "date": "2026-09-17",
+      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
+      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vue"
+      ],
+      "source": {
+        "name": "Vue Releases",
+        "url": "https://github.com/vuejs/core/releases/tag/v3.5.43",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-256054d473",
+      "title": "AnthropicのMCP共同作者が来日、基調講演で語るこれからのMCP注力領域。AGNTCon＋MCPCon Japan 2026",
+      "category": "ai",
+      "date": "2026-09-15",
+      "summary": "AIエージェントおよびMCP（Model Context Protocol）を主題としたイベント「AGNTCon＋MCPCon Japan 2026」が9月10日に東京渋谷のイベントホールで開催されました。主催はLinux Foundationです。 基調講演には、MCPの作者の一人であるAnthropicのDavid Soria Parra氏が登壇。…",
+      "why": "「mcp、model context protocol」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "mcp",
+        "model context protocol"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/anthropicmcpmcpagntconmcpcon_japan_2026.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-8e4f416112",
+      "title": "Cursor Projects",
+      "category": "ai",
+      "date": "2026-09-10",
+      "summary": "Projects lets you take on larger bodies of work, maintain context over months, and delegate tasks to thousands of subagents.",
+      "why": "Cursor Changelogの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "cursor"
+      ],
+      "source": {
+        "name": "Cursor Changelog",
+        "url": "https://cursor.com/changelog/projects",
+        "kind": "primary"
+      },
+      "auto": true
+    }
+  ]
+}

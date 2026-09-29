@@ -5,7 +5,7 @@ import DetailView from './views/DetailView.vue'
 import LensView from './views/LensView.vue'
 
 export const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   scrollBehavior(to, from, saved) {
     if (saved) return saved
     if (to.path === from.path) return false

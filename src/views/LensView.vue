@@ -40,6 +40,13 @@ import { categories } from '../data/items'
     </div>
 
     <section class="note" style="margin-top: 1rem">
+      <h2>毎朝の収集</h2>
+      <p>
+        公式のRSSとAtomを、キーワードだけで選んでいます。モデルAPIは呼んでいないので、収集そのものに料金はかかりません。新しい一致ができた朝だけファイルが更新され、接続した公開先が再デプロイされます。
+      </p>
+    </section>
+
+    <section class="note" style="margin-top: 1rem">
       <h2>この号の読み方</h2>
       <p>
         第1号は2026年9月29日に、公式のリリースノートと公開記事を読み直して書いています。ガジェットの価格と給電ワットは変わるので、買う直前に販売ページを見てください。記事を足すときは

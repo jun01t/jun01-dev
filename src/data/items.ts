@@ -19,6 +19,7 @@ export interface Item {
   source: Source
   lead?: boolean
   side?: boolean
+  auto?: boolean
 }
 
 export const issue = {
@@ -345,6 +346,6 @@ export function relatedItems(slug: string, limit = 3) {
 }
 
 export function formatDate(iso: string) {
-  const [year, month, day] = iso.split('-')
+  const [year, month, day] = iso.slice(0, 10).split('-')
   return `${year}.${month}.${day}`
 }

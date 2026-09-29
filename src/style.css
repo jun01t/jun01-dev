@@ -211,6 +211,7 @@ main { padding: 2.2rem 0 4rem; }
 .mark.ai { color: #6a3d62; }
 .mark.cloud { color: #245048; }
 .mark.gadget { color: #3e4d28; }
+.mark.auto { color: var(--muted); }
 .lead .mark { color: #f0d2c2; }
 
 .why {

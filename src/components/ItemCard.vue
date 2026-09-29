@@ -17,6 +17,7 @@ function onSave(event: MouseEvent) {
     <RouterLink :to="`/items/${item.slug}`" :class="featured ? '' : 'card-link'">
       <p class="meta">
         <span class="mark" :class="item.category">{{ categoryOf(item.category).label }}</span>
+        <span v-if="item.auto" class="mark auto">収集</span>
         <time :datetime="item.date">{{ formatDate(item.date) }}</time>
       </p>
       <h2>{{ item.title }}</h2>

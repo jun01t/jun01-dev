@@ -1,7 +1,12 @@
 <script setup lang="ts">
 import ItemCard from '../components/ItemCard.vue'
+import { getItems, getUpdatedAt } from '../data/catalog'
 import { categories, formatDate, issue, items } from '../data/items'
 
+const collected = getItems()
+  .filter((item) => item.auto)
+  .sort((a, b) => (a.date < b.date ? 1 : -1))
+const updatedAt = getUpdatedAt()
 const lead = items.find((item) => item.lead)
 const side = items.find((item) => item.side)
 const rest = items
@@ -19,10 +24,25 @@ const gadgets = items
       <span>{{ formatDate(issue.published) }}</span>
       <span>{{ issue.kicker }}</span>
     </p>
-    <h1 class="display xl">Nuxt 3はサポートが終わり、机の上は9月のCursorとRailsに寄っている。</h1>
+    <h1 class="display xl">机に置くものだけを、毎朝集めている。</h1>
     <p class="dek">
-      日記に繰り返し出てくる Rails、Nuxt、Web Components、AWS、Cursor と、フルリモートの机に関係するものだけを短く置いています。
+      Rails、Nuxt、Cursor、AWS、デスク周りの公開フィードから、キーワードが一致した抜粋です。収集にAPI料金はかかっていません。
+      <template v-if="updatedAt">最終更新は {{ formatDate(updatedAt) }} です。</template>
     </p>
+
+    <div class="section-head">
+      <h2>今日の収集</h2>
+      <RouterLink to="/archive?source=auto">収集だけ見る</RouterLink>
+    </div>
+    <div v-if="collected.length" class="grid">
+      <ItemCard v-for="item in collected.slice(0, 6)" :key="item.slug" :item="item" />
+    </div>
+    <p v-else class="empty">この期間に一致する新しい更新はありません。下の定点を見てください。</p>
+
+    <div class="section-head" style="margin-top: 2.4rem">
+      <h2>定点</h2>
+      <span class="meta">第{{ issue.number }}号</span>
+    </div>
 
     <div v-if="lead && side" class="lead-grid">
       <ItemCard :item="lead" featured="lead" />

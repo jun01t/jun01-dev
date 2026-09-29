@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import SiteHeader from './components/SiteHeader.vue'
+import { getUpdatedAt } from './data/catalog'
 import { issue, formatDate } from './data/items'
+
+const updatedAt = getUpdatedAt()
 </script>
 
 <template>
@@ -11,8 +14,11 @@ import { issue, formatDate } from './data/items'
   </main>
   <footer class="site-footer">
     <div class="shell">
-      <p>机上 第{{ issue.number }}号 · {{ formatDate(issue.published) }} 時点の公開情報を要約しています。</p>
-      <p>ガジェットは公開記事の要約です。価格と仕様は購入前に確認してください。</p>
+      <p>
+        机上 第{{ issue.number }}号
+        <template v-if="updatedAt"> · 収集 {{ formatDate(updatedAt) }}</template>
+      </p>
+      <p>収集は公開フィードの抜粋です。価格と仕様は購入前に確認してください。</p>
     </div>
   </footer>
 </template>

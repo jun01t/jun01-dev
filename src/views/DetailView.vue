@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { computed, watchEffect } from 'vue'
 import { useRoute } from 'vue-router'
-import { categoryOf, formatDate, itemBySlug, relatedItems, sourceKindLabel } from '../data/items'
+import { itemBySlug, relatedItems } from '../data/catalog'
+import { categoryOf, formatDate, sourceKindLabel } from '../data/items'
 import { useSaved } from '../composables/useSaved'
 
 const route = useRoute()
@@ -25,6 +26,7 @@ watchEffect(() => {
         <p class="meta">
           <span class="mark" :class="item.category">{{ categoryOf(item.category).label }}</span>
           <time :datetime="item.date">{{ formatDate(item.date) }}</time>
+          <span v-if="item.auto" class="mark auto">収集</span>
           <span>{{ sourceKindLabel[item.source.kind] }}</span>
         </p>
         <h1>{{ item.title }}</h1>
@@ -33,7 +35,7 @@ watchEffect(() => {
           <p>{{ item.why }}</p>
         </div>
         <p>{{ item.summary }}</p>
-        <div class="points">
+        <div v-if="item.points.length" class="points">
           <h2>押さえる点</h2>
           <ol>
             <li v-for="point in item.points" :key="point">{{ point }}</li>

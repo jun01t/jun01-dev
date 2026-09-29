@@ -1,0 +1,94 @@
+name: Daily digest
+
+on:
+  schedule:
+    # 08:00 JST. GitHub runs this only after the file is on the default branch.
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run update
+      - id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/digest.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Update the daily desk digest"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  deploy:
+    needs: update
+    if: needs.update.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - id: pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          status=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages")
+          if [ "$status" = "200" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "GitHub Pages is off. Hosts connected to this repo still rebuild from the push."
+          fi
+      - uses: actions/setup-node@v4
+        if: steps.pages.outputs.enabled == 'true'
+        with:
+          node-version: 20
+          cache: npm
+      - if: steps.pages.outputs.enabled == 'true'
+        run: |
+          name="${GITHUB_REPOSITORY#*/}"
+          if [[ "$name" == *.github.io ]]; then
+            echo "PAGES_BASE=/" >> "$GITHUB_ENV"
+          else
+            echo "PAGES_BASE=/${name}/" >> "$GITHUB_ENV"
+          fi
+      - if: steps.pages.outputs.enabled == 'true'
+        run: npm ci
+      - if: steps.pages.outputs.enabled == 'true'
+        run: npm run update
+      - if: steps.pages.outputs.enabled == 'true'
+        run: npm run build
+      - if: steps.pages.outputs.enabled == 'true'
+        uses: actions/configure-pages@v5
+      - if: steps.pages.outputs.enabled == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - if: steps.pages.outputs.enabled == 'true'
+        uses: actions/deploy-pages@v4
