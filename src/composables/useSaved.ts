@@ -1,37 +1,32 @@
 import { computed, ref } from 'vue'
+import { getItems } from '../data/catalog'
+import { createSavedStore, visibleSavedCount } from './saved-store.mjs'
 
-const STORAGE_KEY = 'jun01-desk-saved'
 const slugs = ref<string[]>([])
-let hydrated = false
+const storage =
+  typeof localStorage === 'undefined'
+    ? {
+        getItem: () => null,
+        setItem: () => undefined,
+      }
+    : localStorage
 
-function read() {
-  try {
-    const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '[]')
-    slugs.value = Array.isArray(parsed) ? parsed.filter((value) => typeof value === 'string') : []
-  } catch {
-    slugs.value = []
-  }
-}
+const store = createSavedStore(storage, (next: string[]) => {
+  slugs.value = [...next]
+})
+slugs.value = [...store.snapshot()]
 
-function write() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(slugs.value))
-}
+if (typeof window !== 'undefined') store.listen(window)
 
 export function useSaved() {
-  if (!hydrated && typeof localStorage !== 'undefined') {
-    read()
-    hydrated = true
-  }
-
-  const count = computed(() => slugs.value.length)
+  const count = computed(() => visibleSavedCount(slugs.value, getItems().map((item) => item.slug)))
 
   function has(slug: string) {
     return slugs.value.includes(slug)
   }
 
   function toggle(slug: string) {
-    slugs.value = has(slug) ? slugs.value.filter((value) => value !== slug) : [...slugs.value, slug]
-    write()
+    store.toggle(slug)
   }
 
   return { slugs, count, has, toggle }

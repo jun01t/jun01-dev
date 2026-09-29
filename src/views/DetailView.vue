@@ -2,13 +2,14 @@
 import { computed, watchEffect } from 'vue'
 import { useRoute } from 'vue-router'
 import { itemBySlug, relatedItems } from '../data/catalog'
-import { categoryOf, formatDate, sourceKindLabel } from '../data/items'
+import { categoryOf, formatDate, safeHttpUrl, sourceKindLabel } from '../data/items'
 import { useSaved } from '../composables/useSaved'
 
 const route = useRoute()
 const { has, toggle } = useSaved()
 const item = computed(() => itemBySlug(String(route.params.slug)))
 const related = computed(() => (item.value ? relatedItems(item.value.slug) : []))
+const sourceUrl = computed(() => (item.value ? safeHttpUrl(item.value.source.url) : ''))
 
 watchEffect(() => {
   document.title = item.value ? `${item.value.title} · 机上` : '見つかりません · 机上'
@@ -45,7 +46,7 @@ watchEffect(() => {
           <span v-for="tag in item.tags" :key="tag">#{{ tag }}</span>
         </p>
         <div class="actions">
-          <a class="primary" :href="item.source.url" target="_blank" rel="noreferrer">{{ item.source.name }}を開く</a>
+          <a v-if="sourceUrl" class="primary" :href="sourceUrl" target="_blank" rel="noreferrer">{{ item.source.name }}を開く</a>
           <button class="save" type="button" :aria-pressed="has(item.slug)" @click="toggle(item.slug)">
             {{ has(item.slug) ? '保存済み' : '保存する' }}
           </button>

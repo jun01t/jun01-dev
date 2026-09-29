@@ -345,7 +345,4 @@ export function relatedItems(slug: string, limit = 3) {
     .slice(0, limit)
 }
 
-export function formatDate(iso: string) {
-  const [year, month, day] = iso.slice(0, 10).split('-')
-  return `${year}.${month}.${day}`
-}
+export { formatDate, safeHttpUrl } from '../../scripts/digest-lib.mjs'

@@ -63,7 +63,7 @@ const gadgets = items
 
     <div class="section-head">
       <h2>技術</h2>
-      <RouterLink to="/archive?category=web">アーカイブへ</RouterLink>
+      <RouterLink to="/archive">アーカイブへ</RouterLink>
     </div>
     <div class="stream">
       <ItemCard v-for="item in rest" :key="item.slug" :item="item" />
