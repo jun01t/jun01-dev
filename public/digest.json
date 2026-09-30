@@ -1,6 +1,115 @@
 {
-  "updatedAt": "2026-09-29T22:55:15+09:00",
+  "updatedAt": "2026-09-30T10:49:57+09:00",
   "items": [
+    {
+      "slug": "auto-132fb7f644",
+      "title": "BenQ、白飛びさせず暗部だけ持ち上げる映像制作向け4Kモニター",
+      "category": "gadget",
+      "date": "2026-09-30",
+      "summary": "ベンキュージャパンは、プロデザイナー向けであるCreative Proシリーズの新製品として4K映像制作向け31.5型モニター「PV3250U」と、27型モニター「PV2750U」を順次発売する。直販価格は31.5型が26万7,100円(10月16日発売)、27型が23万9,800円(11月発売予定)。",
+      "why": "「モニター、benq」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター",
+        "benq"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2144273.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0954a70510",
+      "title": "Claude Code 2.1.285",
+      "category": "ai",
+      "date": "2026-09-30",
+      "summary": "Added CLAUDE_CODE_DISABLE_WEB_FETCH environment variable to turn off the WebFetch tool Added claude --desktop to open the Claude desktop app on the current directory, or on a session with --continue / --resume Added clau…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog#2-1-285",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-16e1b1555a",
+      "title": "Google Cloud、AIエージェントからの大量アクセスをPostgreSQLのプライマリDBから切り離せる「PostgreSQL for agents in AlloyDB」発表",
+      "category": "cloud",
+      "date": "2026-09-30",
+      "summary": "Google Cloudは、本番環境で動作しているPostgreSQLの処理に影響を与えないよう、AIエージェントからの読み取りワークロード用にサンドボックス化されたPostgreSQLのデータベースインスタンスを数秒でプロビジョニングする新サービス「PostgreSQL for agents in AlloyDB」を発表しました。…",
+      "why": "「postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "postgresql"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/google_cloudaipostgresqldbpostgresql_for_agents_in_alloydb.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-6ac5577dae",
+      "title": "コーディングエージェントにGoogle Cloudの専門知識とツールを組み込む「Google Cloud Developer Plugin for AI Coding Agents」発表",
+      "category": "cloud",
+      "date": "2026-09-30",
+      "summary": "Google Cloudは、Claude CodeなどのコーディングエージェントにGoogle Cloudの専門知識とツールなどを組み込める「Google Cloud Developer Plugin for AI Coding Agents」を発表しました。 Claude CodeやGoogle Antigravityなどに代表されるコーディングエージェントは優れたプログラミング能力を備えています。…",
+      "why": "「claude code」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/google_cloudgoogle_cloud_developer_plugin_for_ai_coding_agents.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-2d3d098154",
+      "title": "GPT-6.1 Sol in Codex and ChatGPT Work",
+      "category": "ai",
+      "date": "2026-09-29",
+      "summary": "# GPT-6.1 Sol in Codex and ChatGPT Work GPT-6.1 Sol offers near-Astra performance for complex work at a lower cost than Astra. Consider it for repeated, long-running work across code, apps, and documents.…",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/#codex-2026-09-29-gpt-61-sol",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-c7ba37d901",
+      "title": "Codex CLI Release: 0.159.2",
+      "category": "ai",
+      "date": "2026-09-29",
+      "summary": "Bug Fixes Suppressed console windows flashing on Windows when Codex launches background processes and sandboxed commands.…",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/#github-release-399607589",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-39d70b10c8",
       "title": "Claude Code 2.1.284",
@@ -15,60 +124,6 @@
       "source": {
         "name": "Claude Code",
         "url": "https://code.claude.com/docs/en/changelog#2-1-284",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-15be9c198f",
-      "title": "Codex CLI Release: 0.158.0",
-      "category": "ai",
-      "date": "2026-09-28",
-      "summary": "New Features Configure copy-on-select and right-click paste in the fullscreen TUI. Copied transcript selections now preserve Markdown formatting.…",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/#github-release-397962047",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-1ebfe91874",
-      "title": "Claude Code 2.1.283",
-      "category": "ai",
-      "date": "2026-09-26",
-      "summary": "Added x-claude-code-prompt-id to the gateway hint headers so LLM gateways can group the requests that serve one user prompt; opt in with CLAUDE_CODE_GATEWAY_HINT_HEADERS=1 Added availableModelsMatch managed setting: with…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog#2-1-283",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-c4f4ecf67c",
-      "title": "Codex CLI Release: 0.157.0",
-      "category": "ai",
-      "date": "2026-09-25",
-      "summary": "New Features Added GPT-6 Sol and Luna, including Amazon Bedrock support and migration prompts for older models.…",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/#github-release-396234532",
         "kind": "primary"
       },
       "auto": true
@@ -164,24 +219,6 @@
       "auto": true
     },
     {
-      "slug": "auto-2219be660a",
-      "title": "Claude Codeが「AGENTS.md」に対応。CLAUDE.mdが存在しない場合、自動的に読み込み",
-      "category": "cloud",
-      "date": "2026-09-24",
-      "summary": "Anthropicは、Claude Codeの9月18日付けアップデートClaude Code 2.1.277で「AGENTS.md」の読み込みに対応したことを明らかにしました。 以下のように説明されています。…",
-      "why": "「claude code」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/claude_codeagentsmdclaudemd.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-73d05ec3e0",
       "title": "Terraform Releases v1.16.4",
       "category": "cloud",
@@ -232,24 +269,6 @@
         "name": "Vue Releases",
         "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.9",
         "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-d3d8edfcc6",
-      "title": "PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開",
-      "category": "cloud",
-      "date": "2026-09-18",
-      "summary": "データベースサービスを提供しているPlanetScaleは、PostgreSQLのシャーディングを自動化してスケーラブルなデータベースサービスを提供する「Neki」をプレビュー公開しました。…",
-      "why": "「postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "postgresql"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
-        "kind": "roundup"
       },
       "auto": true
     },
