@@ -1,21 +1,130 @@
 {
-  "updatedAt": "2026-09-30T10:49:57+09:00",
+  "updatedAt": "2026-10-01T10:48:34+09:00",
   "items": [
     {
-      "slug": "auto-132fb7f644",
-      "title": "BenQ、白飛びさせず暗部だけ持ち上げる映像制作向け4Kモニター",
-      "category": "gadget",
-      "date": "2026-09-30",
-      "summary": "ベンキュージャパンは、プロデザイナー向けであるCreative Proシリーズの新製品として4K映像制作向け31.5型モニター「PV3250U」と、27型モニター「PV2750U」を順次発売する。直販価格は31.5型が26万7,100円(10月16日発売)、27型が23万9,800円(11月発売予定)。",
-      "why": "「モニター、benq」に触れているので拾いました。全文の判断は出典を見てください。",
+      "slug": "auto-5b022872be",
+      "title": "Claude Code 2.1.286",
+      "category": "ai",
+      "date": "2026-10-01",
+      "summary": "Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up Added mouse support for the \"N more\" rows of lists in fullscreen mode: click one to jump to that end of the list, with hov…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
-        "モニター",
-        "benq"
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog#2-1-286",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-9f6617c075",
+      "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
+      "category": "cloud",
+      "date": "2026-10-01",
+      "summary": "Today, we’re announcing a new capability for Amazon Aurora PostgreSQL that you can use to directly query operational data together with data stored in your data lake in Apache Iceberg and Apache Parquet formats, using yo…",
+      "why": "「aurora、postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "aurora",
+        "postgresql"
+      ],
+      "source": {
+        "name": "AWS News Blog",
+        "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-8ff109d9c8",
+      "title": "JavaScriptの統合ツールチェーン「Vite+ 1.0」正式リリース。ランタイム、パッケージマネージャー、ビルドツール、リンター、フォーマッターなどを統一",
+      "category": "cloud",
+      "date": "2026-10-01",
+      "summary": "JavaScript用ビルドツール「Vite」（ヴィットあるいはヴィート）を開発しているVoidZeroは、Viteを含むJavaScriptの統合ツールチェーン「Vite+」がバージョン1.0に到達したことを発表しました。…",
+      "why": "「vite」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "vite"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/javascriptvite_10.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-87dd4f1aff",
+      "title": "Next.jsアプリをCloudflare WorkersやAWS LambdaなどVercel以外のサーバレス基盤へデプロイできる「Vinext 1.0」リリース",
+      "category": "cloud",
+      "date": "2026-10-01",
+      "summary": "Cloudflareは、代表的なWebアプリケーションフレームワークであるNext.jsを用いて開発したアプリケーションを、Cloudflare WorkersやAWS Lambda、NetlifyといったVercel以外のサーバレス基盤に簡単にデプロイ可能にするビルドツール「Vinext 1.0」のリリースを発表しました。…",
+      "why": "「lambda」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "lambda"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-cf3bd12e6f",
+      "title": "OpenAI「Codex Cloud」がGitHub連携、クラウドでAIコーディング",
+      "category": "gadget",
+      "date": "2026-09-30",
+      "summary": "OpenAIは、AIがプログラミング作業を手伝う「Codex」のクラウド版「Codex Cloud」で、GitHubのアカウントを連携して使えるようにした。GitHubは、ソースコードを保管・共有するための代表的なサービスだ。",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
       ],
       "source": {
         "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2144273.html",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2144612.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-3f16b25908",
+      "title": "Vue Releases v3.6.0-rc.10",
+      "category": "web",
+      "date": "2026-09-30",
+      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
+      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vue"
+      ],
+      "source": {
+        "name": "Vue Releases",
+        "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.10",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-6d03611a23",
+      "title": "Pixio、24型モニター幅に揃うディスプレイボード「PXTS1L」。3,300円",
+      "category": "gadget",
+      "date": "2026-09-30",
+      "summary": "Hameeは9月29日、ゲーミングアクセサリーブランド「Pixio」から、「Pixio ディスプレイボード ラージ」の予約販売を開始した。価格は3,300円。",
+      "why": "「モニター、ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター",
+        "ディスプレイ"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2144526.html",
         "kind": "roundup"
       },
       "auto": true
@@ -35,42 +144,6 @@
         "name": "Claude Code",
         "url": "https://code.claude.com/docs/en/changelog#2-1-285",
         "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-16e1b1555a",
-      "title": "Google Cloud、AIエージェントからの大量アクセスをPostgreSQLのプライマリDBから切り離せる「PostgreSQL for agents in AlloyDB」発表",
-      "category": "cloud",
-      "date": "2026-09-30",
-      "summary": "Google Cloudは、本番環境で動作しているPostgreSQLの処理に影響を与えないよう、AIエージェントからの読み取りワークロード用にサンドボックス化されたPostgreSQLのデータベースインスタンスを数秒でプロビジョニングする新サービス「PostgreSQL for agents in AlloyDB」を発表しました。…",
-      "why": "「postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "postgresql"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/google_cloudaipostgresqldbpostgresql_for_agents_in_alloydb.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-6ac5577dae",
-      "title": "コーディングエージェントにGoogle Cloudの専門知識とツールを組み込む「Google Cloud Developer Plugin for AI Coding Agents」発表",
-      "category": "cloud",
-      "date": "2026-09-30",
-      "summary": "Google Cloudは、Claude CodeなどのコーディングエージェントにGoogle Cloudの専門知識とツールなどを組み込める「Google Cloud Developer Plugin for AI Coding Agents」を発表しました。 Claude CodeやGoogle Antigravityなどに代表されるコーディングエージェントは優れたプログラミング能力を備えています。…",
-      "why": "「claude code」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/google_cloudgoogle_cloud_developer_plugin_for_ai_coding_agents.html",
-        "kind": "roundup"
       },
       "auto": true
     },
@@ -106,24 +179,6 @@
       "source": {
         "name": "Codex",
         "url": "https://developers.openai.com/codex/changelog/#github-release-399607589",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-39d70b10c8",
-      "title": "Claude Code 2.1.284",
-      "category": "ai",
-      "date": "2026-09-29",
-      "summary": "Added Claude Sonnet 5.5 ( claude-sonnet-5-5 ), now the default Sonnet model on the Anthropic API — 1M context, $2/$10 per Mtok with $0.20/Mtok cache reads Added a \"Yes, but ask again next time\" answer to auto mode's prom…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog#2-1-284",
         "kind": "primary"
       },
       "auto": true
@@ -268,42 +323,6 @@
       "source": {
         "name": "Vue Releases",
         "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.9",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e3594276c0",
-      "title": "Vue Releases v3.5.43",
-      "category": "web",
-      "date": "2026-09-17",
-      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
-      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vue"
-      ],
-      "source": {
-        "name": "Vue Releases",
-        "url": "https://github.com/vuejs/core/releases/tag/v3.5.43",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-8e4f416112",
-      "title": "Cursor Projects",
-      "category": "ai",
-      "date": "2026-09-10",
-      "summary": "Today we're launching Projects in Cursor. Projects lets you take on larger bodies of work, such as a feature, a migration, or a full app.…",
-      "why": "Cursor Changelogの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "cursor"
-      ],
-      "source": {
-        "name": "Cursor Changelog",
-        "url": "https://cursor.com/changelog/projects",
         "kind": "primary"
       },
       "auto": true
