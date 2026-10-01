@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T10:48:34+09:00",
+  "updatedAt": "2026-10-01T12:36:55+09:00",
   "items": [
     {
       "slug": "auto-5b022872be",
@@ -130,6 +130,24 @@
       "auto": true
     },
     {
+      "slug": "auto-ded1855460",
+      "title": "Codex CLI Release: 0.159.3",
+      "category": "ai",
+      "date": "2026-09-30",
+      "summary": "New Features Eligible local sessions signed in with ChatGPT can now show optional reminders to complete account security setup.…",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/#github-release-400492869",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
       "slug": "auto-0954a70510",
       "title": "Claude Code 2.1.285",
       "category": "ai",
@@ -161,24 +179,6 @@
       "source": {
         "name": "Codex",
         "url": "https://developers.openai.com/codex/changelog/#codex-2026-09-29-gpt-61-sol",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-c7ba37d901",
-      "title": "Codex CLI Release: 0.159.2",
-      "category": "ai",
-      "date": "2026-09-29",
-      "summary": "Bug Fixes Suppressed console windows flashing on Windows when Codex launches background processes and sandboxed commands.…",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/#github-release-399607589",
         "kind": "primary"
       },
       "auto": true
