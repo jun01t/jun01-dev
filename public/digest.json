@@ -1,74 +1,277 @@
 {
-  "updatedAt": "2026-09-29T22:55:15+09:00",
+  "updatedAt": "2026-10-01T21:27:47+09:00",
   "items": [
     {
-      "slug": "auto-39d70b10c8",
-      "title": "Claude Code 2.1.284",
+      "slug": "auto-c9cc61860e",
+      "title": "ヌルっとした映像を観たい！LG、世界初のフルHD/1,000Hzゲーミングモニター",
+      "category": "gadget",
+      "date": "2026-10-01",
+      "summary": "ついにネイティブ1,000Hzの時代がやってきた。LGエレクトロニクス・ジャパンは10月1日、NVIDIA G-SYNC対応モニターとして世界初となるネイティブ1,000Hz駆動の24.5型フルHDゲーミングモニター「25G590B-B」を発売した。価格はオープンプライスで、実売価格は17万9,000円前後の見込み。",
+      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2144966.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-482125b862",
+      "title": "4K/75HzもフルHD/300Hzも1台で。アイオーの27型ゲーミングモニター",
+      "category": "gadget",
+      "date": "2026-10-01",
+      "summary": "4Kの高精細とフルHDの高速リフレッシュレートを1台で使い分けられる。アイオーデータは10月1日、4K(3,840×2,160ドット)/75HzとフルHD(1,920×1,080ドット)/300Hzを切り替えられる27型ゲーミングモニター「GCFX」の「GDU271AD」シリーズを発表した。11月上旬に発売し、価格はオープンプライス。本体色はブラックとホワイトの2色を用意する。",
+      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2144879.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-5b022872be",
+      "title": "Claude Code 2.1.286",
+      "category": "ai",
+      "date": "2026-10-01",
+      "summary": "Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up Added mouse support for the \"N more\" rows of lists in fullscreen mode: click one to jump to that end of the list, with hov…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog#2-1-286",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-9f6617c075",
+      "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
+      "category": "cloud",
+      "date": "2026-10-01",
+      "summary": "Today, we’re announcing a new capability for Amazon Aurora PostgreSQL that you can use to directly query operational data together with data stored in your data lake in Apache Iceberg and Apache Parquet formats, using yo…",
+      "why": "「aurora、postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "aurora",
+        "postgresql"
+      ],
+      "source": {
+        "name": "AWS News Blog",
+        "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-8ff109d9c8",
+      "title": "JavaScriptの統合ツールチェーン「Vite+ 1.0」正式リリース。ランタイム、パッケージマネージャー、ビルドツール、リンター、フォーマッターなどを統一",
+      "category": "cloud",
+      "date": "2026-10-01",
+      "summary": "JavaScript用ビルドツール「Vite」（ヴィットあるいはヴィート）を開発しているVoidZeroは、Viteを含むJavaScriptの統合ツールチェーン「Vite+」がバージョン1.0に到達したことを発表しました。…",
+      "why": "「vite」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "vite"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/javascriptvite_10.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-87dd4f1aff",
+      "title": "Next.jsアプリをCloudflare WorkersやAWS LambdaなどVercel以外のサーバレス基盤へデプロイできる「Vinext 1.0」リリース",
+      "category": "cloud",
+      "date": "2026-10-01",
+      "summary": "Cloudflareは、代表的なWebアプリケーションフレームワークであるNext.jsを用いて開発したアプリケーションを、Cloudflare WorkersやAWS Lambda、NetlifyといったVercel以外のサーバレス基盤に簡単にデプロイ可能にするビルドツール「Vinext 1.0」のリリースを発表しました。…",
+      "why": "「lambda」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "lambda"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-3f16b25908",
+      "title": "Vue Releases v3.6.0-rc.10",
+      "category": "web",
+      "date": "2026-09-30",
+      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
+      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vue"
+      ],
+      "source": {
+        "name": "Vue Releases",
+        "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.10",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-ded1855460",
+      "title": "Codex CLI Release: 0.159.3",
+      "category": "ai",
+      "date": "2026-09-30",
+      "summary": "New Features Eligible local sessions signed in with ChatGPT can now show optional reminders to complete account security setup.…",
+      "why": "「codex、chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex",
+        "chatgpt"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/#github-release-400492869",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-406b36a926",
+      "title": "Claude Platform release notes — September 30, 2026",
+      "category": "ai",
+      "date": "2026-09-30",
+      "summary": "We announced the deprecation of the Claude Sonnet 4.5 model ( claude-sonnet-4-5-20250929 ), with retirement on the Claude API scheduled for November 30, 2026. We recommend migrating to Claude Sonnet 5.5 .…",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude"
+      ],
+      "source": {
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview#september-30-2026",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0954a70510",
+      "title": "Claude Code 2.1.285",
+      "category": "ai",
+      "date": "2026-09-30",
+      "summary": "Added CLAUDE_CODE_DISABLE_WEB_FETCH environment variable to turn off the WebFetch tool Added claude --desktop to open the Claude desktop app on the current directory, or on a session with --continue / --resume Added clau…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog#2-1-285",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-dd66acaed2",
+      "title": "Introducing GPT-6.1 Sol",
       "category": "ai",
       "date": "2026-09-29",
-      "summary": "Added Claude Sonnet 5.5 ( claude-sonnet-5-5 ), now the default Sonnet model on the Anthropic API — 1M context, $2/$10 per Mtok with $0.20/Mtok cache reads Added a \"Yes, but ask again next time\" answer to auto mode's prom…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
       "points": [],
       "tags": [
-        "claude code"
+        "gpt"
       ],
       "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog#2-1-284",
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-1-sol",
         "kind": "primary"
       },
       "auto": true
     },
     {
-      "slug": "auto-15be9c198f",
-      "title": "Codex CLI Release: 0.158.0",
+      "slug": "auto-19db7cc5ca",
+      "title": "DevDay 2026 Recap",
+      "category": "ai",
+      "date": "2026-09-29",
+      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt",
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/devday-2026-recap",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-2d3d098154",
+      "title": "GPT-6.1 Sol in Codex and ChatGPT Work",
+      "category": "ai",
+      "date": "2026-09-29",
+      "summary": "# GPT-6.1 Sol in Codex and ChatGPT Work GPT-6.1 Sol offers near-Astra performance for complex work at a lower cost than Astra. Consider it for repeated, long-running work across code, apps, and documents.…",
+      "why": "「codex、chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex",
+        "chatgpt"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/#codex-2026-09-29-gpt-61-sol",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-7bc4509082",
+      "title": "AWS Weekly Roundup: GPT-6 Sol and Luna, Claude Opus 5.5 on Amazon Bedrock, Strands harness, and more (September 28, 2026)",
+      "category": "cloud",
+      "date": "2026-09-29",
+      "summary": "If there’s one theme that defined last week, it’s choice. The frontier models keep arriving, and the interesting question is no longer just “how smart is it?” but “which model fits this step, at this cost, at this latenc…",
+      "why": "「claude、gpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "claude",
+        "gpt"
+      ],
+      "source": {
+        "name": "AWS News Blog",
+        "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-sol-and-luna-claude-opus-5-5-on-amazon-bedrock-strands-harness-and-more-september-28-2026/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-8f8a4ecd72",
+      "title": "Claude Platform release notes — September 28, 2026",
       "category": "ai",
       "date": "2026-09-28",
-      "summary": "New Features Configure copy-on-select and right-click paste in the fullscreen TUI. Copied transcript selections now preserve Markdown formatting.…",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "summary": "We've launched Claude Sonnet 5.5 ( claude-sonnet-5-5 ). It's available on the Claude API, Claude in Amazon Bedrock , Claude Platform on AWS , Claude on Google Cloud , and Claude in Microsoft Foundry .…",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
-        "codex"
+        "claude"
       ],
       "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/#github-release-397962047",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-1ebfe91874",
-      "title": "Claude Code 2.1.283",
-      "category": "ai",
-      "date": "2026-09-26",
-      "summary": "Added x-claude-code-prompt-id to the gateway hint headers so LLM gateways can group the requests that serve one user prompt; opt in with CLAUDE_CODE_GATEWAY_HINT_HEADERS=1 Added availableModelsMatch managed setting: with…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog#2-1-283",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-c4f4ecf67c",
-      "title": "Codex CLI Release: 0.157.0",
-      "category": "ai",
-      "date": "2026-09-25",
-      "summary": "New Features Added GPT-6 Sol and Luna, including Amazon Bedrock support and migration prompts for older models.…",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/#github-release-396234532",
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview#september-28-2026",
         "kind": "primary"
       },
       "auto": true
@@ -123,168 +326,6 @@
       "source": {
         "name": "Rails Releases",
         "url": "https://github.com/rails/rails/releases/tag/v7.2.4",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-ccee78e5b0",
-      "title": "Rails Releases 8.1.4",
-      "category": "web",
-      "date": "2026-09-24",
-      "summary": "Active Support Fix the debug error page rendering for SyntaxError s with multi-line messages. Marco Roth Make ActiveSupport::JSON.decode compatible with the upcoming json 3.0 gem.…",
-      "why": "Rails Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "rails"
-      ],
-      "source": {
-        "name": "Rails Releases",
-        "url": "https://github.com/rails/rails/releases/tag/v8.1.4",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-c79ceb465e",
-      "title": "Terraform Releases v1.17.0-beta2",
-      "category": "cloud",
-      "date": "2026-09-24",
-      "summary": "1.17.0-beta2 (September 23, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources tha…",
-      "why": "Terraform Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "terraform"
-      ],
-      "source": {
-        "name": "Terraform Releases",
-        "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta2",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-2219be660a",
-      "title": "Claude Codeが「AGENTS.md」に対応。CLAUDE.mdが存在しない場合、自動的に読み込み",
-      "category": "cloud",
-      "date": "2026-09-24",
-      "summary": "Anthropicは、Claude Codeの9月18日付けアップデートClaude Code 2.1.277で「AGENTS.md」の読み込みに対応したことを明らかにしました。 以下のように説明されています。…",
-      "why": "「claude code」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/claude_codeagentsmdclaudemd.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-73d05ec3e0",
-      "title": "Terraform Releases v1.16.4",
-      "category": "cloud",
-      "date": "2026-09-23",
-      "summary": "1.16.4 (September 23, 2026) BUG FIXES: Fixed an issue where Terraform fails when rendering policy evaluation outcomes for older versions of Terraform Enterprise ( #39095 ) stacks: Fix invalid deferred error triggered by…",
-      "why": "Terraform Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "terraform"
-      ],
-      "source": {
-        "name": "Terraform Releases",
-        "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.4",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-089c4ff63d",
-      "title": "Rollouts and Security Review",
-      "category": "ai",
-      "date": "2026-09-23",
-      "summary": "Today we're launching two Cursor bots for the last mile of shipping code. Rollouts watches every change as it deploys and reports its health per environment.…",
-      "why": "Cursor Changelogの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "cursor"
-      ],
-      "source": {
-        "name": "Cursor Changelog",
-        "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-4a85a3dc79",
-      "title": "Vue Releases v3.6.0-rc.9",
-      "category": "web",
-      "date": "2026-09-18",
-      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
-      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vue"
-      ],
-      "source": {
-        "name": "Vue Releases",
-        "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.9",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-d3d8edfcc6",
-      "title": "PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開",
-      "category": "cloud",
-      "date": "2026-09-18",
-      "summary": "データベースサービスを提供しているPlanetScaleは、PostgreSQLのシャーディングを自動化してスケーラブルなデータベースサービスを提供する「Neki」をプレビュー公開しました。…",
-      "why": "「postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "postgresql"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e3594276c0",
-      "title": "Vue Releases v3.5.43",
-      "category": "web",
-      "date": "2026-09-17",
-      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
-      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vue"
-      ],
-      "source": {
-        "name": "Vue Releases",
-        "url": "https://github.com/vuejs/core/releases/tag/v3.5.43",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-8e4f416112",
-      "title": "Cursor Projects",
-      "category": "ai",
-      "date": "2026-09-10",
-      "summary": "Today we're launching Projects in Cursor. Projects lets you take on larger bodies of work, such as a feature, a migration, or a full app.…",
-      "why": "Cursor Changelogの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "cursor"
-      ],
-      "source": {
-        "name": "Cursor Changelog",
-        "url": "https://cursor.com/changelog/projects",
         "kind": "primary"
       },
       "auto": true
