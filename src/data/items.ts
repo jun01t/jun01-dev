@@ -31,7 +31,7 @@ export const issue = {
 
 export const categories: { id: CategoryId; label: string; blurb: string }[] = [
   { id: 'web', label: 'ウェブ', blurb: 'Nuxt、Rails、境目のUI' },
-  { id: 'ai', label: 'AI開発', blurb: 'Cursor、Claude Code、Codex' },
+  { id: 'ai', label: 'AI開発', blurb: 'Cursor、Claude、ChatGPT、OpenAI' },
   { id: 'cloud', label: 'クラウド', blurb: '実行場所を自分の側に置く' },
   { id: 'gadget', label: 'ガジェット', blurb: 'フルリモートの机' },
 ]

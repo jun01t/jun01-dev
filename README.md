@@ -14,7 +14,7 @@ npm run dev
 
 ## 毎日の更新
 
-`npm run update` が、Cursor、Claude Code、Codex、Rails、Nuxt、Vue、Terraform、AWS、Publickey、PC Watch の公開フィードを読み、キーワードが一致したものだけを残します。Codex のフィードは ChatGPT の一般ニュースも混ざるので、Codex に触れている項目だけ残します。モデルAPIは使わないので、収集に料金はかかりません。中身が同じ日はファイルを書き換えません。
+`npm run update` が、Cursor、Claude Code、Claude Platform、Codex、OpenAI News、Rails、Nuxt、Vue、Terraform、AWS、Publickey、PC Watch の公開フィードを読みます。OpenAI News は ChatGPT、GPT、Codex、Sora に触れている記事だけ残します。Codex の更新一覧は、Codex や ChatGPT のように机のキーワードへ触れている項目だけ残します。モデルAPIは使わないので、収集に料金はかかりません。中身が同じ日はファイルを書き換えません。
 
 GitHub Actions が毎日 8:00 JST に同じ処理を実行します。変化があったときだけコミットして push するので、このリポジトリにつながった Cloudflare Pages、Vercel、Netlify は、その push で再ビルドされます。GitHub Pages を「GitHub Actions」から配信する設定にしていれば、同じワークフローが Pages にも載せて更新します。
 

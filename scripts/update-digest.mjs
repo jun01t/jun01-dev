@@ -9,6 +9,8 @@ const MAX_ITEMS = 18
 const PER_FEED = 4
 const USER_AGENT = 'jun01-desk/1.0 (+https://blog.jun01t.com)'
 
+const gadgetWords = ['モニター', 'キーボード', 'マウス', 'デスク', 'ガジェット', 'ロジクール', 'logicool', 'benq', 'kvm', 'usb-c', 'usb type-c', 'ドッキング', '在宅', 'ディスプレイ', 'トラックボール']
+
 const feeds = [
   {
     name: 'Cursor Changelog',
@@ -30,6 +32,21 @@ const feeds = [
     category: 'ai',
     kind: 'primary',
     mode: 'match',
+  },
+  {
+    name: 'OpenAI',
+    url: 'https://openai.com/news/rss.xml',
+    category: 'ai',
+    kind: 'primary',
+    mode: 'match',
+    words: ['chatgpt', 'gpt', 'sora', 'codex'],
+  },
+  {
+    name: 'Claude Platform',
+    url: 'https://platform.claude.com/docs/en/release-notes/feed.xml',
+    category: 'ai',
+    kind: 'primary',
+    mode: 'all',
   },
   {
     name: 'Ruby on Rails',
@@ -93,14 +110,15 @@ const feeds = [
     category: 'gadget',
     kind: 'roundup',
     mode: 'match',
+    words: gadgetWords,
   },
 ]
 
 const rules = [
-  { category: 'ai', words: ['cursor', 'claude code', 'codex', 'mcp', 'model context protocol'] },
+  { category: 'ai', words: ['cursor', 'claude code', 'claude', 'codex', 'chatgpt', 'openai', 'anthropic', 'gpt', 'mcp', 'model context protocol'] },
   { category: 'cloud', words: ['terraform', 'rds', 'aurora', 'cloudfront', 'postgresql', 'route 53', 'route53', 'lambda', 'ecs'] },
   { category: 'web', words: ['nuxt', 'vue', 'rails', 'ruby on rails', 'vite', 'web components', 'typescript'] },
-  { category: 'gadget', words: ['モニター', 'キーボード', 'マウス', 'デスク', 'ガジェット', 'ロジクール', 'logicool', 'benq', 'kvm', 'usb-c', 'usb type-c', 'ドッキング', '在宅', 'ディスプレイ', 'トラックボール'] },
+  { category: 'gadget', words: gadgetWords },
 ]
 
 function decode(text) {
@@ -164,9 +182,15 @@ function includesWord(haystack, word) {
   return new RegExp(`(?:^|[^a-z0-9])${needle}(?:[^a-z0-9]|$)`).test(haystack)
 }
 
-function matches(text) {
+function matches(text, words) {
   const haystack = text.toLowerCase()
   const found = []
+  if (words) {
+    for (const word of words) {
+      if (includesWord(haystack, word)) found.push({ word })
+    }
+    return found
+  }
   for (const rule of rules) {
     for (const word of rule.words) {
       if (includesWord(haystack, word)) found.push({ category: rule.category, word })
@@ -203,9 +227,11 @@ export function buildItem(feed, block, now = new Date()) {
       .sort((a, b) => b.length - a.length)[0] ?? '',
   )
   if (/release highlights could not be determined/i.test(summary)) return null
-  const found = matches(`${title} ${summary}`)
+  const found = matches(`${title} ${summary}`, feed.words)
   if (feed.mode === 'match' && found.length === 0) return null
-  const words = [...new Set(found.map((item) => item.word))].slice(0, 3)
+  const words = [...new Set(found.map((item) => item.word))]
+    .filter((word, _, list) => !list.some((other) => other !== word && other.includes(word)))
+    .slice(0, 3)
   const why = feed.mode === 'all'
     ? `${feed.name}の更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。`
     : `「${words.join('、')}」に触れているので拾いました。全文の判断は出典を見てください。`
@@ -243,11 +269,11 @@ async function fetchFeed(feed, now) {
   return picked
 }
 
-export function assembleItems(fresh, previousItems, now = new Date()) {
+export function assembleItems(fresh, previousItems, now = new Date(), failedSources = new Set()) {
   const cutoff = cutoffDay(now, MAX_AGE_DAYS)
   const seen = new Set(fresh.map((item) => item.source.url))
   const kept = (previousItems ?? []).flatMap((item) => {
-    if (!item?.source?.url || seen.has(item.source.url)) return []
+    if (!item?.source?.url || !failedSources.has(item.source?.name) || seen.has(item.source.url)) return []
     if (/release highlights could not be determined/i.test(item.summary ?? '')) return []
     if (typeof item.date !== 'string' || item.date < cutoff) return []
     const time = Date.parse(item.date)
@@ -286,6 +312,7 @@ async function main() {
   const previous = await readPrevious()
   const fresh = []
   const errors = []
+  const failedSources = new Set()
 
   for (const feed of feeds) {
     try {
@@ -293,12 +320,13 @@ async function main() {
       fresh.push(...items)
       console.log(`${items.length}\t${feed.name}`)
     } catch (error) {
+      failedSources.add(feed.name)
       errors.push(`${feed.name}: ${error instanceof Error ? error.message : error}`)
       console.warn(`skip\t${feed.name}\t${error instanceof Error ? error.message : error}`)
     }
   }
 
-  const items = assembleItems(fresh, previous?.items, now)
+  const items = assembleItems(fresh, previous?.items, now, failedSources)
   const plan = planDigest(previous, items)
   if (!plan.write) {
     if (plan.exitCode !== 0) console.error(errors.join('\n') || 'no items')
