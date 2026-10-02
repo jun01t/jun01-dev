@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-10-01T21:27:47+09:00",
+  "updatedAt": "2026-10-02T11:00:30+09:00",
   "items": [
+    {
+      "slug": "auto-2692e48a5c",
+      "title": "Claude Code 2.1.287",
+      "category": "ai",
+      "date": "2026-10-02",
+      "summary": "Added Claude Mods: plugins may now modify deeper behavior Added You should know, a built-in mod where a side agent watches your back and flags things you or Claude might miss.…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog#2-1-287",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-a80484c2d5",
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "category": "ai",
+      "date": "2026-10-02",
+      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/albertsons-reimagining-retail",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-c9cc61860e",
       "title": "ヌルっとした映像を観たい！LG、世界初のフルHD/1,000Hzゲーミングモニター",
@@ -34,6 +70,60 @@
         "name": "PC Watch",
         "url": "https://pc.watch.impress.co.jp/docs/news/2144879.html",
         "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-7785264018",
+      "title": "Codex CLI Release: 0.160.0",
+      "category": "ai",
+      "date": "2026-10-01",
+      "summary": "New Features Browse older tasks in the agent command center with a keyboard-accessible “Show more” action.…",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/#github-release-401312540",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-3bba527585",
+      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "category": "ai",
+      "date": "2026-10-01",
+      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/the-den-family-social",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-154917f8f2",
+      "title": "Rails World 2026 recap: All talks online",
+      "category": "web",
+      "date": "2026-10-01",
+      "summary": "Happy to report that in record time , all Rails World 2026 talks are now online. Find the full playlist here .…",
+      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "rails"
+      ],
+      "source": {
+        "name": "Ruby on Rails",
+        "url": "https://rubyonrails.org/2026/10/1/rails-world-2026-recap",
+        "kind": "primary"
       },
       "auto": true
     },
@@ -166,80 +256,6 @@
       "auto": true
     },
     {
-      "slug": "auto-0954a70510",
-      "title": "Claude Code 2.1.285",
-      "category": "ai",
-      "date": "2026-09-30",
-      "summary": "Added CLAUDE_CODE_DISABLE_WEB_FETCH environment variable to turn off the WebFetch tool Added claude --desktop to open the Claude desktop app on the current directory, or on a session with --continue / --resume Added clau…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog#2-1-285",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-dd66acaed2",
-      "title": "Introducing GPT-6.1 Sol",
-      "category": "ai",
-      "date": "2026-09-29",
-      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "gpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-19db7cc5ca",
-      "title": "DevDay 2026 Recap",
-      "category": "ai",
-      "date": "2026-09-29",
-      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt",
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/devday-2026-recap",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-2d3d098154",
-      "title": "GPT-6.1 Sol in Codex and ChatGPT Work",
-      "category": "ai",
-      "date": "2026-09-29",
-      "summary": "# GPT-6.1 Sol in Codex and ChatGPT Work GPT-6.1 Sol offers near-Astra performance for complex work at a lower cost than Astra. Consider it for repeated, long-running work across code, apps, and documents.…",
-      "why": "「codex、chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex",
-        "chatgpt"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/#codex-2026-09-29-gpt-61-sol",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-7bc4509082",
       "title": "AWS Weekly Roundup: GPT-6 Sol and Luna, Claude Opus 5.5 on Amazon Bedrock, Strands harness, and more (September 28, 2026)",
       "category": "cloud",
@@ -290,24 +306,6 @@
       "source": {
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/9/25/this-week-in-rails",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-f95fa9e33c",
-      "title": "Rails Version 7.2.4 has been released!",
-      "category": "web",
-      "date": "2026-09-25",
-      "summary": "Hi everyone, I am happy to announce that Rails 7.2.4 has been released. As stated in the maintenance policy , this is the last release of the 7.2.x series.…",
-      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "rails"
-      ],
-      "source": {
-        "name": "Ruby on Rails",
-        "url": "https://rubyonrails.org/2026/9/24/Rails-Version-7-2-4-has-been-released",
         "kind": "primary"
       },
       "auto": true
