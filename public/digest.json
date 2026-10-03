@@ -1,6 +1,133 @@
 {
-  "updatedAt": "2026-10-02T11:00:30+09:00",
+  "updatedAt": "2026-10-03T10:42:59+09:00",
   "items": [
+    {
+      "slug": "auto-2785f4ca09",
+      "title": "Claude Code 2.1.288",
+      "category": "ai",
+      "date": "2026-10-03",
+      "summary": "Added $.ui.selection() for mods: returns the text you last selected in fullscreen mode and, when the selection lies within one transcript row, that row Added a built-in gh api to cloud sessions whose image has no GitHub…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog#2-1-288",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-8e206c4d9e",
+      "title": "A model guide for the GPT-6 family",
+      "category": "ai",
+      "date": "2026-10-03",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/practical-guide-building-gpt-6",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-54e4881a06",
+      "title": "Terraform Releases v1.16.5",
+      "category": "cloud",
+      "date": "2026-10-02",
+      "summary": "1.16.5 (September 30, 2026) BUG FIXES: Fixed a crash that happens when a tainted instance state is seen without a valid status ( #39287 ) resource-identity: fixed an issue where resource identity could be nil during dele…",
+      "why": "Terraform Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "terraform"
+      ],
+      "source": {
+        "name": "Terraform Releases",
+        "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.5",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-749287066b",
+      "title": "メモリ64GB版「DGX Spark」登場。4,999ドルで、128GB版は値上げ",
+      "category": "gadget",
+      "date": "2026-10-02",
+      "summary": "NVIDIAは10月2日(現地時間)、デスクトップAIコンピュータ「DGX Spark」のメモリ容量を64GBに抑えた「DGX Spark 64GB」を発表した。10月23日より発売し、価格は4,999ドル(約79万円)から。",
+      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "デスク"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2145000.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-68ee196000",
+      "title": "Razer、8Kポーリング/ラピッドトリガー対応の60%ゲーミングキーボード",
+      "category": "gadget",
+      "date": "2026-10-02",
+      "summary": "Razerは10月1日、独自の光学式アナログスイッチを採用したコンパクトゲーミングキーボード「Razer Huntsman V3 Pro Mini 8KHz」を発表した。国内では10月中の発売を予定しており、価格は3万880円。",
+      "why": "「キーボード」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "キーボード"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2145210.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-a97398f76e",
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "category": "ai",
+      "date": "2026-10-02",
+      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "why": "「gpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "gpt",
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/chatham-financial",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-9f02c7dd6f",
+      "title": "Rails World recordings are online, new minimum Ruby version and more!",
+      "category": "web",
+      "date": "2026-10-02",
+      "summary": "Hi, it’s Greg . Let’s explore this week’s changes in the Rails codebase. The Rails World talk recordings are online Blazing fast, one week after the event, you can watch all the talks from Rails World on YouTube! “Autolo…",
+      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "rails"
+      ],
+      "source": {
+        "name": "Ruby on Rails",
+        "url": "https://rubyonrails.org/2026/10/2/this-week-in-rails",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-2692e48a5c",
       "title": "Claude Code 2.1.287",
@@ -16,60 +143,6 @@
         "name": "Claude Code",
         "url": "https://code.claude.com/docs/en/changelog#2-1-287",
         "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-a80484c2d5",
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "category": "ai",
-      "date": "2026-10-02",
-      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/albertsons-reimagining-retail",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-c9cc61860e",
-      "title": "ヌルっとした映像を観たい！LG、世界初のフルHD/1,000Hzゲーミングモニター",
-      "category": "gadget",
-      "date": "2026-10-01",
-      "summary": "ついにネイティブ1,000Hzの時代がやってきた。LGエレクトロニクス・ジャパンは10月1日、NVIDIA G-SYNC対応モニターとして世界初となるネイティブ1,000Hz駆動の24.5型フルHDゲーミングモニター「25G590B-B」を発売した。価格はオープンプライスで、実売価格は17万9,000円前後の見込み。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2144966.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-482125b862",
-      "title": "4K/75HzもフルHD/300Hzも1台で。アイオーの27型ゲーミングモニター",
-      "category": "gadget",
-      "date": "2026-10-01",
-      "summary": "4Kの高精細とフルHDの高速リフレッシュレートを1台で使い分けられる。アイオーデータは10月1日、4K(3,840×2,160ドット)/75HzとフルHD(1,920×1,080ドット)/300Hzを切り替えられる27型ゲーミングモニター「GCFX」の「GDU271AD」シリーズを発表した。11月上旬に発売し、価格はオープンプライス。本体色はブラックとホワイトの2色を用意する。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2144879.html",
-        "kind": "roundup"
       },
       "auto": true
     },
@@ -92,24 +165,6 @@
       "auto": true
     },
     {
-      "slug": "auto-3bba527585",
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "category": "ai",
-      "date": "2026-10-01",
-      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/the-den-family-social",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-154917f8f2",
       "title": "Rails World 2026 recap: All talks online",
       "category": "web",
@@ -123,24 +178,6 @@
       "source": {
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/10/1/rails-world-2026-recap",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-5b022872be",
-      "title": "Claude Code 2.1.286",
-      "category": "ai",
-      "date": "2026-10-01",
-      "summary": "Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up Added mouse support for the \"N more\" rows of lists in fullscreen mode: click one to jump to that end of the list, with hov…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog#2-1-286",
         "kind": "primary"
       },
       "auto": true
@@ -288,42 +325,6 @@
       "source": {
         "name": "Claude Platform",
         "url": "https://platform.claude.com/docs/en/release-notes/overview#september-28-2026",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-66f3ff620d",
-      "title": "See you in Lisbon!",
-      "category": "web",
-      "date": "2026-09-25",
-      "summary": "Hi, it’s Claudio Baccigalupo with your updates on the Rails codebase. What a week! Rails World took over Austin with more than a thousand attendees from all over the world.…",
-      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "rails"
-      ],
-      "source": {
-        "name": "Ruby on Rails",
-        "url": "https://rubyonrails.org/2026/9/25/this-week-in-rails",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-0bd2530871",
-      "title": "Rails Releases 7.2.4",
-      "category": "web",
-      "date": "2026-09-25",
-      "summary": "Active Support Improve number_to_delimited performance when delimiter_pattern is not specified. Shinichi Maeshima Silence Dalli 4.0+ warning when using ActiveSupport::Cache::MemCacheStore .…",
-      "why": "Rails Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "rails"
-      ],
-      "source": {
-        "name": "Rails Releases",
-        "url": "https://github.com/rails/rails/releases/tag/v7.2.4",
         "kind": "primary"
       },
       "auto": true
