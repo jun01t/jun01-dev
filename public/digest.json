@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-10-03T10:42:59+09:00",
+  "updatedAt": "2026-10-04T11:24:31+09:00",
   "items": [
+    {
+      "slug": "auto-99020da682",
+      "title": "Claude Code 2.1.289",
+      "category": "ai",
+      "date": "2026-10-04",
+      "summary": "Fixed a deny or ask rule on a nested part of a compound shell command not holding over a user-installed mod's approval on managed machines Fixed the terminal freezing on short code blocks with many unclosed tags or deepl…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog#2-1-289",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-2785f4ca09",
       "title": "Claude Code 2.1.288",
@@ -124,24 +142,6 @@
       "source": {
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/10/2/this-week-in-rails",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-2692e48a5c",
-      "title": "Claude Code 2.1.287",
-      "category": "ai",
-      "date": "2026-10-02",
-      "summary": "Added Claude Mods: plugins may now modify deeper behavior Added You should know, a built-in mod where a side agent watches your back and flags things you or Claude might miss.…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog#2-1-287",
         "kind": "primary"
       },
       "auto": true
