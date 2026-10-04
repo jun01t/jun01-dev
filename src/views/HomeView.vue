@@ -20,8 +20,6 @@ const gadgets = items
 <template>
   <div class="shell">
     <p class="kicker">
-      <span>第{{ issue.number }}号</span>
-      <span>{{ formatDate(issue.published) }}</span>
       <span>{{ issue.kicker }}</span>
     </p>
     <h1 class="display xl">机に置くものだけを、毎朝集めている。</h1>
@@ -41,7 +39,6 @@ const gadgets = items
 
     <div class="section-head" style="margin-top: 2.4rem">
       <h2>定点</h2>
-      <span class="meta">第{{ issue.number }}号</span>
     </div>
 
     <div v-if="lead && side" class="lead-grid">

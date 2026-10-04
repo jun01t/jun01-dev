@@ -23,8 +23,6 @@ export interface Item {
 }
 
 export const issue = {
-  number: 1,
-  published: '2026-09-29',
   title: '机上',
   kicker: 'jun01tの机に置く、ウェブ技術とガジェット',
 }
@@ -114,7 +112,7 @@ export const items: Item[] = [
     side: true,
     summary:
       '2026年9月24日、Rails 8.1.4がリリースされた。8.1.3からのメンテナンスリリースで、公式発表は各コンポーネントのCHANGELOGをGitHubで確認する形になっている。',
-    why: 'API、Sidekiqのジョブ、管理画面の土台がRailsにある。この号は機能の話ではなく、本番の8.1系をパッチまで追う話。',
+    why: 'API、Sidekiqのジョブ、管理画面の土台がRailsにある。機能の話ではなく、本番の8.1系をパッチまで追う話。',
     points: [
       '発表はrafaelfranca。Action PackからActive Record、RailtiesまでgemごとのCHANGELOGがある。',
       'GitClear上の直前バージョンは8.1.3.1（2026年7月29日）。',
