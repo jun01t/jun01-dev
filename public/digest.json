@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-10-04T11:24:31+09:00",
+  "updatedAt": "2026-10-05T10:36:04+09:00",
   "items": [
+    {
+      "slug": "auto-2a737378e8",
+      "title": "【プレゼントコーナー】PC Watch創刊30周年特別プレゼント企画【JAPANNEXT製23.8型ゲーミングモニター「JN-IPS238G165F-HSP」】 - PC Watch",
+      "category": "gadget",
+      "date": "2026-10-05",
+      "summary": "【プレゼントコーナー】PC Watch創刊30周年特別プレゼント企画【JAPANNEXT製23.8型ゲーミングモニター「JN-IPS238G165F-HSP」】 - PC Watch",
+      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/topic/present/2144830.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-8afe839697",
+      "title": "Supabase、1サーバあたり数百万ものSQLiteをホストする「Turso」買収を発表。AIエージェントで加速するDB需要に対応",
+      "category": "cloud",
+      "date": "2026-10-05",
+      "summary": "PostgreSQLをベースにしたデータベースサービス「Supabase」などを提供しているSupabaseは、SQLiteをベースとしたデータベースサービスを提供する「Turso」を買収したことを発表しました。…",
+      "why": "「postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "postgresql"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-99020da682",
       "title": "Claude Code 2.1.289",
@@ -87,24 +123,6 @@
       "source": {
         "name": "PC Watch",
         "url": "https://pc.watch.impress.co.jp/docs/news/2145000.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-68ee196000",
-      "title": "Razer、8Kポーリング/ラピッドトリガー対応の60%ゲーミングキーボード",
-      "category": "gadget",
-      "date": "2026-10-02",
-      "summary": "Razerは10月1日、独自の光学式アナログスイッチを採用したコンパクトゲーミングキーボード「Razer Huntsman V3 Pro Mini 8KHz」を発表した。国内では10月中の発売を予定しており、価格は3万880円。",
-      "why": "「キーボード」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "キーボード"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2145210.html",
         "kind": "roundup"
       },
       "auto": true
@@ -215,24 +233,6 @@
       "source": {
         "name": "Publickey",
         "url": "https://www.publickey1.jp/blog/26/javascriptvite_10.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-87dd4f1aff",
-      "title": "Next.jsアプリをCloudflare WorkersやAWS LambdaなどVercel以外のサーバレス基盤へデプロイできる「Vinext 1.0」リリース",
-      "category": "cloud",
-      "date": "2026-10-01",
-      "summary": "Cloudflareは、代表的なWebアプリケーションフレームワークであるNext.jsを用いて開発したアプリケーションを、Cloudflare WorkersやAWS Lambda、NetlifyといったVercel以外のサーバレス基盤に簡単にデプロイ可能にするビルドツール「Vinext 1.0」のリリースを発表しました。…",
-      "why": "「lambda」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "lambda"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html",
         "kind": "roundup"
       },
       "auto": true
