@@ -1,21 +1,132 @@
 {
-  "updatedAt": "2026-10-05T10:36:04+09:00",
+  "updatedAt": "2026-10-06T11:41:30+09:00",
   "items": [
     {
-      "slug": "auto-2a737378e8",
-      "title": "【プレゼントコーナー】PC Watch創刊30周年特別プレゼント企画【JAPANNEXT製23.8型ゲーミングモニター「JN-IPS238G165F-HSP」】 - PC Watch",
+      "slug": "auto-d4e08b117c",
+      "title": "「なぜつながらないか」を画面で表示。Anker初のディスプレイ搭載ドック",
       "category": "gadget",
-      "date": "2026-10-05",
-      "summary": "【プレゼントコーナー】PC Watch創刊30周年特別プレゼント企画【JAPANNEXT製23.8型ゲーミングモニター「JN-IPS238G165F-HSP」】 - PC Watch",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "date": "2026-10-06",
+      "summary": "「このUSB認識されてない気がするんだけどなんで？」そんなときにきっと役立つ――Ankerは10月6日、本体にディスプレイを搭載し、接続状況が一目で分かるUSB Type-C接続のドッキングステーション「Anker Nano USB-C ハブ(10-in-1, 240Hz, Display)」を発売した。価格は1万6,990円。",
+      "why": "「usb-c、usb type-c、ドッキング」に触れているので拾いました。全文の判断は出典を見てください。",
       "points": [],
       "tags": [
-        "モニター"
+        "usb-c",
+        "usb type-c",
+        "ドッキング"
       ],
       "source": {
         "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/topic/present/2144830.html",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2145862.html",
         "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-965b9432e0",
+      "title": "Claude Code 2.1.290",
+      "category": "ai",
+      "date": "2026-10-06",
+      "summary": "Added serverToolUses to the result of a mod's turn.step hook: the tool calls the API ran itself (the advisor), each with its id, name, input, start and end Added agentId to the tool.check event of plugin hooks, so a hook…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog#2-1-290",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-dccf0357fc",
+      "title": "Nuxt Releases v4.6.0",
+      "category": "web",
+      "date": "2026-10-06",
+      "summary": "v4.6.0 is the next minor release. 📣 Some news 🖥️ Nuxt CLI v4 Alongside the release of Nuxt v4.6, today also brings a new major release of the Nuxt CLI: @nuxt/cli v4 .…",
+      "why": "Nuxt Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "nuxt"
+      ],
+      "source": {
+        "name": "Nuxt Releases",
+        "url": "https://github.com/nuxt/nuxt/releases/tag/v4.6.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-b1ee08d9fd",
+      "title": "【Hothotレビュー】WIN 5と同じ心臓で、キーボードが戻ってきた。「GPD WIN Max 3」を試す",
+      "category": "gadget",
+      "date": "2026-10-06",
+      "summary": "【Hothotレビュー】WIN 5と同じ心臓で、キーボードが戻ってきた。「GPD WIN Max 3」を試す",
+      "why": "「キーボード」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "キーボード"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/column/hothot/2145749.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-672f2c5fd2",
+      "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
+      "category": "cloud",
+      "date": "2026-10-06",
+      "summary": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI , built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources.…",
+      "why": "「openai」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "AWS News Blog",
+        "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-3cbec84de8",
+      "title": "Building advertising for the way people use AI",
+      "category": "ai",
+      "date": "2026-10-05",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-c61d548b1d",
+      "title": "Codex CLI Release: 0.160.1",
+      "category": "ai",
+      "date": "2026-10-05",
+      "summary": "Bug Fixes Preserve SYSTEMROOT , TEMP , and TMP when launching remote stdio MCP servers with explicitly configured remote environment variables, allowing Unix hosts to retain the Windows executor's startup environment.…",
+      "why": "「codex、mcp」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex",
+        "mcp"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/#github-release-404001397",
+        "kind": "primary"
       },
       "auto": true
     },
@@ -51,24 +162,6 @@
       "source": {
         "name": "Claude Code",
         "url": "https://code.claude.com/docs/en/changelog#2-1-289",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-2785f4ca09",
-      "title": "Claude Code 2.1.288",
-      "category": "ai",
-      "date": "2026-10-03",
-      "summary": "Added $.ui.selection() for mods: returns the text you last selected in fullscreen mode and, when the selection lies within one transcript row, that row Added a built-in gh api to cloud sessions whose image has no GitHub…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog#2-1-288",
         "kind": "primary"
       },
       "auto": true
@@ -110,43 +203,6 @@
       "auto": true
     },
     {
-      "slug": "auto-749287066b",
-      "title": "メモリ64GB版「DGX Spark」登場。4,999ドルで、128GB版は値上げ",
-      "category": "gadget",
-      "date": "2026-10-02",
-      "summary": "NVIDIAは10月2日(現地時間)、デスクトップAIコンピュータ「DGX Spark」のメモリ容量を64GBに抑えた「DGX Spark 64GB」を発表した。10月23日より発売し、価格は4,999ドル(約79万円)から。",
-      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "デスク"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2145000.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-a97398f76e",
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "category": "ai",
-      "date": "2026-10-02",
-      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "why": "「gpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "gpt",
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/chatham-financial",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-9f02c7dd6f",
       "title": "Rails World recordings are online, new minimum Ruby version and more!",
       "category": "web",
@@ -178,6 +234,24 @@
       "source": {
         "name": "Codex",
         "url": "https://developers.openai.com/codex/changelog/#github-release-401312540",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-8ab222e156",
+      "title": "Claude Platform release notes — October 1, 2026",
+      "category": "ai",
+      "date": "2026-10-01",
+      "summary": "We've added a line field to the Models API . GET /v1/models and GET /v1/models/{model_id} now return the model line each model belongs to. Claude Opus 4.5 and Claude Opus 4.6 both report opus , for example.…",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude"
+      ],
+      "source": {
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview#october-1-2026",
         "kind": "primary"
       },
       "auto": true
@@ -251,80 +325,6 @@
       "source": {
         "name": "Vue Releases",
         "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.10",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-ded1855460",
-      "title": "Codex CLI Release: 0.159.3",
-      "category": "ai",
-      "date": "2026-09-30",
-      "summary": "New Features Eligible local sessions signed in with ChatGPT can now show optional reminders to complete account security setup.…",
-      "why": "「codex、chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex",
-        "chatgpt"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/#github-release-400492869",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-406b36a926",
-      "title": "Claude Platform release notes — September 30, 2026",
-      "category": "ai",
-      "date": "2026-09-30",
-      "summary": "We announced the deprecation of the Claude Sonnet 4.5 model ( claude-sonnet-4-5-20250929 ), with retirement on the Claude API scheduled for November 30, 2026. We recommend migrating to Claude Sonnet 5.5 .…",
-      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude"
-      ],
-      "source": {
-        "name": "Claude Platform",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview#september-30-2026",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-7bc4509082",
-      "title": "AWS Weekly Roundup: GPT-6 Sol and Luna, Claude Opus 5.5 on Amazon Bedrock, Strands harness, and more (September 28, 2026)",
-      "category": "cloud",
-      "date": "2026-09-29",
-      "summary": "If there’s one theme that defined last week, it’s choice. The frontier models keep arriving, and the interesting question is no longer just “how smart is it?” but “which model fits this step, at this cost, at this latenc…",
-      "why": "「claude、gpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "claude",
-        "gpt"
-      ],
-      "source": {
-        "name": "AWS News Blog",
-        "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-sol-and-luna-claude-opus-5-5-on-amazon-bedrock-strands-harness-and-more-september-28-2026/",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-8f8a4ecd72",
-      "title": "Claude Platform release notes — September 28, 2026",
-      "category": "ai",
-      "date": "2026-09-28",
-      "summary": "We've launched Claude Sonnet 5.5 ( claude-sonnet-5-5 ). It's available on the Claude API, Claude in Amazon Bedrock , Claude Platform on AWS , Claude on Google Cloud , and Claude in Microsoft Foundry .…",
-      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude"
-      ],
-      "source": {
-        "name": "Claude Platform",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview#september-28-2026",
         "kind": "primary"
       },
       "auto": true
