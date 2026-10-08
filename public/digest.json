@@ -1,31 +1,122 @@
 {
-  "updatedAt": "2026-10-07T11:05:13+09:00",
+  "updatedAt": "2026-10-08T11:30:50+09:00",
   "items": [
     {
-      "slug": "auto-58032bcc51",
-      "title": "ゲーミングノートが6万円引き！マウスのオータムセールで最大9万円オフ [Sponsored]",
-      "category": "gadget",
-      "date": "2026-10-07",
-      "summary": "13万円台のスリム型デスクトップPCから48万円台のフルタワー型ゲーミングPCまで、ノートPCとデスクトップPCの両方が値引きの対象となっている。マウスコンピューターは10月28日10時59分までの期間限定で、「オータムセール(TGS2026出展記念セール)」を開催中だ。Ryzen 7 9800X3DやRadeon RX 9070 XTを搭載する高性能ゲーミングPCが9万円オフとなるなど、多数の製品が大幅に値引きされている。",
-      "why": "「マウス、デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "slug": "auto-0b2b6437e9",
+      "title": "Claude Platform release notes — October 8, 2026",
+      "category": "ai",
+      "date": "2026-10-08",
+      "summary": "The Compliance API chat endpoints now also return chats from the unified Claude experience, in beta for Claude Enterprise organizations, with your existing Compliance Access Key.…",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
-        "マウス",
-        "デスク"
+        "claude"
       ],
       "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/topic/special/2145641.html",
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview#october-8-2026",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-09dbe3159c",
+      "title": "Terraform Releases v1.17.0-rc1",
+      "category": "cloud",
+      "date": "2026-10-08",
+      "summary": "1.17.0-rc1 (October 07, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources that ha…",
+      "why": "Terraform Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "terraform"
+      ],
+      "source": {
+        "name": "Terraform Releases",
+        "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc1",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-82fe576fd9",
+      "title": "Claude Code 2.1.293",
+      "category": "ai",
+      "date": "2026-10-08",
+      "summary": "Added Claude Haiku 5.5 ( claude-haiku-5-5 ), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K) Added agentType to the subagentStatusLine payload, so s…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code",
+        "anthropic"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog#2-1-293",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-a69dc08142",
+      "title": "AWS、DuckDBをAurora PostgreSQLに統合。ETL不要で直接データレイクを読み取り可能にしたと発表",
+      "category": "cloud",
+      "date": "2026-10-08",
+      "summary": "Amazon Web Services（AWS）は、Amazon Aurora PostgreSQLにDuckDBを統合し、Apache Icebergなどで構築したデータレイクのデータを直接読み取って処理できるようになったことを発表しました。 これまでPostgreSQLにデータレイクのデータを読み込ませるにはETLによる変換処理などが必要でしたが、DuckDBとの統合によりETLが不要となりました。…",
+      "why": "「aurora、postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "aurora",
+        "postgresql"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/awsduckdbaurora_postgresqletl.html",
         "kind": "roundup"
       },
       "auto": true
     },
     {
-      "slug": "auto-638cf7a174",
-      "title": "寝ながらモニターを見られる角度調整ブラケット、長尾製作所から",
+      "slug": "auto-ad4e14640e",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "category": "ai",
+      "date": "2026-10-07",
+      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/teens-learn-and-plan",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-04e9dc3828",
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "category": "ai",
+      "date": "2026-10-07",
+      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/radisson",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-ae04dbfe73",
+      "title": "ASUS、プロクリエイター向け31.5型4K QD-OLEDモニター2機種",
       "category": "gadget",
       "date": "2026-10-07",
-      "summary": "長尾製作所は、「NBROS JAPAN」ブランドのモニター角度調整ブラケット「NB-VS7510-KAKUDO」を10月6日に発売した。モニターアームや壁掛け金具の間に取り付け、角度可動範囲を広げる製品。価格はオープンプライスで、実売価格は3,690円。",
+      "summary": "ASUSは、QD-OLEDパネルを採用したプロクリエイター向け31.5型4Kモニター「ProArt Display OLED PA32USD」および「ProArt Display OLED PA329CDV」を10月9日より順次発売する。価格はそれぞれ41万8,320円、15万8,220円。",
       "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
       "points": [],
       "tags": [
@@ -33,8 +124,45 @@
       ],
       "source": {
         "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2146208.html",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2146329.html",
         "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-cb3b6ad51f",
+      "title": "ChatGPT for iOS",
+      "category": "ai",
+      "date": "2026-10-07",
+      "summary": "# ChatGPT for iOS ### New features - Page previews now appear inline in responses. - Added support for opening Codex task links directly on iOS.…",
+      "why": "「codex、chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex",
+        "chatgpt"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/#codex-2026-10-07-mobile",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-ac0f8f1c30",
+      "title": "Claude Platform release notes — October 7, 2026",
+      "category": "ai",
+      "date": "2026-10-07",
+      "summary": "We've lowered the price of prompt cache reads on Claude Sonnet 5.5 from $0.20 USD to $0.10 USD per million tokens: 0.05x the base input price instead of 0.1x. Cache writes and all other prices are unchanged.…",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude"
+      ],
+      "source": {
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview#october-7-2026",
+        "kind": "primary"
       },
       "auto": true
     },
@@ -52,42 +180,6 @@
       "source": {
         "name": "Claude Code",
         "url": "https://code.claude.com/docs/en/changelog#2-1-292",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-342677ae7e",
-      "title": "How Jump Trading is scaling quant research with ChatGPT",
-      "category": "ai",
-      "date": "2026-10-06",
-      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/jump-trading",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-87471f8fbe",
-      "title": "Claude Code 2.1.291",
-      "category": "ai",
-      "date": "2026-10-06",
-      "summary": "Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts Fixed a regression in 2.1.288 where the last messages of a session could be lost when quitting",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog#2-1-291",
         "kind": "primary"
       },
       "auto": true
@@ -166,61 +258,6 @@
       "auto": true
     },
     {
-      "slug": "auto-3cbec84de8",
-      "title": "Building advertising for the way people use AI",
-      "category": "ai",
-      "date": "2026-10-05",
-      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-c61d548b1d",
-      "title": "Codex CLI Release: 0.160.1",
-      "category": "ai",
-      "date": "2026-10-05",
-      "summary": "Bug Fixes Preserve SYSTEMROOT , TEMP , and TMP when launching remote stdio MCP servers with explicitly configured remote environment variables, allowing Unix hosts to retain the Windows executor's startup environment.…",
-      "why": "「codex、mcp」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex",
-        "mcp"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/#github-release-404001397",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-17c8f09e93",
-      "title": "Claude Platform release notes — October 5, 2026",
-      "category": "ai",
-      "date": "2026-10-05",
-      "summary": "We've added capabilities.thinking.types.disabled to the Models API . GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"disabled\"} , which turns thinking off.…",
-      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude"
-      ],
-      "source": {
-        "name": "Claude Platform",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview#october-5-2026",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-8afe839697",
       "title": "Supabase、1サーバあたり数百万ものSQLiteをホストする「Turso」買収を発表。AIエージェントで加速するDB需要に対応",
       "category": "cloud",
@@ -288,42 +325,6 @@
       "source": {
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/10/2/this-week-in-rails",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-8ab222e156",
-      "title": "Claude Platform release notes — October 1, 2026",
-      "category": "ai",
-      "date": "2026-10-01",
-      "summary": "We've added a line field to the Models API . GET /v1/models and GET /v1/models/{model_id} now return the model line each model belongs to. Claude Opus 4.5 and Claude Opus 4.6 both report opus , for example.…",
-      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude"
-      ],
-      "source": {
-        "name": "Claude Platform",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview#october-1-2026",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-154917f8f2",
-      "title": "Rails World 2026 recap: All talks online",
-      "category": "web",
-      "date": "2026-10-01",
-      "summary": "Happy to report that in record time , all Rails World 2026 talks are now online. Find the full playlist here .…",
-      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "rails"
-      ],
-      "source": {
-        "name": "Ruby on Rails",
-        "url": "https://rubyonrails.org/2026/10/1/rails-world-2026-recap",
         "kind": "primary"
       },
       "auto": true
