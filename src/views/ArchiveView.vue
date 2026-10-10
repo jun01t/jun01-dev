@@ -4,6 +4,7 @@ import { useRoute, useRouter } from 'vue-router'
 import ItemCard from '../components/ItemCard.vue'
 import { getItems } from '../data/catalog'
 import { categories, type CategoryId } from '../data/items'
+import { filterItems } from '../lib/discovery.mjs'
 import { useSaved } from '../composables/useSaved'
 
 const route = useRoute()
@@ -19,35 +20,38 @@ const category = computed(() => {
 const savedOnly = computed(() => route.query.saved === '1')
 const autoOnly = computed(() => route.query.source === 'auto')
 
-watch(search, (value) => {
-  const query = { ...route.query }
-  if (value) query.q = value
-  else delete query.q
-  router.replace({ query })
+let timer: ReturnType<typeof setTimeout> | undefined
+const composing = ref(false)
+const appliedSearch = ref(search.value)
+function startComposition() { composing.value = true; clearTimeout(timer) }
+function endComposition() { composing.value = false; scheduleSearch() }
+function scheduleSearch() {
+  clearTimeout(timer)
+  if (composing.value) return
+  timer = setTimeout(() => {
+    appliedSearch.value = search.value
+    const query = { ...route.query }
+    if (search.value) query.q = search.value
+    else delete query.q
+    if (query.q !== route.query.q) void router.replace({ query })
+  }, 250)
+}
+watch(search, scheduleSearch)
+watch(() => route.fullPath, () => {
+  clearTimeout(timer)
+  search.value = typeof route.query.q === 'string' ? route.query.q : ''
+  appliedSearch.value = search.value
 })
-
-watch(
-  () => route.query.q,
-  (value) => {
-    search.value = typeof value === 'string' ? value : ''
-  },
-)
-
-const visible = computed(() => {
-  const needle = search.value.trim().toLowerCase()
-  return getItems()
-    .filter((item) => (category.value ? item.category === category.value : true))
-    .filter((item) => (autoOnly.value ? item.auto : true))
-    .filter((item) => (savedOnly.value ? slugs.value.includes(item.slug) : true))
-    .filter((item) => {
-      if (!needle) return true
-      const haystack = [item.title, item.summary, item.why, item.tags.join(' ')].join(' ').toLowerCase()
-      return haystack.includes(needle)
-    })
-    .sort((a, b) => (a.date < b.date ? 1 : -1))
-})
+const visible = computed(() => filterItems(getItems(), {
+  query: appliedSearch.value, category: category.value, autoOnly: autoOnly.value,
+  savedOnly: savedOnly.value, saved: slugs.value,
+}).sort((a, b) => b.date.localeCompare(a.date) || a.slug.localeCompare(b.slug)))
+function toggleSaved() {
+  pushQuery({ ...route.query, q: search.value, saved: savedOnly.value ? '' : '1' } as Record<string, string>)
+}
 
 function pushQuery(next: Record<string, string | string[] | undefined>) {
+  clearTimeout(timer)
   const query: Record<string, string> = {}
   for (const [key, value] of Object.entries(next)) {
     if (typeof value === 'string' && value) query[key] = value
@@ -79,7 +83,7 @@ function showAll() {
 
 function focusSearch(event: KeyboardEvent) {
   const target = event.target as HTMLElement | null
-  if (event.key !== '/' || target?.closest('input, textarea')) return
+  if (event.key !== '/' || event.ctrlKey || event.metaKey || event.altKey || target?.closest('input, textarea, select, [contenteditable="true"]')) return
   const field = document.querySelector<HTMLInputElement>('input[type="search"]')
   if (!field) return
   event.preventDefault()
@@ -87,14 +91,14 @@ function focusSearch(event: KeyboardEvent) {
 }
 
 onMounted(() => window.addEventListener('keydown', focusSearch))
-onUnmounted(() => window.removeEventListener('keydown', focusSearch))
+onUnmounted(() => { clearTimeout(timer); window.removeEventListener('keydown', focusSearch) })
 </script>
 
 <template>
   <div class="shell">
     <p class="kicker">
       <span>アーカイブ</span>
-      <span>{{ visible.length }}件</span>
+      <span role="status" aria-live="polite">{{ visible.length }}件</span>
     </p>
     <h1 class="display">{{ savedOnly ? '保存した記事' : autoOnly ? '収集した更新' : 'すべての要約' }}</h1>
     <p class="dek">タイトル、要約、タグから探せます。スラッシュキーで検索欄に戻ります。</p>
@@ -102,6 +106,8 @@ onUnmounted(() => window.removeEventListener('keydown', focusSearch))
     <form class="search" role="search" @submit.prevent>
       <input
         v-model="search"
+        @compositionstart="startComposition"
+        @compositionend="endComposition"
         type="search"
         placeholder="Nuxt、Codex、Claude Code…"
         aria-label="記事を検索"
@@ -122,15 +128,7 @@ onUnmounted(() => window.removeEventListener('keydown', focusSearch))
         {{ item.label }}
       </button>
       <button type="button" class="chip" :aria-pressed="autoOnly" @click="showCollected">収集</button>
-      <RouterLink v-slot="{ href, navigate }" to="/archive?saved=1" custom>
-        <a
-          :href="href"
-          class="chip"
-          :class="{ active: savedOnly }"
-          :aria-current="savedOnly ? 'page' : undefined"
-          @click="navigate"
-        >保存のみ</a>
-      </RouterLink>
+      <button type="button" class="chip" :aria-pressed="savedOnly" @click="toggleSaved">保存のみ</button>
     </div>
 
     <div v-if="visible.length" class="grid">
@@ -139,7 +137,7 @@ onUnmounted(() => window.removeEventListener('keydown', focusSearch))
     <p v-else class="empty">
       {{
         savedOnly
-          ? 'まだ保存がありません。各記事の「保存」は、このブラウザに残ります。'
+          ? '条件に一致する保存記事がありません。検索や分類を解除するか、記事を保存してください。'
           : '一致する記事がありません。言葉を短くすると見つかります。'
       }}
     </p>

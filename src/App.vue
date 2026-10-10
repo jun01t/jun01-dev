@@ -1,8 +1,10 @@
 <script setup lang="ts">
+import { useSaved } from './composables/useSaved'
 import SiteHeader from './components/SiteHeader.vue'
 import { getUpdatedAt } from './data/catalog'
 import { formatDate } from './data/items'
 
+const { persisted } = useSaved()
 const updatedAt = getUpdatedAt()
 </script>
 
@@ -10,6 +12,7 @@ const updatedAt = getUpdatedAt()
   <a class="skip" href="#main">本文へ</a>
   <SiteHeader />
   <main id="main">
+    <p v-if="!persisted" class="shell" role="status">保存領域が使えないため、ブックマークはこの画面を開いている間だけ有効です。</p>
     <RouterView />
   </main>
   <footer class="site-footer">

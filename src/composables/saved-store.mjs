@@ -23,26 +23,28 @@ function readSlugs(storage) {
 }
 
 /**
- * @param {Pick<Storage, 'getItem' | 'setItem'>} storage
+ * @param {Pick<Storage, 'getItem' | 'setItem'> | undefined} storage
  * @param {(slugs: string[]) => void} [onChange]
  */
 export function createSavedStore(storage, onChange = () => {}) {
   let slugs = readSlugs(storage)
+  let writable = true
 
   function publish() {
     onChange(slugs)
   }
 
   function toggle(slug) {
-    slugs = toggleSlug(readSlugs(storage), slug)
-    storage.setItem(SAVED_KEY, JSON.stringify(slugs))
+    slugs = toggleSlug(writable ? readSlugs(storage) : slugs, slug)
+    try { storage.setItem(SAVED_KEY, JSON.stringify(slugs)) } catch { writable = false }
     publish()
     return slugs
   }
 
   function listen(target) {
     target.addEventListener('storage', (event) => {
-      if (event.key !== SAVED_KEY) return
+      if (event.key !== SAVED_KEY && event.key !== null) return
+      if (!writable) return
       slugs = readSlugs(storage)
       publish()
     })
@@ -52,5 +54,6 @@ export function createSavedStore(storage, onChange = () => {}) {
     toggle,
     listen,
     snapshot: () => slugs,
+    isPersistent: () => writable,
   }
 }

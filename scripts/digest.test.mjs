@@ -162,3 +162,29 @@ test('a feed outage keeps items still inside the window', () => {
   assert.equal(items[0].slug, 'recent')
   assert.deepEqual(planDigest({ items: previousItems }, items), { write: false, exitCode: 0 })
 })
+
+test('all feed failures are errors even when the previous data is unchanged', () => {
+  assert.deepEqual(planDigest({ items: [] }, [], true), { write: false, exitCode: 1 })
+})
+test('Atom alternate links, CDATA and invalid entities are handled safely', () => {
+  const now = new Date('2026-10-10T12:00:00Z')
+  const item = buildItem(railsFeed, `<title>Rails &#99999999;</title><link rel='self' href='https://example.com/feed'/><link rel='alternate' href='https://example.com/article?utm_source=rss'/><published>2026-10-10T00:00:00Z</published>`, now)
+  assert.equal(item.source.url, 'https://example.com/article')
+  assert.ok(item.title.includes('�'))
+  const cdata = buildItem(railsFeed, `<title>Rails</title><link><![CDATA[https://example.com/a]]></link><pubDate>2026-10-10</pubDate>`, now)
+  assert.equal(cdata.source.url, 'https://example.com/a')
+})
+test('normalization deduplicates tracking URLs and preserves existing slugs and collection dates', () => {
+  const now = new Date('2026-10-10T12:00:00Z')
+  const fresh = buildItem(railsFeed, `<title>Rails</title><link>https://example.com/a?utm_source=new</link><pubDate>2026-10-10</pubDate>`, now)
+  const previous = { ...fresh, slug: 'old-bookmarked-slug', collectedAt: '2026-10-09T12:00:00+09:00', source: { ...fresh.source, url: 'https://example.com/a?utm_source=old' } }
+  const items = assembleItems([fresh, { ...fresh }], [previous], now)
+  assert.equal(items.length, 1)
+  assert.equal(items[0].slug, previous.slug)
+  assert.equal(items[0].collectedAt, previous.collectedAt)
+})
+test('future publication dates and URLs containing credentials are rejected', () => {
+  const now = new Date('2026-10-10T12:00:00Z')
+  assert.equal(buildItem(railsFeed, '<title>Rails</title><link>https://example.com/a</link><pubDate>2026-10-12</pubDate>', now), null)
+  assert.equal(safeHttpUrl('https://user:pass@example.com/a'), '')
+})

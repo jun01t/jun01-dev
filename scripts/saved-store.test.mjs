@@ -35,3 +35,23 @@ test('a storage event refreshes the other tab', () => {
 test('the header count ignores slugs that are no longer published', () => {
   assert.equal(visibleSavedCount(['live', 'gone'], ['live']), 1)
 })
+
+test('denied storage keeps multiple bookmarks in memory and allows removal', () => {
+  const store = createSavedStore({ getItem() { throw new Error('denied') }, setItem() { throw new Error('denied') } })
+  store.toggle('one'); store.toggle('two'); store.toggle('one')
+  assert.deepEqual(store.snapshot(), ['two'])
+  assert.equal(store.isPersistent(), false)
+})
+test('quota failures preserve existing bookmarks and new in-memory changes', () => {
+  const store = createSavedStore({ getItem: () => '["old"]', setItem() { throw new Error('quota') } })
+  store.toggle('one'); store.toggle('two')
+  assert.deepEqual(store.snapshot(), ['old', 'one', 'two'])
+})
+test('storage.clear refreshes other tabs', () => {
+  const storage = memoryStorage({ [SAVED_KEY]: '["old"]' })
+  let listener
+  const store = createSavedStore(storage)
+  store.listen({ addEventListener: (_, callback) => { listener = callback } })
+  storage.setItem(SAVED_KEY, '[]'); listener({ key: null })
+  assert.deepEqual(store.snapshot(), [])
+})

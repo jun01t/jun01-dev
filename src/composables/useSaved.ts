@@ -1,15 +1,11 @@
 import { computed, ref } from 'vue'
+import { browserStorage } from './preferences-store.mjs'
 import { getItems } from '../data/catalog'
 import { createSavedStore, visibleSavedCount } from './saved-store.mjs'
 
 const slugs = ref<string[]>([])
-const storage =
-  typeof localStorage === 'undefined'
-    ? {
-        getItem: () => null,
-        setItem: () => undefined,
-      }
-    : localStorage
+const storage = browserStorage()
+const persisted = ref(true)
 
 const store = createSavedStore(storage, (next: string[]) => {
   slugs.value = [...next]
@@ -27,7 +23,8 @@ export function useSaved() {
 
   function toggle(slug: string) {
     store.toggle(slug)
+    persisted.value = store.isPersistent()
   }
 
-  return { slugs, count, has, toggle }
+  return { slugs, count, has, toggle, persisted }
 }

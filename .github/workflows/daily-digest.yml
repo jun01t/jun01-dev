@@ -31,6 +31,7 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      - run: npm test
       - run: npm run update
       - id: commit
         run: |
@@ -58,12 +59,13 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          status=$(curl -s -o /dev/null -w "%{http_code}" \
+          status=$(curl -s -o /tmp/pages.json -w "%{http_code}" \
             -H "Authorization: Bearer ${GH_TOKEN}" \
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages")
           if [ "$status" = "200" ]; then
             echo "enabled=true" >> "$GITHUB_OUTPUT"
+            echo "SITE_URL=$(jq -r .html_url /tmp/pages.json)" >> "$GITHUB_ENV"
           else
             echo "enabled=false" >> "$GITHUB_OUTPUT"
             echo "GitHub Pages is off. Hosts connected to this repo still rebuild from the push."
@@ -83,8 +85,6 @@ jobs:
           fi
       - if: steps.pages.outputs.enabled == 'true'
         run: npm ci
-      - if: steps.pages.outputs.enabled == 'true'
-        run: npm run update
       - if: steps.pages.outputs.enabled == 'true'
         run: npm run build
       - if: steps.pages.outputs.enabled == 'true'

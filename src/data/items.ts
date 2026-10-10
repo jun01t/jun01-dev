@@ -19,6 +19,7 @@ export interface Item {
   source: Source
   lead?: boolean
   side?: boolean
+  collectedAt?: string
   auto?: boolean
 }
 
