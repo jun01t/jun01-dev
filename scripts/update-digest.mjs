@@ -6,8 +6,8 @@ import { cutoffDay, dayInTokyo, safeHttpUrl, timestampInTokyo, normalizeUrl } fr
 
 const OUT = new URL('../public/digest.json', import.meta.url)
 const MAX_AGE_DAYS = 21
-const MAX_ITEMS = 18
-const PER_FEED = 4
+const MAX_ITEMS = 36
+const PER_FEED = 8
 const USER_AGENT = 'jun01-desk/1.0 (+https://blog.jun01t.com)'
 
 const gadgetWords = ['モニター', 'キーボード', 'マウス', 'デスク', 'ガジェット', 'ロジクール', 'logicool', 'benq', 'kvm', 'usb-c', 'usb type-c', 'ドッキング', '在宅', 'ディスプレイ', 'トラックボール']
@@ -78,6 +78,41 @@ const feeds = [
     mode: 'all',
   },
   {
+    name: 'TypeScript Blog',
+    url: 'https://devblogs.microsoft.com/typescript/feed/',
+    category: 'web',
+    kind: 'primary',
+    mode: 'all',
+  },
+  {
+    name: 'React Releases',
+    url: 'https://github.com/facebook/react/releases.atom',
+    category: 'web',
+    kind: 'primary',
+    mode: 'all',
+  },
+  {
+    name: 'Vite Releases',
+    url: 'https://github.com/vitejs/vite/releases.atom',
+    category: 'web',
+    kind: 'primary',
+    mode: 'all',
+  },
+  {
+    name: 'Next.js Releases',
+    url: 'https://github.com/vercel/next.js/releases.atom',
+    category: 'web',
+    kind: 'primary',
+    mode: 'all',
+  },
+  {
+    name: 'OpenAI Node SDK Releases',
+    url: 'https://github.com/openai/openai-node/releases.atom',
+    category: 'ai',
+    kind: 'primary',
+    mode: 'all',
+  },
+  {
     name: 'Vue Releases',
     url: 'https://github.com/vuejs/core/releases.atom',
     category: 'web',
@@ -118,7 +153,7 @@ const feeds = [
 const rules = [
   { category: 'ai', words: ['cursor', 'claude code', 'claude', 'codex', 'chatgpt', 'openai', 'anthropic', 'gpt', 'mcp', 'model context protocol'] },
   { category: 'cloud', words: ['terraform', 'rds', 'aurora', 'cloudfront', 'postgresql', 'route 53', 'route53', 'lambda', 'ecs'] },
-  { category: 'web', words: ['nuxt', 'vue', 'rails', 'ruby on rails', 'vite', 'web components', 'typescript'] },
+  { category: 'web', words: ['nuxt', 'vue', 'react', 'next.js', 'nextjs', 'rails', 'ruby on rails', 'vite', 'web components', 'typescript', 'javascript', 'node.js'] },
   { category: 'gadget', words: gadgetWords },
 ]
 
@@ -301,7 +336,7 @@ export function assembleItems(fresh, previousItems, now = new Date(), failedSour
   const items = []
   for (const item of ranked) {
     const count = perSource.get(item.source.name) ?? 0
-    if (count >= 2) continue
+    if (count >= 4) continue
     perSource.set(item.source.name, count + 1)
     const { sort, ...rest } = item
     items.push(rest)

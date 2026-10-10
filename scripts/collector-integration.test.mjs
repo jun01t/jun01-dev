@@ -15,7 +15,8 @@ async function fixture(t, mode) {
   await writeFile(join(directory, 'public/digest.json'), original)
   await writeFile(join(directory, 'mock.mjs'), `globalThis.fetch = async url => {
     if (${JSON.stringify(mode)} === 'failure' || String(url).includes('cursor.com')) throw new Error('fixture outage');
-    return { ok: true, text: async () => '<rss><channel><item><title>Rails Claude Code モニター release</title><link>https://example.com/' + encodeURIComponent(url) + '</link><pubDate>' + new Date(Date.now() - 1000).toISOString() + '</pubDate><description>Rails release</description></item></channel></rss>' };
+    const entries = Array.from({ length: 10 }, (_, index) => '<item><title>Rails Claude Code モニター release ' + index + '</title><link>https://example.com/' + encodeURIComponent(url) + '/' + index + '</link><pubDate>' + new Date(Date.now() - (index + 1) * 1000).toISOString() + '</pubDate><description>Rails Claude Code Nuxt Vue AWS ChatGPT GPT Codex monitor release ' + index + '</description></item>').join('');
+    return { ok: true, text: async () => '<rss><channel>' + entries + '</channel></rss>' };
   };`)
   return { directory, original, run: () => execute(process.execPath, ['--import', './mock.mjs', './scripts/update-digest.mjs'], { cwd: directory }) }
 }
@@ -28,7 +29,13 @@ test('collector CLI completes after a partial outage and produces valid dated it
   const context = await fixture(t, 'partial')
   await context.run()
   const digest = JSON.parse(await readFile(join(context.directory, 'public/digest.json'), 'utf8'))
-  assert.ok(digest.items.length > 0)
+  assert.ok(digest.items.length > 18)
+  assert.ok(digest.items.length <= 36)
+  assert.ok(digest.items.some(item => item.category === 'web'))
+  assert.ok(digest.items.some(item => item.category === 'ai'))
+  const bySource = new Map()
+  for (const item of digest.items) bySource.set(item.source.name, (bySource.get(item.source.name) ?? 0) + 1)
+  assert.ok([...bySource.values()].every(count => count <= 4))
   assert.ok(digest.items.every(item => item.collectedAt && item.auto && item.source.url.startsWith('https:')))
   assert.equal(new Set(digest.items.map(item => item.source.url)).size, digest.items.length)
 })
