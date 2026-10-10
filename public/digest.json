@@ -1,6 +1,44 @@
 {
-  "updatedAt": "2026-10-10T12:33:33+09:00",
+  "updatedAt": "2026-10-10T18:08:22+09:00",
   "items": [
+    {
+      "slug": "auto-fd90870cc5",
+      "title": "Vue Releases v3.6.0-rc.11",
+      "category": "web",
+      "date": "2026-10-10",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
+      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vue"
+      ],
+      "source": {
+        "name": "Vue Releases",
+        "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.11",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-44971646c5",
+      "title": "Next.js Releases v16.5.0-canary.7",
+      "category": "web",
+      "date": "2026-10-10",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "Core Changes Reland experimental custom webpack support: #99234 Misc Changes Add CI for upgrade evals with shared preparation: #99908 Rebuild upgrade evals around delivered apps: #99880 Upgrade Corepack to 0.34.7: #99959…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.7",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-dba5e1cd16",
       "title": "Nuxt Releases v4.6.1",
@@ -39,6 +77,25 @@
       "auto": true
     },
     {
+      "slug": "auto-e6d9e573f0",
+      "title": "OpenAI Node SDK Releases v7.32.0",
+      "category": "ai",
+      "date": "2026-10-10",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "7.32.0 (2026-10-09) Features api: add agent environment suspension and expiration ( #2904 ) ( 6e4ed63 ) Bug Fixes deps: bump next from 15.5.25 to 15.5.27 in /ecosystem-tests/vercel-edge ( #2896 ) ( 88b4c05 ) runners: pre…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.32.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
       "slug": "auto-e54d787de1",
       "title": "Claude Code 2.1.296",
       "category": "ai",
@@ -52,6 +109,26 @@
       "source": {
         "name": "Claude Code",
         "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-1cad3334d4",
+      "title": "Next.js Releases v16.5.0-canary.6",
+      "category": "web",
+      "date": "2026-10-10",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "Core Changes Add more metadata to agent upgrade telemetry: #99925 perf: reduce build tree view allocations: #99930 fix: classify collapsed generated paths from child routes: #99864 Upgrade React from d75b0697-20261006 to…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "react",
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.6",
         "kind": "primary"
       },
       "auto": true
@@ -76,20 +153,21 @@
       "auto": true
     },
     {
-      "slug": "auto-50a52f40f7",
-      "title": "ホワイトのマウス/ヘッドセットが付属したRTX 50搭載ゲーミングノート",
-      "category": "gadget",
+      "slug": "auto-c0812e0859",
+      "title": "OpenAI Node SDK Releases v7.31.0",
+      "category": "ai",
       "date": "2026-10-09",
-      "summary": "GeForce RTX 50シリーズ搭載のゲーミングノートPCが、ホワイト統一の限定モデルから薄型/軽量の新筐体まで、3機種そろって登場する。エムエスアイコンピュータージャパン(MSI)は、ゲーミングノートPCとして「Crosshair A16 HX MLG Edition E8W」を10月14日に、「Cyborg 15 Max C2W」と「Katana 15 HX C14W」を10月15日に発売する。価格はいずれもオープンプライス。",
-      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "7.31.0 (2026-10-09) Features api: add prewarmed hosted environments ( #2898 ) ( 7a0be86 )",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
-        "マウス"
+        "openai"
       ],
       "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2147014.html",
-        "kind": "roundup"
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.31.0",
+        "kind": "primary"
       },
       "auto": true
     },
@@ -130,6 +208,64 @@
       "auto": true
     },
     {
+      "slug": "auto-50a52f40f7",
+      "title": "ホワイトのマウス/ヘッドセットが付属したRTX 50搭載ゲーミングノート",
+      "category": "gadget",
+      "date": "2026-10-09",
+      "summary": "GeForce RTX 50シリーズ搭載のゲーミングノートPCが、ホワイト統一の限定モデルから薄型/軽量の新筐体まで、3機種そろって登場する。エムエスアイコンピュータージャパン(MSI)は、ゲーミングノートPCとして「Crosshair A16 HX MLG Edition E8W」を10月14日に、「Cyborg 15 Max C2W」と「Katana 15 HX C14W」を10月15日に発売する。価格はいずれもオープンプライス。",
+      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "マウス"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2147014.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-a005d86d66",
+      "title": "Next.js Releases v16.5.0-canary.5",
+      "category": "web",
+      "date": "2026-10-09",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "Misc Changes Update error strings for a few deployment tests: #99886 Increase timeout on module-scope deployment test: #99891 Fix google tag manager e2e test, assume GTM 200s instead of 404ing: #99896 Credits Huge thanks…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.5",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-44827ede44",
+      "title": "Next.js Releases v16.5.0-canary.4",
+      "category": "web",
+      "date": "2026-10-09",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "Misc Changes docs: align function sidebar titles: #99858 Fix telemetry delivery on Node.js 24: #99842 [test] Authenticate deploy tests via VERCEL_TOKEN instead of shared auth.json: #99846 Replace deprecated React.FormEve…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "react",
+        "next.js",
+        "node.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.4",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
       "slug": "auto-112b5f0087",
       "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
       "category": "ai",
@@ -144,6 +280,82 @@
       "source": {
         "name": "OpenAI",
         "url": "https://openai.com/index/oracle",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-a6e8335473",
+      "title": "Vite Releases v8.3.4",
+      "category": "web",
+      "date": "2026-10-08",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "Features bundled-dev: support import.meta.hot.acceptExports ( #23463 ) ( bc0f21c ) Bug Fixes avoid mutating hmr defaults (fix #23575 ) ( #23576 ) ( 574d5e3 ) build: correct preloads when chunkImportMap is enabled with no…",
+      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vite"
+      ],
+      "source": {
+        "name": "Vite Releases",
+        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.4",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-ca1ec6c6a1",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "category": "ai",
+      "date": "2026-10-08",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/pollo-ai",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-f6d3626eb7",
+      "title": "LegalOn halves Codex costs while maintaining development speed",
+      "category": "ai",
+      "date": "2026-10-08",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/legalon-halves-codex-costs",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-d7d8572a2a",
+      "title": "OpenAI Node SDK Releases v7.30.1",
+      "category": "ai",
+      "date": "2026-10-08",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "7.30.1 (2026-10-08) Bug Fixes api: correct custom voice creation parameters ( #2895 ) ( 3edaf0f ) deps-dev: bump @aws-sdk/credential-provider-node from 3.972.83 to 3.972.84 ( #2877 ) ( 0878349 ) deps-dev: bump @smithy/si…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.30.1",
         "kind": "primary"
       },
       "auto": true
@@ -201,6 +413,82 @@
         "name": "Publickey",
         "url": "https://www.publickey1.jp/blog/26/awsduckdbaurora_postgresqletl.html",
         "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-d5479ef053",
+      "title": "OpenAI Node SDK Releases v7.30.0",
+      "category": "ai",
+      "date": "2026-10-07",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "7.30.0 (2026-10-06) Features api: add standalone Decisions support ( #2886 ) ( 7195644 )",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.30.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-f7c3be67df",
+      "title": "Vite Releases v8.3.3",
+      "category": "web",
+      "date": "2026-10-06",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "Bug Fixes deps: update launch-editor to v2.14.2 ( #23654 ) ( 22fd1d5 ) html: filename passed to transformIndexHtml should not include queries ( #23653 ) ( 7dafd8e ) server: check fs.serve for ?vite-wasm-instance ( #23655…",
+      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vite"
+      ],
+      "source": {
+        "name": "Vite Releases",
+        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.3",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-af9cf432c3",
+      "title": "Vite Releases v6.4.4",
+      "category": "web",
+      "date": "2026-10-06",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "Please refer to CHANGELOG.md for details.",
+      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vite"
+      ],
+      "source": {
+        "name": "Vite Releases",
+        "url": "https://github.com/vitejs/vite/releases/tag/v6.4.4",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-27360c9342",
+      "title": "Vite Releases v7.3.7",
+      "category": "web",
+      "date": "2026-10-06",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "Please refer to CHANGELOG.md for details.",
+      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vite"
+      ],
+      "source": {
+        "name": "Vite Releases",
+        "url": "https://github.com/vitejs/vite/releases/tag/v7.3.7",
+        "kind": "primary"
       },
       "auto": true
     },
@@ -331,6 +619,65 @@
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/10/2/this-week-in-rails",
         "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-154917f8f2",
+      "title": "Rails World 2026 recap: All talks online",
+      "category": "web",
+      "date": "2026-10-01",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "Happy to report that in record time , all Rails World 2026 talks are now online. Find the full playlist here .…",
+      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "rails"
+      ],
+      "source": {
+        "name": "Ruby on Rails",
+        "url": "https://rubyonrails.org/2026/10/1/rails-world-2026-recap",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-9f6617c075",
+      "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
+      "category": "cloud",
+      "date": "2026-10-01",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "Today, we’re announcing a new capability for Amazon Aurora PostgreSQL that you can use to directly query operational data together with data stored in your data lake in Apache Iceberg and Apache Parquet formats, using yo…",
+      "why": "「aurora、postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "aurora",
+        "postgresql"
+      ],
+      "source": {
+        "name": "AWS News Blog",
+        "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-8ff109d9c8",
+      "title": "JavaScriptの統合ツールチェーン「Vite+ 1.0」正式リリース。ランタイム、パッケージマネージャー、ビルドツール、リンター、フォーマッターなどを統一",
+      "category": "cloud",
+      "date": "2026-10-01",
+      "collectedAt": "2026-10-10T18:08:22+09:00",
+      "summary": "JavaScript用ビルドツール「Vite」（ヴィットあるいはヴィート）を開発しているVoidZeroは、Viteを含むJavaScriptの統合ツールチェーン「Vite+」がバージョン1.0に到達したことを発表しました。…",
+      "why": "「vite、javascript」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "vite",
+        "javascript"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/javascriptvite_10.html",
+        "kind": "roundup"
       },
       "auto": true
     }
