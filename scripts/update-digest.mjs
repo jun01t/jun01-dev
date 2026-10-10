@@ -1,7 +1,8 @@
+import { isItem } from '../src/lib/discovery.mjs'
 import { createHash } from 'node:crypto'
-import { readFile, writeFile } from 'node:fs/promises'
+import { readFile, writeFile, rename } from 'node:fs/promises'
 import { pathToFileURL } from 'node:url'
-import { cutoffDay, dayInTokyo, safeHttpUrl, timestampInTokyo } from './digest-lib.mjs'
+import { cutoffDay, dayInTokyo, safeHttpUrl, timestampInTokyo, normalizeUrl } from './digest-lib.mjs'
 
 const OUT = new URL('../public/digest.json', import.meta.url)
 const MAX_AGE_DAYS = 21
@@ -121,11 +122,15 @@ const rules = [
   { category: 'gadget', words: gadgetWords },
 ]
 
+function safeCodePoint(code) {
+  return Number.isInteger(code) && code >= 0 && code <= 0x10ffff && !(code >= 0xd800 && code <= 0xdfff) ? String.fromCodePoint(code) : '�'
+}
+
 function decode(text) {
   return text
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
-    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
-    .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCodePoint(parseInt(code, 16)))
+    .replace(/&#(\d+);/g, (_, code) => safeCodePoint(Number(code)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, code) => safeCodePoint(parseInt(code, 16)))
     .replace(/&quot;/g, '"')
     .replace(/&apos;|&#39;/g, "'")
     .replace(/&lt;/g, '<')
@@ -148,18 +153,17 @@ function tagText(block, name) {
 }
 
 function linkOf(block) {
-  const text = block.match(/<link>([^<]+)<\/link>/i)
-  if (text) return decode(text[1].trim())
+  const text = block.match(/<link\b[^>]*>([\s\S]*?)<\/link>/i)
+  if (text) return decode(text[1].trim()).trim()
   const tags = [...block.matchAll(/<link\b([^>]*)\/?>/gi)]
-  let fallback = ''
   for (const tag of tags) {
-    const href = tag[1].match(/\bhref="([^"]+)"/i)
+    const href = tag[1].match(/\bhref=["']([^"']+)["']/i)
     if (!href) continue
-    const rel = tag[1].match(/\brel="([^"]+)"/i)
+    const rel = tag[1].match(/\brel=["']([^"']+)["']/i)
     if (!rel || rel[1] === 'alternate') return decode(href[1])
-    fallback ||= decode(href[1])
+    // Atom self/enclosure links are not article URLs.
   }
-  return fallback
+  return ''
 }
 
 function dateOf(block) {
@@ -209,18 +213,22 @@ function slugFor(url) {
 
 async function readPrevious() {
   try {
-    return JSON.parse(await readFile(OUT, 'utf8'))
-  } catch {
-    return null
+    const data = JSON.parse(await readFile(OUT, 'utf8'))
+    if (!data || !Array.isArray(data.items) || !data.items.every(isItem)) throw new Error('Invalid digest')
+    return data
+  } catch (error) {
+    if (error.code === 'ENOENT') return null
+    throw new Error('Previous digest could not be read; refusing to overwrite it', { cause: error })
   }
 }
 
 export function buildItem(feed, block, now = new Date()) {
   const rawTitle = tagText(block, 'title')
   const title = /^(v?\d+\.\d+)/i.test(rawTitle) ? `${feed.name} ${rawTitle}` : rawTitle
-  const url = safeHttpUrl(linkOf(block))
+  const rawUrl = safeHttpUrl(linkOf(block))
+  const url = normalizeUrl(rawUrl)
   const date = dateOf(block)
-  if (!rawTitle || !url || !date || dayInTokyo(date) < cutoffDay(now, MAX_AGE_DAYS)) return null
+  if (!rawTitle || !url || !date || date.getTime() > now.getTime() || dayInTokyo(date) < cutoffDay(now, MAX_AGE_DAYS)) return null
   if (/todays_sales|yajiuma|dependabot/i.test(url + title)) return null
   const summary = excerpt(
     [tagText(block, 'description'), tagText(block, 'summary'), tagText(block, 'content'), tagText(block, 'content:encoded')]
@@ -236,10 +244,11 @@ export function buildItem(feed, block, now = new Date()) {
     ? `${feed.name}の更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。`
     : `「${words.join('、')}」に触れているので拾いました。全文の判断は出典を見てください。`
   return {
-    slug: slugFor(url),
+    slug: slugFor(rawUrl),
     title,
     category: feed.category,
     date: dayInTokyo(date),
+    collectedAt: timestampInTokyo(now),
     summary: summary || title,
     why,
     points: [],
@@ -264,25 +273,29 @@ async function fetchFeed(feed, now) {
     const item = buildItem(feed, block, now)
     if (!item) continue
     picked.push(item)
-    if (picked.length >= PER_FEED) break
   }
-  return picked
+  return picked.sort((a, b) => b.sort - a.sort).slice(0, PER_FEED)
 }
 
 export function assembleItems(fresh, previousItems, now = new Date(), failedSources = new Set()) {
   const cutoff = cutoffDay(now, MAX_AGE_DAYS)
-  const seen = new Set(fresh.map((item) => item.source.url))
+  const previousByUrl = new Map((Array.isArray(previousItems) ? previousItems : []).filter(item => item?.source?.url).map(item => [normalizeUrl(item.source.url), item]))
+  fresh = fresh.map(item => {
+    const previous = previousByUrl.get(normalizeUrl(item.source.url))
+    return previous ? { ...item, slug: previous.slug, collectedAt: previous.collectedAt } : item
+  })
+  const seen = new Set(fresh.map((item) => normalizeUrl(item.source.url)))
   const kept = (previousItems ?? []).flatMap((item) => {
-    if (!item?.source?.url || !failedSources.has(item.source?.name) || seen.has(item.source.url)) return []
+    if (!safeHttpUrl(item?.source?.url) || seen.has(normalizeUrl(item.source.url))) return []
     if (/release highlights could not be determined/i.test(item.summary ?? '')) return []
-    if (typeof item.date !== 'string' || item.date < cutoff) return []
+    if (typeof item.date !== 'string' || item.date < cutoff || !Number.isFinite(Date.parse(item.date)) || Date.parse(item.date) > now.getTime()) return []
     const time = Date.parse(item.date)
     return [{ ...item, sort: Number.isNaN(time) ? 0 : time }]
   })
 
   const ranked = [...fresh, ...kept]
     .sort((a, b) => (b.sort ?? 0) - (a.sort ?? 0) || String(b.date).localeCompare(String(a.date)))
-    .filter((item, index, list) => list.findIndex((other) => other.source.url === item.source.url) === index)
+    .filter((item, index, list) => list.findIndex((other) => normalizeUrl(other.source.url) === normalizeUrl(item.source.url)) === index)
 
   const perSource = new Map()
   const items = []
@@ -301,7 +314,8 @@ export function signature(list) {
   return JSON.stringify(list.map((item) => [item.slug, item.title, item.date, item.summary, item.category, item.source.url]))
 }
 
-export function planDigest(previous, items) {
+export function planDigest(previous, items, allFailed = false) {
+  if (allFailed) return { write: false, exitCode: 1 }
   if (items.length === 0 && !previous) return { write: false, exitCode: 1 }
   if (previous && signature(previous.items ?? []) === signature(items)) return { write: false, exitCode: 0 }
   return { write: true, exitCode: 0 }
@@ -326,8 +340,12 @@ async function main() {
     }
   }
 
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    await writeFile(process.env.GITHUB_STEP_SUMMARY, `## Digest collection\n\nSucceeded: ${feeds.length - errors.length}/${feeds.length} feeds\n\n${errors.map(error => `- ${error}`).join('\n')}\n`, { flag: 'a' })
+  }
   const items = assembleItems(fresh, previous?.items, now, failedSources)
-  const plan = planDigest(previous, items)
+  if (!items.every(isItem)) throw new Error('Invalid collected item; refusing to overwrite digest')
+  const plan = planDigest(previous, items, errors.length === feeds.length)
   if (!plan.write) {
     if (plan.exitCode !== 0) console.error(errors.join('\n') || 'no items')
     else console.log('unchanged')
@@ -338,7 +356,9 @@ async function main() {
     updatedAt: timestampInTokyo(now),
     items,
   }
-  await writeFile(OUT, `${JSON.stringify(digest, null, 2)}\n`)
+  const temporary = new URL('../public/digest.json.tmp', import.meta.url)
+  await writeFile(temporary, `${JSON.stringify(digest, null, 2)}\n`)
+  await rename(temporary, OUT)
   console.log(`wrote ${items.length} items`)
 }
 

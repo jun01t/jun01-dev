@@ -1,4 +1,4 @@
-import { copyFileSync, mkdirSync, readFileSync } from 'node:fs'
+import { copyFileSync, mkdirSync, readFileSync, existsSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { pathToFileURL } from 'node:url'
 
@@ -17,6 +17,7 @@ export function collectSlugs(editorialSource, digest) {
 
 function copyRoute(dist, routePath) {
   const target = join(dist, routePath, 'index.html')
+  if (existsSync(target)) return
   mkdirSync(dirname(target), { recursive: true })
   copyFileSync(join(dist, 'index.html'), target)
 }
@@ -24,7 +25,7 @@ function copyRoute(dist, routePath) {
 function main() {
   const dist = 'dist'
   const index = join(dist, 'index.html')
-  copyFileSync(index, join(dist, '404.html'))
+  writeFileSync(join(dist, '404.html'), readFileSync(index, 'utf8').replace(/<link rel="canonical"[^>]*>/g, '').replace('</head>', '<meta name="robots" content="noindex"></head>'))
   copyRoute(dist, 'archive')
   copyRoute(dist, 'lens')
   const digest = JSON.parse(readFileSync('public/digest.json', 'utf8'))

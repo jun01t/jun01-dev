@@ -42,9 +42,22 @@ export function safeHttpUrl(value) {
   const trimmed = value.trim()
   try {
     const url = new URL(trimmed)
-    if (url.protocol !== 'http:' && url.protocol !== 'https:') return ''
+    if ((url.protocol !== 'http:' && url.protocol !== 'https:') || url.username || url.password) return ''
     return trimmed
   } catch {
     return ''
   }
+}
+
+/** @param {string} value */
+export function normalizeUrl(value) {
+  const safe = safeHttpUrl(value)
+  if (!safe) return ''
+  const url = new URL(safe)
+  url.hash = ''
+  for (const key of [...url.searchParams.keys()]) {
+    if (/^utm_/i.test(key) || ['fbclid', 'gclid'].includes(key)) url.searchParams.delete(key)
+  }
+  url.searchParams.sort()
+  return url.href
 }
