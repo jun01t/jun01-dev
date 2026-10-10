@@ -14,7 +14,7 @@ npm run dev
 
 ## 毎日の更新
 
-`npm run update` が、Cursor、Claude Code、Claude Platform、Codex、OpenAI News、Rails、Nuxt、Vue、Terraform、AWS、Publickey、PC Watch の公開フィードを読みます。OpenAI News は ChatGPT、GPT、Codex、Sora に触れている記事だけ残します。Codex の更新一覧は、Codex や ChatGPT のように机のキーワードへ触れている項目だけ残します。モデルAPIは使わないので、収集に料金はかかりません。中身が同じ日はファイルを書き換えません。
+`npm run update` が、Cursor、Claude Code、Claude Platform、Codex、OpenAI News、OpenAI Node SDK、Rails、Nuxt、Vue、React、Next.js、TypeScript、Vite、Terraform、AWS、Publickey、PC Watch の公開フィードを読みます。OpenAI News は ChatGPT、GPT、Codex、Sora に触れている記事だけ残します。Codex の更新一覧は、Codex や ChatGPT のように机のキーワードへ触れている項目だけ残します。モデルAPIは使わないので、収集に料金はかかりません。中身が同じ日はファイルを書き換えません。
 
 GitHub Actions が毎日 8:00 JST に同じ処理を実行します。変化があったときだけコミットして push するので、このリポジトリにつながった Cloudflare Pages、Vercel、Netlify は、その push で再ビルドされます。GitHub Pages を「GitHub Actions」から配信する設定にしていれば、同じワークフローが Pages にも載せて更新します。
 
@@ -53,7 +53,7 @@ PAGES_BASE=/jun01-dev/ SITE_URL=https://jun01t.github.io/jun01-dev/ npm run buil
 
 ## 収集の障害時
 
-一部フィードが失敗しても継続し、前回の記事は既存の21日・最大18件・1ソース2件の範囲で保持します。追跡用クエリとフラグメントを除いて重複判定し、既存記事と一致した場合はスラッグと初回収集日時を引き継ぎます。過去データにない初回収集日時は推測で補完しません。新規収集時から記録します。
+一部フィードが失敗しても継続し、前回の記事は既存の21日・最大36件・1ソース4件の範囲で保持します。1フィードからは最大8件を取得します。追跡用クエリとフラグメントを除いて重複判定し、既存記事と一致した場合はスラッグと初回収集日時を引き継ぎます。過去データにない初回収集日時は推測で補完しません。新規収集時から記録します。
 
 全フィードの取得に失敗した場合、または既存ファイルが破損している場合は失敗終了し、既存ファイルを上書きしません。出力は一時ファイルからの置換です。Actionsのサマリーにフィード成功数とエラーを記録します。失敗通知の配信先はGitHubの本人のActions通知設定に従います（メールや外部サービスの通知設定は変更していません）。
 

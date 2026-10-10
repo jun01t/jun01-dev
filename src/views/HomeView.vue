@@ -12,7 +12,7 @@ const collected = computed(() => rankItems(getItems().filter(item => item.auto),
 const recent = computed(() => collected.value.filter(item => ageInDays(item, now) >= 0 && ageInDays(item, now) < 7))
 const selected = computed(() => recent.value.filter(item => !interests.value.length || interests.value.some(id => topicsFor(item).includes(id))))
 const top = computed(() => selected.value.slice(0, 3))
-const shelves = computed(() => categories.map(category => ({ ...category, items: selected.value.filter(item => item.category === category.id).slice(0, 2) })))
+const shelves = computed(() => categories.map(category => ({ ...category, items: selected.value.filter(item => item.category === category.id).slice(0, 4) })))
 const loadFailed = digestLoadFailed()
 const updatedAt = getUpdatedAt()
 const lead = items.find((item) => item.lead)
@@ -32,7 +32,7 @@ const gadgets = items
     </p>
     <h1 class="display xl">机に置くものだけを、毎朝集めている。</h1>
     <p class="dek">
-      Rails、Nuxt、Cursor、Claude、Claude Code、Codex、ChatGPT、OpenAI、AWS、デスク周りの公開フィードから、キーワードが一致した抜粋です。収集にAPI料金はかかっていません。
+      Rails、Nuxt、React、Next.js、TypeScript、Vite、Cursor、Claude Code、Codex、ChatGPT、OpenAI、AWS、デスク周りの公開フィードから、キーワードが一致した抜粋です。収集にAPI料金はかかっていません。
       <template v-if="updatedAt">最終更新は {{ formatDate(updatedAt) }} です。</template>
     </p>
 
