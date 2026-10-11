@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-10-10T18:08:22+09:00",
+  "updatedAt": "2026-10-11T10:33:16+09:00",
   "items": [
+    {
+      "slug": "auto-676825e5d4",
+      "title": "Next.js Releases v16.5.0-canary.8",
+      "category": "web",
+      "date": "2026-10-11",
+      "collectedAt": "2026-10-11T10:33:16+09:00",
+      "summary": "Core Changes Don't parse error message lines as stack frames in the server error inspector: #99888 Turbopack: Remove webp feature flag, always build with webp enabled: #99964 Misc Changes [turbopack] Remove per-shard mod…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.8",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-fd90870cc5",
       "title": "Vue Releases v3.6.0-rc.11",
@@ -240,27 +259,6 @@
       "source": {
         "name": "Next.js Releases",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.5",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-44827ede44",
-      "title": "Next.js Releases v16.5.0-canary.4",
-      "category": "web",
-      "date": "2026-10-09",
-      "collectedAt": "2026-10-10T18:08:22+09:00",
-      "summary": "Misc Changes docs: align function sidebar titles: #99858 Fix telemetry delivery on Node.js 24: #99842 [test] Authenticate deploy tests via VERCEL_TOKEN instead of shared auth.json: #99846 Replace deprecated React.FormEve…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "react",
-        "next.js",
-        "node.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.4",
         "kind": "primary"
       },
       "auto": true
