@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T10:33:16+09:00",
+  "updatedAt": "2026-10-12T11:03:14+09:00",
   "items": [
     {
       "slug": "auto-676825e5d4",
@@ -191,6 +191,24 @@
       "auto": true
     },
     {
+      "slug": "auto-cb3b6ad51f",
+      "title": "Codex CLI Release: 0.162.1",
+      "category": "ai",
+      "date": "2026-10-09",
+      "summary": "Bug Fixes Fixed a TUI crash when asynchronous questions contain multiple lines, preserving line breaks and complete hyperlink destinations.…",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
       "slug": "auto-0b2b6437e9",
       "title": "Claude Platform release notes — October 9, 2026",
       "category": "ai",
@@ -354,25 +372,6 @@
       "source": {
         "name": "OpenAI Node SDK Releases",
         "url": "https://github.com/openai/openai-node/releases/tag/v7.30.1",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-cb3b6ad51f",
-      "title": "GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
-      "category": "ai",
-      "date": "2026-10-08",
-      "summary": "# GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work Ultrafast mode speeds up token generation with GPT-6.1 Sol in Codex and ChatGPT Work. Ultrafast is available on Pro $500 and eligible Enterprise and Edu plans.…",
-      "why": "「codex、chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex",
-        "chatgpt"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/",
         "kind": "primary"
       },
       "auto": true
