@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-15T10:12:32+09:00",
+  "updatedAt": "2026-10-16T09:59:55+09:00",
   "items": [
     {
-      "slug": "auto-6dfdbed8a9",
-      "title": "Next.js Releases v16.5.0-canary.12",
+      "slug": "auto-64b6f51ea7",
+      "title": "Next.js Releases v16.5.0-canary.15",
       "category": "web",
-      "date": "2026-10-15",
-      "collectedAt": "2026-10-15T10:12:32+09:00",
-      "summary": "Core Changes Upgrade from pnpm v10 to v12: #99827 Example Changes docs(examples): fix typo and update HTTP links to HTTPS in example READMEs: #99924 Misc Changes Turbopack: Avoid serde_json::RawValue conversions in a few…",
+      "date": "2026-10-16",
+      "collectedAt": "2026-10-16T09:59:55+09:00",
+      "summary": "Core Changes Hoist app page request URL into render context: #99269 Hide overlay editor button labels on smaller screens: #100266 Prefer non-partial entries regardless of FetchStrategy: #99705 [Partial Prefetching] Don't…",
       "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
@@ -15,7 +15,219 @@
       ],
       "source": {
         "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.12",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.15",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-ae9b4a663b",
+      "title": "「星のカービィ」がマウスとキーボードに！コラボ製品がKensingtonから",
+      "category": "gadget",
+      "date": "2026-10-16",
+      "collectedAt": "2026-10-16T09:59:55+09:00",
+      "summary": "アコ・ブランズ・ジャパンが展開するKensingtonブランドは、「星のカービィ」とコラボレーションした製品「星のカービィ ワイヤレス コンパクトキーボード ダッシュ(K75579JP)」と「星のカービィ ワイヤレス マウス にっこり(K75580JP)」を11月10日に発売する。実売予想価格はワイヤレスキーボードが7,980円前後、ワイヤレスマウスが4,980円前後の見込み。",
+      "why": "「キーボード、マウス」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "キーボード",
+        "マウス"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2148468.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-1748890384",
+      "title": "【PC短評】キーボードより静か！アルミ筐体の王道ミニPC「AOOSTAR MACO H255」を試した",
+      "category": "gadget",
+      "date": "2026-10-16",
+      "collectedAt": "2026-10-16T09:59:55+09:00",
+      "summary": "ディスプレイ内蔵ミニPCやNASキットなど、ユニークなミニPCを送り出しているAOOSTAR。今回はそのAOOSTARが発売する、王道ミニPC「MACO H255」を紹介する。メモリ24GB/内蔵ストレージ1TBの仕様で、Amazonでの価格は10万3,120円。",
+      "why": "「キーボード、ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "キーボード",
+        "ディスプレイ"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/column/short-review/2148059.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-b9d0b5f176",
+      "title": "Next.js Releases v16.4.2",
+      "category": "web",
+      "date": "2026-10-16",
+      "collectedAt": "2026-10-16T09:59:55+09:00",
+      "summary": "What's Changed [lts-active] turbo-tasks snapshot consistency fixes ( #99644 , #99732 , #99649 ) by @lukesandberg in #100002 [lts-active] Turbopack: backport Pages Router dev module graph chaining ( #98823 , #99910 , #100…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.2",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e54d787de1",
+      "title": "Claude Code 2.1.301",
+      "category": "ai",
+      "date": "2026-10-16",
+      "summary": "Added Added CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) ends a request at a usage limit that resets too far away instead of waiting Added OpenTelemetry traci…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-a72d1e4da6",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "category": "ai",
+      "date": "2026-10-16",
+      "collectedAt": "2026-10-16T09:59:55+09:00",
+      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-f573b8ba5a",
+      "title": "AnthropicのBun、TypeScript 7よりも3倍以上高速なTypeScript型チェッカーを搭載。Bunの新バージョン1.4.3で",
+      "category": "cloud",
+      "date": "2026-10-16",
+      "collectedAt": "2026-10-16T09:59:55+09:00",
+      "summary": "Anthropicが開発しているJavaScriptランタイム「Bun」は、10月10日付けで新バージョン「Bun v1.4.3」がリリースされました。 Bun v1.4.3の最大の特徴として示されたのが、Go言語で実装されたTypeScript 7よりも3倍以上高速だとするTypeScript型チェッカーです。 TypeScriptもバージョン7ではGo言語による実装で高速化がはかられましたが、Bunはそれを大きく上回るとしています。…",
+      "why": "「anthropic、typescript、javascript」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "anthropic",
+        "typescript",
+        "javascript"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/anthropicbuntypescript_73typescriptbun143.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-3a933d2014",
+      "title": "Next.js Releases v16.5.0-canary.14",
+      "category": "web",
+      "date": "2026-10-15",
+      "collectedAt": "2026-10-16T09:59:55+09:00",
+      "summary": "Core Changes Upgrade React from 07dde64d-20261013 to 99c106c4-20261014 : #100215 Example Changes docs: type error.js error prop as unknown: #100232 Misc Changes chore: fix turborepo cache for miri unit test job: #100241…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "react",
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.14",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-2b7708deca",
+      "title": "Next.js Releases v16.5.0-canary.13",
+      "category": "web",
+      "date": "2026-10-15",
+      "collectedAt": "2026-10-16T09:59:55+09:00",
+      "summary": "Core Changes Fix extensionless Google font URLs in both bundlers: #100158 Emit the Turbopack shared-runtime bootstrap in the PPR resume so it gets the CSP nonce: #100102 Keep requests through middleware in a single OpenT…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.13",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-4d100d21d7",
+      "title": "アイオー、320Hz/WQHD対応でMini LED採用の27型ゲーミングモニター",
+      "category": "gadget",
+      "date": "2026-10-15",
+      "collectedAt": "2026-10-16T09:59:55+09:00",
+      "summary": "アイオーデータは、ゲーミングモニター「GigaCrysta S」ブランドから「LCD-GDQ271ULAQシリーズ」を発表した。本体色がブラックの「LCD-GDQ271ULAQB」とホワイトの「LCD-GDQ271ULAQW」の2モデルを用意する。いずれも10月末出荷予定で、直販価格は7万8,980円。",
+      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2148457.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-c48db14199",
+      "title": "ChatGPT/Codexデスクトップアプリのディスク使用量が60%削減",
+      "category": "gadget",
+      "date": "2026-10-15",
+      "collectedAt": "2026-10-16T09:59:55+09:00",
+      "summary": "ChatGPTやCodexを使い込むほどストレージが圧迫される、という悩みが少し軽くなりそうだ。OpenAIのTibo氏は10月13日(米国時間)、ChatGPTおよびCodexのデスクトップアプリで、状態データをディスクに保存する方法を最適化したとX(旧Twitter)で明らかにした。これにより、ディスク上の保存容量を60%削減できる見込みだという。",
+      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "デスク"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2148359.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0b2b6437e9",
+      "title": "Claude Platform release notes — October 15, 2026",
+      "category": "ai",
+      "date": "2026-10-15",
+      "summary": "The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations.…",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude"
+      ],
+      "source": {
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
         "kind": "primary"
       },
       "auto": true
@@ -35,82 +247,6 @@
       "source": {
         "name": "OpenAI Node SDK Releases",
         "url": "https://github.com/openai/openai-node/releases/tag/v7.34.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.300",
-      "category": "ai",
-      "date": "2026-10-15",
-      "summary": "Added Added virtualText to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt Added cache_creation_5m_tokens and cache_creation_1h_tokens to the OpenTelemetry api…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-9bbbebeb27",
-      "title": "Next.js Releases v16.5.0-canary.11",
-      "category": "web",
-      "date": "2026-10-15",
-      "collectedAt": "2026-10-15T10:12:32+09:00",
-      "summary": "Core Changes Upgrade React from b618bbb4-20261007 to 07dde64d-20261013 : #100194 Remove staticInfo.rsc: #100172 fix(analyze): use route summaries as the analyzer route index: #100081 Reload on missed Turbopack startup CS…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "react",
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.11",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-b1deff00df",
-      "title": "Next.js Releases v16.4.1",
-      "category": "web",
-      "date": "2026-10-15",
-      "collectedAt": "2026-10-15T10:12:32+09:00",
-      "summary": "This release contains security fixes for the following advisories: Critical: Unauthenticated Remote Code Execution in use cache functions returning typed arrays Unauthenticated Remote Code Execution in Image Optimization…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.1",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-dbfb232c79",
-      "title": "Next.js Releases v15.5.28",
-      "category": "web",
-      "date": "2026-10-15",
-      "collectedAt": "2026-10-15T10:12:32+09:00",
-      "summary": "This release contains security fixes for the following advisories: Critical: Unauthenticated Remote Code Execution in Image Optimization API when SVG files are used High: Denial of Service in App Router using Server Acti…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v15.5.28",
         "kind": "primary"
       },
       "auto": true
@@ -249,64 +385,6 @@
       "auto": true
     },
     {
-      "slug": "auto-a6f3986b8e",
-      "title": "Windows 11の10月更新、ゲームのマウスのカクつき修正。脆弱性は1,102件",
-      "category": "gadget",
-      "date": "2026-10-14",
-      "collectedAt": "2026-10-15T10:12:32+09:00",
-      "summary": "一部のゲームでマウス入力がカクつく問題が、今月の更新で修正された。Microsoftは10月13日(現地時間)、Windows 11 バージョン26H2/25H2/24H2向けの月例累積更新プログラム「KB5127648」を公開した。",
-      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "マウス"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2148083.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-93a2ce05b9",
-      "title": "画質か速さか、ボタン1つで選べる。ASUSの31.5型有機ELモニター",
-      "category": "gadget",
-      "date": "2026-10-14",
-      "collectedAt": "2026-10-15T10:12:32+09:00",
-      "summary": "4K/240HzとフルHD/480Hzをボタン1つで切り替えられる超高速な31.5型有機ELゲーミングモニターが登場した。ASUS JAPANは、ゲーミングブランド「ROG」の31.5型4Kゲーミングモニター「ROG Strix OLED XG32UQWMS」と、26.5型WQHDゲーミングモニター「ROG Strix OLED XG27AQDMG Gen2(XG27AQDMGR)」の2機種を10月16日より順次発売する。…",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2148042.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-3a6991f5d4",
-      "title": "Perixx、人差し指で操作する40mmトラックボール搭載マウス2機種",
-      "category": "gadget",
-      "date": "2026-10-14",
-      "collectedAt": "2026-10-15T10:12:32+09:00",
-      "summary": "Perixxは、トラックボールマウス「PERIMICE-822」「PERIMICE-522」を発表した。直販価格は順に7,999円、5,999円。",
-      "why": "「マウス、トラックボール」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "マウス",
-        "トラックボール"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2148068.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-e181547094",
       "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
       "category": "ai",
@@ -346,25 +424,6 @@
       "auto": true
     },
     {
-      "slug": "auto-fe5625c31d",
-      "title": "PC Watch 15.6型×3画面を折りたたんで持ち運べるモニター、サンコーから",
-      "category": "gadget",
-      "date": "2026-10-14",
-      "collectedAt": "2026-10-15T10:12:32+09:00",
-      "summary": "サンコーは、15.6型フルHD(1,920×1,080ドット)非光沢IPSパネルを3枚備えた折りたたみ式モニター「USB1本で4画面にできる縦横回転モニター(TMMS26CBK)」を発売した。価格は7万8,980円。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2147995.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-cb3b6ad51f",
       "title": "GPT-5.5 retirement in Codex",
       "category": "ai",
@@ -379,24 +438,6 @@
       "source": {
         "name": "Codex",
         "url": "https://developers.openai.com/codex/changelog/",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-0b2b6437e9",
-      "title": "Claude Platform release notes — October 14, 2026",
-      "category": "ai",
-      "date": "2026-10-14",
-      "summary": "We've launched OpenTelemetry export in beta, so you can trace Messages API requests and Claude Managed Agents sessions in your observability backend.…",
-      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude"
-      ],
-      "source": {
-        "name": "Claude Platform",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview",
         "kind": "primary"
       },
       "auto": true
@@ -609,25 +650,6 @@
       "auto": true
     },
     {
-      "slug": "auto-90995f7dbc",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "category": "ai",
-      "date": "2026-10-09",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "why": "「gpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "gpt",
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/asana-browser-agent",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-c0812e0859",
       "title": "OpenAI Node SDK Releases v7.31.0",
       "category": "ai",
@@ -660,25 +682,6 @@
       "source": {
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/10/9/this-week-in-rails",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-a6e8335473",
-      "title": "Vite Releases v8.3.4",
-      "category": "web",
-      "date": "2026-10-08",
-      "collectedAt": "2026-10-10T18:08:22+09:00",
-      "summary": "Features bundled-dev: support import.meta.hot.acceptExports ( #23463 ) ( bc0f21c ) Bug Fixes avoid mutating hmr defaults (fix #23575 ) ( #23576 ) ( 574d5e3 ) build: correct preloads when chunkImportMap is enabled with no…",
-      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vite"
-      ],
-      "source": {
-        "name": "Vite Releases",
-        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.4",
         "kind": "primary"
       },
       "auto": true
