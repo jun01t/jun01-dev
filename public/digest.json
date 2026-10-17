@@ -1,13 +1,32 @@
 {
-  "updatedAt": "2026-10-16T09:59:55+09:00",
+  "updatedAt": "2026-10-17T10:03:30+09:00",
   "items": [
     {
-      "slug": "auto-64b6f51ea7",
-      "title": "Next.js Releases v16.5.0-canary.15",
+      "slug": "auto-e6b1b2b486",
+      "title": "OpenAI Node SDK Releases v7.36.0",
+      "category": "ai",
+      "date": "2026-10-17",
+      "collectedAt": "2026-10-17T10:03:30+09:00",
+      "summary": "7.36.0 (2026-10-16) Features api: add safety identifiers to image requests and responses ( #2957 ) ( c95ccaf )",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.36.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-1bb8cfaec9",
+      "title": "Next.js Releases v16.5.0-canary.16",
       "category": "web",
-      "date": "2026-10-16",
-      "collectedAt": "2026-10-16T09:59:55+09:00",
-      "summary": "Core Changes Hoist app page request URL into render context: #99269 Hide overlay editor button labels on smaller screens: #100266 Prefer non-partial entries regardless of FetchStrategy: #99705 [Partial Prefetching] Don't…",
+      "date": "2026-10-17",
+      "collectedAt": "2026-10-17T10:03:30+09:00",
+      "summary": "Core Changes Refactor fetchStrategy -&gt; stage and completeness: #99706 Remove dead NextNodeServer.renderHTML: #100284 Pass Server Action request metadata into App rendering: #100274 Revert \"Keep requests through middle…",
       "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
@@ -15,7 +34,157 @@
       ],
       "source": {
         "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.15",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.16",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e54d787de1",
+      "title": "Claude Code 2.1.302",
+      "category": "ai",
+      "date": "2026-10-17",
+      "summary": "Added Added CLAUDE_CODE_AUTO_MODE_MODEL to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode Added an Idle compaction row to /config for turning idle compa…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-d0762fdf15",
+      "title": "OpenAI Node SDK Releases v7.35.0",
+      "category": "ai",
+      "date": "2026-10-17",
+      "collectedAt": "2026-10-17T10:03:30+09:00",
+      "summary": "7.35.0 (2026-10-16) Features api: add Decisions prompt caching options ( #2956 ) ( 468b54e ) api: add prompt-based voice creation ( #2955 ) ( e9f788e ) api: add response error diagnostics and model notices ( #2948 ) ( 4f…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.35.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-bc85330f0e",
+      "title": "Nuxt Releases v4.6.2",
+      "category": "web",
+      "date": "2026-10-17",
+      "collectedAt": "2026-10-17T10:03:30+09:00",
+      "summary": "v4.6.2 is the next patch release. 👉 Changelog compare changes 🩹 Fixes nitro: apply useHeadSafe rules to server island head ( 493565e99 ) nitro-server: read router params from the path h3 matched ( 010f6b43d ) nitro: ma…",
+      "why": "Nuxt Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "nuxt"
+      ],
+      "source": {
+        "name": "Nuxt Releases",
+        "url": "https://github.com/nuxt/nuxt/releases/tag/v4.6.2",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-8a8c73ee86",
+      "title": "Vue Releases v3.6.0-rc.12",
+      "category": "web",
+      "date": "2026-10-16",
+      "collectedAt": "2026-10-17T10:03:30+09:00",
+      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
+      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vue"
+      ],
+      "source": {
+        "name": "Vue Releases",
+        "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.12",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0874a7f049",
+      "title": "Meta、最高性能うたう米オープンウェイト「Muse Spark Open」を公開",
+      "category": "gadget",
+      "date": "2026-10-16",
+      "collectedAt": "2026-10-17T10:03:30+09:00",
+      "summary": "これまでで最も高性能な米国製オープンウェイトモデルをうたう「Muse Spark Open」のウェイト(モデルの重み)が10月15日に公開された。Metaが提供するAIモデルで、Apple Silicon向けの最適化を施しており、M5 Ultra搭載Mac Studioを2台使用して、デスクトップでの利用も実現したとする。",
+      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "デスク"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2148782.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e76fd323d0",
+      "title": "Windows 11で画面真っ暗、デスクトップにたどり着けない不具合が解消",
+      "category": "gadget",
+      "date": "2026-10-16",
+      "collectedAt": "2026-10-17T10:03:30+09:00",
+      "summary": "Microsoftは10月13日、サインイン後に画面が真っ暗になるWindows 11の不具合に対し、修正パッチの提供を開始した。この不具合は、Windows 11バージョン26H2へのアップデートおよびその後の更新プログラムの適用後に発生していたもの。",
+      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "デスク"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2148643.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-f50edeef79",
+      "title": "Cloud Agent Canvases and Environment Improvements",
+      "category": "ai",
+      "date": "2026-10-16",
+      "collectedAt": "2026-10-17T10:03:30+09:00",
+      "summary": "Canvases from cloud agents Cloud agents can now build interactive canvases as part of their work. Share a finished canvas with your team by sending its link. Learn more about sharing canvases .…",
+      "why": "Cursor Changelogの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [],
+      "source": {
+        "name": "Cursor Changelog",
+        "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-9db4940a53",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "category": "ai",
+      "date": "2026-10-16",
+      "collectedAt": "2026-10-17T10:03:30+09:00",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt",
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
         "kind": "primary"
       },
       "auto": true
@@ -61,6 +230,25 @@
       "auto": true
     },
     {
+      "slug": "auto-64b6f51ea7",
+      "title": "Next.js Releases v16.5.0-canary.15",
+      "category": "web",
+      "date": "2026-10-16",
+      "collectedAt": "2026-10-16T09:59:55+09:00",
+      "summary": "Core Changes Hoist app page request URL into render context: #99269 Hide overlay editor button labels on smaller screens: #100266 Prefer non-partial entries regardless of FetchStrategy: #99705 [Partial Prefetching] Don't…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.15",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
       "slug": "auto-b9d0b5f176",
       "title": "Next.js Releases v16.4.2",
       "category": "web",
@@ -75,24 +263,6 @@
       "source": {
         "name": "Next.js Releases",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.4.2",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.301",
-      "category": "ai",
-      "date": "2026-10-16",
-      "summary": "Added Added CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) ends a request at a usage limit that resets too far away instead of waiting Added OpenTelemetry traci…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog",
         "kind": "primary"
       },
       "auto": true
@@ -154,63 +324,6 @@
         "name": "Next.js Releases",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.14",
         "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-2b7708deca",
-      "title": "Next.js Releases v16.5.0-canary.13",
-      "category": "web",
-      "date": "2026-10-15",
-      "collectedAt": "2026-10-16T09:59:55+09:00",
-      "summary": "Core Changes Fix extensionless Google font URLs in both bundlers: #100158 Emit the Turbopack shared-runtime bootstrap in the PPR resume so it gets the CSP nonce: #100102 Keep requests through middleware in a single OpenT…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.13",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-4d100d21d7",
-      "title": "アイオー、320Hz/WQHD対応でMini LED採用の27型ゲーミングモニター",
-      "category": "gadget",
-      "date": "2026-10-15",
-      "collectedAt": "2026-10-16T09:59:55+09:00",
-      "summary": "アイオーデータは、ゲーミングモニター「GigaCrysta S」ブランドから「LCD-GDQ271ULAQシリーズ」を発表した。本体色がブラックの「LCD-GDQ271ULAQB」とホワイトの「LCD-GDQ271ULAQW」の2モデルを用意する。いずれも10月末出荷予定で、直販価格は7万8,980円。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2148457.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-c48db14199",
-      "title": "ChatGPT/Codexデスクトップアプリのディスク使用量が60%削減",
-      "category": "gadget",
-      "date": "2026-10-15",
-      "collectedAt": "2026-10-16T09:59:55+09:00",
-      "summary": "ChatGPTやCodexを使い込むほどストレージが圧迫される、という悩みが少し軽くなりそうだ。OpenAIのTibo氏は10月13日(米国時間)、ChatGPTおよびCodexのデスクトップアプリで、状態データをディスクに保存する方法を最適化したとX(旧Twitter)で明らかにした。これにより、ディスク上の保存容量を60%削減できる見込みだという。",
-      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "デスク"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2148359.html",
-        "kind": "roundup"
       },
       "auto": true
     },
@@ -481,25 +594,6 @@
       "auto": true
     },
     {
-      "slug": "auto-ffc748cb8d",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "category": "ai",
-      "date": "2026-10-13",
-      "collectedAt": "2026-10-14T10:35:45+09:00",
-      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "gpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-787e1042eb",
       "title": "Vue Releases v3.5.44",
       "category": "web",
@@ -589,100 +683,6 @@
         "name": "Publickey",
         "url": "https://www.publickey1.jp/blog/26/denocloudflaredenocloudflare_workersdurable_objects.html",
         "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-fd90870cc5",
-      "title": "Vue Releases v3.6.0-rc.11",
-      "category": "web",
-      "date": "2026-10-10",
-      "collectedAt": "2026-10-10T18:08:22+09:00",
-      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
-      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vue"
-      ],
-      "source": {
-        "name": "Vue Releases",
-        "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.11",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-dba5e1cd16",
-      "title": "Nuxt Releases v4.6.1",
-      "category": "web",
-      "date": "2026-10-10",
-      "summary": "v4.6.1 is the next patch release. 👉 Changelog compare changes 🔥 Performance nitro: build the portable event's web view on first access ( cffb182d6 ) 🩹 Fixes vite: match vite 8.1+ optimizer messages for deps hint ( #36…",
-      "why": "Nuxt Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "nuxt",
-        "vite"
-      ],
-      "source": {
-        "name": "Nuxt Releases",
-        "url": "https://github.com/nuxt/nuxt/releases/tag/v4.6.1",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e6d9e573f0",
-      "title": "OpenAI Node SDK Releases v7.32.0",
-      "category": "ai",
-      "date": "2026-10-10",
-      "collectedAt": "2026-10-10T18:08:22+09:00",
-      "summary": "7.32.0 (2026-10-09) Features api: add agent environment suspension and expiration ( #2904 ) ( 6e4ed63 ) Bug Fixes deps: bump next from 15.5.25 to 15.5.27 in /ecosystem-tests/vercel-edge ( #2896 ) ( 88b4c05 ) runners: pre…",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.32.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-c0812e0859",
-      "title": "OpenAI Node SDK Releases v7.31.0",
-      "category": "ai",
-      "date": "2026-10-09",
-      "collectedAt": "2026-10-10T18:08:22+09:00",
-      "summary": "7.31.0 (2026-10-09) Features api: add prewarmed hosted environments ( #2898 ) ( 7a0be86 )",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.31.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-a064451e47",
-      "title": "Better ACL S3 control and more",
-      "category": "web",
-      "date": "2026-10-09",
-      "summary": "Hi, Wojtek here. Let’s explore this week’s changes in the Rails codebase. Stop setting the public-read ACL on S3 uploads for services configured with public: true Bucket owner enforced is now both the default and the rec…",
-      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "rails"
-      ],
-      "source": {
-        "name": "Ruby on Rails",
-        "url": "https://rubyonrails.org/2026/10/9/this-week-in-rails",
-        "kind": "primary"
       },
       "auto": true
     }
