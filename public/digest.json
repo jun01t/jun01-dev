@@ -1,6 +1,62 @@
 {
-  "updatedAt": "2026-10-18T09:38:47+09:00",
+  "updatedAt": "2026-10-19T09:48:36+09:00",
   "items": [
+    {
+      "slug": "auto-9f0425413c",
+      "title": "OpenAI Node SDK Releases v7.39.0",
+      "category": "ai",
+      "date": "2026-10-19",
+      "collectedAt": "2026-10-19T09:48:36+09:00",
+      "summary": "7.39.0 (2026-10-18) Features realtime: add opt-in bounded connection recovery ( #2968 ) ( 64872e5 ) Chores api: use neutral moderation examples ( #2969 ) ( 3a3b852 )",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.39.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e54d787de1",
+      "title": "Claude Code 2.1.303",
+      "category": "ai",
+      "date": "2026-10-19",
+      "summary": "Bug fixes and reliability improvements",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-895ee6bff7",
+      "title": "マイクロソフト、.NETのツールチェーンマネージャ「dotnetup」プレビュー公開。複数バージョンの.NET環境を管理可能",
+      "category": "cloud",
+      "date": "2026-10-19",
+      "collectedAt": "2026-10-19T09:48:36+09:00",
+      "summary": "マイクロソフトは、.NETの各種コマンドラインツールやC#コンパイラ、ビルドエンジン、ランタイムなどを含む.NETのツールチェーンをまとめてインストールし、バージョン管理などができるツールチェーンマネージャ「dotnetup」をパブリックプレビューとして公開しました。 Rust言語やNode.js環境では、ツールチェーンマネージャと呼ばれるコマンドが存在します。Rustでは「rustup」、Node.jsでは「nvm」がそれです。…",
+      "why": "「node.js」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "node.js"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/netdotnetupnet.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-8ae40b31bc",
       "title": "Next.js Releases v16.5.0-canary.17",
@@ -98,43 +154,6 @@
       "auto": true
     },
     {
-      "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.302",
-      "category": "ai",
-      "date": "2026-10-17",
-      "summary": "Added Added CLAUDE_CODE_AUTO_MODE_MODEL to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode Added an Idle compaction row to /config for turning idle compa…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-d0762fdf15",
-      "title": "OpenAI Node SDK Releases v7.35.0",
-      "category": "ai",
-      "date": "2026-10-17",
-      "collectedAt": "2026-10-17T10:03:30+09:00",
-      "summary": "7.35.0 (2026-10-16) Features api: add Decisions prompt caching options ( #2956 ) ( 468b54e ) api: add prompt-based voice creation ( #2955 ) ( e9f788e ) api: add response error diagnostics and model notices ( #2948 ) ( 4f…",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.35.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-bc85330f0e",
       "title": "Nuxt Releases v4.6.2",
       "category": "web",
@@ -169,25 +188,6 @@
         "name": "Vue Releases",
         "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.12",
         "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-0874a7f049",
-      "title": "Meta、最高性能うたう米オープンウェイト「Muse Spark Open」を公開",
-      "category": "gadget",
-      "date": "2026-10-16",
-      "collectedAt": "2026-10-17T10:03:30+09:00",
-      "summary": "これまでで最も高性能な米国製オープンウェイトモデルをうたう「Muse Spark Open」のウェイト(モデルの重み)が10月15日に公開された。Metaが提供するAIモデルで、Apple Silicon向けの最適化を施しており、M5 Ultra搭載Mac Studioを2台使用して、デスクトップでの利用も実現したとする。",
-      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "デスク"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2148782.html",
-        "kind": "roundup"
       },
       "auto": true
     },
@@ -263,6 +263,25 @@
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/10/16/this-week-in-rails",
         "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0874a7f049",
+      "title": "Meta、最高性能うたう米オープンウェイト「Muse Spark Open」を公開",
+      "category": "gadget",
+      "date": "2026-10-16",
+      "collectedAt": "2026-10-17T10:03:30+09:00",
+      "summary": "これまでで最も高性能な米国製オープンウェイトモデルをうたう「Muse Spark Open」のウェイト(モデルの重み)が10月15日に公開された。Metaが提供するAIモデルで、Apple Silicon向けの最適化を施しており、M5 Ultra搭載Mac Studioを2台使用して、デスクトップでの利用も実現したとする。",
+      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "デスク"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2148782.html",
+        "kind": "roundup"
       },
       "auto": true
     },
@@ -661,25 +680,6 @@
       "source": {
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/10/13/agents-on-rails-stage-3",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-41a6d90c68",
-      "title": "Announcing AWS Lambda Web Functions",
-      "category": "cloud",
-      "date": "2026-10-13",
-      "collectedAt": "2026-10-13T12:21:12+09:00",
-      "summary": "Today, we’re announcing AWS Lambda Web Functions , a new form factor that lets you run standard HTTP web applications on Lambda without rewriting your code into an event handler.…",
-      "why": "「lambda」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "lambda"
-      ],
-      "source": {
-        "name": "AWS News Blog",
-        "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
         "kind": "primary"
       },
       "auto": true
