@@ -1,6 +1,196 @@
 {
-  "updatedAt": "2026-10-20T10:34:47+09:00",
+  "updatedAt": "2026-10-21T10:16:40+09:00",
   "items": [
+    {
+      "slug": "auto-e54d787de1",
+      "title": "Claude Code 2.1.305",
+      "category": "ai",
+      "date": "2026-10-21",
+      "summary": "Added Added sandbox.allowNestedUserNamespaces so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them get around the sandbox's file protections Added CLAUDE_CODE_RETRY_WATCHD…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-04aa4eda89",
+      "title": "Next.js Releases v16.5.0-canary.21",
+      "category": "web",
+      "date": "2026-10-21",
+      "collectedAt": "2026-10-21T10:16:40+09:00",
+      "summary": "Core Changes Defer app router HMR refresh until the router is initialized: #100113 Misc Changes test: extend webpack timeout for dynamic-params-retained-cache: #100382 Credits Huge thanks to @sokra for helping!",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.21",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-5c15ed8d02",
+      "title": "Next.js Releases v16.5.0-canary.20",
+      "category": "web",
+      "date": "2026-10-21",
+      "collectedAt": "2026-10-21T10:16:40+09:00",
+      "summary": "Core Changes Upgrade React from ba39b32a-20261019 to a6792708-20261019 : #100459 Pass request headers explicitly into App request stores: #100333 Remove request from App page prerender entry point: #100331 Use render lif…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "react",
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.20",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-70e377b360",
+      "title": "Announcing TypeScript 7.1 Beta",
+      "category": "web",
+      "date": "2026-10-21",
+      "collectedAt": "2026-10-21T10:16:40+09:00",
+      "summary": "Today we’re excited to announce the beta release of TypeScript 7.1! npm install -D typescript@beta Let’s take a look at what’s new in TypeScript 7.1! Support for Import Attributes in Ambient Modules Import attributes are…",
+      "why": "TypeScript Blogの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "typescript"
+      ],
+      "source": {
+        "name": "TypeScript Blog",
+        "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-d4a0f01e33",
+      "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services",
+      "category": "cloud",
+      "date": "2026-10-21",
+      "collectedAt": "2026-10-21T10:16:40+09:00",
+      "summary": "When platform teams manage containerized applications at scale on Amazon Elastic Container Service (Amazon ECS) , configuring ingress networking for each service often becomes a bottleneck.…",
+      "why": "「ecs」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "ecs"
+      ],
+      "source": {
+        "name": "AWS News Blog",
+        "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-b3fcb2e42d",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "category": "ai",
+      "date": "2026-10-20",
+      "collectedAt": "2026-10-21T10:16:40+09:00",
+      "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/ted-taylor-restaurant",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-a84b6a7bee",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "category": "ai",
+      "date": "2026-10-20",
+      "collectedAt": "2026-10-21T10:16:40+09:00",
+      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/terminal-x",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-874a77821d",
+      "title": "直販49万5千円、ColorEdge初のOLED「CG3200X」12月発売",
+      "category": "gadget",
+      "date": "2026-10-20",
+      "collectedAt": "2026-10-21T10:16:40+09:00",
+      "summary": "EIZOは、ColorEdgeシリーズ初となるカラーマネジメント対応のQD-OLEDモニター「ColorEdge CG3200X」を12月1日に発売する。価格はオープンプライスで、直販価格は49万5,000円。",
+      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2149539.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-3d9bb23f4d",
+      "title": "create-vite@9.3.1",
+      "category": "web",
+      "date": "2026-10-20",
+      "collectedAt": "2026-10-21T10:16:40+09:00",
+      "summary": "Bug Fixes create-vite: use typescript v6 for now ( #23841 ) ( 15c85dd ) create-vite: use Vite for TanStack projects ( #23838 ) ( 467f7ac )",
+      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vite",
+        "typescript"
+      ],
+      "source": {
+        "name": "Vite Releases",
+        "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.1",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0b2b6437e9",
+      "title": "Claude Platform release notes — October 20, 2026",
+      "category": "ai",
+      "date": "2026-10-20",
+      "summary": "Inference hooks are out of beta for Claude Enterprise organizations.",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude"
+      ],
+      "source": {
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-ee8ed70aa2",
       "title": "Next.js Releases v16.5.0-canary.19",
@@ -17,24 +207,6 @@
       "source": {
         "name": "Next.js Releases",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.19",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.304",
-      "category": "ai",
-      "date": "2026-10-20",
-      "summary": "Added Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin Added decider: \"person\" to a mod's tool.check answer: only the permission dialog or a host's call…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog",
         "kind": "primary"
       },
       "auto": true
@@ -234,25 +406,6 @@
       "auto": true
     },
     {
-      "slug": "auto-8ae40b31bc",
-      "title": "Next.js Releases v16.5.0-canary.17",
-      "category": "web",
-      "date": "2026-10-18",
-      "collectedAt": "2026-10-18T09:38:47+09:00",
-      "summary": "Misc Changes turbo-persistence: prefetch multi-page SST blocks with MADV_WILLNEED: #100283 Credits Huge thanks to @lukesandberg for helping!",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.17",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-bb868251c0",
       "title": "OpenAI Node SDK Releases v7.38.0",
       "category": "ai",
@@ -311,25 +464,6 @@
       "auto": true
     },
     {
-      "slug": "auto-1bb8cfaec9",
-      "title": "Next.js Releases v16.5.0-canary.16",
-      "category": "web",
-      "date": "2026-10-17",
-      "collectedAt": "2026-10-17T10:03:30+09:00",
-      "summary": "Core Changes Refactor fetchStrategy -&gt; stage and completeness: #99706 Remove dead NextNodeServer.renderHTML: #100284 Pass Server Action request metadata into App rendering: #100274 Revert \"Keep requests through middle…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.16",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-bc85330f0e",
       "title": "Nuxt Releases v4.6.2",
       "category": "web",
@@ -380,26 +514,6 @@
       "source": {
         "name": "Cursor Changelog",
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-9db4940a53",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "category": "ai",
-      "date": "2026-10-16",
-      "collectedAt": "2026-10-17T10:03:30+09:00",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt",
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
         "kind": "primary"
       },
       "auto": true
@@ -462,44 +576,6 @@
       "auto": true
     },
     {
-      "slug": "auto-e76fd323d0",
-      "title": "Windows 11で画面真っ暗、デスクトップにたどり着けない不具合が解消",
-      "category": "gadget",
-      "date": "2026-10-16",
-      "collectedAt": "2026-10-17T10:03:30+09:00",
-      "summary": "Microsoftは10月13日、サインイン後に画面が真っ暗になるWindows 11の不具合に対し、修正パッチの提供を開始した。この不具合は、Windows 11バージョン26H2へのアップデートおよびその後の更新プログラムの適用後に発生していたもの。",
-      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "デスク"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2148643.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-a72d1e4da6",
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "category": "ai",
-      "date": "2026-10-16",
-      "collectedAt": "2026-10-16T09:59:55+09:00",
-      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "gpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-f573b8ba5a",
       "title": "AnthropicのBun、TypeScript 7よりも3倍以上高速なTypeScript型チェッカーを搭載。Bunの新バージョン1.4.3で",
       "category": "cloud",
@@ -521,19 +597,19 @@
       "auto": true
     },
     {
-      "slug": "auto-0b2b6437e9",
-      "title": "Claude Platform release notes — October 15, 2026",
+      "slug": "auto-cb3b6ad51f",
+      "title": "Codex CLI Release: 0.163.0",
       "category": "ai",
       "date": "2026-10-15",
-      "summary": "The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations.…",
-      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "summary": "New Features Open /config to search preferences across categories, change supported settings immediately, and see which changes require a restart.…",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
       "points": [],
       "tags": [
-        "claude"
+        "codex"
       ],
       "source": {
-        "name": "Claude Platform",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/",
         "kind": "primary"
       },
       "auto": true
@@ -610,82 +686,6 @@
       "source": {
         "name": "React Releases",
         "url": "https://github.com/react/react/releases/tag/v19.0.9",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-c4e1235803",
-      "title": "Terraform Releases v1.17.0-rc2",
-      "category": "cloud",
-      "date": "2026-10-14",
-      "collectedAt": "2026-10-15T10:12:32+09:00",
-      "summary": "1.17.0-rc2 (October 14, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources that ha…",
-      "why": "Terraform Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "terraform"
-      ],
-      "source": {
-        "name": "Terraform Releases",
-        "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc2",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-168a0a82b3",
-      "title": "Terraform Releases v1.16.6",
-      "category": "cloud",
-      "date": "2026-10-14",
-      "collectedAt": "2026-10-15T10:12:32+09:00",
-      "summary": "1.16.6 (October 14, 2026) BUG FIXES: cloud: terraform init can now find workspaces selected by key/value tags whose keys contain uppercase letters. ( #39306 ) test: Allow module under test to use deprecated outputs.…",
-      "why": "Terraform Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "terraform"
-      ],
-      "source": {
-        "name": "Terraform Releases",
-        "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.6",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-cb3b6ad51f",
-      "title": "GPT-5.5 retirement in Codex",
-      "category": "ai",
-      "date": "2026-10-14",
-      "summary": "# GPT-5.5 retirement in Codex Effective October 14, 2026, at noon PDT (19:00 UTC), GPT-5.5 retires from Codex for users signed in with ChatGPT.…",
-      "why": "「codex、chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex",
-        "chatgpt"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-1b098e6fcb",
-      "title": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
-      "category": "cloud",
-      "date": "2026-10-14",
-      "collectedAt": "2026-10-14T10:35:45+09:00",
-      "summary": "Some numbers are hard to picture until you sit with them for a moment. Last week we published the Prime Day 2026 metrics, and the one that stuck with me is 2.3 quadrillion: the daily requests Amazon ElastiCache peaked at…",
-      "why": "「claude」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "claude"
-      ],
-      "source": {
-        "name": "AWS News Blog",
-        "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026/",
         "kind": "primary"
       },
       "auto": true
