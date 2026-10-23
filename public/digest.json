@@ -1,31 +1,32 @@
 {
-  "updatedAt": "2026-10-22T10:13:00+09:00",
+  "updatedAt": "2026-10-23T10:12:29+09:00",
   "items": [
     {
-      "slug": "auto-db8b548c93",
-      "title": "Next.js Releases v16.5.0-canary.22",
+      "slug": "auto-9f3230e755",
+      "title": "Next.js Releases v16.5.0-canary.24",
       "category": "web",
-      "date": "2026-10-22",
-      "collectedAt": "2026-10-22T10:13:00+09:00",
-      "summary": "v16.5.0-canary.22",
+      "date": "2026-10-23",
+      "collectedAt": "2026-10-23T10:12:29+09:00",
+      "summary": "Core Changes Cap bot user-agent matching at 1KB: #100604 Pass lazy response lifecycle capabilities into App rendering: #100395 Upgrade testmode interceptors to 0.45.9: #100585 Defer React loading until fetch dedupe const…",
       "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
+        "react",
         "next.js"
       ],
       "source": {
         "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.22",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.24",
         "kind": "primary"
       },
       "auto": true
     },
     {
       "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.307",
+      "title": "Claude Code 2.1.309",
       "category": "ai",
-      "date": "2026-10-22",
-      "summary": "Added Added /claude-api api-version to move Claude API code to API version 2026-10-21 Added the claude_code.safety_event OpenTelemetry event for each tool call a permission rule, auto mode, a safety check, a hook or the…",
+      "date": "2026-10-23",
+      "summary": "Added [VSCode] Added a log warning that says what to do when dictation or the extension's own requests fail certificate verification, such as behind a TLS-inspecting proxy Changed Updated the bundled dataviz skill to acc…",
       "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
@@ -39,12 +40,12 @@
       "auto": true
     },
     {
-      "slug": "auto-9e92af7864",
-      "title": "15万円台から選べる4K/240Hz有機EL、ROGが4機種まとめて投入",
+      "slug": "auto-e2ec4b2093",
+      "title": "WQHD/240HzとHD/400Hzを両立、MSIの27型湾曲ゲーミングモニター",
       "category": "gadget",
-      "date": "2026-10-22",
-      "collectedAt": "2026-10-22T10:13:00+09:00",
-      "summary": "ASUS JAPANは、ゲーミングブランド「ROG」の4K有機ELモニター「ROG Swift OLED PG32UCWM」、「ROG Swift OLED PG27UCWM」、「ROG Strix OLED XG32UQDMS」、「ROG Strix OLED XG27UQDMS」を10月23日から順次発売する。価格はいずれもオープンプライスで、実売予想価格は15万9,120円前後から23万2,920円前後の見込み。",
+      "date": "2026-10-23",
+      "collectedAt": "2026-10-23T10:12:29+09:00",
+      "summary": "MSIは、MAGシリーズの27型湾曲ゲーミングモニター「MAG 275CQDF X24」を10月29日に発売する。価格はオープンプライスで、直販価格は3万7,800円。",
       "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
       "points": [],
       "tags": [
@@ -52,27 +53,66 @@
       ],
       "source": {
         "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2150175.html",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2150544.html",
         "kind": "roundup"
       },
       "auto": true
     },
     {
-      "slug": "auto-9352648d91",
-      "title": "ペン対応でWebカメラも備える31.5型6Kと27型5Kのクリエイター液晶「ProDesigner」",
-      "category": "gadget",
-      "date": "2026-10-22",
-      "collectedAt": "2026-10-22T10:13:00+09:00",
-      "summary": "日本エイサーは、クリエイター向け「ProDesigner」シリーズの液晶モニター「PE320QXTbmiiphcuzx」(31.5型6K)と「PE270XTbmiiphcuzx」(27型5K3K)を10月21日に発売した。価格は順に15万6,800円、12万5,800円。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "slug": "auto-5f54af7223",
+      "title": "OpenAI Node SDK Releases v7.43.0",
+      "category": "ai",
+      "date": "2026-10-23",
+      "collectedAt": "2026-10-23T10:12:29+09:00",
+      "summary": "7.43.0 (2026-10-22) Features api: Breaking change in a minor release. A Live response's Decisions question instructions can now be a string or an array of text, image, or JSON parts.…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
-        "モニター"
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.43.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-3c37a20d0d",
+      "title": "UWB+交換式バッテリ、SteelSeriesが「Sensei Pro」と「Rival Pro」発表",
+      "category": "gadget",
+      "date": "2026-10-23",
+      "collectedAt": "2026-10-23T10:12:29+09:00",
+      "summary": "SteelSeriesは10月22日、新型ゲーミングマウス「Sensei Pro」、「Sensei Pro Mini」、「Rival Pro」、「Rival Pro Mini」の4機種を発表した。いずれもUWB(Ultra Wide Band)接続と交換式バッテリを採用した無線専用モデル。ブラックは11月20日、ホワイトは12月中旬に発売予定で、価格は各3万3,310円。",
+      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "マウス"
       ],
       "source": {
         "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2150174.html",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2150543.html",
         "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-eedafc4a55",
+      "title": "Next.js Releases v16.5.0-canary.23",
+      "category": "web",
+      "date": "2026-10-22",
+      "collectedAt": "2026-10-23T10:12:29+09:00",
+      "summary": "Core Changes Upgrade React from a6792708-20261019 to ab0d927f-20261020 : #100527 Preserve deferred middleware instrumentation spans when the adapter throws: #100552 Fix cache revalidation queued during streaming: #100448…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "react",
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.23",
+        "kind": "primary"
       },
       "auto": true
     },
@@ -91,6 +131,158 @@
       "source": {
         "name": "Terraform Releases",
         "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e3fd315897",
+      "title": "Terraform Releases v1.16.7",
+      "category": "cloud",
+      "date": "2026-10-22",
+      "collectedAt": "2026-10-23T10:12:29+09:00",
+      "summary": "1.16.7 (October 22, 2026) BUG FIXES: command/test: Avoid panic when testing schema w/ deprecated values ( #39406 ) NOTES: Terraform is now built with Go 1.26.10, which no longer trusts certificates issued through a set o…",
+      "why": "Terraform Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "terraform"
+      ],
+      "source": {
+        "name": "Terraform Releases",
+        "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.7",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-73314412d4",
+      "title": "PowerToys 0.102公開。マウス操作の補助機能追加、コマンドパレット改善も",
+      "category": "gadget",
+      "date": "2026-10-22",
+      "collectedAt": "2026-10-23T10:12:29+09:00",
+      "summary": "Microsoftは10月21日、Windows向けユーティリティ「PowerToys 0.102」を公開した。マウス操作を補助する新機能のほか、Command PaletteやZoomItなどを強化した。",
+      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "マウス"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2150422.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-fbe6620278",
+      "title": "EIZO、消費電力9Wで120Hz対応のに23.8型液晶「FlexScan EV2401S」",
+      "category": "gadget",
+      "date": "2026-10-22",
+      "collectedAt": "2026-10-23T10:12:29+09:00",
+      "summary": "EIZOは、23.8型フルHD液晶モニター「FlexScan EV2401S」を2027年1月15日に発売する。価格はオープンプライスで、直販価格は6万3,800円。",
+      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2150364.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-a7eab08f55",
+      "title": "OpenAI Node SDK Releases v7.42.0",
+      "category": "ai",
+      "date": "2026-10-22",
+      "collectedAt": "2026-10-23T10:12:29+09:00",
+      "summary": "7.42.0 (2026-10-22) Features api: add voice deletion ( #3014 ) ( 2a88010 ) Bug Fixes agents: avoid repeated ancestor-path hashing ( #3010 ) ( e352050 ) api: avoid excessive work when redacting long log values ( #3012 ) (…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.42.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-ba6fa07d67",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "category": "ai",
+      "date": "2026-10-22",
+      "collectedAt": "2026-10-23T10:12:29+09:00",
+      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0b2b6437e9",
+      "title": "Claude Platform release notes — October 22, 2026",
+      "category": "ai",
+      "date": "2026-10-22",
+      "summary": "We've launched Claude Models on Google Cloud (Anthropic managed) , the Claude API operated by Anthropic and reached through your Google Cloud project. Google Cloud IAM controls access.…",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude",
+        "anthropic"
+      ],
+      "source": {
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-f240822c69",
+      "title": "On Rails — Hussain Akram &amp; Antonio Carlos de Souza: Rails Scales for the Rest of Us",
+      "category": "web",
+      "date": "2026-10-22",
+      "collectedAt": "2026-10-23T10:12:29+09:00",
+      "summary": "Hussain Akram is an engineering manager at Donorbox and Antonio Carlos de Souza (A.C.) is its chief architect, working on a Rails app that has helped nonprofits raise money online and in person for more than a decade.…",
+      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "rails"
+      ],
+      "source": {
+        "name": "Ruby on Rails",
+        "url": "https://rubyonrails.org/2026/10/22/on-rails-hussain-akram-and-antonio-carlos-de-souza-donorbox",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-db8b548c93",
+      "title": "Next.js Releases v16.5.0-canary.22",
+      "category": "web",
+      "date": "2026-10-22",
+      "collectedAt": "2026-10-22T10:13:00+09:00",
+      "summary": "v16.5.0-canary.22",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.22",
         "kind": "primary"
       },
       "auto": true
@@ -248,43 +440,6 @@
       "auto": true
     },
     {
-      "slug": "auto-9201054eeb",
-      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
-      "category": "ai",
-      "date": "2026-10-21",
-      "collectedAt": "2026-10-22T10:13:00+09:00",
-      "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/cloudflare-cyber",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-0b2b6437e9",
-      "title": "Claude Platform release notes — October 21, 2026",
-      "category": "ai",
-      "date": "2026-10-21",
-      "summary": "We've released API version 2026-10-21 . Migrating to API version 2026-10-21 shows how to upgrade.…",
-      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude"
-      ],
-      "source": {
-        "name": "Claude Platform",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-04aa4eda89",
       "title": "Next.js Releases v16.5.0-canary.21",
       "category": "web",
@@ -299,26 +454,6 @@
       "source": {
         "name": "Next.js Releases",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.21",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-5c15ed8d02",
-      "title": "Next.js Releases v16.5.0-canary.20",
-      "category": "web",
-      "date": "2026-10-21",
-      "collectedAt": "2026-10-21T10:16:40+09:00",
-      "summary": "Core Changes Upgrade React from ba39b32a-20261019 to a6792708-20261019 : #100459 Pass request headers explicitly into App request stores: #100333 Remove request from App page prerender entry point: #100331 Use render lif…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "react",
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.20",
         "kind": "primary"
       },
       "auto": true
@@ -377,65 +512,6 @@
       "source": {
         "name": "Vite Releases",
         "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.1",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-874a77821d",
-      "title": "直販49万5千円、ColorEdge初のOLED「CG3200X」12月発売",
-      "category": "gadget",
-      "date": "2026-10-20",
-      "collectedAt": "2026-10-21T10:16:40+09:00",
-      "summary": "EIZOは、ColorEdgeシリーズ初となるカラーマネジメント対応のQD-OLEDモニター「ColorEdge CG3200X」を12月1日に発売する。価格はオープンプライスで、直販価格は49万5,000円。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2149539.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-2173d0181a",
-      "title": "紙のメモを手放せないあなたへ。手書き×AIで、ミーティングメモが\"使える資産\"に変わる [Sponsored]",
-      "category": "gadget",
-      "date": "2026-10-20",
-      "collectedAt": "2026-10-20T10:34:47+09:00",
-      "summary": "業務上のメモは今も紙とペンで手書きしているという人はまだまだ多いだろう。すぐに書き始められるし、アナログな手触り感が記憶に残りやすいと感じるところもある。キーボードやマウスだと自由な位置、サイズ、形状で書くのが難しく、直感的ではなかったりするのも事実だ。なら、スタイラスペンで画面に手書きするかといっても、アナログに比べて「手軽さ」や「スピード感」に欠けている、と思う人もいるのではないだろうか。",
-      "why": "「キーボード、マウス」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "キーボード",
-        "マウス"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/topic/special/2112054.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-ee8ed70aa2",
-      "title": "Next.js Releases v16.5.0-canary.19",
-      "category": "web",
-      "date": "2026-10-20",
-      "collectedAt": "2026-10-20T10:34:47+09:00",
-      "summary": "Core Changes Show compiling status alongside DevTools issues: #100178 Pass staged fallback params into App rendering: #100408 Capture initial HMR version in dev render context: #100407 Credits Huge thanks to @auroraschar…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "aurora",
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.19",
         "kind": "primary"
       },
       "auto": true
@@ -520,25 +596,6 @@
       "auto": true
     },
     {
-      "slug": "auto-9f0425413c",
-      "title": "OpenAI Node SDK Releases v7.39.0",
-      "category": "ai",
-      "date": "2026-10-19",
-      "collectedAt": "2026-10-19T09:48:36+09:00",
-      "summary": "7.39.0 (2026-10-18) Features realtime: add opt-in bounded connection recovery ( #2968 ) ( 64872e5 ) Chores api: use neutral moderation examples ( #2969 ) ( 3a3b852 )",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.39.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-895ee6bff7",
       "title": "マイクロソフト、.NETのツールチェーンマネージャ「dotnetup」プレビュー公開。複数バージョンの.NET環境を管理可能",
       "category": "cloud",
@@ -554,25 +611,6 @@
         "name": "Publickey",
         "url": "https://www.publickey1.jp/blog/26/netdotnetupnet.html",
         "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-bb868251c0",
-      "title": "OpenAI Node SDK Releases v7.38.0",
-      "category": "ai",
-      "date": "2026-10-18",
-      "collectedAt": "2026-10-18T09:38:47+09:00",
-      "summary": "7.38.0 (2026-10-17) Features api: add typed Live sideband events ( #2964 ) ( 4be6e72 )",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.38.0",
-        "kind": "primary"
       },
       "auto": true
     },
@@ -646,44 +684,6 @@
       "source": {
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/10/16/this-week-in-rails",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-4a704a3745",
-      "title": "React Releases 19.3.1 (October 14th, 2026)",
-      "category": "web",
-      "date": "2026-10-15",
-      "collectedAt": "2026-10-15T10:12:32+09:00",
-      "summary": "React Server Components Improve transport protocol ( #37845 by @unstubbable and @eps1lon )",
-      "why": "React Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "react"
-      ],
-      "source": {
-        "name": "React Releases",
-        "url": "https://github.com/react/react/releases/tag/v19.3.1",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-4fafac46f3",
-      "title": "React Releases 19.2.9 (October 14th, 2026)",
-      "category": "web",
-      "date": "2026-10-15",
-      "collectedAt": "2026-10-15T10:12:32+09:00",
-      "summary": "React Server Components Improve transport protocol ( #37844 by @unstubbable and @eps1lon )",
-      "why": "React Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "react"
-      ],
-      "source": {
-        "name": "React Releases",
-        "url": "https://github.com/react/react/releases/tag/v19.2.9",
         "kind": "primary"
       },
       "auto": true
