@@ -1,32 +1,31 @@
 {
-  "updatedAt": "2026-10-23T10:12:29+09:00",
+  "updatedAt": "2026-10-24T10:21:19+09:00",
   "items": [
     {
-      "slug": "auto-9f3230e755",
-      "title": "Next.js Releases v16.5.0-canary.24",
-      "category": "web",
-      "date": "2026-10-23",
-      "collectedAt": "2026-10-23T10:12:29+09:00",
-      "summary": "Core Changes Cap bot user-agent matching at 1KB: #100604 Pass lazy response lifecycle capabilities into App rendering: #100395 Upgrade testmode interceptors to 0.45.9: #100585 Defer React loading until fetch dedupe const…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "slug": "auto-4dd20c36de",
+      "title": "3Dモデルまで作る「Kimi K3.1 Pro」、コーディングはOpus 5.5に肉薄",
+      "category": "gadget",
+      "date": "2026-10-24",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "オープンな大規模言語モデル(LLM)として初めてパラメータ数3T(3兆)級に到達した「Kimi K3」に、早くも改良版が登場した。Moonshot AIは10月24日(中国時間)、新しいLLM「Kimi K3.1 Pro」を発表した。同日からチャットサービス「Kimi」やデスクトップアプリ「Kimi Work」、コーディングツール「Kimi Code」、APIで提供を開始した。…",
+      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
       "points": [],
       "tags": [
-        "react",
-        "next.js"
+        "デスク"
       ],
       "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.24",
-        "kind": "primary"
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2150898.html",
+        "kind": "roundup"
       },
       "auto": true
     },
     {
       "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.309",
+      "title": "Claude Code 2.1.310",
       "category": "ai",
-      "date": "2026-10-23",
-      "summary": "Added [VSCode] Added a log warning that says what to do when dictation or the extension's own requests fail certificate verification, such as behind a TLS-inspecting proxy Changed Updated the bundled dataviz skill to acc…",
+      "date": "2026-10-24",
+      "summary": "Added Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too [Cloud sessions] Added Claude Cod…",
       "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
@@ -35,6 +34,157 @@
       "source": {
         "name": "Claude Code",
         "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-4aa6dd4a20",
+      "title": "Next.js Releases v16.5.0-canary.26",
+      "category": "web",
+      "date": "2026-10-24",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "Core Changes Turbopack: bump trace format header to TRACEv1: #99781 Pass staged fallback params directly to adapter renders: #100456 Fix navigation from global-not-found to app routes: #100592 End the cache-signal read w…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.26",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-298c8de07d",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "category": "ai",
+      "date": "2026-10-24",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e817637f82",
+      "title": "Next.js Releases v16.4.3",
+      "category": "web",
+      "date": "2026-10-23",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "Note This release is backporting bug fixes. It does not include all pending features/changes on canary.…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.3",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-7c8451f433",
+      "title": "Next.js Releases v16.5.0-canary.25",
+      "category": "web",
+      "date": "2026-10-23",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "Misc Changes Revert \"More parity for webpack loader build dependencies ( #99549 )\": #100634 Cache bundle analysis per output file: #100475 Credits Huge thanks to @mischnic and @wbinnssmith for helping!",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.25",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-ed6e82c8e9",
+      "title": "Vue Releases v3.6.0-rc.13",
+      "category": "web",
+      "date": "2026-10-23",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
+      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vue"
+      ],
+      "source": {
+        "name": "Vue Releases",
+        "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.13",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0f6142d2bb",
+      "title": "ASUS、ウェイトで重さを変えられる軽量ゲーミングマウス。TMRスティックのコントローラも",
+      "category": "gadget",
+      "date": "2026-10-23",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "ASUSは、ウェイトで重さを変えられる軽量ゲーミングマウス「ROG Gladius IV Ace Gaming Mouse」、および8Kポーリング対応でディスプレイ内蔵のコントローラ「ROG Raikiri II Pro PC Controller」を10月30日に発売する。実売予想価格はそれぞれ2万6,080円前後、3万7,280円前後の見込み。",
+      "why": "「マウス、ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "マウス",
+        "ディスプレイ"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2150623.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-32cda1537c",
+      "title": "Codex CLI Release: 0.164.0",
+      "category": "ai",
+      "date": "2026-10-23",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "New Features Save reusable prompts and slash commands in ten numbered /presets slots, with a keyboard menu for quick access.…",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-c2699a033c",
+      "title": "Safer secrets, ZJIT, and more!",
+      "category": "web",
+      "date": "2026-10-23",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "New apps stop falling back to Marshal for signed messages, the local secret file is no longer world-readable, and SQLite finally renames columns the way the database intended.…",
+      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [],
+      "source": {
+        "name": "Ruby on Rails",
+        "url": "https://rubyonrails.org/2026/10/23/this-week-in-rails",
         "kind": "primary"
       },
       "auto": true
@@ -59,25 +209,6 @@
       "auto": true
     },
     {
-      "slug": "auto-5f54af7223",
-      "title": "OpenAI Node SDK Releases v7.43.0",
-      "category": "ai",
-      "date": "2026-10-23",
-      "collectedAt": "2026-10-23T10:12:29+09:00",
-      "summary": "7.43.0 (2026-10-22) Features api: Breaking change in a minor release. A Live response's Decisions question instructions can now be a string or an array of text, image, or JSON parts.…",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.43.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-3c37a20d0d",
       "title": "UWB+交換式バッテリ、SteelSeriesが「Sensei Pro」と「Rival Pro」発表",
       "category": "gadget",
@@ -97,12 +228,12 @@
       "auto": true
     },
     {
-      "slug": "auto-eedafc4a55",
-      "title": "Next.js Releases v16.5.0-canary.23",
+      "slug": "auto-9f3230e755",
+      "title": "Next.js Releases v16.5.0-canary.24",
       "category": "web",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "collectedAt": "2026-10-23T10:12:29+09:00",
-      "summary": "Core Changes Upgrade React from a6792708-20261019 to ab0d927f-20261020 : #100527 Preserve deferred middleware instrumentation spans when the adapter throws: #100552 Fix cache revalidation queued during streaming: #100448…",
+      "summary": "Core Changes Cap bot user-agent matching at 1KB: #100604 Pass lazy response lifecycle capabilities into App rendering: #100395 Upgrade testmode interceptors to 0.45.9: #100585 Defer React loading until fetch dedupe const…",
       "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
@@ -111,7 +242,26 @@
       ],
       "source": {
         "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.23",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.24",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-5f54af7223",
+      "title": "OpenAI Node SDK Releases v7.43.0",
+      "category": "ai",
+      "date": "2026-10-23",
+      "collectedAt": "2026-10-23T10:12:29+09:00",
+      "summary": "7.43.0 (2026-10-22) Features api: Breaking change in a minor release. A Live response's Decisions question instructions can now be a string or an array of text, image, or JSON parts.…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.43.0",
         "kind": "primary"
       },
       "auto": true
@@ -151,44 +301,6 @@
         "name": "Terraform Releases",
         "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.7",
         "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-73314412d4",
-      "title": "PowerToys 0.102公開。マウス操作の補助機能追加、コマンドパレット改善も",
-      "category": "gadget",
-      "date": "2026-10-22",
-      "collectedAt": "2026-10-23T10:12:29+09:00",
-      "summary": "Microsoftは10月21日、Windows向けユーティリティ「PowerToys 0.102」を公開した。マウス操作を補助する新機能のほか、Command PaletteやZoomItなどを強化した。",
-      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "マウス"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2150422.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-fbe6620278",
-      "title": "EIZO、消費電力9Wで120Hz対応のに23.8型液晶「FlexScan EV2401S」",
-      "category": "gadget",
-      "date": "2026-10-22",
-      "collectedAt": "2026-10-23T10:12:29+09:00",
-      "summary": "EIZOは、23.8型フルHD液晶モニター「FlexScan EV2401S」を2027年1月15日に発売する。価格はオープンプライスで、直販価格は6万3,800円。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2150364.html",
-        "kind": "roundup"
       },
       "auto": true
     },
@@ -264,25 +376,6 @@
       "source": {
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/10/22/on-rails-hussain-akram-and-antonio-carlos-de-souza-donorbox",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-db8b548c93",
-      "title": "Next.js Releases v16.5.0-canary.22",
-      "category": "web",
-      "date": "2026-10-22",
-      "collectedAt": "2026-10-22T10:13:00+09:00",
-      "summary": "v16.5.0-canary.22",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.22",
         "kind": "primary"
       },
       "auto": true
@@ -383,25 +476,6 @@
       "auto": true
     },
     {
-      "slug": "auto-edef63b51a",
-      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "category": "ai",
-      "date": "2026-10-21",
-      "collectedAt": "2026-10-22T10:13:00+09:00",
-      "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/building-chatgpt-ad-stack",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-1899c85735",
       "title": "Vite Releases v8.3.5",
       "category": "web",
@@ -435,25 +509,6 @@
       "source": {
         "name": "Vite Releases",
         "url": "https://github.com/vitejs/vite/releases/tag/v6.4.5",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-04aa4eda89",
-      "title": "Next.js Releases v16.5.0-canary.21",
-      "category": "web",
-      "date": "2026-10-21",
-      "collectedAt": "2026-10-21T10:16:40+09:00",
-      "summary": "Core Changes Defer app router HMR refresh until the router is initialized: #100113 Misc Changes test: extend webpack timeout for dynamic-params-retained-cache: #100382 Credits Huge thanks to @sokra for helping!",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.21",
         "kind": "primary"
       },
       "auto": true
@@ -629,61 +684,6 @@
       "source": {
         "name": "Nuxt Releases",
         "url": "https://github.com/nuxt/nuxt/releases/tag/v4.6.2",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-8a8c73ee86",
-      "title": "Vue Releases v3.6.0-rc.12",
-      "category": "web",
-      "date": "2026-10-16",
-      "collectedAt": "2026-10-17T10:03:30+09:00",
-      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
-      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vue"
-      ],
-      "source": {
-        "name": "Vue Releases",
-        "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.12",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-f50edeef79",
-      "title": "Cloud Agent Canvases and Environment Improvements",
-      "category": "ai",
-      "date": "2026-10-16",
-      "collectedAt": "2026-10-17T10:03:30+09:00",
-      "summary": "Canvases from cloud agents Cloud agents can now build interactive canvases as part of their work. Share a finished canvas with your team by sending its link. Learn more about sharing canvases .…",
-      "why": "Cursor Changelogの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [],
-      "source": {
-        "name": "Cursor Changelog",
-        "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-a062d9c80d",
-      "title": "Faster blank? checks, safer SQLite rollbacks, and more!",
-      "category": "web",
-      "date": "2026-10-16",
-      "collectedAt": "2026-10-18T09:38:47+09:00",
-      "summary": "Hi, it’s Vipul . Let’s explore this week’s changes in the Rails codebase. Agents on Rails: Can a model build on its own work? Stage 3 adds multi-step tasks where each ticket starts a fresh session, while files and notes…",
-      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "rails"
-      ],
-      "source": {
-        "name": "Ruby on Rails",
-        "url": "https://rubyonrails.org/2026/10/16/this-week-in-rails",
         "kind": "primary"
       },
       "auto": true
