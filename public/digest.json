@@ -1,9 +1,29 @@
 {
-  "updatedAt": "2026-10-24T10:21:19+09:00",
+  "updatedAt": "2026-10-25T09:49:17+09:00",
   "items": [
     {
+      "slug": "auto-5f814b2039",
+      "title": "Next.js Releases v16.5.0-canary.27",
+      "category": "web",
+      "date": "2026-10-25",
+      "collectedAt": "2026-10-25T09:49:17+09:00",
+      "summary": "Core Changes Build the inline Flight script from React's strings instead of re-encoding them: #100142 Fix dist dir lockfile on filesystems with no or limited lockfile implementations (e.g.…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "react",
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.27",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
       "slug": "auto-4dd20c36de",
-      "title": "3Dモデルまで作る「Kimi K3.1 Pro」、コーディングはOpus 5.5に肉薄",
+      "title": "Opus 5.5肉薄のコーディング性能、3Dも作る3兆級LLM「Kimi K3.1 Pro」。11月4日までにオープンウェイト化",
       "category": "gadget",
       "date": "2026-10-24",
       "collectedAt": "2026-10-24T10:21:19+09:00",
@@ -224,26 +244,6 @@
         "name": "PC Watch",
         "url": "https://pc.watch.impress.co.jp/docs/news/2150543.html",
         "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-9f3230e755",
-      "title": "Next.js Releases v16.5.0-canary.24",
-      "category": "web",
-      "date": "2026-10-23",
-      "collectedAt": "2026-10-23T10:12:29+09:00",
-      "summary": "Core Changes Cap bot user-agent matching at 1KB: #100604 Pass lazy response lifecycle capabilities into App rendering: #100395 Upgrade testmode interceptors to 0.45.9: #100585 Defer React loading until fetch dedupe const…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "react",
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.24",
-        "kind": "primary"
       },
       "auto": true
     },
