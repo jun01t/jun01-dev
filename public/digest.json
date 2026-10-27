@@ -1,6 +1,237 @@
 {
-  "updatedAt": "2026-10-25T09:49:17+09:00",
+  "updatedAt": "2026-10-27T10:49:07+09:00",
   "items": [
+    {
+      "slug": "auto-8ad3f0d623",
+      "title": "Nuxt Releases v4.6.3",
+      "category": "web",
+      "date": "2026-10-27",
+      "collectedAt": "2026-10-27T10:49:07+09:00",
+      "summary": "v4.6.3 is the next patch release. 👉 Changelog compare changes 🚨 Security fixes vite: do not read files named in client error reports ( 63299e13c ) - GHSA-x287-wcfc-q46c vite: deny dev server access to nitro dev output…",
+      "why": "Nuxt Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "nuxt",
+        "vite"
+      ],
+      "source": {
+        "name": "Nuxt Releases",
+        "url": "https://github.com/nuxt/nuxt/releases/tag/v4.6.3",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-db327011e5",
+      "title": "Next.js Releases v16.5.0-canary.28",
+      "category": "web",
+      "date": "2026-10-27",
+      "collectedAt": "2026-10-27T10:49:07+09:00",
+      "summary": "Core Changes Fix draft mode rendering with Cache Components: #100728 Render complete HTML documents after MPA Server Actions: #100740 Turbopack: add minServerChunkSize and maxMergeServerChunkSize options: #100712 test: r…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.28",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e54d787de1",
+      "title": "Claude Code 2.1.311",
+      "category": "ai",
+      "date": "2026-10-27",
+      "summary": "Added Added --hold-idle-file and --max-hold-min to self-hosted-runner , to keep an idle session while your host reports processes it left running Added a tip for the Explanatory output style, shown when you ask Claude fo…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-250e5d8f30",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "category": "ai",
+      "date": "2026-10-27",
+      "collectedAt": "2026-10-27T10:49:07+09:00",
+      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "why": "「gpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "gpt",
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/greptile-code-review-codex-astra",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-c1ed6b0157",
+      "title": "OpenAI Node SDK Releases v7.45.0",
+      "category": "ai",
+      "date": "2026-10-27",
+      "collectedAt": "2026-10-27T10:49:07+09:00",
+      "summary": "7.45.0 (2026-10-26) Features api: add gpt-6.1-terra model identifier ( #3054 ) ( f8120e5 ) Bug Fixes deps-dev: bump @cloudflare/workers-types from 5.20261011.1 to 5.20261018.1 in /ecosystem-tests/cloudflare-worker ( #303…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai",
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.45.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0dc45b9e04",
+      "title": "ついにiPad miniも有機EL！厚さ5.4mmで防水防塵、A20 Pro搭載",
+      "category": "gadget",
+      "date": "2026-10-27",
+      "collectedAt": "2026-10-27T10:49:07+09:00",
+      "summary": "iPad miniにもついに有機ELがやってきた。Appleは10月26日、8.5型有機ELディスプレイとA20 Proプロセッサを搭載したタブレット「iPad mini(A20 Pro)」を発表した。10月29日より予約開始し、11月6日に発売する。価格はWi-Fiモデルが11万9,800円から、Wi-Fi + Cellularモデルが14万4,800円から。",
+      "why": "「ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "ディスプレイ"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2151328.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-6316e4db28",
+      "title": "OpenAI Node SDK Releases v7.44.0",
+      "category": "ai",
+      "date": "2026-10-27",
+      "collectedAt": "2026-10-27T10:49:07+09:00",
+      "summary": "7.44.0 (2026-10-25) Features api: add delegation controls and prompt cache lifetimes and scheduled automations via client.beta.agents.automations , including invocation endpoints and the automations agent-tool variant (…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.44.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-1a1d4bf2fc",
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "category": "ai",
+      "date": "2026-10-26",
+      "collectedAt": "2026-10-27T10:49:07+09:00",
+      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-64d59b55a8",
+      "title": "ChatGPT’s expanding world of work",
+      "category": "ai",
+      "date": "2026-10-26",
+      "collectedAt": "2026-10-27T10:49:07+09:00",
+      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-8f2f08b6e1",
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "category": "ai",
+      "date": "2026-10-26",
+      "collectedAt": "2026-10-27T10:49:07+09:00",
+      "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/openai-cut-incident-investigation",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-18dfc2f62e",
+      "title": "ミニPC「Revo Box」がRyzen搭載で帰ってきた。131mm四方の小型筐体",
+      "category": "gadget",
+      "date": "2026-10-26",
+      "collectedAt": "2026-10-27T10:49:07+09:00",
+      "summary": "懐かしの「Revo」が国内に帰ってきた。日本エイサーは10月23日、約13cm四方のコンパクトなデスクトップPC「Revo Box」シリーズの新モデル4機種を発売した。「RB102-F58U」、「RB102-F38U」はAmazon専売で、価格はそれぞれ13万800円、12万4,800円。…",
+      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "デスク"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2151014.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-32cda1537c",
+      "title": "GPT-6.1 Terra in Work and Codex",
+      "category": "ai",
+      "date": "2026-10-26",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "# GPT-6.1 Terra in Work and Codex GPT-6.1 Terra is now available in ChatGPT Work and Codex on Plus, Pro, Business, Enterprise, and Edu plans.…",
+      "why": "「codex、chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex",
+        "chatgpt"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-5f814b2039",
       "title": "Next.js Releases v16.5.0-canary.27",
@@ -41,24 +272,6 @@
       "auto": true
     },
     {
-      "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.310",
-      "category": "ai",
-      "date": "2026-10-24",
-      "summary": "Added Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too [Cloud sessions] Added Claude Cod…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-4aa6dd4a20",
       "title": "Next.js Releases v16.5.0-canary.26",
       "category": "web",
@@ -73,25 +286,6 @@
       "source": {
         "name": "Next.js Releases",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.26",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-298c8de07d",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "category": "ai",
-      "date": "2026-10-24",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
         "kind": "primary"
       },
       "auto": true
@@ -116,25 +310,6 @@
       "auto": true
     },
     {
-      "slug": "auto-7c8451f433",
-      "title": "Next.js Releases v16.5.0-canary.25",
-      "category": "web",
-      "date": "2026-10-23",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "Misc Changes Revert \"More parity for webpack loader build dependencies ( #99549 )\": #100634 Cache bundle analysis per output file: #100475 Credits Huge thanks to @mischnic and @wbinnssmith for helping!",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.25",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-ed6e82c8e9",
       "title": "Vue Releases v3.6.0-rc.13",
       "category": "web",
@@ -154,40 +329,19 @@
       "auto": true
     },
     {
-      "slug": "auto-0f6142d2bb",
-      "title": "ASUS、ウェイトで重さを変えられる軽量ゲーミングマウス。TMRスティックのコントローラも",
-      "category": "gadget",
-      "date": "2026-10-23",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "ASUSは、ウェイトで重さを変えられる軽量ゲーミングマウス「ROG Gladius IV Ace Gaming Mouse」、および8Kポーリング対応でディスプレイ内蔵のコントローラ「ROG Raikiri II Pro PC Controller」を10月30日に発売する。実売予想価格はそれぞれ2万6,080円前後、3万7,280円前後の見込み。",
-      "why": "「マウス、ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "マウス",
-        "ディスプレイ"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2150623.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-32cda1537c",
-      "title": "Codex CLI Release: 0.164.0",
+      "slug": "auto-0b2b6437e9",
+      "title": "Claude Platform release notes — October 23, 2026",
       "category": "ai",
       "date": "2026-10-23",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "New Features Save reusable prompts and slash commands in ten numbered /presets slots, with a keyboard menu for quick access.…",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "summary": "The Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header.…",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
-        "codex"
+        "claude"
       ],
       "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/",
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
         "kind": "primary"
       },
       "auto": true
@@ -210,39 +364,21 @@
       "auto": true
     },
     {
-      "slug": "auto-e2ec4b2093",
-      "title": "WQHD/240HzとHD/400Hzを両立、MSIの27型湾曲ゲーミングモニター",
+      "slug": "auto-0f6142d2bb",
+      "title": "ASUS、ウェイトで重さを変えられる軽量ゲーミングマウス。TMRスティックのコントローラも",
       "category": "gadget",
       "date": "2026-10-23",
-      "collectedAt": "2026-10-23T10:12:29+09:00",
-      "summary": "MSIは、MAGシリーズの27型湾曲ゲーミングモニター「MAG 275CQDF X24」を10月29日に発売する。価格はオープンプライスで、直販価格は3万7,800円。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "ASUSは、ウェイトで重さを変えられる軽量ゲーミングマウス「ROG Gladius IV Ace Gaming Mouse」、および8Kポーリング対応でディスプレイ内蔵のコントローラ「ROG Raikiri II Pro PC Controller」を10月30日に発売する。実売予想価格はそれぞれ2万6,080円前後、3万7,280円前後の見込み。",
+      "why": "「マウス、ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
       "points": [],
       "tags": [
-        "モニター"
+        "マウス",
+        "ディスプレイ"
       ],
       "source": {
         "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2150544.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-3c37a20d0d",
-      "title": "UWB+交換式バッテリ、SteelSeriesが「Sensei Pro」と「Rival Pro」発表",
-      "category": "gadget",
-      "date": "2026-10-23",
-      "collectedAt": "2026-10-23T10:12:29+09:00",
-      "summary": "SteelSeriesは10月22日、新型ゲーミングマウス「Sensei Pro」、「Sensei Pro Mini」、「Rival Pro」、「Rival Pro Mini」の4機種を発表した。いずれもUWB(Ultra Wide Band)接続と交換式バッテリを採用した無線専用モデル。ブラックは11月20日、ホワイトは12月中旬に発売予定で、価格は各3万3,310円。",
-      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "マウス"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2150543.html",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2150623.html",
         "kind": "roundup"
       },
       "auto": true
@@ -324,44 +460,6 @@
       "auto": true
     },
     {
-      "slug": "auto-ba6fa07d67",
-      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "category": "ai",
-      "date": "2026-10-22",
-      "collectedAt": "2026-10-23T10:12:29+09:00",
-      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-0b2b6437e9",
-      "title": "Claude Platform release notes — October 22, 2026",
-      "category": "ai",
-      "date": "2026-10-22",
-      "summary": "We've launched Claude Models on Google Cloud (Anthropic managed) , the Claude API operated by Anthropic and reached through your Google Cloud project. Google Cloud IAM controls access.…",
-      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude",
-        "anthropic"
-      ],
-      "source": {
-        "name": "Claude Platform",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-f240822c69",
       "title": "On Rails — Hussain Akram &amp; Antonio Carlos de Souza: Rails Scales for the Rest of Us",
       "category": "web",
@@ -396,82 +494,6 @@
         "name": "Publickey",
         "url": "https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html",
         "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-3252f402f2",
-      "title": "OpenAI Node SDK Releases v7.41.0",
-      "category": "ai",
-      "date": "2026-10-22",
-      "collectedAt": "2026-10-22T10:13:00+09:00",
-      "summary": "7.41.0 (2026-10-21) Features add Vertex AI support for the Responses API ( #3005 ) ( 04b1ac4 )",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.41.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-0f513b0c68",
-      "title": "OpenAI Node SDK Releases v7.40.0",
-      "category": "ai",
-      "date": "2026-10-21",
-      "collectedAt": "2026-10-22T10:13:00+09:00",
-      "summary": "7.40.0 (2026-10-21) Features api: add 30-minute cache-write usage counts ( #2984 ) ( 70afb2a ) api: add compaction trigger IDs ( #2991 ) ( e8c295c ) api: add custom voice consent management ( #3004 ) ( d0be2f1 ) Bug Fixe…",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.40.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-74fcf21eca",
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "category": "ai",
-      "date": "2026-10-21",
-      "collectedAt": "2026-10-22T10:13:00+09:00",
-      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-61f4d0141f",
-      "title": "OpenAI models are coming to Google Cloud",
-      "category": "ai",
-      "date": "2026-10-21",
-      "collectedAt": "2026-10-22T10:13:00+09:00",
-      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/openai-models-google-cloud",
-        "kind": "primary"
       },
       "auto": true
     },
@@ -572,6 +594,25 @@
       "auto": true
     },
     {
+      "slug": "auto-f8471e3dcf",
+      "title": "Agent SDK",
+      "category": "ai",
+      "date": "2026-10-20",
+      "collectedAt": "2026-10-27T10:49:07+09:00",
+      "summary": "The Agent SDK is available today. It allows you to define an agent as a folder of code, test it with evals, and deploy it to Cursor or your own infrastructure.…",
+      "why": "Cursor Changelogの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "cursor"
+      ],
+      "source": {
+        "name": "Cursor Changelog",
+        "url": "https://cursor.com/changelog/agent-sdk",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
       "slug": "auto-5f15641a09",
       "title": "AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表",
       "category": "cloud",
@@ -646,44 +687,6 @@
       "source": {
         "name": "Vite Releases",
         "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-895ee6bff7",
-      "title": "マイクロソフト、.NETのツールチェーンマネージャ「dotnetup」プレビュー公開。複数バージョンの.NET環境を管理可能",
-      "category": "cloud",
-      "date": "2026-10-19",
-      "collectedAt": "2026-10-19T09:48:36+09:00",
-      "summary": "マイクロソフトは、.NETの各種コマンドラインツールやC#コンパイラ、ビルドエンジン、ランタイムなどを含む.NETのツールチェーンをまとめてインストールし、バージョン管理などができるツールチェーンマネージャ「dotnetup」をパブリックプレビューとして公開しました。 Rust言語やNode.js環境では、ツールチェーンマネージャと呼ばれるコマンドが存在します。Rustでは「rustup」、Node.jsでは「nvm」がそれです。…",
-      "why": "「node.js」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "node.js"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/netdotnetupnet.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-bc85330f0e",
-      "title": "Nuxt Releases v4.6.2",
-      "category": "web",
-      "date": "2026-10-17",
-      "collectedAt": "2026-10-17T10:03:30+09:00",
-      "summary": "v4.6.2 is the next patch release. 👉 Changelog compare changes 🩹 Fixes nitro: apply useHeadSafe rules to server island head ( 493565e99 ) nitro-server: read router params from the path h3 matched ( 010f6b43d ) nitro: ma…",
-      "why": "Nuxt Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "nuxt"
-      ],
-      "source": {
-        "name": "Nuxt Releases",
-        "url": "https://github.com/nuxt/nuxt/releases/tag/v4.6.2",
         "kind": "primary"
       },
       "auto": true
