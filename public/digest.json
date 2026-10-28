@@ -1,6 +1,221 @@
 {
-  "updatedAt": "2026-10-27T10:49:07+09:00",
+  "updatedAt": "2026-10-28T11:01:19+09:00",
   "items": [
+    {
+      "slug": "auto-d71155fc82",
+      "title": "Next.js Releases v16.5.0-canary.29",
+      "category": "web",
+      "date": "2026-10-28",
+      "collectedAt": "2026-10-28T11:01:19+09:00",
+      "summary": "Core Changes Create cache directory before persisting Chrome DevTools workspace UUID: #100802 Upgrade React from ab0d927f-20261020 to dc9aed36-20261027 : #100791 [testmode] Fix compressed HTTP responses with test proxy:…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "react",
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.29",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0363295c5c",
+      "title": "充電速度や解像度が分かるディスプレイ付きUSB Type-Cドック",
+      "category": "gadget",
+      "date": "2026-10-28",
+      "collectedAt": "2026-10-28T11:01:19+09:00",
+      "summary": "サンワサプライは、合計最大160Wの給電と4K/60Hzの2画面出力に対応した、ディスプレイ搭載のUSB Type-Cドッキングステーション「400-VGA032」を10月27日に発売した。直販価格は1万9,800円。",
+      "why": "「usb type-c、ドッキング、ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "usb type-c",
+        "ドッキング",
+        "ディスプレイ"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2151700.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e54d787de1",
+      "title": "Claude Code 2.1.312",
+      "category": "ai",
+      "date": "2026-10-28",
+      "summary": "Added Added oidc.user_id_claim to the Claude apps gateway, to identify people by an id_token claim other than sub , such as Microsoft Entra ID's oid Added click to send: in fullscreen, clicking the \"to send now\" hint und…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e8caf518c7",
+      "title": "OpenAI Node SDK Releases v7.45.1",
+      "category": "ai",
+      "date": "2026-10-28",
+      "collectedAt": "2026-10-28T11:01:19+09:00",
+      "summary": "7.45.1 (2026-10-27) Bug Fixes api: clarify prompt cache breakpoint TTL behavior ( #3057 ) ( 60224b3 ) vertex: support google-auth-library v11 ( #3046 ) ( 381709f )",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.45.1",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-cbf465a12e",
+      "title": "JavaScriptランタイムの「Bun」がPrettier互換で300倍以上高速なフォーマッタに。Prettier設定ファイルもそのまま利用可能",
+      "category": "cloud",
+      "date": "2026-10-28",
+      "collectedAt": "2026-10-28T11:01:19+09:00",
+      "summary": "Anthropicが開発しているJavaScriptランタイムの「Bun」の新機能として、Prettier互換のフォーマッタ搭載が発表されました。 2026年10月22日付けでリリースされたBun v1.4.4に搭載されたPrettier互換のフォーマッタは「bun fmt」コマンドで起動します。 その上でPrettierの設定ファイルをそのまま利用でき、それでいてPrettierよりも最大で320倍も高速だと説明されています。…",
+      "why": "「anthropic、javascript」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "anthropic",
+        "javascript"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/javascriptbunprettier300prettier.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-d42fb1eb33",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "category": "ai",
+      "date": "2026-10-28",
+      "collectedAt": "2026-10-28T11:01:19+09:00",
+      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "why": "「gpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "gpt",
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/retell-ai",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-18af31af0a",
+      "title": "create-vite@9.3.3",
+      "category": "web",
+      "date": "2026-10-27",
+      "collectedAt": "2026-10-28T11:01:19+09:00",
+      "summary": "Bug Fixes create-vite: include template files in package ( #23915 ) ( f4abfb5 )",
+      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vite"
+      ],
+      "source": {
+        "name": "Vite Releases",
+        "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.3",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-a3a879144b",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "category": "ai",
+      "date": "2026-10-27",
+      "collectedAt": "2026-10-28T11:01:19+09:00",
+      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0e7b809f51",
+      "title": "create-vite@9.3.2",
+      "category": "web",
+      "date": "2026-10-27",
+      "collectedAt": "2026-10-28T11:01:19+09:00",
+      "summary": "Features create-vite: use typescript v7 where possible ( #23910 ) ( 0cf91e8 ) Bug Fixes deps: update all non-major dependencies ( #23896 ) ( 46b91c5 ) deps: update dependency preact to v11 ( #23867 ) ( 0672bf8 ) Miscella…",
+      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "react",
+        "vite",
+        "typescript"
+      ],
+      "source": {
+        "name": "Vite Releases",
+        "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.2",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-7a6e4b5a08",
+      "title": "ペン/キーボード付き12.1型タブ「LAVIE Tab T12N」に秋冬モデル",
+      "category": "gadget",
+      "date": "2026-10-27",
+      "collectedAt": "2026-10-28T11:01:19+09:00",
+      "summary": "ペンとキーボードが付属する12.1型タブレットに、OSを新しくした秋冬モデルが登場した。NECパーソナルコンピュータは、Androidタブレット「LAVIE Tab T12N(T1275/MAS)」と「LAVIE Tab T8(T0855/MAS)」の2026年秋冬モデルを10月29日に発売する。価格はいずれもオープンプライスで、直販価格は前者が9万9,880円、後者が3万7,180円。",
+      "why": "「キーボード」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "キーボード"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2151472.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-44b61f1dfc",
+      "title": "声やジェスチャーで動く27型4Kロボットモニター「CyboPal ONE」",
+      "category": "gadget",
+      "date": "2026-10-27",
+      "collectedAt": "2026-10-28T11:01:19+09:00",
+      "summary": "ロボットアームに27型4Kモニターを備えた「CyboPal ONE」が、クラウドファンディングサイトのKickstarterで出資を募っている。製品入手に必要な出資額は1万2,536香港ドル(日本円で約25万2,000円)から。出荷は2026年12月を予定している。",
+      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2151465.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-8ad3f0d623",
       "title": "Nuxt Releases v4.6.3",
@@ -22,6 +237,45 @@
       "auto": true
     },
     {
+      "slug": "auto-32cda1537c",
+      "title": "Codex CLI Release: 0.165.0",
+      "category": "ai",
+      "date": "2026-10-27",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "New Features Added a built-in Google Cloud Vertex AI provider, configured with model_provider = \"gcp\" . ( #56265 ) Added GPT-6.1 Terra to the model catalogs.…",
+      "why": "「codex、gpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex",
+        "gpt"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0dc45b9e04",
+      "title": "ついにiPad miniも有機EL！厚さ5.4mmで防水防塵、A20 Pro搭載",
+      "category": "gadget",
+      "date": "2026-10-27",
+      "collectedAt": "2026-10-27T10:49:07+09:00",
+      "summary": "iPad miniにもついに有機ELがやってきた。Appleは10月26日、8.5型有機ELディスプレイとA20 Proプロセッサを搭載したタブレット「iPad mini(A20 Pro)」を発表した。10月29日より予約開始し、11月6日に発売する。価格はWi-Fiモデルが11万9,800円から、Wi-Fi + Cellularモデルが14万4,800円から。",
+      "why": "「ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "ディスプレイ"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2151328.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
       "slug": "auto-db327011e5",
       "title": "Next.js Releases v16.5.0-canary.28",
       "category": "web",
@@ -36,24 +290,6 @@
       "source": {
         "name": "Next.js Releases",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.28",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.311",
-      "category": "ai",
-      "date": "2026-10-27",
-      "summary": "Added Added --hold-idle-file and --max-hold-min to self-hosted-runner , to keep an idle session while your host reports processes it left running Added a tip for the Explanatory output style, shown when you ask Claude fo…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog",
         "kind": "primary"
       },
       "auto": true
@@ -99,25 +335,6 @@
       "auto": true
     },
     {
-      "slug": "auto-0dc45b9e04",
-      "title": "ついにiPad miniも有機EL！厚さ5.4mmで防水防塵、A20 Pro搭載",
-      "category": "gadget",
-      "date": "2026-10-27",
-      "collectedAt": "2026-10-27T10:49:07+09:00",
-      "summary": "iPad miniにもついに有機ELがやってきた。Appleは10月26日、8.5型有機ELディスプレイとA20 Proプロセッサを搭載したタブレット「iPad mini(A20 Pro)」を発表した。10月29日より予約開始し、11月6日に発売する。価格はWi-Fiモデルが11万9,800円から、Wi-Fi + Cellularモデルが14万4,800円から。",
-      "why": "「ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "ディスプレイ"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2151328.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-6316e4db28",
       "title": "OpenAI Node SDK Releases v7.44.0",
       "category": "ai",
@@ -156,83 +373,6 @@
       "auto": true
     },
     {
-      "slug": "auto-64d59b55a8",
-      "title": "ChatGPT’s expanding world of work",
-      "category": "ai",
-      "date": "2026-10-26",
-      "collectedAt": "2026-10-27T10:49:07+09:00",
-      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-8f2f08b6e1",
-      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-      "category": "ai",
-      "date": "2026-10-26",
-      "collectedAt": "2026-10-27T10:49:07+09:00",
-      "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/openai-cut-incident-investigation",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-18dfc2f62e",
-      "title": "ミニPC「Revo Box」がRyzen搭載で帰ってきた。131mm四方の小型筐体",
-      "category": "gadget",
-      "date": "2026-10-26",
-      "collectedAt": "2026-10-27T10:49:07+09:00",
-      "summary": "懐かしの「Revo」が国内に帰ってきた。日本エイサーは10月23日、約13cm四方のコンパクトなデスクトップPC「Revo Box」シリーズの新モデル4機種を発売した。「RB102-F58U」、「RB102-F38U」はAmazon専売で、価格はそれぞれ13万800円、12万4,800円。…",
-      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "デスク"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2151014.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-32cda1537c",
-      "title": "GPT-6.1 Terra in Work and Codex",
-      "category": "ai",
-      "date": "2026-10-26",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "# GPT-6.1 Terra in Work and Codex GPT-6.1 Terra is now available in ChatGPT Work and Codex on Plus, Pro, Business, Enterprise, and Edu plans.…",
-      "why": "「codex、chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex",
-        "chatgpt"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-5f814b2039",
       "title": "Next.js Releases v16.5.0-canary.27",
       "category": "web",
@@ -253,25 +393,6 @@
       "auto": true
     },
     {
-      "slug": "auto-4dd20c36de",
-      "title": "Opus 5.5肉薄のコーディング性能、3Dも作る3兆級LLM「Kimi K3.1 Pro」。11月4日までにオープンウェイト化",
-      "category": "gadget",
-      "date": "2026-10-24",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "オープンな大規模言語モデル(LLM)として初めてパラメータ数3T(3兆)級に到達した「Kimi K3」に、早くも改良版が登場した。Moonshot AIは10月24日(中国時間)、新しいLLM「Kimi K3.1 Pro」を発表した。同日からチャットサービス「Kimi」やデスクトップアプリ「Kimi Work」、コーディングツール「Kimi Code」、APIで提供を開始した。…",
-      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "デスク"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2150898.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-4aa6dd4a20",
       "title": "Next.js Releases v16.5.0-canary.26",
       "category": "web",
@@ -286,25 +407,6 @@
       "source": {
         "name": "Next.js Releases",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.26",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e817637f82",
-      "title": "Next.js Releases v16.4.3",
-      "category": "web",
-      "date": "2026-10-23",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "Note This release is backporting bug fixes. It does not include all pending features/changes on canary.…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.3",
         "kind": "primary"
       },
       "auto": true
@@ -364,26 +466,6 @@
       "auto": true
     },
     {
-      "slug": "auto-0f6142d2bb",
-      "title": "ASUS、ウェイトで重さを変えられる軽量ゲーミングマウス。TMRスティックのコントローラも",
-      "category": "gadget",
-      "date": "2026-10-23",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "ASUSは、ウェイトで重さを変えられる軽量ゲーミングマウス「ROG Gladius IV Ace Gaming Mouse」、および8Kポーリング対応でディスプレイ内蔵のコントローラ「ROG Raikiri II Pro PC Controller」を10月30日に発売する。実売予想価格はそれぞれ2万6,080円前後、3万7,280円前後の見込み。",
-      "why": "「マウス、ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "マウス",
-        "ディスプレイ"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2150623.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-5f54af7223",
       "title": "OpenAI Node SDK Releases v7.43.0",
       "category": "ai",
@@ -436,25 +518,6 @@
       "source": {
         "name": "Terraform Releases",
         "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.7",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-a7eab08f55",
-      "title": "OpenAI Node SDK Releases v7.42.0",
-      "category": "ai",
-      "date": "2026-10-22",
-      "collectedAt": "2026-10-23T10:12:29+09:00",
-      "summary": "7.42.0 (2026-10-22) Features api: add voice deletion ( #3014 ) ( 2a88010 ) Bug Fixes agents: avoid repeated ancestor-path hashing ( #3010 ) ( e352050 ) api: avoid excessive work when redacting long log values ( #3012 ) (…",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.42.0",
         "kind": "primary"
       },
       "auto": true
@@ -574,26 +637,6 @@
       "auto": true
     },
     {
-      "slug": "auto-3d9bb23f4d",
-      "title": "create-vite@9.3.1",
-      "category": "web",
-      "date": "2026-10-20",
-      "collectedAt": "2026-10-21T10:16:40+09:00",
-      "summary": "Bug Fixes create-vite: use typescript v6 for now ( #23841 ) ( 15c85dd ) create-vite: use Vite for TanStack projects ( #23838 ) ( 467f7ac )",
-      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vite",
-        "typescript"
-      ],
-      "source": {
-        "name": "Vite Releases",
-        "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.1",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-f8471e3dcf",
       "title": "Agent SDK",
       "category": "ai",
@@ -649,45 +692,6 @@
         "name": "Publickey",
         "url": "https://www.publickey1.jp/blog/26/aws_transformazure_functionsaws_lambdamicrosoft_azureaws.html",
         "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-8b2fe0bdc5",
-      "title": "AWS Weekly Roundup: AWS Lambda Web Functions, Amazon S3 on the Vercel Marketplace, and more (October 19, 2026)",
-      "category": "cloud",
-      "date": "2026-10-20",
-      "collectedAt": "2026-10-20T10:34:47+09:00",
-      "summary": "Nothing last week added a new kind of compute. What it did instead was shorten the distance between the code you already have and that code being live.…",
-      "why": "「lambda」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "lambda"
-      ],
-      "source": {
-        "name": "AWS News Blog",
-        "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-web-functions-amazon-s3-on-the-vercel-marketplace-and-more-october-19-2026/",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-ba1ec37271",
-      "title": "create-vite@9.3.0",
-      "category": "web",
-      "date": "2026-10-19",
-      "collectedAt": "2026-10-20T10:34:47+09:00",
-      "summary": "Features create-vite: print version before scaffolding ( #23806 ) ( a3001c5 ) create-vite: use typescript v7 where possible ( #23794 ) ( 9df8bbc ) Bug Fixes create-vite: add router only options for tanstack router/start…",
-      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vite",
-        "typescript"
-      ],
-      "source": {
-        "name": "Vite Releases",
-        "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.0",
-        "kind": "primary"
       },
       "auto": true
     }
