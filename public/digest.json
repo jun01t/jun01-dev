@@ -1,22 +1,177 @@
 {
-  "updatedAt": "2026-10-28T11:01:19+09:00",
+  "updatedAt": "2026-10-29T11:05:25+09:00",
   "items": [
     {
-      "slug": "auto-d71155fc82",
-      "title": "Next.js Releases v16.5.0-canary.29",
+      "slug": "auto-9e52536cab",
+      "title": "指で操作できるMacがついに登場、タンデムOLEDで軽くなったMacBook Pro",
+      "category": "gadget",
+      "date": "2026-10-29",
+      "collectedAt": "2026-10-29T11:05:25+09:00",
+      "summary": "ついにMacがタッチ操作に対応した。Appleは、タンデムOLEDを採用した「PROLED XDRディスプレイ搭載MacBook Pro」を10月29日から予約開始し、11月6日に発売する。価格はM5 Pro搭載14型モデルが49万9,800円から、同16型モデルが59万9,800円から、M5 Max搭載14型モデルが76万9,800円から、同16型モデルが82万9,800円から。",
+      "why": "「ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "ディスプレイ"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2152094.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-fcd2e36b4e",
+      "title": "Next.js Releases v16.5.0-canary.30",
       "category": "web",
-      "date": "2026-10-28",
-      "collectedAt": "2026-10-28T11:01:19+09:00",
-      "summary": "Core Changes Create cache directory before persisting Chrome DevTools workspace UUID: #100802 Upgrade React from ab0d927f-20261020 to dc9aed36-20261027 : #100791 [testmode] Fix compressed HTTP responses with test proxy:…",
+      "date": "2026-10-29",
+      "collectedAt": "2026-10-29T11:05:25+09:00",
+      "summary": "Core Changes Ignore expected upgrade nudges in Agent Feedback: #100840 Add model metadata to Agent Feedback: #100806 Use fast-jwt instead of jsonwebtoken: #100818 Update font data: #100813 Turbopack: wait for trace file…",
       "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
-        "react",
         "next.js"
       ],
       "source": {
         "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.29",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.30",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-d39e8c9096",
+      "title": "Terraform Releases v1.17.1",
+      "category": "cloud",
+      "date": "2026-10-29",
+      "collectedAt": "2026-10-29T11:05:25+09:00",
+      "summary": "1.17.1 (October 28, 2026) BUG FIXES: fmt: The original content of a file is now preserved if Terraform experiences an error writing to the original file.…",
+      "why": "Terraform Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "terraform"
+      ],
+      "source": {
+        "name": "Terraform Releases",
+        "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.1",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-75e2017ed4",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "category": "ai",
+      "date": "2026-10-28",
+      "collectedAt": "2026-10-29T11:05:25+09:00",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt",
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e817637f82",
+      "title": "Next.js Releases v16.4.3",
+      "category": "web",
+      "date": "2026-10-28",
+      "collectedAt": "2026-10-29T11:05:25+09:00",
+      "summary": "Note This release is backporting bug fixes. It does not include all pending features/changes on canary.…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.3",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-41c97fe8dc",
+      "title": "Legora is building the agentic operating system for legal work",
+      "category": "ai",
+      "date": "2026-10-28",
+      "collectedAt": "2026-10-29T11:05:25+09:00",
+      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt",
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/legora",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-57513405e3",
+      "title": "Razer、ホットスワップ対応磁気キーボード「Reclusa Mini 65%」",
+      "category": "gadget",
+      "date": "2026-10-28",
+      "collectedAt": "2026-10-29T11:05:25+09:00",
+      "summary": "Razerは10月27日(米国時間)、Reclusaシリーズのワイヤレス磁気ゲーミングキーボード「Razer Reclusa Mini 65%」を発表した。価格は2万2,980円。",
+      "why": "「キーボード」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "キーボード"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2151924.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-2232c50c52",
+      "title": "ASUS、最大30時間駆動の有機ELノート「Vivobook S16/S14」",
+      "category": "gadget",
+      "date": "2026-10-28",
+      "collectedAt": "2026-10-29T11:05:25+09:00",
+      "summary": "有機ELディスプレイを搭載しながら、最大30時間バッテリ駆動の薄型ノートPCが登場した。ASUSは、16型ノートPC「ASUS Vivobook S16(S5608)」と14型ノートPC「ASUS Vivobook S14(S5408)」の2製品9モデルを10月28日から順次発売する。",
+      "why": "「ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "ディスプレイ"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2151858.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-5e072227d0",
+      "title": "Nuxt DevTools v4",
+      "category": "web",
+      "date": "2026-10-28",
+      "collectedAt": "2026-10-29T11:05:25+09:00",
+      "summary": "Nuxt DevTools v4 is built on Devframe and Vite DevTools. It brings the full Vue DevTools and the wider devtools ecosystem to Nuxt.",
+      "why": "Nuxt Blogの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "nuxt",
+        "vue",
+        "vite"
+      ],
+      "source": {
+        "name": "Nuxt Blog",
+        "url": "https://nuxt.com/blog/devtools-v4",
         "kind": "primary"
       },
       "auto": true
@@ -39,6 +194,26 @@
         "name": "PC Watch",
         "url": "https://pc.watch.impress.co.jp/docs/news/2151700.html",
         "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-d71155fc82",
+      "title": "Next.js Releases v16.5.0-canary.29",
+      "category": "web",
+      "date": "2026-10-28",
+      "collectedAt": "2026-10-28T11:01:19+09:00",
+      "summary": "Core Changes Create cache directory before persisting Chrome DevTools workspace UUID: #100802 Upgrade React from ab0d927f-20261020 to dc9aed36-20261027 : #100791 [testmode] Fix compressed HTTP responses with test proxy:…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "react",
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.29",
+        "kind": "primary"
       },
       "auto": true
     },
@@ -179,44 +354,6 @@
       "auto": true
     },
     {
-      "slug": "auto-7a6e4b5a08",
-      "title": "ペン/キーボード付き12.1型タブ「LAVIE Tab T12N」に秋冬モデル",
-      "category": "gadget",
-      "date": "2026-10-27",
-      "collectedAt": "2026-10-28T11:01:19+09:00",
-      "summary": "ペンとキーボードが付属する12.1型タブレットに、OSを新しくした秋冬モデルが登場した。NECパーソナルコンピュータは、Androidタブレット「LAVIE Tab T12N(T1275/MAS)」と「LAVIE Tab T8(T0855/MAS)」の2026年秋冬モデルを10月29日に発売する。価格はいずれもオープンプライスで、直販価格は前者が9万9,880円、後者が3万7,180円。",
-      "why": "「キーボード」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "キーボード"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2151472.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-44b61f1dfc",
-      "title": "声やジェスチャーで動く27型4Kロボットモニター「CyboPal ONE」",
-      "category": "gadget",
-      "date": "2026-10-27",
-      "collectedAt": "2026-10-28T11:01:19+09:00",
-      "summary": "ロボットアームに27型4Kモニターを備えた「CyboPal ONE」が、クラウドファンディングサイトのKickstarterで出資を募っている。製品入手に必要な出資額は1万2,536香港ドル(日本円で約25万2,000円)から。出荷は2026年12月を予定している。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2151465.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-8ad3f0d623",
       "title": "Nuxt Releases v4.6.3",
       "category": "web",
@@ -257,25 +394,6 @@
       "auto": true
     },
     {
-      "slug": "auto-0dc45b9e04",
-      "title": "ついにiPad miniも有機EL！厚さ5.4mmで防水防塵、A20 Pro搭載",
-      "category": "gadget",
-      "date": "2026-10-27",
-      "collectedAt": "2026-10-27T10:49:07+09:00",
-      "summary": "iPad miniにもついに有機ELがやってきた。Appleは10月26日、8.5型有機ELディスプレイとA20 Proプロセッサを搭載したタブレット「iPad mini(A20 Pro)」を発表した。10月29日より予約開始し、11月6日に発売する。価格はWi-Fiモデルが11万9,800円から、Wi-Fi + Cellularモデルが14万4,800円から。",
-      "why": "「ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "ディスプレイ"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2151328.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-db327011e5",
       "title": "Next.js Releases v16.5.0-canary.28",
       "category": "web",
@@ -290,26 +408,6 @@
       "source": {
         "name": "Next.js Releases",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.28",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-250e5d8f30",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "category": "ai",
-      "date": "2026-10-27",
-      "collectedAt": "2026-10-27T10:49:07+09:00",
-      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "why": "「gpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "gpt",
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/greptile-code-review-codex-astra",
         "kind": "primary"
       },
       "auto": true
@@ -349,64 +447,6 @@
       "source": {
         "name": "OpenAI Node SDK Releases",
         "url": "https://github.com/openai/openai-node/releases/tag/v7.44.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-1a1d4bf2fc",
-      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "category": "ai",
-      "date": "2026-10-26",
-      "collectedAt": "2026-10-27T10:49:07+09:00",
-      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "gpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-5f814b2039",
-      "title": "Next.js Releases v16.5.0-canary.27",
-      "category": "web",
-      "date": "2026-10-25",
-      "collectedAt": "2026-10-25T09:49:17+09:00",
-      "summary": "Core Changes Build the inline Flight script from React's strings instead of re-encoding them: #100142 Fix dist dir lockfile on filesystems with no or limited lockfile implementations (e.g.…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "react",
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.27",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-4aa6dd4a20",
-      "title": "Next.js Releases v16.5.0-canary.26",
-      "category": "web",
-      "date": "2026-10-24",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "Core Changes Turbopack: bump trace format header to TRACEv1: #99781 Pass staged fallback params directly to adapter renders: #100456 Fix navigation from global-not-found to app routes: #100592 End the cache-signal read w…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.26",
         "kind": "primary"
       },
       "auto": true
@@ -652,46 +692,6 @@
         "name": "Cursor Changelog",
         "url": "https://cursor.com/changelog/agent-sdk",
         "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-5f15641a09",
-      "title": "AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表",
-      "category": "cloud",
-      "date": "2026-10-20",
-      "collectedAt": "2026-10-20T10:34:47+09:00",
-      "summary": "Amazon Web Services（AWS）は、サーバレス基盤のAWS Lambda上でNext.jsやExpress、Hono、FastifyなどのNode.js用フレームワークとそのアプリケーションをそのままデプロイして実行できる新機能「AWS Lambda Web Functions」を発表しました。…",
-      "why": "「lambda、next.js、node.js」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "lambda",
-        "next.js",
-        "node.js"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-b1631a2fbd",
-      "title": "AWS Transform、Azure Functions用のコードをAWS Lambda用に変換など、Microsoft AzureからAWSへの移行に対応",
-      "category": "cloud",
-      "date": "2026-10-20",
-      "collectedAt": "2026-10-20T10:34:47+09:00",
-      "summary": "Amazon Web Services（AWS）は、Azure SDKで書かれた.NETアプリケーションをAWS SDKを用いたコードに変換する新機能をAWS Transformに搭載したと発表しました。 これによりMicrosoft Azureネイティブな.NETアプリケーションを簡単にAWSへ移行させることが容易になります。…",
-      "why": "「lambda」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "lambda"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/aws_transformazure_functionsaws_lambdamicrosoft_azureaws.html",
-        "kind": "roundup"
       },
       "auto": true
     }
