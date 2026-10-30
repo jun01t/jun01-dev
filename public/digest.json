@@ -1,6 +1,137 @@
 {
-  "updatedAt": "2026-10-29T11:05:25+09:00",
+  "updatedAt": "2026-10-30T11:24:39+09:00",
   "items": [
+    {
+      "slug": "auto-e54d787de1",
+      "title": "Claude Code 2.1.314",
+      "category": "ai",
+      "date": "2026-10-30",
+      "summary": "Added Added permissions.blockWritesOutsideWorkingDirectories : Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode Added an optional groups list to Claude apps gateway upstr…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-a36febfd4a",
+      "title": "Next.js Releases v16.5.0-canary.32",
+      "category": "web",
+      "date": "2026-10-30",
+      "collectedAt": "2026-10-30T11:24:39+09:00",
+      "summary": "Core Changes Fix hangs and crashes for 204 responses from route handlers and deduped fetches: #100159 fix(adapter): preserve revalidation for metadata prerenders: #100861 next-custom-transforms: Optimize server-reference…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.32",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-79cc7d5801",
+      "title": "JAPANNEXT、10点マルチタッチ対応の21.5型IPSフルHDモニター",
+      "category": "gadget",
+      "date": "2026-10-30",
+      "collectedAt": "2026-10-30T11:24:39+09:00",
+      "summary": "JAPANNEXTは10月29日、21.5型のIPSタッチパネルを搭載したフルHD(1,920×1,080ドット)のモニター「JN-IPST215F-HSPC6-W」を発売した。直販価格は3万4,980円。",
+      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2152445.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-ec7ea6dc2c",
+      "title": "Next.js Releases v16.5.0-canary.31",
+      "category": "web",
+      "date": "2026-10-29",
+      "collectedAt": "2026-10-30T11:24:39+09:00",
+      "summary": "Core Changes perf(build): lazily require page-data helpers in build/utils: #100822 Misc Changes perf(turbopack): canonicalize async loader availability: #100705 Credits Huge thanks to @sokra for helping!",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.31",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-c3959e0d23",
+      "title": "MSI、5層タンデムQD-OLEDで360Hzの湾曲ゲーミングモニター「MEG X」",
+      "category": "gadget",
+      "date": "2026-10-29",
+      "collectedAt": "2026-10-30T11:24:39+09:00",
+      "summary": "MSIのゲーミングモニター「MEG」シリーズに、湾曲QD-OLEDパネルを採用したフラグシップモデルが加わる。エムエスアイコンピュータージャパンは、33.98型ゲーミングモニター「MEG X」を11月下旬以降に順次発売する。価格はオープンプライスで、実売予想価格は30万2,500円前後の見込み。",
+      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2152246.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-32cda1537c",
+      "title": "Codex CLI Release: 0.166.0",
+      "category": "ai",
+      "date": "2026-10-29",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "New Features Added keyboard-driven transcript selection with word, line, and page motions, integrated search, and configurable shortcuts.…",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0b2b6437e9",
+      "title": "Claude Platform release notes — October 29, 2026",
+      "category": "ai",
+      "date": "2026-10-29",
+      "summary": "We’ve launched the Usage and Cost Analytics API in beta with the analytics-usage-cost-2026-08-24 beta header.…",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude"
+      ],
+      "source": {
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-9e52536cab",
       "title": "指で操作できるMacがついに登場、タンデムOLEDで軽くなったMacBook Pro",
@@ -118,44 +249,6 @@
       "auto": true
     },
     {
-      "slug": "auto-57513405e3",
-      "title": "Razer、ホットスワップ対応磁気キーボード「Reclusa Mini 65%」",
-      "category": "gadget",
-      "date": "2026-10-28",
-      "collectedAt": "2026-10-29T11:05:25+09:00",
-      "summary": "Razerは10月27日(米国時間)、Reclusaシリーズのワイヤレス磁気ゲーミングキーボード「Razer Reclusa Mini 65%」を発表した。価格は2万2,980円。",
-      "why": "「キーボード」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "キーボード"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2151924.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-2232c50c52",
-      "title": "ASUS、最大30時間駆動の有機ELノート「Vivobook S16/S14」",
-      "category": "gadget",
-      "date": "2026-10-28",
-      "collectedAt": "2026-10-29T11:05:25+09:00",
-      "summary": "有機ELディスプレイを搭載しながら、最大30時間バッテリ駆動の薄型ノートPCが登場した。ASUSは、16型ノートPC「ASUS Vivobook S16(S5608)」と14型ノートPC「ASUS Vivobook S14(S5408)」の2製品9モデルを10月28日から順次発売する。",
-      "why": "「ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "ディスプレイ"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2151858.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-5e072227d0",
       "title": "Nuxt DevTools v4",
       "category": "web",
@@ -177,61 +270,21 @@
       "auto": true
     },
     {
-      "slug": "auto-0363295c5c",
-      "title": "充電速度や解像度が分かるディスプレイ付きUSB Type-Cドック",
+      "slug": "auto-57513405e3",
+      "title": "Razer、ホットスワップ対応磁気キーボード「Reclusa Mini 65%」",
       "category": "gadget",
       "date": "2026-10-28",
-      "collectedAt": "2026-10-28T11:01:19+09:00",
-      "summary": "サンワサプライは、合計最大160Wの給電と4K/60Hzの2画面出力に対応した、ディスプレイ搭載のUSB Type-Cドッキングステーション「400-VGA032」を10月27日に発売した。直販価格は1万9,800円。",
-      "why": "「usb type-c、ドッキング、ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
+      "collectedAt": "2026-10-29T11:05:25+09:00",
+      "summary": "Razerは10月27日(米国時間)、Reclusaシリーズのワイヤレス磁気ゲーミングキーボード「Razer Reclusa Mini 65%」を発表した。価格は2万2,980円。",
+      "why": "「キーボード」に触れているので拾いました。全文の判断は出典を見てください。",
       "points": [],
       "tags": [
-        "usb type-c",
-        "ドッキング",
-        "ディスプレイ"
+        "キーボード"
       ],
       "source": {
         "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2151700.html",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2151924.html",
         "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-d71155fc82",
-      "title": "Next.js Releases v16.5.0-canary.29",
-      "category": "web",
-      "date": "2026-10-28",
-      "collectedAt": "2026-10-28T11:01:19+09:00",
-      "summary": "Core Changes Create cache directory before persisting Chrome DevTools workspace UUID: #100802 Upgrade React from ab0d927f-20261020 to dc9aed36-20261027 : #100791 [testmode] Fix compressed HTTP responses with test proxy:…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "react",
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.29",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.312",
-      "category": "ai",
-      "date": "2026-10-28",
-      "summary": "Added Added oidc.user_id_claim to the Claude apps gateway, to identify people by an id_token claim other than sub , such as Microsoft Entra ID's oid Added click to send: in fullscreen, clicking the \"to send now\" hint und…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog",
-        "kind": "primary"
       },
       "auto": true
     },
@@ -374,45 +427,6 @@
       "auto": true
     },
     {
-      "slug": "auto-32cda1537c",
-      "title": "Codex CLI Release: 0.165.0",
-      "category": "ai",
-      "date": "2026-10-27",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "New Features Added a built-in Google Cloud Vertex AI provider, configured with model_provider = \"gcp\" . ( #56265 ) Added GPT-6.1 Terra to the model catalogs.…",
-      "why": "「codex、gpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex",
-        "gpt"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-db327011e5",
-      "title": "Next.js Releases v16.5.0-canary.28",
-      "category": "web",
-      "date": "2026-10-27",
-      "collectedAt": "2026-10-27T10:49:07+09:00",
-      "summary": "Core Changes Fix draft mode rendering with Cache Components: #100728 Render complete HTML documents after MPA Server Actions: #100740 Turbopack: add minServerChunkSize and maxMergeServerChunkSize options: #100712 test: r…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.28",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-c1ed6b0157",
       "title": "OpenAI Node SDK Releases v7.45.0",
       "category": "ai",
@@ -466,24 +480,6 @@
       "source": {
         "name": "Vue Releases",
         "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.13",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-0b2b6437e9",
-      "title": "Claude Platform release notes — October 23, 2026",
-      "category": "ai",
-      "date": "2026-10-23",
-      "summary": "The Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header.…",
-      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude"
-      ],
-      "source": {
-        "name": "Claude Platform",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview",
         "kind": "primary"
       },
       "auto": true
