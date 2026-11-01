@@ -1,6 +1,64 @@
 {
-  "updatedAt": "2026-10-31T11:00:29+09:00",
+  "updatedAt": "2026-11-01T10:50:37+09:00",
   "items": [
+    {
+      "slug": "auto-2d152eb49d",
+      "title": "Next.js Releases v16.5.0-canary.36",
+      "category": "web",
+      "date": "2026-11-01",
+      "collectedAt": "2026-11-01T10:50:37+09:00",
+      "summary": "Core Changes Upgrade React from a703ca64-20261030 to e84e1492-20261031 : #100999 Upgrade React from dc9aed36-20261027 to a703ca64-20261030 : #100965 Misc Changes Turbopack: resolve per-module data once during module grap…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "react",
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.36",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-8f694aea25",
+      "title": "Next.js Releases v16.5.0-canary.35",
+      "category": "web",
+      "date": "2026-10-31",
+      "collectedAt": "2026-10-31T11:00:29+09:00",
+      "summary": "Core Changes Handle cancellation errors during response clone cleanup: #100961 Revert \"Revert \"Fix App Router locale path matching with Pages i18n\"\": #98726 Fix prerendering of caught 'use cache' errors: #100956 Misc Cha…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.35",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-526bc6bf06",
+      "title": "OpenAI Node SDK Releases v7.47.0",
+      "category": "ai",
+      "date": "2026-10-31",
+      "collectedAt": "2026-11-01T10:50:37+09:00",
+      "summary": "7.47.0 (2026-10-31) Features api: support typed Responses WebSocket warmup ( #3084 ) ( a365b5c )",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.47.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-e54d787de1",
       "title": "Claude Code 2.1.316",
@@ -34,25 +92,6 @@
       "source": {
         "name": "OpenAI Node SDK Releases",
         "url": "https://github.com/openai/openai-node/releases/tag/v7.46.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-8f694aea25",
-      "title": "Next.js Releases v16.5.0-canary.35",
-      "category": "web",
-      "date": "2026-10-31",
-      "collectedAt": "2026-10-31T11:00:29+09:00",
-      "summary": "v16.5.0-canary.35",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.35",
         "kind": "primary"
       },
       "auto": true
@@ -205,25 +244,6 @@
       "source": {
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/10/30/this-week-in-rails",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-a36febfd4a",
-      "title": "Next.js Releases v16.5.0-canary.32",
-      "category": "web",
-      "date": "2026-10-30",
-      "collectedAt": "2026-10-30T11:24:39+09:00",
-      "summary": "Core Changes Fix hangs and crashes for 204 responses from route handlers and deduped fetches: #100159 fix(adapter): preserve revalidation for metadata prerenders: #100861 next-custom-transforms: Optimize server-reference…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.32",
         "kind": "primary"
       },
       "auto": true
@@ -499,25 +519,6 @@
       "source": {
         "name": "OpenAI Node SDK Releases",
         "url": "https://github.com/openai/openai-node/releases/tag/v7.45.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-6316e4db28",
-      "title": "OpenAI Node SDK Releases v7.44.0",
-      "category": "ai",
-      "date": "2026-10-27",
-      "collectedAt": "2026-10-27T10:49:07+09:00",
-      "summary": "7.44.0 (2026-10-25) Features api: add delegation controls and prompt cache lifetimes and scheduled automations via client.beta.agents.automations , including invocation endpoints and the automations agent-tool variant (…",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.44.0",
         "kind": "primary"
       },
       "auto": true
