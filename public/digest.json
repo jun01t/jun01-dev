@@ -1,6 +1,45 @@
 {
-  "updatedAt": "2026-11-01T10:50:37+09:00",
+  "updatedAt": "2026-11-02T11:06:17+09:00",
   "items": [
+    {
+      "slug": "auto-d0e9988d80",
+      "title": "遊んでいるNPUにWindowsのデスクトップ描画を任せるドライバ登場。ただし遅い",
+      "category": "gadget",
+      "date": "2026-11-02",
+      "collectedAt": "2026-11-02T11:06:17+09:00",
+      "summary": "NPUはAI処理のためのプロセッサとされている。しかし、最近のLLMのようなAI処理にはあまり向いていない。結局、ローカルLLMの実行にはGPUのほうが多く使われ、NPUは何もしていない時間が長い。――それなら逆に、GPUが担う描画の仕事をNPUにやらせてみてはどうか？そんな試みとして、labscommunityが研究用ドライバ「npu-render」をGitHubで公開した。",
+      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "デスク"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2152950.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-17f7054f73",
+      "title": "【ギア推し】磁気スイッチ、どのキーに挿す？配置を自分で決める「G512 X 75」が楽しい",
+      "category": "gadget",
+      "date": "2026-11-02",
+      "collectedAt": "2026-11-02T11:06:17+09:00",
+      "summary": "ロジクールの「G512 X 75」で最初に手が伸びるのは、キーでもケーブルでもなく本体背面の半透明カバーだ。開けると磁気式のアナログスイッチが9個ホルダーに収まっていて、これをどのキーに挿すかと考え始めた時点で、もうこのキーボードは始まっている。",
+      "why": "「キーボード、ロジクール」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "キーボード",
+        "ロジクール"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/column/gamingdevice/2152730.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-2d152eb49d",
       "title": "Next.js Releases v16.5.0-canary.36",
@@ -249,25 +288,6 @@
       "auto": true
     },
     {
-      "slug": "auto-79cc7d5801",
-      "title": "JAPANNEXT、10点マルチタッチ対応の21.5型IPSフルHDモニター",
-      "category": "gadget",
-      "date": "2026-10-30",
-      "collectedAt": "2026-10-30T11:24:39+09:00",
-      "summary": "JAPANNEXTは10月29日、21.5型のIPSタッチパネルを搭載したフルHD(1,920×1,080ドット)のモニター「JN-IPST215F-HSPC6-W」を発売した。直販価格は3万4,980円。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2152445.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-32cda1537c",
       "title": "Codex CLI Release: 0.166.0",
       "category": "ai",
@@ -302,25 +322,6 @@
         "name": "OpenAI",
         "url": "https://openai.com/index/credit-saison",
         "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-c3959e0d23",
-      "title": "MSI、5層タンデムQD-OLEDで360Hzの湾曲ゲーミングモニター「MEG X」",
-      "category": "gadget",
-      "date": "2026-10-29",
-      "collectedAt": "2026-10-30T11:24:39+09:00",
-      "summary": "MSIのゲーミングモニター「MEG」シリーズに、湾曲QD-OLEDパネルを採用したフラグシップモデルが加わる。エムエスアイコンピュータージャパンは、33.98型ゲーミングモニター「MEG X」を11月下旬以降に順次発売する。価格はオープンプライスで、実売予想価格は30万2,500円前後の見込み。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2152246.html",
-        "kind": "roundup"
       },
       "auto": true
     },
