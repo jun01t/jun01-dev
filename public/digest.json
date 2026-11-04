@@ -1,12 +1,69 @@
 {
-  "updatedAt": "2026-11-03T12:49:59+09:00",
+  "updatedAt": "2026-11-04T11:54:41+09:00",
   "items": [
     {
-      "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.317",
+      "slug": "auto-c53b2fbbfb",
+      "title": "Rails Releases 8.1.4.1",
+      "category": "web",
+      "date": "2026-11-04",
+      "collectedAt": "2026-11-04T11:54:41+09:00",
+      "summary": "Active Support ActiveSupport::MessagePack no longer deserializes an unsafe ActiveSupport::SafeBuffer as html_safe .…",
+      "why": "Rails Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "rails"
+      ],
+      "source": {
+        "name": "Rails Releases",
+        "url": "https://github.com/rails/rails/releases/tag/v8.1.4.1",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-4ccd4cf759",
+      "title": "Rails Releases 8.0.5.2",
+      "category": "web",
+      "date": "2026-11-04",
+      "collectedAt": "2026-11-04T11:54:41+09:00",
+      "summary": "Active Support ActiveSupport::Inflector#safe_constantize matches the constant name in a LoadError message as a literal string instead of building a Regexp from it.…",
+      "why": "Rails Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "rails"
+      ],
+      "source": {
+        "name": "Rails Releases",
+        "url": "https://github.com/rails/rails/releases/tag/v8.0.5.2",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-42888e1974",
+      "title": "OpenAI Node SDK Releases v7.50.0",
       "category": "ai",
-      "date": "2026-11-03",
-      "summary": "Added Added a warning to /schedule when a new cloud scheduled task gets connectors you did not ask for, with how to remove them Added a check that asks before a web or shell tool call sends your account email address to…",
+      "date": "2026-11-04",
+      "collectedAt": "2026-11-04T11:54:41+09:00",
+      "summary": "7.50.0 (2026-11-03) Features api: add 12-hour Responses caching and cache-write usage ( #3106 ) ( a286400 ) api: add project service tier settings ( #3105 ) ( 13abd41 ) Bug Fixes deps-dev: bump puppeteer from 25.14.0 to…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.50.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e54d787de1",
+      "title": "Claude Code 2.1.318",
+      "category": "ai",
+      "date": "2026-11-04",
+      "summary": "Added Added a record of your answer when Claude Code asks to turn on the mods it writes in a session Added assume_role on mantle upstreams of the Claude apps gateway, for a role in another AWS account and for per-develop…",
       "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
@@ -15,6 +72,161 @@
       "source": {
         "name": "Claude Code",
         "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-f3e21144c6",
+      "title": "Next.js Releases v16.5.0-canary.40",
+      "category": "web",
+      "date": "2026-11-04",
+      "collectedAt": "2026-11-04T11:54:41+09:00",
+      "summary": "Core Changes Add instrumentationInject for adapter-supplied instrumentation: #100658 test(codemod): fix flaky agents-md e2e cascade on slow GitHub clones: #101122 perf(build): use nft's cached readlink when collecting bu…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.40",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-fd571dca7c",
+      "title": "OpenAI Node SDK Releases v7.49.0",
+      "category": "ai",
+      "date": "2026-11-04",
+      "collectedAt": "2026-11-04T11:54:41+09:00",
+      "summary": "7.49.0 (2026-11-03) Features api: add workload identity providers and federation rules ( #3103 ) ( 47c4227 )",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.49.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0f7729fa4c",
+      "title": "Next.js Releases v16.5.0-canary.39",
+      "category": "web",
+      "date": "2026-11-04",
+      "collectedAt": "2026-11-04T11:54:41+09:00",
+      "summary": "Core Changes Strip internal middleware cookie headers from edge responses: #101109 Fix stale compressed framing for forwarded fetch responses: #101108 [use cache] Fix cache key when binary args are used: #101107 Fix shar…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.39",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-014d49577a",
+      "title": "Next.js Releases v16.4.5",
+      "category": "web",
+      "date": "2026-11-04",
+      "collectedAt": "2026-11-04T11:54:41+09:00",
+      "summary": "This release contains security fixes for the following advisories: Moderate Cross-tenant sensitive information disclosure in Next.js 'use cache' when called through unstable_cache Cache leak across root param values in n…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.5",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-7eec6eebdd",
+      "title": "Next.js Releases v15.5.29",
+      "category": "web",
+      "date": "2026-11-04",
+      "collectedAt": "2026-11-04T11:54:41+09:00",
+      "summary": "This release contains security fixes for the following advisories: Moderate Cross-client response injection and disclosure in self-hosted Next.js applications forwarding fetched responses SVG rejection bypass in Next.js…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v15.5.29",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-9b3317c83d",
+      "title": "OpenAI Node SDK Releases v7.48.0",
+      "category": "ai",
+      "date": "2026-11-04",
+      "collectedAt": "2026-11-04T11:54:41+09:00",
+      "summary": "7.48.0 (2026-11-03) Features api: expand Live Responses delegation tools and choices (exhaustive TypeScript switches may need to handle new variants) ( #3101 ) ( e572875 ) responses: retain sparse WebSocket output facts…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai",
+        "typescript"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.48.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-26c6032e1d",
+      "title": "Accelerating engineering for the physical world",
+      "category": "ai",
+      "date": "2026-11-03",
+      "collectedAt": "2026-11-04T11:54:41+09:00",
+      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt",
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-08b710f1e7",
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "category": "ai",
+      "date": "2026-11-03",
+      "collectedAt": "2026-11-04T11:54:41+09:00",
+      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt",
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/heimstaden",
         "kind": "primary"
       },
       "auto": true
@@ -39,20 +251,20 @@
       "auto": true
     },
     {
-      "slug": "auto-3a5b4a5e9d",
-      "title": "Next.js Releases v16.5.0-canary.37",
-      "category": "web",
+      "slug": "auto-0b2b6437e9",
+      "title": "Claude Platform release notes — November 3, 2026",
+      "category": "ai",
       "date": "2026-11-03",
-      "collectedAt": "2026-11-03T12:49:59+09:00",
-      "summary": "Core Changes Add router.experimental_prepare(): #101050 Handle registries not serving JSON when checking the version: #95062 Fix navigations rerendering fully static ISR pages in next start : #100854 [refactor] Remove ob…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "summary": "Text generated by Claude Mythos 5, Claude Opus 4.7, and Claude Sonnet 4.6 carries Anthropic’s text watermark on the platforms listed in How Claude marks AI-generated content .…",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
-        "next.js"
+        "claude",
+        "anthropic"
       ],
       "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.37",
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
         "kind": "primary"
       },
       "auto": true
@@ -72,25 +284,6 @@
       "source": {
         "name": "AWS News Blog",
         "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-2e7e35a388",
-      "title": "Next.js Releases v16.4.4",
-      "category": "web",
-      "date": "2026-11-03",
-      "collectedAt": "2026-11-03T12:49:59+09:00",
-      "summary": "Note This release is backporting bug fixes. It does not include all pending features/changes on canary. The announced security released for November will be published tomorrow.…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.4",
         "kind": "primary"
       },
       "auto": true
@@ -191,24 +384,6 @@
       "auto": true
     },
     {
-      "slug": "auto-0b2b6437e9",
-      "title": "Claude Platform release notes — November 2, 2026",
-      "category": "ai",
-      "date": "2026-11-02",
-      "summary": "Long conversations and agent loops on the Messages API can now send smaller requests and get a lower time to first token with message threads , in beta with the message-threads-2026-08-12 beta header.…",
-      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude"
-      ],
-      "source": {
-        "name": "Claude Platform",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-17f7054f73",
       "title": "【ギア推し】磁気スイッチ、どのキーに挿す？配置を自分で決める「G512 X 75」が楽しい",
       "category": "gadget",
@@ -229,45 +404,6 @@
       "auto": true
     },
     {
-      "slug": "auto-2d152eb49d",
-      "title": "Next.js Releases v16.5.0-canary.36",
-      "category": "web",
-      "date": "2026-11-01",
-      "collectedAt": "2026-11-01T10:50:37+09:00",
-      "summary": "Core Changes Upgrade React from a703ca64-20261030 to e84e1492-20261031 : #100999 Upgrade React from dc9aed36-20261027 to a703ca64-20261030 : #100965 Misc Changes Turbopack: resolve per-module data once during module grap…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "react",
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.36",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-8f694aea25",
-      "title": "Next.js Releases v16.5.0-canary.35",
-      "category": "web",
-      "date": "2026-10-31",
-      "collectedAt": "2026-10-31T11:00:29+09:00",
-      "summary": "Core Changes Handle cancellation errors during response clone cleanup: #100961 Revert \"Revert \"Fix App Router locale path matching with Pages i18n\"\": #98726 Fix prerendering of caught 'use cache' errors: #100956 Misc Cha…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.35",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-526bc6bf06",
       "title": "OpenAI Node SDK Releases v7.47.0",
       "category": "ai",
@@ -282,44 +418,6 @@
       "source": {
         "name": "OpenAI Node SDK Releases",
         "url": "https://github.com/openai/openai-node/releases/tag/v7.47.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-9572f00f52",
-      "title": "OpenAI Node SDK Releases v7.46.0",
-      "category": "ai",
-      "date": "2026-10-31",
-      "collectedAt": "2026-10-31T11:00:29+09:00",
-      "summary": "7.46.0 (2026-10-31) Features api: add agent context compaction settings ( #3075 ) ( 3e3918d ) api: add agent session review and tool settings ( #3083 ) ( fb9c100 ) api: add experimental agent time awareness ( #3078 ) ( 2…",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.46.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-c7606af40d",
-      "title": "Community safety report and new protections for teens",
-      "category": "ai",
-      "date": "2026-10-30",
-      "collectedAt": "2026-10-31T11:00:29+09:00",
-      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
         "kind": "primary"
       },
       "auto": true
@@ -382,25 +480,6 @@
       "auto": true
     },
     {
-      "slug": "auto-6750c24614",
-      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-      "category": "ai",
-      "date": "2026-10-29",
-      "collectedAt": "2026-10-31T11:00:29+09:00",
-      "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/credit-saison",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-d39e8c9096",
       "title": "Terraform Releases v1.17.1",
       "category": "cloud",
@@ -436,25 +515,6 @@
       "source": {
         "name": "Nuxt Blog",
         "url": "https://nuxt.com/blog/devtools-v4",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e8caf518c7",
-      "title": "OpenAI Node SDK Releases v7.45.1",
-      "category": "ai",
-      "date": "2026-10-28",
-      "collectedAt": "2026-10-28T11:01:19+09:00",
-      "summary": "7.45.1 (2026-10-27) Bug Fixes api: clarify prompt cache breakpoint TTL behavior ( #3057 ) ( 60224b3 ) vertex: support google-auth-library v11 ( #3046 ) ( 381709f )",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.45.1",
         "kind": "primary"
       },
       "auto": true
@@ -535,26 +595,6 @@
       "source": {
         "name": "Nuxt Releases",
         "url": "https://github.com/nuxt/nuxt/releases/tag/v4.6.3",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-c1ed6b0157",
-      "title": "OpenAI Node SDK Releases v7.45.0",
-      "category": "ai",
-      "date": "2026-10-27",
-      "collectedAt": "2026-10-27T10:49:07+09:00",
-      "summary": "7.45.0 (2026-10-26) Features api: add gpt-6.1-terra model identifier ( #3054 ) ( f8120e5 ) Bug Fixes deps-dev: bump @cloudflare/workers-types from 5.20261011.1 to 5.20261018.1 in /ecosystem-tests/cloudflare-worker ( #303…",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai",
-        "gpt"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.45.0",
         "kind": "primary"
       },
       "auto": true
@@ -648,44 +688,6 @@
       "source": {
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/10/22/on-rails-hussain-akram-and-antonio-carlos-de-souza-donorbox",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-8b41225be9",
-      "title": "Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート予定",
-      "category": "cloud",
-      "date": "2026-10-22",
-      "collectedAt": "2026-10-22T10:13:00+09:00",
-      "summary": "Cloudflareは、TypeScriptをRustに移植した「tsrs」を発表しました。 下記は、Cloudflareに買収されたVoidZeroによるtsrsに関するポストです。VoidZeroもこのtsrsの開発に関わっています。…",
-      "why": "「typescript」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "typescript"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-1899c85735",
-      "title": "Vite Releases v8.3.5",
-      "category": "web",
-      "date": "2026-10-21",
-      "collectedAt": "2026-10-22T10:13:00+09:00",
-      "summary": "Bug Fixes build: handle missing chunk import maps ( #23777 ) ( 8d7623d ) build: include preload dependencies to chunk import map hashing ( #23793 ) ( 4d16e7c ) bundled-dev: apply server.origin to asset URLs ( #23683 ) (…",
-      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vite"
-      ],
-      "source": {
-        "name": "Vite Releases",
-        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.5",
         "kind": "primary"
       },
       "auto": true
