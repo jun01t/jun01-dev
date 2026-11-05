@@ -1,6 +1,142 @@
 {
-  "updatedAt": "2026-11-04T11:54:41+09:00",
+  "updatedAt": "2026-11-05T12:08:50+09:00",
   "items": [
+    {
+      "slug": "auto-8de9e8aeec",
+      "title": "最大風速55m/sでゴミも水滴も吹き飛ばす充電式ジェットブロワー",
+      "category": "gadget",
+      "date": "2026-11-05",
+      "collectedAt": "2026-11-05T12:08:50+09:00",
+      "summary": "キーボードのホコリから洗車後の水滴、庭の落ち葉までを1台で吹き飛ばせるブロワーが登場した。サンワサプライは11月4日、直販サイト「サンワダイレクト」で充電式ジェットブロワー「200-CDADE008」を発売した。直販価格は1万9,800円。",
+      "why": "「キーボード」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "キーボード"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2153808.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-867769386f",
+      "title": "OpenAI Node SDK Releases v7.51.0",
+      "category": "ai",
+      "date": "2026-11-05",
+      "collectedAt": "2026-11-05T12:08:50+09:00",
+      "summary": "7.51.0 (2026-11-05) Features api: add Australia, India, and Japan residency options ( #3112 ) ( 42c31dc ) api: add GPT-6 Rosalind to the model catalog ( #3109 ) ( 9854bd6 ) api: add image complexity and GIF and SVG outpu…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai",
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.51.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-bfcc9fbc29",
+      "title": "Next.js Releases v16.5.0-canary.41",
+      "category": "web",
+      "date": "2026-11-05",
+      "collectedAt": "2026-11-05T12:08:50+09:00",
+      "summary": "Core Changes feat(next/image): add internal image redirects (to match existing external image redirects): #98271 Turbopack: show the source-mapped file in issue headers: #101161 Add Request Insights filters and pause con…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.41",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-353984bab3",
+      "title": "GitHubで最も使われている言語は2年連続TypeScript、プルリクの増加率はRust。急成長したOSSはCC Switch、Omarchyなど。GitHub Octoverse 2026",
+      "category": "cloud",
+      "date": "2026-11-05",
+      "collectedAt": "2026-11-05T12:08:50+09:00",
+      "summary": "GitHubは、この1年のGitHubにおけるGitHubの利用動向やオープンソースの動向などをまとめた年次レポート「Octoverse 2026」を発表しました。 発表によると、GitHubを利用している開発者は総数2億2500万人。国別で最も多いのはアメリカで3830万人、2位はインドで3200万人、3位は中国で1240万人、4位はブラジルで1020万人。日本は5位で715万人となっています。…",
+      "why": "「typescript」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "typescript"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/github2typescriptrustosscc_switchomarchygithub_octoverse_2026.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-3a06f84c0f",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "category": "ai",
+      "date": "2026-11-04",
+      "collectedAt": "2026-11-05T12:08:50+09:00",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/openai-to-acquire-pierre",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-4b0247e95e",
+      "title": "USB-C 1本で4Kを3画面出力。Club 3Dの12-in-1ドック",
+      "category": "gadget",
+      "date": "2026-11-04",
+      "collectedAt": "2026-11-05T12:08:50+09:00",
+      "summary": "Club 3Dは、12-in-1 USB Type-Cドッキングハブ「CSV-2556」を11月4日に発売した。価格はオープンプライスで、Amazonでの価格は1万5,980円。",
+      "why": "「usb-c、usb type-c、ドッキング」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "usb-c",
+        "usb type-c",
+        "ドッキング"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2153614.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-75679f5aa6",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "category": "ai",
+      "date": "2026-11-04",
+      "collectedAt": "2026-11-05T12:08:50+09:00",
+      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-c53b2fbbfb",
       "title": "Rails Releases 8.1.4.1",
@@ -40,6 +176,25 @@
       "auto": true
     },
     {
+      "slug": "auto-9cdd17ec8b",
+      "title": "Rails Versions 8.0.5.2 and 8.1.4.1 have been released!",
+      "category": "web",
+      "date": "2026-11-04",
+      "collectedAt": "2026-11-05T12:08:50+09:00",
+      "summary": "Hello, Rails community! Rails Versions 8.0.5.2 and 8.1.4.1 have been released. These are security updates addressing 21 security issues falling into a few themes: Possible arbitrary file read, file write and remote code…",
+      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "rails"
+      ],
+      "source": {
+        "name": "Ruby on Rails",
+        "url": "https://rubyonrails.org/2026/11/4/Rails-8.0.5.2-and-8.1.4.1-have-been-released",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
       "slug": "auto-42888e1974",
       "title": "OpenAI Node SDK Releases v7.50.0",
       "category": "ai",
@@ -72,6 +227,45 @@
       "source": {
         "name": "Claude Code",
         "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0a437d67f2",
+      "title": "Introducing Images 2.6",
+      "category": "ai",
+      "date": "2026-11-04",
+      "collectedAt": "2026-11-05T12:08:50+09:00",
+      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt",
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-images-2-6",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-bf25be8f87",
+      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "category": "ai",
+      "date": "2026-11-04",
+      "collectedAt": "2026-11-05T12:08:50+09:00",
+      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/devrev-enterprise-self-service",
         "kind": "primary"
       },
       "auto": true
@@ -153,25 +347,6 @@
       "auto": true
     },
     {
-      "slug": "auto-7eec6eebdd",
-      "title": "Next.js Releases v15.5.29",
-      "category": "web",
-      "date": "2026-11-04",
-      "collectedAt": "2026-11-04T11:54:41+09:00",
-      "summary": "This release contains security fixes for the following advisories: Moderate Cross-client response injection and disclosure in self-hosted Next.js applications forwarding fetched responses SVG rejection bypass in Next.js…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v15.5.29",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-9b3317c83d",
       "title": "OpenAI Node SDK Releases v7.48.0",
       "category": "ai",
@@ -187,46 +362,6 @@
       "source": {
         "name": "OpenAI Node SDK Releases",
         "url": "https://github.com/openai/openai-node/releases/tag/v7.48.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-26c6032e1d",
-      "title": "Accelerating engineering for the physical world",
-      "category": "ai",
-      "date": "2026-11-03",
-      "collectedAt": "2026-11-04T11:54:41+09:00",
-      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt",
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-08b710f1e7",
-      "title": "Heimstaden is changing residential real estate management with AI",
-      "category": "ai",
-      "date": "2026-11-03",
-      "collectedAt": "2026-11-04T11:54:41+09:00",
-      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt",
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/heimstaden",
         "kind": "primary"
       },
       "auto": true
@@ -289,25 +424,6 @@
       "auto": true
     },
     {
-      "slug": "auto-de4cf53f9d",
-      "title": "Scaling Git at OpenAI",
-      "category": "ai",
-      "date": "2026-11-03",
-      "collectedAt": "2026-11-03T12:49:59+09:00",
-      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/scaling-git-at-openai",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-51f4bbf478",
       "title": "マウス、青色LED採用でノベルティ付きのインテル50周年記念PC。50万円で50台限定",
       "category": "gadget",
@@ -342,83 +458,6 @@
         "name": "PC Watch",
         "url": "https://pc.watch.impress.co.jp/docs/news/2153149.html",
         "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-d0e9988d80",
-      "title": "遊んでいるNPUにWindowsのデスクトップ描画を任せるドライバ登場。ただし遅い",
-      "category": "gadget",
-      "date": "2026-11-02",
-      "collectedAt": "2026-11-02T11:06:17+09:00",
-      "summary": "NPUはAI処理のためのプロセッサとされている。しかし、最近のLLMのようなAI処理にはあまり向いていない。結局、ローカルLLMの実行にはGPUのほうが多く使われ、NPUは何もしていない時間が長い。――それなら逆に、GPUが担う描画の仕事をNPUにやらせてみてはどうか？そんな試みとして、labscommunityが研究用ドライバ「npu-render」をGitHubで公開した。",
-      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "デスク"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2152950.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-598c6194c0",
-      "title": "Qodo builds context into AI code review with Codex",
-      "category": "ai",
-      "date": "2026-11-02",
-      "collectedAt": "2026-11-03T12:49:59+09:00",
-      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/qodo-codex-plugin",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-17f7054f73",
-      "title": "【ギア推し】磁気スイッチ、どのキーに挿す？配置を自分で決める「G512 X 75」が楽しい",
-      "category": "gadget",
-      "date": "2026-11-02",
-      "collectedAt": "2026-11-02T11:06:17+09:00",
-      "summary": "ロジクールの「G512 X 75」で最初に手が伸びるのは、キーでもケーブルでもなく本体背面の半透明カバーだ。開けると磁気式のアナログスイッチが9個ホルダーに収まっていて、これをどのキーに挿すかと考え始めた時点で、もうこのキーボードは始まっている。",
-      "why": "「キーボード、ロジクール」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "キーボード",
-        "ロジクール"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/column/gamingdevice/2152730.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-526bc6bf06",
-      "title": "OpenAI Node SDK Releases v7.47.0",
-      "category": "ai",
-      "date": "2026-10-31",
-      "collectedAt": "2026-11-01T10:50:37+09:00",
-      "summary": "7.47.0 (2026-10-31) Features api: support typed Responses WebSocket warmup ( #3084 ) ( a365b5c )",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.47.0",
-        "kind": "primary"
       },
       "auto": true
     },
@@ -650,44 +689,6 @@
       "source": {
         "name": "Terraform Releases",
         "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e3fd315897",
-      "title": "Terraform Releases v1.16.7",
-      "category": "cloud",
-      "date": "2026-10-22",
-      "collectedAt": "2026-10-23T10:12:29+09:00",
-      "summary": "1.16.7 (October 22, 2026) BUG FIXES: command/test: Avoid panic when testing schema w/ deprecated values ( #39406 ) NOTES: Terraform is now built with Go 1.26.10, which no longer trusts certificates issued through a set o…",
-      "why": "Terraform Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "terraform"
-      ],
-      "source": {
-        "name": "Terraform Releases",
-        "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.7",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-f240822c69",
-      "title": "On Rails — Hussain Akram &amp; Antonio Carlos de Souza: Rails Scales for the Rest of Us",
-      "category": "web",
-      "date": "2026-10-22",
-      "collectedAt": "2026-10-23T10:12:29+09:00",
-      "summary": "Hussain Akram is an engineering manager at Donorbox and Antonio Carlos de Souza (A.C.) is its chief architect, working on a Rails app that has helped nonprofits raise money online and in person for more than a decade.…",
-      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "rails"
-      ],
-      "source": {
-        "name": "Ruby on Rails",
-        "url": "https://rubyonrails.org/2026/10/22/on-rails-hussain-akram-and-antonio-carlos-de-souza-donorbox",
         "kind": "primary"
       },
       "auto": true
