@@ -1,21 +1,249 @@
 {
-  "updatedAt": "2026-11-05T12:08:50+09:00",
+  "updatedAt": "2026-11-06T12:10:25+09:00",
   "items": [
     {
-      "slug": "auto-8de9e8aeec",
-      "title": "最大風速55m/sでゴミも水滴も吹き飛ばす充電式ジェットブロワー",
-      "category": "gadget",
-      "date": "2026-11-05",
-      "collectedAt": "2026-11-05T12:08:50+09:00",
-      "summary": "キーボードのホコリから洗車後の水滴、庭の落ち葉までを1台で吹き飛ばせるブロワーが登場した。サンワサプライは11月4日、直販サイト「サンワダイレクト」で充電式ジェットブロワー「200-CDADE008」を発売した。直販価格は1万9,800円。",
-      "why": "「キーボード」に触れているので拾いました。全文の判断は出典を見てください。",
+      "slug": "auto-32cda1537c",
+      "title": "Codex CLI Release: 0.167.0",
+      "category": "ai",
+      "date": "2026-11-06",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "New Features Open the agent command center with codex agents --no-daemon . The command center and session picker now mark unread results ( #58238 , #58239 , #58263 , #58264 ).…",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
       "points": [],
       "tags": [
-        "キーボード"
+        "codex"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-b7386f2edb",
+      "title": "Next.js Releases v16.5.0-canary.42",
+      "category": "web",
+      "date": "2026-11-06",
+      "collectedAt": "2026-11-06T12:10:25+09:00",
+      "summary": "Core Changes Persist Request Insights session history: #97795 Show route module loading and preparation in Request Insights: #97362 Improve Request Insights request and fetch details: #96925 Automatically compress route…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.42",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-c88b52d0b2",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "category": "ai",
+      "date": "2026-11-06",
+      "collectedAt": "2026-11-06T12:10:25+09:00",
+      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/cultfit-builds-with-codex",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-479e7b88d5",
+      "title": "OpenAI Node SDK Releases v7.52.0",
+      "category": "ai",
+      "date": "2026-11-06",
+      "collectedAt": "2026-11-06T12:10:25+09:00",
+      "summary": "7.52.0 (2026-11-05) Features api: add a model option for Responses ( #3116 ) ( c05ed3e ) Bug Fixes deps-dev: bump follow-redirects from 1.16.0 to 1.16.2 in /ecosystem-tests/cloudflare-worker ( #3113 ) ( 2d5b81c )",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.52.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-b58fee4edb",
+      "title": "Australian universities are creating AI-native graduates",
+      "category": "ai",
+      "date": "2026-11-06",
+      "collectedAt": "2026-11-06T12:10:25+09:00",
+      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0ae26eb73f",
+      "title": "Linuxカーネルの深刻な脆弱性／FDEの名前で単なるコンサルティングが販売／TypeScriptをRustに移植した「tsrs」発表ほか、2026年10月の人気記事",
+      "category": "cloud",
+      "date": "2026-11-06",
+      "collectedAt": "2026-11-06T12:10:25+09:00",
+      "summary": "2026年の9月から10月にかけては、タイムズカーから自動車免許証の画像を含む大規模な個人情報の漏洩があり、Linuxの深刻な脆弱性が発見され、PHPの脆弱について高市総理がXにポストするなど、ITの分野で社会的に大きな問題がありました。 とはいえ、これで問題が収束するとは思えず、今後こうした問題がさらに続くことになると予想されます。ITエンジニアの方々においては、忙しい日々の始まりなのかもしれません。…",
+      "why": "「typescript」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "typescript"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/linuxfdetypescriptrusttsrs202610.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-a22e0b1571",
+      "title": "Vue Releases v3.5.45",
+      "category": "web",
+      "date": "2026-11-05",
+      "collectedAt": "2026-11-06T12:10:25+09:00",
+      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
+      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vue"
+      ],
+      "source": {
+        "name": "Vue Releases",
+        "url": "https://github.com/vuejs/core/releases/tag/v3.5.45",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-53c56afbaf",
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "category": "ai",
+      "date": "2026-11-05",
+      "collectedAt": "2026-11-06T12:10:25+09:00",
+      "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-cyber",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-300d91101f",
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "category": "ai",
+      "date": "2026-11-05",
+      "collectedAt": "2026-11-06T12:10:25+09:00",
+      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt",
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/merge-builds-with-openai",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e240dbff45",
+      "title": "create-vite@9.3.4",
+      "category": "web",
+      "date": "2026-11-05",
+      "collectedAt": "2026-11-06T12:10:25+09:00",
+      "summary": "Bug Fixes create-vite: keep TypeScript 6 when using ESLint ( #23931 ) ( 28e1710 ) deps: update all non-major dependencies ( #23966 ) ( b3cb057 ) deps: update rolldown-related dependencies ( #23967 ) ( 0105733 )",
+      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vite",
+        "typescript"
+      ],
+      "source": {
+        "name": "Vite Releases",
+        "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.4",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-36e9b01369",
+      "title": "Vite Releases v8.3.6",
+      "category": "web",
+      "date": "2026-11-05",
+      "collectedAt": "2026-11-06T12:10:25+09:00",
+      "summary": "Bug Fixes await overlapping plugin container close calls ( #23935 ) ( 175bbeb ) build: resolve dynamic imports with queries appended when collecting CSS dependencies ( #23909 ) ( df36558 ) build: use stable module ids in…",
+      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vite"
+      ],
+      "source": {
+        "name": "Vite Releases",
+        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.6",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-5f1aeb9a7b",
+      "title": "plugin-legacy@8.2.4",
+      "category": "web",
+      "date": "2026-11-05",
+      "collectedAt": "2026-11-06T12:10:25+09:00",
+      "summary": "Bug Fixes deps: update all non-major dependencies ( #23217 ) ( ba958bd ) deps: update all non-major dependencies ( #23337 ) ( d550815 ) deps: update all non-major dependencies ( #23404 ) ( 238ad81 ) deps: update all non-…",
+      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [],
+      "source": {
+        "name": "Vite Releases",
+        "url": "https://github.com/vitejs/vite/releases/tag/plugin-legacy%408.2.4",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-b0e08ca391",
+      "title": "ChatGPTの画像生成が50%高速化。GIFアニメにも対応",
+      "category": "gadget",
+      "date": "2026-11-05",
+      "collectedAt": "2026-11-06T12:10:25+09:00",
+      "summary": "OpenAIは11月4日、生成速度を50%高速化した「ChatGPT Images 2.6」を発表した。ChatGPTおよびCodexのすべてのプランを対象に提供を開始しており、デスクトップ版、モバイル版、Web版にて利用できる。",
+      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "デスク"
       ],
       "source": {
         "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2153808.html",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2153942.html",
         "kind": "roundup"
       },
       "auto": true
@@ -37,6 +265,62 @@
         "name": "OpenAI Node SDK Releases",
         "url": "https://github.com/openai/openai-node/releases/tag/v7.51.0",
         "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-5d176638f1",
+      "title": "Build Live Apps in Cursor",
+      "category": "ai",
+      "date": "2026-11-05",
+      "collectedAt": "2026-11-06T12:10:25+09:00",
+      "summary": "Agents have lowered the cost of writing code, but most apps and tools that users build never make it off of localhost. Now, you can build live apps directly in Cursor and share them with a link.…",
+      "why": "Cursor Changelogの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "cursor"
+      ],
+      "source": {
+        "name": "Cursor Changelog",
+        "url": "https://cursor.com/changelog/build-live-apps",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0b2b6437e9",
+      "title": "Claude Platform release notes — November 5, 2026",
+      "category": "ai",
+      "date": "2026-11-05",
+      "summary": "You can now set up an IP allowlist for your organization in the Claude Console, in beta. Requests to covered services from addresses not on your list are refused, which limits where a leaked API key can be used.…",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude"
+      ],
+      "source": {
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-8de9e8aeec",
+      "title": "最大風速55m/sでゴミも水滴も吹き飛ばす充電式ジェットブロワー",
+      "category": "gadget",
+      "date": "2026-11-05",
+      "collectedAt": "2026-11-05T12:08:50+09:00",
+      "summary": "キーボードのホコリから洗車後の水滴、庭の落ち葉までを1台で吹き飛ばせるブロワーが登場した。サンワサプライは11月4日、直販サイト「サンワダイレクト」で充電式ジェットブロワー「200-CDADE008」を発売した。直販価格は1万9,800円。",
+      "why": "「キーボード」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "キーボード"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2153808.html",
+        "kind": "roundup"
       },
       "auto": true
     },
@@ -75,65 +359,6 @@
         "name": "Publickey",
         "url": "https://www.publickey1.jp/blog/26/github2typescriptrustosscc_switchomarchygithub_octoverse_2026.html",
         "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-3a06f84c0f",
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "category": "ai",
-      "date": "2026-11-04",
-      "collectedAt": "2026-11-05T12:08:50+09:00",
-      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/openai-to-acquire-pierre",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-4b0247e95e",
-      "title": "USB-C 1本で4Kを3画面出力。Club 3Dの12-in-1ドック",
-      "category": "gadget",
-      "date": "2026-11-04",
-      "collectedAt": "2026-11-05T12:08:50+09:00",
-      "summary": "Club 3Dは、12-in-1 USB Type-Cドッキングハブ「CSV-2556」を11月4日に発売した。価格はオープンプライスで、Amazonでの価格は1万5,980円。",
-      "why": "「usb-c、usb type-c、ドッキング」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "usb-c",
-        "usb type-c",
-        "ドッキング"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2153614.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-75679f5aa6",
-      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-      "category": "ai",
-      "date": "2026-11-04",
-      "collectedAt": "2026-11-05T12:08:50+09:00",
-      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
-      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "gpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-        "kind": "primary"
       },
       "auto": true
     },
@@ -232,41 +457,23 @@
       "auto": true
     },
     {
-      "slug": "auto-0a437d67f2",
-      "title": "Introducing Images 2.6",
-      "category": "ai",
+      "slug": "auto-4b0247e95e",
+      "title": "USB-C 1本で4Kを3画面出力。Club 3Dの12-in-1ドック",
+      "category": "gadget",
       "date": "2026-11-04",
       "collectedAt": "2026-11-05T12:08:50+09:00",
-      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "summary": "Club 3Dは、12-in-1 USB Type-Cドッキングハブ「CSV-2556」を11月4日に発売した。価格はオープンプライスで、Amazonでの価格は1万5,980円。",
+      "why": "「usb-c、usb type-c、ドッキング」に触れているので拾いました。全文の判断は出典を見てください。",
       "points": [],
       "tags": [
-        "chatgpt",
-        "codex"
+        "usb-c",
+        "usb type-c",
+        "ドッキング"
       ],
       "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/introducing-images-2-6",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-bf25be8f87",
-      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-      "category": "ai",
-      "date": "2026-11-04",
-      "collectedAt": "2026-11-05T12:08:50+09:00",
-      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "gpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/devrev-enterprise-self-service",
-        "kind": "primary"
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2153614.html",
+        "kind": "roundup"
       },
       "auto": true
     },
@@ -328,45 +535,6 @@
       "auto": true
     },
     {
-      "slug": "auto-014d49577a",
-      "title": "Next.js Releases v16.4.5",
-      "category": "web",
-      "date": "2026-11-04",
-      "collectedAt": "2026-11-04T11:54:41+09:00",
-      "summary": "This release contains security fixes for the following advisories: Moderate Cross-tenant sensitive information disclosure in Next.js 'use cache' when called through unstable_cache Cache leak across root param values in n…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.5",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-9b3317c83d",
-      "title": "OpenAI Node SDK Releases v7.48.0",
-      "category": "ai",
-      "date": "2026-11-04",
-      "collectedAt": "2026-11-04T11:54:41+09:00",
-      "summary": "7.48.0 (2026-11-03) Features api: expand Live Responses delegation tools and choices (exhaustive TypeScript switches may need to handle new variants) ( #3101 ) ( e572875 ) responses: retain sparse WebSocket output facts…",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai",
-        "typescript"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.48.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-a65aa83df4",
       "title": "Nuxt Releases v4.6.4",
       "category": "web",
@@ -381,25 +549,6 @@
       "source": {
         "name": "Nuxt Releases",
         "url": "https://github.com/nuxt/nuxt/releases/tag/v4.6.4",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-0b2b6437e9",
-      "title": "Claude Platform release notes — November 3, 2026",
-      "category": "ai",
-      "date": "2026-11-03",
-      "summary": "Text generated by Claude Mythos 5, Claude Opus 4.7, and Claude Sonnet 4.6 carries Anthropic’s text watermark on the platforms listed in How Claude marks AI-generated content .…",
-      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude",
-        "anthropic"
-      ],
-      "source": {
-        "name": "Claude Platform",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview",
         "kind": "primary"
       },
       "auto": true
@@ -443,25 +592,6 @@
       "auto": true
     },
     {
-      "slug": "auto-f65829bcca",
-      "title": "Linuxが「難しい」はもう古い！ 全部Claudeにまかせた結果……厨二病デスクトップが爆誕！",
-      "category": "gadget",
-      "date": "2026-11-02",
-      "collectedAt": "2026-11-03T12:49:59+09:00",
-      "summary": "Linuxを敬遠する理由として、多くの人が「設定が面倒」、「何かあったら自分で戻せない」を挙げます。では、その面倒の正体は何だったのでしょうか。OSそのものの複雑さではなく、正しい操作やコマンドを調べて打ち込む作業こそが壁だったのかもしれません。",
-      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "デスク"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2153149.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-4ae2bb08a2",
       "title": "Vue Releases v3.6.0-rc.14",
       "category": "web",
@@ -495,25 +625,6 @@
       "source": {
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/10/30/this-week-in-rails",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-32cda1537c",
-      "title": "Codex CLI Release: 0.166.0",
-      "category": "ai",
-      "date": "2026-10-29",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "New Features Added keyboard-driven transcript selection with word, line, and page motions, integrated search, and configurable shortcuts.…",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/",
         "kind": "primary"
       },
       "auto": true
@@ -575,121 +686,6 @@
         "name": "Publickey",
         "url": "https://www.publickey1.jp/blog/26/javascriptbunprettier300prettier.html",
         "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-18af31af0a",
-      "title": "create-vite@9.3.3",
-      "category": "web",
-      "date": "2026-10-27",
-      "collectedAt": "2026-10-28T11:01:19+09:00",
-      "summary": "Bug Fixes create-vite: include template files in package ( #23915 ) ( f4abfb5 )",
-      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vite"
-      ],
-      "source": {
-        "name": "Vite Releases",
-        "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.3",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-0e7b809f51",
-      "title": "create-vite@9.3.2",
-      "category": "web",
-      "date": "2026-10-27",
-      "collectedAt": "2026-10-28T11:01:19+09:00",
-      "summary": "Features create-vite: use typescript v7 where possible ( #23910 ) ( 0cf91e8 ) Bug Fixes deps: update all non-major dependencies ( #23896 ) ( 46b91c5 ) deps: update dependency preact to v11 ( #23867 ) ( 0672bf8 ) Miscella…",
-      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "react",
-        "vite",
-        "typescript"
-      ],
-      "source": {
-        "name": "Vite Releases",
-        "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.2",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-8ad3f0d623",
-      "title": "Nuxt Releases v4.6.3",
-      "category": "web",
-      "date": "2026-10-27",
-      "collectedAt": "2026-10-27T10:49:07+09:00",
-      "summary": "v4.6.3 is the next patch release. 👉 Changelog compare changes 🚨 Security fixes vite: do not read files named in client error reports ( 63299e13c ) - GHSA-x287-wcfc-q46c vite: deny dev server access to nitro dev output…",
-      "why": "Nuxt Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "nuxt",
-        "vite"
-      ],
-      "source": {
-        "name": "Nuxt Releases",
-        "url": "https://github.com/nuxt/nuxt/releases/tag/v4.6.3",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-ed6e82c8e9",
-      "title": "Vue Releases v3.6.0-rc.13",
-      "category": "web",
-      "date": "2026-10-23",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
-      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vue"
-      ],
-      "source": {
-        "name": "Vue Releases",
-        "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.13",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-c2699a033c",
-      "title": "Safer secrets, ZJIT, and more!",
-      "category": "web",
-      "date": "2026-10-23",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "New apps stop falling back to Marshal for signed messages, the local secret file is no longer world-readable, and SQLite finally renames columns the way the database intended.…",
-      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [],
-      "source": {
-        "name": "Ruby on Rails",
-        "url": "https://rubyonrails.org/2026/10/23/this-week-in-rails",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-9892c42b21",
-      "title": "Terraform Releases v1.17.0",
-      "category": "cloud",
-      "date": "2026-10-22",
-      "collectedAt": "2026-10-22T10:13:00+09:00",
-      "summary": "1.17.0 (October 21, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources that have p…",
-      "why": "Terraform Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "terraform"
-      ],
-      "source": {
-        "name": "Terraform Releases",
-        "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0",
-        "kind": "primary"
       },
       "auto": true
     }
