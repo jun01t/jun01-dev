@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-11-07T11:31:33+09:00",
+  "updatedAt": "2026-11-08T11:02:27+09:00",
   "items": [
+    {
+      "slug": "auto-fbe0e62934",
+      "title": "Next.js Releases v16.5.0-canary.44",
+      "category": "web",
+      "date": "2026-11-08",
+      "collectedAt": "2026-11-08T11:02:27+09:00",
+      "summary": "Core Changes docs: clarify refresh client cache behavior: #101160 Link Cache Components config errors to the migration guide: #101348 Bump is-animated@3.0.19 : #101173 Example Changes docs: use visible route locators wit…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.44",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-77812223ad",
       "title": "Next.js Releases v16.5.0-canary.43",
@@ -570,25 +589,6 @@
         "name": "PC Watch",
         "url": "https://pc.watch.impress.co.jp/docs/news/2153614.html",
         "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-f3e21144c6",
-      "title": "Next.js Releases v16.5.0-canary.40",
-      "category": "web",
-      "date": "2026-11-04",
-      "collectedAt": "2026-11-04T11:54:41+09:00",
-      "summary": "Core Changes Add instrumentationInject for adapter-supplied instrumentation: #100658 test(codemod): fix flaky agents-md e2e cascade on slow GitHub clones: #101122 perf(build): use nft's cached readlink when collecting bu…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.40",
-        "kind": "primary"
       },
       "auto": true
     },
