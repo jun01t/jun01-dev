@@ -1,6 +1,45 @@
 {
-  "updatedAt": "2026-11-08T11:02:27+09:00",
+  "updatedAt": "2026-11-09T11:21:50+09:00",
   "items": [
+    {
+      "slug": "auto-8ace0b088d",
+      "title": "Next.js Releases v16.5.0-canary.45",
+      "category": "web",
+      "date": "2026-11-09",
+      "collectedAt": "2026-11-09T11:21:50+09:00",
+      "summary": "Core Changes docs: clarify agent feedback workspace context: #101358 Misc Changes Turbopack: support turbopackIgnore on new URL(): #99965 turbo-tasks-backend: release unused capacity in task storage: #101344 turbopack-ec…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.45",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-5afc868cfa",
+      "title": "MCP仕様を完全にサポートしたMCP公式のRuby SDKが登場。「MCP SDK Tier 1」に到達と",
+      "category": "cloud",
+      "date": "2026-11-09",
+      "collectedAt": "2026-11-09T11:21:50+09:00",
+      "summary": "Linux Foundation傘下でMCP（Model Context Protocol）の仕様策定を行っている「Agentic AI Foundation（AAIF）」は、MCP公式のRuby SDKがMCP仕様を完全にサポートした「MCP SDK Tier 1」に到達したことを明らかにしました。…",
+      "why": "「mcp、model context protocol」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "mcp",
+        "model context protocol"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/mcpmcpruby_sdkmcp_sdk_tier_1.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-fbe0e62934",
       "title": "Next.js Releases v16.5.0-canary.44",
@@ -79,26 +118,6 @@
       "auto": true
     },
     {
-      "slug": "auto-9548fce95a",
-      "title": "上下2画面を1台で。折りたたみ式デュアルモニターが日本エイサーから",
-      "category": "gadget",
-      "date": "2026-11-06",
-      "collectedAt": "2026-11-07T11:31:33+09:00",
-      "summary": "ノートPCにつなぐだけで、デスクの横幅を広げずに画面を2枚増やせる。日本エイサーは11月5日、2枚のフルHD液晶を上下に重ねた折りたたみ式デュアルモニターの15.6型モデル「PD163QTBbmiuux」、および23.8型モデル「PD243YEbmiuux」を発売した。価格はオープンプライスで、直販価格はPD163QTBbmiuuxが4万5,800円、PD243YEbmiuuxが5万9,800円。",
-      "why": "「モニター、デスク」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター",
-        "デスク"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2154354.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-fd1a4c4700",
       "title": "Voice Chat with Agents",
       "category": "ai",
@@ -150,6 +169,26 @@
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/11/6/this-week-in-rails",
         "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-9548fce95a",
+      "title": "上下2画面を1台で。折りたたみ式デュアルモニターが日本エイサーから",
+      "category": "gadget",
+      "date": "2026-11-06",
+      "collectedAt": "2026-11-07T11:31:33+09:00",
+      "summary": "ノートPCにつなぐだけで、デスクの横幅を広げずに画面を2枚増やせる。日本エイサーは11月5日、2枚のフルHD液晶を上下に重ねた折りたたみ式デュアルモニターの15.6型モデル「PD163QTBbmiuux」、および23.8型モデル「PD243YEbmiuux」を発売した。価格はオープンプライスで、直販価格はPD163QTBbmiuuxが4万5,800円、PD243YEbmiuuxが5万9,800円。",
+      "why": "「モニター、デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター",
+        "デスク"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2154354.html",
+        "kind": "roundup"
       },
       "auto": true
     },
@@ -458,25 +497,6 @@
       "auto": true
     },
     {
-      "slug": "auto-bfcc9fbc29",
-      "title": "Next.js Releases v16.5.0-canary.41",
-      "category": "web",
-      "date": "2026-11-05",
-      "collectedAt": "2026-11-05T12:08:50+09:00",
-      "summary": "Core Changes feat(next/image): add internal image redirects (to match existing external image redirects): #98271 Turbopack: show the source-mapped file in issue headers: #101161 Add Request Insights filters and pause con…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.41",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-353984bab3",
       "title": "GitHubで最も使われている言語は2年連続TypeScript、プルリクの増加率はRust。急成長したOSSはCC Switch、Omarchyなど。GitHub Octoverse 2026",
       "category": "cloud",
@@ -664,25 +684,6 @@
       "source": {
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/10/30/this-week-in-rails",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-d39e8c9096",
-      "title": "Terraform Releases v1.17.1",
-      "category": "cloud",
-      "date": "2026-10-29",
-      "collectedAt": "2026-10-29T11:05:25+09:00",
-      "summary": "1.17.1 (October 28, 2026) BUG FIXES: fmt: The original content of a file is now preserved if Terraform experiences an error writing to the original file.…",
-      "why": "Terraform Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "terraform"
-      ],
-      "source": {
-        "name": "Terraform Releases",
-        "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.1",
         "kind": "primary"
       },
       "auto": true
