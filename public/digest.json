@@ -1,6 +1,234 @@
 {
-  "updatedAt": "2026-11-09T11:21:50+09:00",
+  "updatedAt": "2026-11-10T13:29:22+09:00",
   "items": [
+    {
+      "slug": "auto-e54d787de1",
+      "title": "Claude Code 2.1.322",
+      "category": "ai",
+      "date": "2026-11-10",
+      "summary": "Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-7c6a4ab011",
+      "title": "ロジクール「MX MASTER 4」にクリエイター/開発者モチーフの数量限定モデル",
+      "category": "gadget",
+      "date": "2026-11-10",
+      "collectedAt": "2026-11-10T13:29:22+09:00",
+      "summary": "ロジクールは、フラグシップマウス「MX MASTER 4」に特別なデザインを施した数量限定モデル「MX MASTER 4 Special Edition」を11月24日に発売する。「MX MASTER 4 Creator Edition」と「MX MASTER 4 Developer Edition」の2つのデザインを用意し、価格はいずれもオープンプライスで、直販価格は2万1,890円。",
+      "why": "「マウス、ロジクール」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "マウス",
+        "ロジクール"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2155041.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-102631f617",
+      "title": "Next.js Releases v16.5.0-canary.46",
+      "category": "web",
+      "date": "2026-11-10",
+      "collectedAt": "2026-11-10T13:29:22+09:00",
+      "summary": "Core Changes Resolve parallel route params from the URL when predicting routes: #101477 Prevent prerenders from changing foreground response status: #101295 Release fetch cache locks when origin fetch throws synchronousl…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.46",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-33c2792a70",
+      "title": "Next.js Releases v16.4.6",
+      "category": "web",
+      "date": "2026-11-10",
+      "collectedAt": "2026-11-10T13:29:22+09:00",
+      "summary": "Note This release is backporting bug fixes. It does not include all pending features/changes on canary.…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.6",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-9c331579e2",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "category": "ai",
+      "date": "2026-11-10",
+      "collectedAt": "2026-11-10T13:29:22+09:00",
+      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-90581f54ed",
+      "title": "OpenAI Node SDK Releases v7.54.0",
+      "category": "ai",
+      "date": "2026-11-10",
+      "collectedAt": "2026-11-10T13:29:22+09:00",
+      "summary": "7.54.0 (2026-11-08) Features api: recognize gpt-6-rosalind in beta Responses ( #3126 ) ( 8fb5a99 ) Chores api: retain agent scheduling support ( #3123 ) ( 47bade0 ) Documentation consolidate AGENTS.md guidance ( #3121 )…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai",
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.54.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-024f8077f8",
+      "title": "Vite Releases v8.3.7",
+      "category": "web",
+      "date": "2026-11-09",
+      "collectedAt": "2026-11-10T13:29:22+09:00",
+      "summary": "Bug Fixes deps: update Rolldown to v1.2.18 ( #24038 ) ( 517affb ) Miscellaneous Chores enable more lint rules ( #24035 ) ( 72f86e5 ) Tests use onTestFinished for tear downs ( #24003 ) ( a579e35 ) Build System generate so…",
+      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vite"
+      ],
+      "source": {
+        "name": "Vite Releases",
+        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.7",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-de8551a748",
+      "title": "Vite Releases v6.4.6",
+      "category": "web",
+      "date": "2026-11-09",
+      "collectedAt": "2026-11-10T13:29:22+09:00",
+      "summary": "Please refer to CHANGELOG.md for details.",
+      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vite"
+      ],
+      "source": {
+        "name": "Vite Releases",
+        "url": "https://github.com/vitejs/vite/releases/tag/v6.4.6",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-9444946144",
+      "title": "Vite Releases v7.3.8",
+      "category": "web",
+      "date": "2026-11-09",
+      "collectedAt": "2026-11-10T13:29:22+09:00",
+      "summary": "Please refer to CHANGELOG.md for details.",
+      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vite"
+      ],
+      "source": {
+        "name": "Vite Releases",
+        "url": "https://github.com/vitejs/vite/releases/tag/v7.3.8",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-711fc3b7a6",
+      "title": "Vite Releases v8.1.7",
+      "category": "web",
+      "date": "2026-11-09",
+      "collectedAt": "2026-11-10T13:29:22+09:00",
+      "summary": "Please refer to CHANGELOG.md for details.",
+      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vite"
+      ],
+      "source": {
+        "name": "Vite Releases",
+        "url": "https://github.com/vitejs/vite/releases/tag/v8.1.7",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-23b94c6976",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "category": "ai",
+      "date": "2026-11-09",
+      "collectedAt": "2026-11-10T13:29:22+09:00",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/coderabbit-codex-daybreak",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0b2b6437e9",
+      "title": "Claude Platform release notes — November 9, 2026",
+      "category": "ai",
+      "date": "2026-11-09",
+      "summary": "We’ve launched Claude Fable 5.2 ( claude-fable-5-2 ), built for demanding reasoning and long-horizon agentic work.…",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude"
+      ],
+      "source": {
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-8ace0b088d",
       "title": "Next.js Releases v16.5.0-canary.45",
@@ -55,45 +283,6 @@
       "source": {
         "name": "Next.js Releases",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.44",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-77812223ad",
-      "title": "Next.js Releases v16.5.0-canary.43",
-      "category": "web",
-      "date": "2026-11-07",
-      "collectedAt": "2026-11-07T11:31:33+09:00",
-      "summary": "Core Changes fix(app-render): stop prerendered Link headers from accumulating on revalidation: #100960 Align eslint-config-next TypeScript peer with typescript-eslint: #101247 Reduce header allocations in NodeNextRespons…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js",
-        "typescript"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.43",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.319",
-      "category": "ai",
-      "date": "2026-11-07",
-      "summary": "Added Added support for MCP tasks in the terminal: when an MCP server runs a tool call as a task, Claude Code moves it to the background right away and tells Claude the result when it finishes Added the CLAUDE_CODE_DISAB…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code",
-        "mcp"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog",
         "kind": "primary"
       },
       "auto": true
@@ -193,25 +382,6 @@
       "auto": true
     },
     {
-      "slug": "auto-b7386f2edb",
-      "title": "Next.js Releases v16.5.0-canary.42",
-      "category": "web",
-      "date": "2026-11-06",
-      "collectedAt": "2026-11-06T12:10:25+09:00",
-      "summary": "Core Changes Persist Request Insights session history: #97795 Show route module loading and preparation in Request Insights: #97362 Improve Request Insights request and fetch details: #96925 Automatically compress route…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.42",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-c88b52d0b2",
       "title": "Cult.fit builds operational muscle with Codex",
       "category": "ai",
@@ -307,101 +477,6 @@
       "auto": true
     },
     {
-      "slug": "auto-53c56afbaf",
-      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-      "category": "ai",
-      "date": "2026-11-05",
-      "collectedAt": "2026-11-06T12:10:25+09:00",
-      "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
-      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "gpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/introducing-gpt-6-cyber",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-300d91101f",
-      "title": "Merge builds product and business tools with OpenAI technology",
-      "category": "ai",
-      "date": "2026-11-05",
-      "collectedAt": "2026-11-06T12:10:25+09:00",
-      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
-      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt",
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/merge-builds-with-openai",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e240dbff45",
-      "title": "create-vite@9.3.4",
-      "category": "web",
-      "date": "2026-11-05",
-      "collectedAt": "2026-11-06T12:10:25+09:00",
-      "summary": "Bug Fixes create-vite: keep TypeScript 6 when using ESLint ( #23931 ) ( 28e1710 ) deps: update all non-major dependencies ( #23966 ) ( b3cb057 ) deps: update rolldown-related dependencies ( #23967 ) ( 0105733 )",
-      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vite",
-        "typescript"
-      ],
-      "source": {
-        "name": "Vite Releases",
-        "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.4",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-36e9b01369",
-      "title": "Vite Releases v8.3.6",
-      "category": "web",
-      "date": "2026-11-05",
-      "collectedAt": "2026-11-06T12:10:25+09:00",
-      "summary": "Bug Fixes await overlapping plugin container close calls ( #23935 ) ( 175bbeb ) build: resolve dynamic imports with queries appended when collecting CSS dependencies ( #23909 ) ( df36558 ) build: use stable module ids in…",
-      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vite"
-      ],
-      "source": {
-        "name": "Vite Releases",
-        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.6",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-5f1aeb9a7b",
-      "title": "plugin-legacy@8.2.4",
-      "category": "web",
-      "date": "2026-11-05",
-      "collectedAt": "2026-11-06T12:10:25+09:00",
-      "summary": "Bug Fixes deps: update all non-major dependencies ( #23217 ) ( ba958bd ) deps: update all non-major dependencies ( #23337 ) ( d550815 ) deps: update all non-major dependencies ( #23404 ) ( 238ad81 ) deps: update all non-…",
-      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [],
-      "source": {
-        "name": "Vite Releases",
-        "url": "https://github.com/vitejs/vite/releases/tag/plugin-legacy%408.2.4",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-867769386f",
       "title": "OpenAI Node SDK Releases v7.51.0",
       "category": "ai",
@@ -436,24 +511,6 @@
       "source": {
         "name": "Cursor Changelog",
         "url": "https://cursor.com/changelog/build-live-apps",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-0b2b6437e9",
-      "title": "Claude Platform release notes — November 5, 2026",
-      "category": "ai",
-      "date": "2026-11-05",
-      "summary": "You can now set up an IP allowlist for your organization in the Claude Console, in beta. Requests to covered services from addresses not on your list are refused, which limits where a leaked API key can be used.…",
-      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude"
-      ],
-      "source": {
-        "name": "Claude Platform",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview",
         "kind": "primary"
       },
       "auto": true
@@ -573,46 +630,6 @@
       "auto": true
     },
     {
-      "slug": "auto-42888e1974",
-      "title": "OpenAI Node SDK Releases v7.50.0",
-      "category": "ai",
-      "date": "2026-11-04",
-      "collectedAt": "2026-11-04T11:54:41+09:00",
-      "summary": "7.50.0 (2026-11-03) Features api: add 12-hour Responses caching and cache-write usage ( #3106 ) ( a286400 ) api: add project service tier settings ( #3105 ) ( 13abd41 ) Bug Fixes deps-dev: bump puppeteer from 25.14.0 to…",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.50.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-4b0247e95e",
-      "title": "USB-C 1本で4Kを3画面出力。Club 3Dの12-in-1ドック",
-      "category": "gadget",
-      "date": "2026-11-04",
-      "collectedAt": "2026-11-05T12:08:50+09:00",
-      "summary": "Club 3Dは、12-in-1 USB Type-Cドッキングハブ「CSV-2556」を11月4日に発売した。価格はオープンプライスで、Amazonでの価格は1万5,980円。",
-      "why": "「usb-c、usb type-c、ドッキング」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "usb-c",
-        "usb type-c",
-        "ドッキング"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2153614.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-a65aa83df4",
       "title": "Nuxt Releases v4.6.4",
       "category": "web",
@@ -665,25 +682,6 @@
       "source": {
         "name": "Vue Releases",
         "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.14",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e65a2f8f21",
-      "title": "No tricks, just treats",
-      "category": "web",
-      "date": "2026-10-30",
-      "collectedAt": "2026-10-31T11:00:29+09:00",
-      "summary": "Hi, it’s Claudio Baccigalupo . Don’t be scared 🎃 this week’s changes to the Rails codebase are all treats. Let’s explore them.…",
-      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "rails"
-      ],
-      "source": {
-        "name": "Ruby on Rails",
-        "url": "https://rubyonrails.org/2026/10/30/this-week-in-rails",
         "kind": "primary"
       },
       "auto": true
