@@ -1,6 +1,160 @@
 {
-  "updatedAt": "2026-11-10T13:29:22+09:00",
+  "updatedAt": "2026-11-11T11:32:13+09:00",
   "items": [
+    {
+      "slug": "auto-a4c52e6050",
+      "title": "Ryzen搭載で約981gの12.2型軽量・堅牢モバイルノート",
+      "category": "gadget",
+      "date": "2026-11-11",
+      "collectedAt": "2026-11-11T11:32:13+09:00",
+      "summary": "マウスコンピューターは、12.2型モバイルノート「mouse X2」シリーズから、Ryzen 5 216搭載モデルを発売した。コスモブルー、フロストゴールド、パールホワイトの3色を用意し、価格は19万9,800円。",
+      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "マウス"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2155391.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-7f7f361b3d",
+      "title": "タッチパッドでもペンが使える、RTX Spark搭載の2in1「Yoga 9n」",
+      "category": "gadget",
+      "date": "2026-11-11",
+      "collectedAt": "2026-11-11T11:32:13+09:00",
+      "summary": "レノボ・ジャパンは11月10日、個人向けPCの新製品を発表した。NVIDIA RTX Spark N1Xを搭載したノートPCとして、11月2日から販売を開始している「Lenovo Yoga Pro 9n Gen 11」に加えて、360度回転するディスプレイを搭載した「Lenovo Yoga 9n 2-in-1 Gen 11」を11月27日から新たに発売するほか、7色のカラーバリエーションを用意した「Lenovo IdeaPad Vibe…",
+      "why": "「ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "ディスプレイ"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2155359.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e89e1357ae",
+      "title": "Next.js Releases v16.5.0-canary.47",
+      "category": "web",
+      "date": "2026-11-11",
+      "collectedAt": "2026-11-11T11:32:13+09:00",
+      "summary": "Core Changes fix(next/image): detect distortion using intrinsic proportions: #101349 Write CPU profiles for next build static workers: #100614 Misc Changes turbo-tasks-backend: process aggregation edge removals after add…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.47",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-bfec6bce6e",
+      "title": "Windowsに挑むAIネイティブOS「KORA」、元Cyanogen創業者らが発表",
+      "category": "gadget",
+      "date": "2026-11-10",
+      "collectedAt": "2026-11-11T11:32:13+09:00",
+      "summary": "CyanogenやAndroidに携わったメンバーが、今度はデスクトップOSでWindowsに挑む。米KORA Systemsは11月10日(米国時間)、AIモデルとエージェントをOSの一部として組み込んだLinuxベースのデスクトップOS「KORA」を発表した。2027年にPC向けに提供する予定で、Qualcomm TechnologiesとSnapdragon搭載PCでの協業も明らかにした。…",
+      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "デスク"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2155269.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-46ecb159c1",
+      "title": "Helping caregivers use AI in everyday life",
+      "category": "ai",
+      "date": "2026-11-10",
+      "collectedAt": "2026-11-11T11:32:13+09:00",
+      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-5ca4dc7b6d",
+      "title": "Introducing Businesses in ChatGPT",
+      "category": "ai",
+      "date": "2026-11-10",
+      "collectedAt": "2026-11-11T11:32:13+09:00",
+      "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-businesses-chatgpt",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-54effc3c49",
+      "title": "サンワサプライ、85W PD給電対応でコンパクトなドッキングステーション",
+      "category": "gadget",
+      "date": "2026-11-10",
+      "collectedAt": "2026-11-11T11:32:13+09:00",
+      "summary": "サンワサプライは、最大85Wの給電と4K(3,840×2,160ドット)/30Hzの2画面出力に対応した、USB Type-Cドッキングステーション「USB-CVDK15N」(LAN端子付き)、「USB-CVDK17N」(LAN端子なし)を11月10日に発売した。直販価格は、USB-CVDK15Nが2万1,880円、USB-CVDK17Nが2万780円。",
+      "why": "「usb-c、usb type-c、ドッキング」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "usb-c",
+        "usb type-c",
+        "ドッキング"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2155217.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-04373f0a46",
+      "title": "OpenAI Node SDK Releases v7.55.0",
+      "category": "ai",
+      "date": "2026-11-10",
+      "collectedAt": "2026-11-11T11:32:13+09:00",
+      "summary": "7.55.0 (2026-11-10) Features api: add typed async function tools ( #3140 ) ( 5bc31e1 ) Bug Fixes deps-dev: bump @smithy/signature-v4 from 5.7.4 to 5.7.5 ( #3129 ) ( d780d4c ) deps-dev: bump @types/node from 26.6.5 to 26.…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.55.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-e54d787de1",
       "title": "Claude Code 2.1.322",
@@ -20,22 +174,21 @@
       "auto": true
     },
     {
-      "slug": "auto-7c6a4ab011",
-      "title": "ロジクール「MX MASTER 4」にクリエイター/開発者モチーフの数量限定モデル",
-      "category": "gadget",
+      "slug": "auto-32cda1537c",
+      "title": "Codex CLI Release: 0.167.1",
+      "category": "ai",
       "date": "2026-11-10",
-      "collectedAt": "2026-11-10T13:29:22+09:00",
-      "summary": "ロジクールは、フラグシップマウス「MX MASTER 4」に特別なデザインを施した数量限定モデル「MX MASTER 4 Special Edition」を11月24日に発売する。「MX MASTER 4 Creator Edition」と「MX MASTER 4 Developer Edition」の2つのデザインを用意し、価格はいずれもオープンプライスで、直販価格は2万1,890円。",
-      "why": "「マウス、ロジクール」に触れているので拾いました。全文の判断は出典を見てください。",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "Changelog Full Changelog: rust-v0.167.0...rust-v0.167.1",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
       "points": [],
       "tags": [
-        "マウス",
-        "ロジクール"
+        "codex"
       ],
       "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2155041.html",
-        "kind": "roundup"
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/",
+        "kind": "primary"
       },
       "auto": true
     },
@@ -269,25 +422,6 @@
       "auto": true
     },
     {
-      "slug": "auto-fbe0e62934",
-      "title": "Next.js Releases v16.5.0-canary.44",
-      "category": "web",
-      "date": "2026-11-08",
-      "collectedAt": "2026-11-08T11:02:27+09:00",
-      "summary": "Core Changes docs: clarify refresh client cache behavior: #101160 Link Cache Components config errors to the migration guide: #101348 Bump is-animated@3.0.19 : #101173 Example Changes docs: use visible route locators wit…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.44",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-f552ac5b3a",
       "title": "OpenAI Node SDK Releases v7.53.0",
       "category": "ai",
@@ -324,25 +458,6 @@
       "auto": true
     },
     {
-      "slug": "auto-32cda1537c",
-      "title": "Codex CLI Release: 0.167.0",
-      "category": "ai",
-      "date": "2026-11-06",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "New Features Open the agent command center with codex agents --no-daemon . The command center and session picker now mark unread results ( #58238 , #58239 , #58263 , #58264 ).…",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-d853316581",
       "title": "This Week in Rails: November 6, 2026",
       "category": "web",
@@ -362,45 +477,6 @@
       "auto": true
     },
     {
-      "slug": "auto-9548fce95a",
-      "title": "上下2画面を1台で。折りたたみ式デュアルモニターが日本エイサーから",
-      "category": "gadget",
-      "date": "2026-11-06",
-      "collectedAt": "2026-11-07T11:31:33+09:00",
-      "summary": "ノートPCにつなぐだけで、デスクの横幅を広げずに画面を2枚増やせる。日本エイサーは11月5日、2枚のフルHD液晶を上下に重ねた折りたたみ式デュアルモニターの15.6型モデル「PD163QTBbmiuux」、および23.8型モデル「PD243YEbmiuux」を発売した。価格はオープンプライスで、直販価格はPD163QTBbmiuuxが4万5,800円、PD243YEbmiuuxが5万9,800円。",
-      "why": "「モニター、デスク」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター",
-        "デスク"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2154354.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-c88b52d0b2",
-      "title": "Cult.fit builds operational muscle with Codex",
-      "category": "ai",
-      "date": "2026-11-06",
-      "collectedAt": "2026-11-06T12:10:25+09:00",
-      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/cultfit-builds-with-codex",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-479e7b88d5",
       "title": "OpenAI Node SDK Releases v7.52.0",
       "category": "ai",
@@ -415,25 +491,6 @@
       "source": {
         "name": "OpenAI Node SDK Releases",
         "url": "https://github.com/openai/openai-node/releases/tag/v7.52.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-b58fee4edb",
-      "title": "Australian universities are creating AI-native graduates",
-      "category": "ai",
-      "date": "2026-11-06",
-      "collectedAt": "2026-11-06T12:10:25+09:00",
-      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/australian-universities-ai-native-graduates",
         "kind": "primary"
       },
       "auto": true
@@ -477,26 +534,6 @@
       "auto": true
     },
     {
-      "slug": "auto-867769386f",
-      "title": "OpenAI Node SDK Releases v7.51.0",
-      "category": "ai",
-      "date": "2026-11-05",
-      "collectedAt": "2026-11-05T12:08:50+09:00",
-      "summary": "7.51.0 (2026-11-05) Features api: add Australia, India, and Japan residency options ( #3112 ) ( 42c31dc ) api: add GPT-6 Rosalind to the model catalog ( #3109 ) ( 9854bd6 ) api: add image complexity and GIF and SVG outpu…",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai",
-        "gpt"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.51.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-5d176638f1",
       "title": "Build Live Apps in Cursor",
       "category": "ai",
@@ -512,44 +549,6 @@
         "name": "Cursor Changelog",
         "url": "https://cursor.com/changelog/build-live-apps",
         "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-b0e08ca391",
-      "title": "ChatGPTの画像生成が50%高速化。GIFアニメにも対応",
-      "category": "gadget",
-      "date": "2026-11-05",
-      "collectedAt": "2026-11-06T12:10:25+09:00",
-      "summary": "OpenAIは11月4日、生成速度を50%高速化した「ChatGPT Images 2.6」を発表した。ChatGPTおよびCodexのすべてのプランを対象に提供を開始しており、デスクトップ版、モバイル版、Web版にて利用できる。",
-      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "デスク"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2153942.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-8de9e8aeec",
-      "title": "最大風速55m/sでゴミも水滴も吹き飛ばす充電式ジェットブロワー",
-      "category": "gadget",
-      "date": "2026-11-05",
-      "collectedAt": "2026-11-05T12:08:50+09:00",
-      "summary": "キーボードのホコリから洗車後の水滴、庭の落ち葉までを1台で吹き飛ばせるブロワーが登場した。サンワサプライは11月4日、直販サイト「サンワダイレクト」で充電式ジェットブロワー「200-CDADE008」を発売した。直販価格は1万9,800円。",
-      "why": "「キーボード」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "キーボード"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2153808.html",
-        "kind": "roundup"
       },
       "auto": true
     },
