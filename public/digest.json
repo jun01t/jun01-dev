@@ -1,6 +1,179 @@
 {
-  "updatedAt": "2026-11-12T12:35:55+09:00",
+  "updatedAt": "2026-11-13T12:08:28+09:00",
   "items": [
+    {
+      "slug": "auto-e54d787de1",
+      "title": "Claude Code 2.1.323",
+      "category": "ai",
+      "date": "2026-11-13",
+      "summary": "Added Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization Added engines[\"claude-…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code",
+        "javascript"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-45b5d20c60",
+      "title": "Next.js Releases v16.5.0-canary.49",
+      "category": "web",
+      "date": "2026-11-13",
+      "collectedAt": "2026-11-13T12:08:28+09:00",
+      "summary": "Core Changes Optimize NFT base path mapping: #101151 Fix ImageResponse prerendering with --debug-prerender : #101678 Upgrade React from 1620f7b9-20261111 to df6aa4ec-20261112 : #101673 Fix ESLint link rule for constant a…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "react",
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.49",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-7fe2df1061",
+      "title": "VGN、ラピトリ対応や大容量バッテリ+ディスプレイ搭載などゲーミングキーボード3機種",
+      "category": "gadget",
+      "date": "2026-11-13",
+      "collectedAt": "2026-11-13T12:08:28+09:00",
+      "summary": "ゲートは、ラピッドトリガー対応で68%レイアウトの「VGN NEON 68」、3モード接続対応で75%レイアウトの「VGN N75 V2」、10,000mAhバッテリ搭載で98%レイアウトの「VGN V98 Pro V4」からなる、VGN製ゲーミングキーボード3機種6モデルを11月18日に発売する。",
+      "why": "「キーボード、ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "キーボード",
+        "ディスプレイ"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2156026.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-f5f6ba7ee4",
+      "title": "OpenAI Node SDK Releases v7.56.0",
+      "category": "ai",
+      "date": "2026-11-13",
+      "collectedAt": "2026-11-13T12:08:28+09:00",
+      "summary": "7.56.0 (2026-11-12) Features api: type reasoning input transformations on responses ( #3145 ) ( 94e2c6d ) Bug Fixes deps-dev: bump @cloudflare/workers-types from 5.20261025.1 to 5.20261101.1 in /ecosystem-tests/cloudflar…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.56.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-90d7922370",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "category": "ai",
+      "date": "2026-11-12",
+      "collectedAt": "2026-11-13T12:08:28+09:00",
+      "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt",
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/business/customer-stories/gondola",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0990939c7d",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "category": "ai",
+      "date": "2026-11-12",
+      "collectedAt": "2026-11-13T12:08:28+09:00",
+      "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-7f70e4364b",
+      "title": "Vue Releases v3.6.0-rc.15",
+      "category": "web",
+      "date": "2026-11-12",
+      "collectedAt": "2026-11-13T12:08:28+09:00",
+      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
+      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vue"
+      ],
+      "source": {
+        "name": "Vue Releases",
+        "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.15",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-6b0b2c3e16",
+      "title": "アイオー、300Hz/フルHDで約2万5千円の24.5型ゲーミングモニター",
+      "category": "gadget",
+      "date": "2026-11-12",
+      "collectedAt": "2026-11-13T12:08:28+09:00",
+      "summary": "アイオーデータは、同社が展開する「GCFX」シリーズから300Hzのリフレッシュレートに対応した24.5型ゲーミングモニター「EX-GD251KHB」を11月下旬に発売する。Amazonでは2万4,800円で予約を受け付けている。",
+      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2155916.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0b2b6437e9",
+      "title": "Claude Platform release notes — November 12, 2026",
+      "category": "ai",
+      "date": "2026-11-12",
+      "summary": "We’ve launched self-hosted Claude Managed Agents . You run the whole Managed Agents service, not only self-hosted sandboxes , on your own infrastructure, and you store agents, sessions, and session history there.…",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude"
+      ],
+      "source": {
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-b743266540",
       "title": "Next.js Releases v16.5.0-canary.48",
@@ -193,25 +366,6 @@
       "auto": true
     },
     {
-      "slug": "auto-5ca4dc7b6d",
-      "title": "Introducing Businesses in ChatGPT",
-      "category": "ai",
-      "date": "2026-11-10",
-      "collectedAt": "2026-11-11T11:32:13+09:00",
-      "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/introducing-businesses-chatgpt",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-04373f0a46",
       "title": "OpenAI Node SDK Releases v7.55.0",
       "category": "ai",
@@ -231,64 +385,6 @@
       "auto": true
     },
     {
-      "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.322",
-      "category": "ai",
-      "date": "2026-11-10",
-      "summary": "Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-bfec6bce6e",
-      "title": "Windowsに挑むAIネイティブOS「KORA」、元Cyanogen創業者らが発表",
-      "category": "gadget",
-      "date": "2026-11-10",
-      "collectedAt": "2026-11-11T11:32:13+09:00",
-      "summary": "CyanogenやAndroidに携わったメンバーが、今度はデスクトップOSでWindowsに挑む。米KORA Systemsは11月10日(米国時間)、AIモデルとエージェントをOSの一部として組み込んだLinuxベースのデスクトップOS「KORA」を発表した。2027年にPC向けに提供する予定で、Qualcomm TechnologiesとSnapdragon搭載PCでの協業も明らかにした。…",
-      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "デスク"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2155269.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-54effc3c49",
-      "title": "サンワサプライ、85W PD給電対応でコンパクトなドッキングステーション",
-      "category": "gadget",
-      "date": "2026-11-10",
-      "collectedAt": "2026-11-11T11:32:13+09:00",
-      "summary": "サンワサプライは、最大85Wの給電と4K(3,840×2,160ドット)/30Hzの2画面出力に対応した、USB Type-Cドッキングステーション「USB-CVDK15N」(LAN端子付き)、「USB-CVDK17N」(LAN端子なし)を11月10日に発売した。直販価格は、USB-CVDK15Nが2万1,880円、USB-CVDK17Nが2万780円。",
-      "why": "「usb-c、usb type-c、ドッキング」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "usb-c",
-        "usb type-c",
-        "ドッキング"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2155217.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-102631f617",
       "title": "Next.js Releases v16.5.0-canary.46",
       "category": "web",
@@ -303,44 +399,6 @@
       "source": {
         "name": "Next.js Releases",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.46",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-33c2792a70",
-      "title": "Next.js Releases v16.4.6",
-      "category": "web",
-      "date": "2026-11-10",
-      "collectedAt": "2026-11-10T13:29:22+09:00",
-      "summary": "Note This release is backporting bug fixes. It does not include all pending features/changes on canary.…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.4.6",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-9c331579e2",
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "category": "ai",
-      "date": "2026-11-10",
-      "collectedAt": "2026-11-10T13:29:22+09:00",
-      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
         "kind": "primary"
       },
       "auto": true
@@ -423,24 +481,6 @@
       "auto": true
     },
     {
-      "slug": "auto-0b2b6437e9",
-      "title": "Claude Platform release notes — November 9, 2026",
-      "category": "ai",
-      "date": "2026-11-09",
-      "summary": "We’ve launched Claude Fable 5.2 ( claude-fable-5-2 ), built for demanding reasoning and long-horizon agentic work.…",
-      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude"
-      ],
-      "source": {
-        "name": "Claude Platform",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-5afc868cfa",
       "title": "MCP仕様を完全にサポートしたMCP公式のRuby SDKが登場。「MCP SDK Tier 1」に到達と",
       "category": "cloud",
@@ -511,25 +551,6 @@
       "source": {
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/11/6/this-week-in-rails",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-479e7b88d5",
-      "title": "OpenAI Node SDK Releases v7.52.0",
-      "category": "ai",
-      "date": "2026-11-06",
-      "collectedAt": "2026-11-06T12:10:25+09:00",
-      "summary": "7.52.0 (2026-11-05) Features api: add a model option for Responses ( #3116 ) ( c05ed3e ) Bug Fixes deps-dev: bump follow-redirects from 1.16.0 to 1.16.2 in /ecosystem-tests/cloudflare-worker ( #3113 ) ( 2d5b81c )",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.52.0",
         "kind": "primary"
       },
       "auto": true
@@ -663,25 +684,6 @@
       "source": {
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/11/4/Rails-8.0.5.2-and-8.1.4.1-have-been-released",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-a65aa83df4",
-      "title": "Nuxt Releases v4.6.4",
-      "category": "web",
-      "date": "2026-11-03",
-      "collectedAt": "2026-11-03T12:49:59+09:00",
-      "summary": "4.6.4 is a security release. It fixes eight advisories in Nuxt and pulls in nitropack 2.13.6, which fixes three more in Nitro . We recommend upgrading as soon as you can.…",
-      "why": "Nuxt Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "nuxt"
-      ],
-      "source": {
-        "name": "Nuxt Releases",
-        "url": "https://github.com/nuxt/nuxt/releases/tag/v4.6.4",
         "kind": "primary"
       },
       "auto": true
