@@ -1,17 +1,73 @@
 {
-  "updatedAt": "2026-11-13T12:08:28+09:00",
+  "updatedAt": "2026-11-14T11:54:10+09:00",
   "items": [
     {
-      "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.323",
+      "slug": "auto-98a8a396f1",
+      "title": "電池残量はマウスを見れば分かる、液晶付きの静音マウスが登場",
+      "category": "gadget",
+      "date": "2026-11-14",
+      "collectedAt": "2026-11-14T11:54:10+09:00",
+      "summary": "マウスの電池があとどれだけ残っているかを、マウス本体の画面で確かめられる製品が登場した。サンワサプライが11月11日に発売した、液晶画面付きワイヤレスマウス「MA-WBIRS550」シリーズだ。本体色はブラック、ブラック+ブルー、ブラック+イエローの3色展開で、直販価格は4,780円。",
+      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "マウス"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2156461.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-b47a08916b",
+      "title": "OpenAI Node SDK Releases v7.57.0",
       "category": "ai",
-      "date": "2026-11-13",
-      "summary": "Added Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization Added engines[\"claude-…",
+      "date": "2026-11-14",
+      "collectedAt": "2026-11-14T11:54:10+09:00",
+      "summary": "7.57.0 (2026-11-13) Features api: update Agents, Live, Images, and admin types ( #3147 ) ( 543ed94 )",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.57.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-a73f1ff996",
+      "title": "【今すぐ読みたい！人気記事】有機ELテレビをPCモニターに5年使った結果。避けられなかった焼き付きとその顛末 - PC Watch",
+      "category": "gadget",
+      "date": "2026-11-14",
+      "collectedAt": "2026-11-14T11:54:10+09:00",
+      "summary": "筆者は最近まで、有機ELテレビをPC用モニターとして使い続けてきた。購入したのはLGの48型有機ELテレビ「OLED 48CXPJA」。2021年3月14日に13万6,800円で購入し、2026年3月22日まで約5年間使用した。そして2026年3月22日、液晶モニターにリプレースした。理由は後で詳しく述べるが、焼き付きと思われる色ムラが発生し、色確認などの作業に支障が出るレベルになったためだ。",
+      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/topic/readitnow/2156462.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e54d787de1",
+      "title": "Claude Code 2.1.325",
+      "category": "ai",
+      "date": "2026-11-14",
+      "summary": "Added Added a spinner tip in VS Code and similar integrated terminals about re-running a notebook cell, shown once Claude has read or edited a Jupyter notebook Added a line under the error shown when your organization's…",
       "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
-        "claude code",
-        "javascript"
+        "claude code"
       ],
       "source": {
         "name": "Claude Code",
@@ -21,21 +77,79 @@
       "auto": true
     },
     {
-      "slug": "auto-45b5d20c60",
-      "title": "Next.js Releases v16.5.0-canary.49",
+      "slug": "auto-5bf4951adb",
+      "title": "Introducing ChatGPT Wallet",
+      "category": "ai",
+      "date": "2026-11-14",
+      "collectedAt": "2026-11-14T11:54:10+09:00",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt",
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-chatgpt-wallet",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-32cda1537c",
+      "title": "Codex CLI Release: 0.169.0",
+      "category": "ai",
+      "date": "2026-11-13",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "New Features The opt-in terminal workspace supports multiple side-chat tabs. Switch between them with the keyboard or mouse, and reopen saved local side chats after restarting Codex.…",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-54ca37aa41",
+      "title": "On Rails — Marco Roth: Teaching Rails to Read Its Own Template",
       "category": "web",
       "date": "2026-11-13",
-      "collectedAt": "2026-11-13T12:08:28+09:00",
-      "summary": "Core Changes Optimize NFT base path mapping: #101151 Fix ImageResponse prerendering with --debug-prerender : #101678 Upgrade React from 1620f7b9-20261111 to df6aa4ec-20261112 : #101673 Fix ESLint link rule for constant a…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "collectedAt": "2026-11-14T11:54:10+09:00",
+      "summary": "Marco Roth , independent consultant and the creator of Herb and ReActionView , joins Robby to talk about teaching Rails to understand its own templates.…",
+      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
         "react",
-        "next.js"
+        "rails"
       ],
       "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.49",
+        "name": "Ruby on Rails",
+        "url": "https://rubyonrails.org/2026/11/13/on-rails-marco-roth-herb-reaction-view",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-d640aa9adc",
+      "title": "Hotwire guide and more",
+      "category": "web",
+      "date": "2026-11-13",
+      "collectedAt": "2026-11-14T11:54:10+09:00",
+      "summary": "Hi, Wojtek here. Let’s explore this week’s changes with another big round of fixes in the Rails codebase. Add a guide for using Hotwire with Rails The guide can already be read on the Edge Guides .…",
+      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "rails"
+      ],
+      "source": {
+        "name": "Ruby on Rails",
+        "url": "https://rubyonrails.org/2026/11/13/this-week-in-rails",
         "kind": "primary"
       },
       "auto": true
@@ -57,6 +171,26 @@
         "name": "PC Watch",
         "url": "https://pc.watch.impress.co.jp/docs/news/2156026.html",
         "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-45b5d20c60",
+      "title": "Next.js Releases v16.5.0-canary.49",
+      "category": "web",
+      "date": "2026-11-13",
+      "collectedAt": "2026-11-13T12:08:28+09:00",
+      "summary": "Core Changes Optimize NFT base path mapping: #101151 Fix ImageResponse prerendering with --debug-prerender : #101678 Upgrade React from 1620f7b9-20261111 to df6aa4ec-20261112 : #101673 Fix ESLint link rule for constant a…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "react",
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.49",
+        "kind": "primary"
       },
       "auto": true
     },
@@ -138,6 +272,24 @@
       "auto": true
     },
     {
+      "slug": "auto-0b2b6437e9",
+      "title": "Claude Platform release notes — November 12, 2026",
+      "category": "ai",
+      "date": "2026-11-12",
+      "summary": "We’ve launched self-hosted Claude Managed Agents . You run the whole Managed Agents service, not only self-hosted sandboxes , on your own infrastructure, and you store agents, sessions, and session history there.…",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude"
+      ],
+      "source": {
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
       "slug": "auto-6b0b2c3e16",
       "title": "アイオー、300Hz/フルHDで約2万5千円の24.5型ゲーミングモニター",
       "category": "gadget",
@@ -153,24 +305,6 @@
         "name": "PC Watch",
         "url": "https://pc.watch.impress.co.jp/docs/news/2155916.html",
         "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-0b2b6437e9",
-      "title": "Claude Platform release notes — November 12, 2026",
-      "category": "ai",
-      "date": "2026-11-12",
-      "summary": "We’ve launched self-hosted Claude Managed Agents . You run the whole Managed Agents service, not only self-hosted sandboxes , on your own infrastructure, and you store agents, sessions, and session history there.…",
-      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude"
-      ],
-      "source": {
-        "name": "Claude Platform",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview",
-        "kind": "primary"
       },
       "auto": true
     },
@@ -271,63 +405,6 @@
       "auto": true
     },
     {
-      "slug": "auto-32cda1537c",
-      "title": "Codex CLI Release: 0.167.2",
-      "category": "ai",
-      "date": "2026-11-11",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "New Features Codex now sends tool updates incrementally by default on Google Cloud Vertex AI. To opt out, set incremental_tools_legacy_gcp = false under [features] in config.toml .…",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-a4c52e6050",
-      "title": "Ryzen搭載で約981gの12.2型軽量・堅牢モバイルノート",
-      "category": "gadget",
-      "date": "2026-11-11",
-      "collectedAt": "2026-11-11T11:32:13+09:00",
-      "summary": "マウスコンピューターは、12.2型モバイルノート「mouse X2」シリーズから、Ryzen 5 216搭載モデルを発売した。コスモブルー、フロストゴールド、パールホワイトの3色を用意し、価格は19万9,800円。",
-      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "マウス"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2155391.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-7f7f361b3d",
-      "title": "タッチパッドでもペンが使える、RTX Spark搭載の2in1「Yoga 9n」",
-      "category": "gadget",
-      "date": "2026-11-11",
-      "collectedAt": "2026-11-11T11:32:13+09:00",
-      "summary": "レノボ・ジャパンは11月10日、個人向けPCの新製品を発表した。NVIDIA RTX Spark N1Xを搭載したノートPCとして、11月2日から販売を開始している「Lenovo Yoga Pro 9n Gen 11」に加えて、360度回転するディスプレイを搭載した「Lenovo Yoga 9n 2-in-1 Gen 11」を11月27日から新たに発売するほか、7色のカラーバリエーションを用意した「Lenovo IdeaPad Vibe…",
-      "why": "「ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "ディスプレイ"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2155359.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-e89e1357ae",
       "title": "Next.js Releases v16.5.0-canary.47",
       "category": "web",
@@ -342,25 +419,6 @@
       "source": {
         "name": "Next.js Releases",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.47",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-46ecb159c1",
-      "title": "Helping caregivers use AI in everyday life",
-      "category": "ai",
-      "date": "2026-11-10",
-      "collectedAt": "2026-11-11T11:32:13+09:00",
-      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
         "kind": "primary"
       },
       "auto": true
@@ -501,25 +559,6 @@
       "auto": true
     },
     {
-      "slug": "auto-f552ac5b3a",
-      "title": "OpenAI Node SDK Releases v7.53.0",
-      "category": "ai",
-      "date": "2026-11-06",
-      "collectedAt": "2026-11-07T11:31:33+09:00",
-      "summary": "7.53.0 (2026-11-06) Features agents: deliver session errors as stream events ( #3120 ) ( c48e5aa ) Bug Fixes deps-dev: bump @aws-sdk/credential-provider-node from 3.972.84 to 3.972.88 ( #3099 ) ( 101175b ) deps-dev: bump…",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.53.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-fd1a4c4700",
       "title": "Voice Chat with Agents",
       "category": "ai",
@@ -646,44 +685,6 @@
       "source": {
         "name": "Rails Releases",
         "url": "https://github.com/rails/rails/releases/tag/v8.1.4.1",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-4ccd4cf759",
-      "title": "Rails Releases 8.0.5.2",
-      "category": "web",
-      "date": "2026-11-04",
-      "collectedAt": "2026-11-04T11:54:41+09:00",
-      "summary": "Active Support ActiveSupport::Inflector#safe_constantize matches the constant name in a LoadError message as a literal string instead of building a Regexp from it.…",
-      "why": "Rails Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "rails"
-      ],
-      "source": {
-        "name": "Rails Releases",
-        "url": "https://github.com/rails/rails/releases/tag/v8.0.5.2",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-9cdd17ec8b",
-      "title": "Rails Versions 8.0.5.2 and 8.1.4.1 have been released!",
-      "category": "web",
-      "date": "2026-11-04",
-      "collectedAt": "2026-11-05T12:08:50+09:00",
-      "summary": "Hello, Rails community! Rails Versions 8.0.5.2 and 8.1.4.1 have been released. These are security updates addressing 21 security issues falling into a few themes: Possible arbitrary file read, file write and remote code…",
-      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "rails"
-      ],
-      "source": {
-        "name": "Ruby on Rails",
-        "url": "https://rubyonrails.org/2026/11/4/Rails-8.0.5.2-and-8.1.4.1-have-been-released",
         "kind": "primary"
       },
       "auto": true
