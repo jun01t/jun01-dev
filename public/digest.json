@@ -1,6 +1,44 @@
 {
-  "updatedAt": "2026-11-14T11:54:10+09:00",
+  "updatedAt": "2026-11-15T11:23:32+09:00",
   "items": [
+    {
+      "slug": "auto-2703d3818d",
+      "title": "Next.js Releases v16.5.0-canary.51",
+      "category": "web",
+      "date": "2026-11-15",
+      "collectedAt": "2026-11-15T11:23:32+09:00",
+      "summary": "Misc Changes turbo-tasks-backend: release the owner task before the reader side of keyed refinement: #101732 Credits Huge thanks to @sokra for helping!",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.51",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-af7fadb9b4",
+      "title": "Next.js Releases v16.5.0-canary.50",
+      "category": "web",
+      "date": "2026-11-14",
+      "collectedAt": "2026-11-15T11:23:32+09:00",
+      "summary": "Core Changes Enable turbopackMinifyBeforeChunking by default on canary releases: #101113 Turbopack: write smaller/faster client reference manifests: #101312 Generate managed agent instructions on next dev and respect opt…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.50",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-98a8a396f1",
       "title": "電池残量はマウスを見れば分かる、液晶付きの静音マウスが登場",
@@ -405,25 +443,6 @@
       "auto": true
     },
     {
-      "slug": "auto-e89e1357ae",
-      "title": "Next.js Releases v16.5.0-canary.47",
-      "category": "web",
-      "date": "2026-11-11",
-      "collectedAt": "2026-11-11T11:32:13+09:00",
-      "summary": "Core Changes fix(next/image): detect distortion using intrinsic proportions: #101349 Write CPU profiles for next build static workers: #100614 Misc Changes turbo-tasks-backend: process aggregation edge removals after add…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.47",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-04373f0a46",
       "title": "OpenAI Node SDK Releases v7.55.0",
       "category": "ai",
@@ -438,25 +457,6 @@
       "source": {
         "name": "OpenAI Node SDK Releases",
         "url": "https://github.com/openai/openai-node/releases/tag/v7.55.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-102631f617",
-      "title": "Next.js Releases v16.5.0-canary.46",
-      "category": "web",
-      "date": "2026-11-10",
-      "collectedAt": "2026-11-10T13:29:22+09:00",
-      "summary": "Core Changes Resolve parallel route params from the URL when predicting routes: #101477 Prevent prerenders from changing foreground response status: #101295 Release fetch cache locks when origin fetch throws synchronousl…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.46",
         "kind": "primary"
       },
       "auto": true
