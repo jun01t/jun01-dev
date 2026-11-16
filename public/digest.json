@@ -1,6 +1,84 @@
 {
-  "updatedAt": "2026-11-15T11:23:32+09:00",
+  "updatedAt": "2026-11-16T11:33:30+09:00",
   "items": [
+    {
+      "slug": "auto-67df6c148c",
+      "title": "Next.js Releases v16.5.0-canary.52",
+      "category": "web",
+      "date": "2026-11-16",
+      "collectedAt": "2026-11-16T11:33:30+09:00",
+      "summary": "Core Changes Remove stale .next/dev/types in next typegen and next build: #100612 Simplify the code gen that adds deployment ids conditionally: #101785 Misc Changes turbo-tasks-backend: store collectibles dependents in a…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.52",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-87d7014c15",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "category": "ai",
+      "date": "2026-11-16",
+      "collectedAt": "2026-11-16T11:33:30+09:00",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-737b63ab06",
+      "title": "【ギア推し】ラピトリ調整も即座にダイヤルで。ソフト不要のロジクール「PRO X2 RAPID」",
+      "category": "gadget",
+      "date": "2026-11-16",
+      "collectedAt": "2026-11-16T11:33:30+09:00",
+      "summary": "「PRO X2 RAPID」のキーボード右上には、小さな有機ELディスプレイとダイヤルが付いている。ロジクールGのキーボードとしては初めての装備で、アクチュエーションポイントもラピッドトリガーもここから変えられる。 設定ソフトのG HUBを開かずに済む場面がほとんどだ。",
+      "why": "「キーボード、ロジクール、ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "キーボード",
+        "ロジクール",
+        "ディスプレイ"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/column/gamingdevice/2156370.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-d37507138e",
+      "title": "PostgreSQL 19リリース延期の背景。β4で多くの新機能取り下げが発生、原因はAIによるコードレビューか",
+      "category": "cloud",
+      "date": "2026-11-16",
+      "collectedAt": "2026-11-16T11:33:30+09:00",
+      "summary": "オープンソースのリレーショナルデータベース「PostgreSQL」は、先週木曜日（2026年11月12日）に最終リリース候補版となるPostgreSQL 19 RC2が公開され、予定では今週の11月19日に正式リリースとなる見通しです。 そもそもPostgreSQLは毎年9月もしくは10月にメジャーバージョンアップしてきました。…",
+      "why": "「postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "postgresql"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/postgresql_194ai.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-2703d3818d",
       "title": "Next.js Releases v16.5.0-canary.51",
@@ -328,45 +406,6 @@
       "auto": true
     },
     {
-      "slug": "auto-6b0b2c3e16",
-      "title": "アイオー、300Hz/フルHDで約2万5千円の24.5型ゲーミングモニター",
-      "category": "gadget",
-      "date": "2026-11-12",
-      "collectedAt": "2026-11-13T12:08:28+09:00",
-      "summary": "アイオーデータは、同社が展開する「GCFX」シリーズから300Hzのリフレッシュレートに対応した24.5型ゲーミングモニター「EX-GD251KHB」を11月下旬に発売する。Amazonでは2万4,800円で予約を受け付けている。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2155916.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-b743266540",
-      "title": "Next.js Releases v16.5.0-canary.48",
-      "category": "web",
-      "date": "2026-11-12",
-      "collectedAt": "2026-11-12T12:35:55+09:00",
-      "summary": "Core Changes Prerender route handlers that await immediates: #101593 Fix orphaned detached telemetry flush processes: #101588 Upgrade React from e84e1492-20261031 to 1620f7b9-20261111 : #101587 docs: clarify tag invalida…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "react",
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.48",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-312065b5b7",
       "title": "テストフレームワーク「Playwright」がBunを正式サポート。テストランナーの実行を可能に",
       "category": "cloud",
@@ -400,25 +439,6 @@
       "source": {
         "name": "Terraform Releases",
         "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.2",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-80b38ea7da",
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "category": "ai",
-      "date": "2026-11-11",
-      "collectedAt": "2026-11-12T12:35:55+09:00",
-      "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/chatgpt-plus-for-veterans",
         "kind": "primary"
       },
       "auto": true
@@ -648,25 +668,6 @@
         "name": "Cursor Changelog",
         "url": "https://cursor.com/changelog/build-live-apps",
         "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-353984bab3",
-      "title": "GitHubで最も使われている言語は2年連続TypeScript、プルリクの増加率はRust。急成長したOSSはCC Switch、Omarchyなど。GitHub Octoverse 2026",
-      "category": "cloud",
-      "date": "2026-11-05",
-      "collectedAt": "2026-11-05T12:08:50+09:00",
-      "summary": "GitHubは、この1年のGitHubにおけるGitHubの利用動向やオープンソースの動向などをまとめた年次レポート「Octoverse 2026」を発表しました。 発表によると、GitHubを利用している開発者は総数2億2500万人。国別で最も多いのはアメリカで3830万人、2位はインドで3200万人、3位は中国で1240万人、4位はブラジルで1020万人。日本は5位で715万人となっています。…",
-      "why": "「typescript」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "typescript"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/github2typescriptrustosscc_switchomarchygithub_octoverse_2026.html",
-        "kind": "roundup"
       },
       "auto": true
     },
