@@ -1,6 +1,294 @@
 {
-  "updatedAt": "2026-11-17T13:57:13+09:00",
+  "updatedAt": "2026-11-18T13:01:35+09:00",
   "items": [
+    {
+      "slug": "auto-11df25a92c",
+      "title": "薬指がくぼみにフィット、幅76mmの静音ワイヤレスマウス",
+      "category": "gadget",
+      "date": "2026-11-18",
+      "collectedAt": "2026-11-18T13:01:35+09:00",
+      "summary": "薬指を添えるくぼみで指の位置が自然に定まる、幅76mmの幅広ボディを採用したワイヤレスマウスが登場した。サンワサプライは11月17日、USB Type-A/Type-C対応のワイヤレスマウス「MA-WBIRS539」シリーズを発売した。直販価格は5,280円。",
+      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "マウス"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2157331.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-82ad8e4df9",
+      "title": "Next.js Releases v16.5.0-canary.54",
+      "category": "web",
+      "date": "2026-11-18",
+      "collectedAt": "2026-11-18T13:01:35+09:00",
+      "summary": "Core Changes Reject the experimental testing API opt-in without Cache Components: #101952 Preserve CSP nonces on static fallback bootstrap scripts: #101953 Turbopack: separate file tracing from NFT manifest emission, add…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.54",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e54d787de1",
+      "title": "Claude Code 2.1.327",
+      "category": "ai",
+      "date": "2026-11-18",
+      "summary": "Added Added a confirmation before /install-github-app changes a repository Added claude mcp add-json - to read the server's JSON from stdin, so tokens can stay off the command line; not available inside a Claude Code ses…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code",
+        "mcp"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e79ea23079",
+      "title": "OpenAI Node SDK Releases v7.59.0",
+      "category": "ai",
+      "date": "2026-11-18",
+      "collectedAt": "2026-11-18T13:01:35+09:00",
+      "summary": "7.59.0 (2026-11-17) Features api: type Managed Agents budget events ( #3162 ) ( bc12de0 )",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.59.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-f48e1ee82b",
+      "title": "［速報］マイクロソフト、PostgreSQL互換のミッションクリティカル向けデータベースサービス「Azure HorizonDB」正式リリース",
+      "category": "cloud",
+      "date": "2026-11-18",
+      "collectedAt": "2026-11-18T13:01:35+09:00",
+      "summary": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、PostgreSQL互換のミッションクリティカル向けデータベースサービス「Azure HorizonDB」の正式リリースを発表しました。 PostgreSQL互換かつ高可用性と高性能を提供 Azure HorizonDBは昨年開催されたMicrosoft Ignite 2025で発表されたデータベースサービスです。…",
+      "why": "「postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "postgresql"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/postgresqlazure_horizondb.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-b0f4b39b28",
+      "title": "［速報］PostgreSQL互換のサーバレスでOLTPとOLAP両対応を実現する「Microsoft Fabric HorizonDB」パブリックプレビュー",
+      "category": "cloud",
+      "date": "2026-11-18",
+      "collectedAt": "2026-11-18T13:01:35+09:00",
+      "summary": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、PostgreSQL互換のサーバレスデータベース「Microsoft Fabric HorizonDB」のパブリックプレビュー版を発表しました。…",
+      "why": "「postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "postgresql"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/postgresqloltpolapmicrosoft_fabric_horizondb.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-ea043277e8",
+      "title": "［速報］AIがOracle DBからPostgreSQLへの移行を支援、「Azure Database Migration Service」プレビュー",
+      "category": "cloud",
+      "date": "2026-11-18",
+      "collectedAt": "2026-11-18T13:01:35+09:00",
+      "summary": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、Azure Database Migration Service （Azure DMS）におけるOracle DBからPostgreSQLへのデータ移行機能をプレビュー版として提供開始したと発表しました。…",
+      "why": "「postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "postgresql"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/aioracle_dbpostgresqlazure_database_migration_service.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0b1d0a8bc4",
+      "title": "OpenAI Node SDK Releases v7.58.0",
+      "category": "ai",
+      "date": "2026-11-18",
+      "collectedAt": "2026-11-18T13:01:35+09:00",
+      "summary": "7.58.0 (2026-11-17) Features api: add 2-hour and 8-hour Responses background windows ( 77e77ad ) api: add schedule pause reasons ( #3158 ) ( 4517ca8 ) api: add the GPT-6.2 Astra Law Responses model identifier ( 77e77ad )…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai",
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.58.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-549a77347d",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "category": "ai",
+      "date": "2026-11-18",
+      "collectedAt": "2026-11-18T13:01:35+09:00",
+      "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt",
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-fd3d4f1d86",
+      "title": "5Kの精細さか360Hzの速さか、1台で選べる34型湾曲モニター",
+      "category": "gadget",
+      "date": "2026-11-17",
+      "collectedAt": "2026-11-18T13:01:35+09:00",
+      "summary": "日本エイサーは11月17日、ゲーミングブランド「Nitro」から、34型湾曲ゲーミングモニター「ED340CKRPbmiipx」と「ED340CKRJbmiipx」を発売した。直販価格は順に9万9,980円、6万9,800円。",
+      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2157181.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-7ec426fe3c",
+      "title": "マウス、名取さなコラボのクリエイターPC「DAIV」3機種。29万9,800円から",
+      "category": "gadget",
+      "date": "2026-11-17",
+      "collectedAt": "2026-11-18T13:01:35+09:00",
+      "summary": "マウスコンピューターは、クリエイター向けPCブランド「DAIV」から、VTuberの名取さなさんとのコラボレーションモデル3機種を発売した。ラインナップはデスクトップPCの「DAIV FX-I7G70」、「DAIV KM-I5G60」と、ノートPCの「DAIV R4-I7G50WT-B」の3機種。価格は29万9,800円から49万9,800円。販売期間は2027年8月31日11時まで。",
+      "why": "「マウス、デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "マウス",
+        "デスク"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2157160.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-c6c361c53b",
+      "title": "Introducing ChatGPT for Sales",
+      "category": "ai",
+      "date": "2026-11-17",
+      "collectedAt": "2026-11-18T13:01:35+09:00",
+      "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-32cda1537c",
+      "title": "GPT-6.2 Astra and GPT-6.2 Sol in Work and Codex",
+      "category": "ai",
+      "date": "2026-11-17",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "# GPT-6.2 Astra and GPT-6.2 Sol in Work and Codex GPT-6.2 Astra and GPT-6.2 Sol are now available in ChatGPT Work and Codex.…",
+      "why": "「codex、chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex",
+        "chatgpt"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0604bc2b50",
+      "title": "Astra for Law leads in legal intelligence",
+      "category": "ai",
+      "date": "2026-11-17",
+      "collectedAt": "2026-11-18T13:01:35+09:00",
+      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/astra-law-6-2",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0b2b6437e9",
+      "title": "Claude Platform release notes — November 17, 2026",
+      "category": "ai",
+      "date": "2026-11-17",
+      "summary": "We’ve launched Linked billing in beta with the user-profiles-billing-2026-10-01 beta header. Your customers can now pay for the Claude usage in your app through their own Claude organization.…",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude"
+      ],
+      "source": {
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-bb7be87244",
       "title": "Next.js Releases v16.5.0-canary.53",
@@ -17,24 +305,6 @@
       "source": {
         "name": "Next.js Releases",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.53",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.326",
-      "category": "ai",
-      "date": "2026-11-17",
-      "summary": "Added Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code Mode Added a startup warning when an --allowedTools , --disallowedTools or…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog",
         "kind": "primary"
       },
       "auto": true
@@ -78,44 +348,6 @@
       "auto": true
     },
     {
-      "slug": "auto-f891bd93f3",
-      "title": "Science at the Frontier: How scientists use ChatGPT",
-      "category": "ai",
-      "date": "2026-11-16",
-      "collectedAt": "2026-11-17T13:57:13+09:00",
-      "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/science-at-the-frontier",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-91e58e2ea9",
-      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "category": "ai",
-      "date": "2026-11-16",
-      "collectedAt": "2026-11-17T13:57:13+09:00",
-      "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/lvmh-media-division-partnership",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-deed296e7c",
       "title": "Vite Releases v8.4.0-beta.1",
       "category": "web",
@@ -130,25 +362,6 @@
       "source": {
         "name": "Vite Releases",
         "url": "https://github.com/vitejs/vite/releases/tag/v8.4.0-beta.1",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-cfcc7acb02",
-      "title": "More ways to move care forward with ChatGPT for Healthcare",
-      "category": "ai",
-      "date": "2026-11-16",
-      "collectedAt": "2026-11-17T13:57:13+09:00",
-      "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
         "kind": "primary"
       },
       "auto": true
@@ -173,46 +386,6 @@
       "auto": true
     },
     {
-      "slug": "auto-0b2b6437e9",
-      "title": "Claude Platform release notes — November 16, 2026",
-      "category": "ai",
-      "date": "2026-11-16",
-      "summary": "Text generated by Claude Opus 4.6, Claude Opus 4.5, Claude Sonnet 4.5, and Claude Haiku 4.5 carries Anthropic’s text watermark on supported platforms. How Claude marks AI-generated content lists those platforms.…",
-      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude",
-        "anthropic"
-      ],
-      "source": {
-        "name": "Claude Platform",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-737b63ab06",
-      "title": "【ギア推し】ラピトリ調整も即座にダイヤルで。ソフト不要のロジクール「PRO X2 RAPID」",
-      "category": "gadget",
-      "date": "2026-11-16",
-      "collectedAt": "2026-11-16T11:33:30+09:00",
-      "summary": "「PRO X2 RAPID」のキーボード右上には、小さな有機ELディスプレイとダイヤルが付いている。ロジクールGのキーボードとしては初めての装備で、アクチュエーションポイントもラピッドトリガーもここから変えられる。 設定ソフトのG HUBを開かずに済む場面がほとんどだ。",
-      "why": "「キーボード、ロジクール、ディスプレイ」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "キーボード",
-        "ロジクール",
-        "ディスプレイ"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/column/gamingdevice/2156370.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-67df6c148c",
       "title": "Next.js Releases v16.5.0-canary.52",
       "category": "web",
@@ -228,25 +401,6 @@
         "name": "Next.js Releases",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.52",
         "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-d37507138e",
-      "title": "PostgreSQL 19リリース延期の背景。β4で多くの新機能取り下げが発生、原因はAIによるコードレビューか",
-      "category": "cloud",
-      "date": "2026-11-16",
-      "collectedAt": "2026-11-16T11:33:30+09:00",
-      "summary": "オープンソースのリレーショナルデータベース「PostgreSQL」は、先週木曜日（2026年11月12日）に最終リリース候補版となるPostgreSQL 19 RC2が公開され、予定では今週の11月19日に正式リリースとなる見通しです。 そもそもPostgreSQLは毎年9月もしくは10月にメジャーバージョンアップしてきました。…",
-      "why": "「postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "postgresql"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/postgresql_194ai.html",
-        "kind": "roundup"
       },
       "auto": true
     },
@@ -270,63 +424,6 @@
       "auto": true
     },
     {
-      "slug": "auto-af7fadb9b4",
-      "title": "Next.js Releases v16.5.0-canary.50",
-      "category": "web",
-      "date": "2026-11-14",
-      "collectedAt": "2026-11-15T11:23:32+09:00",
-      "summary": "Core Changes Enable turbopackMinifyBeforeChunking by default on canary releases: #101113 Turbopack: write smaller/faster client reference manifests: #101312 Generate managed agent instructions on next dev and respect opt…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.50",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-98a8a396f1",
-      "title": "電池残量はマウスを見れば分かる、液晶付きの静音マウスが登場",
-      "category": "gadget",
-      "date": "2026-11-14",
-      "collectedAt": "2026-11-14T11:54:10+09:00",
-      "summary": "マウスの電池があとどれだけ残っているかを、マウス本体の画面で確かめられる製品が登場した。サンワサプライが11月11日に発売した、液晶画面付きワイヤレスマウス「MA-WBIRS550」シリーズだ。本体色はブラック、ブラック+ブルー、ブラック+イエローの3色展開で、直販価格は4,780円。",
-      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "マウス"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2156461.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-a73f1ff996",
-      "title": "【今すぐ読みたい！人気記事】有機ELテレビをPCモニターに5年使った結果。避けられなかった焼き付きとその顛末 - PC Watch",
-      "category": "gadget",
-      "date": "2026-11-14",
-      "collectedAt": "2026-11-14T11:54:10+09:00",
-      "summary": "筆者は最近まで、有機ELテレビをPC用モニターとして使い続けてきた。購入したのはLGの48型有機ELテレビ「OLED 48CXPJA」。2021年3月14日に13万6,800円で購入し、2026年3月22日まで約5年間使用した。そして2026年3月22日、液晶モニターにリプレースした。理由は後で詳しく述べるが、焼き付きと思われる色ムラが発生し、色確認などの作業に支障が出るレベルになったためだ。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/topic/readitnow/2156462.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-b47a08916b",
       "title": "OpenAI Node SDK Releases v7.57.0",
       "category": "ai",
@@ -341,25 +438,6 @@
       "source": {
         "name": "OpenAI Node SDK Releases",
         "url": "https://github.com/openai/openai-node/releases/tag/v7.57.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-32cda1537c",
-      "title": "Codex CLI Release: 0.169.0",
-      "category": "ai",
-      "date": "2026-11-13",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "New Features The opt-in terminal workspace supports multiple side-chat tabs. Switch between them with the keyboard or mouse, and reopen saved local side chats after restarting Codex.…",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/",
         "kind": "primary"
       },
       "auto": true
@@ -442,25 +520,6 @@
       "auto": true
     },
     {
-      "slug": "auto-312065b5b7",
-      "title": "テストフレームワーク「Playwright」がBunを正式サポート。テストランナーの実行を可能に",
-      "category": "cloud",
-      "date": "2026-11-12",
-      "collectedAt": "2026-11-12T12:35:55+09:00",
-      "summary": "Webアプリケーションのテストフレームワーク「Playwright」が、最新バージョンのv1.65.0で、Bunでのテストランナー実行を正式にサポートしました。 PlaywrightのテストランナーはこれまでNode.jsが用いられていました。今回、そのNode.jsに加えて、Bunでのテストランナーの実行を正式にサポートしました。…",
-      "why": "「node.js」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "node.js"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/playwrightbun.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-7ac60267f1",
       "title": "Terraform Releases v1.17.2",
       "category": "cloud",
@@ -494,45 +553,6 @@
       "source": {
         "name": "Vite Releases",
         "url": "https://github.com/vitejs/vite/releases/tag/v8.3.8",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-04373f0a46",
-      "title": "OpenAI Node SDK Releases v7.55.0",
-      "category": "ai",
-      "date": "2026-11-10",
-      "collectedAt": "2026-11-11T11:32:13+09:00",
-      "summary": "7.55.0 (2026-11-10) Features api: add typed async function tools ( #3140 ) ( 5bc31e1 ) Bug Fixes deps-dev: bump @smithy/signature-v4 from 5.7.4 to 5.7.5 ( #3129 ) ( d780d4c ) deps-dev: bump @types/node from 26.6.5 to 26.…",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.55.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-90581f54ed",
-      "title": "OpenAI Node SDK Releases v7.54.0",
-      "category": "ai",
-      "date": "2026-11-10",
-      "collectedAt": "2026-11-10T13:29:22+09:00",
-      "summary": "7.54.0 (2026-11-08) Features api: recognize gpt-6-rosalind in beta Responses ( #3126 ) ( 8fb5a99 ) Chores api: retain agent scheduling support ( #3123 ) ( 47bade0 ) Documentation consolidate AGENTS.md guidance ( #3121 )…",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai",
-        "gpt"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.54.0",
         "kind": "primary"
       },
       "auto": true
@@ -572,26 +592,6 @@
         "name": "Vite Releases",
         "url": "https://github.com/vitejs/vite/releases/tag/v6.4.6",
         "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-5afc868cfa",
-      "title": "MCP仕様を完全にサポートしたMCP公式のRuby SDKが登場。「MCP SDK Tier 1」に到達と",
-      "category": "cloud",
-      "date": "2026-11-09",
-      "collectedAt": "2026-11-09T11:21:50+09:00",
-      "summary": "Linux Foundation傘下でMCP（Model Context Protocol）の仕様策定を行っている「Agentic AI Foundation（AAIF）」は、MCP公式のRuby SDKがMCP仕様を完全にサポートした「MCP SDK Tier 1」に到達したことを明らかにしました。…",
-      "why": "「mcp、model context protocol」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "mcp",
-        "model context protocol"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/mcpmcpruby_sdkmcp_sdk_tier_1.html",
-        "kind": "roundup"
       },
       "auto": true
     },
