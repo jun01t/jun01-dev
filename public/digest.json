@@ -1,12 +1,70 @@
 {
-  "updatedAt": "2026-11-19T12:57:55+09:00",
+  "updatedAt": "2026-11-20T12:52:07+09:00",
   "items": [
     {
-      "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.328",
+      "slug": "auto-d1a6805120",
+      "title": "OpenAI Node SDK Releases v7.62.0",
       "category": "ai",
-      "date": "2026-11-19",
-      "summary": "Added Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway; interactive sessions with no permission mode start in it Added \"onFail…",
+      "date": "2026-11-20",
+      "collectedAt": "2026-11-20T12:52:07+09:00",
+      "summary": "7.62.0 (2026-11-19) Features api: support Live WebRTC standby ( #3170 ) ( 85d01e6 )",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.62.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-32cda1537c",
+      "title": "Codex CLI Release: 0.171.0",
+      "category": "ai",
+      "date": "2026-11-20",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "New Features Added GPT-6.2 Sol and Astra to model catalogs, with Sol as the default catalog selection.…",
+      "why": "「codex、gpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex",
+        "gpt"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-5c62fca9c9",
+      "title": "Next.js Releases v16.5.0-canary.57",
+      "category": "web",
+      "date": "2026-11-20",
+      "collectedAt": "2026-11-20T12:52:07+09:00",
+      "summary": "Core Changes Share trace-style truncation and gzip the Request Insights journal: #102018 Preserve agent feedback instructions during temporary telemetry opt-out: #102062 Rename the experimental next start front server to…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.57",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e54d787de1",
+      "title": "Claude Code 2.1.329",
+      "category": "ai",
+      "date": "2026-11-20",
+      "summary": "Added Added a trust dialog warning that says where a folder's hooks are declared Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in managed settings fail to load Added t…",
       "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
@@ -15,6 +73,161 @@
       "source": {
         "name": "Claude Code",
         "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-dbb0ea51f5",
+      "title": "マウスやキーボードの電池残量がタスクバーで確認できる「BatteryHub」",
+      "category": "gadget",
+      "date": "2026-11-20",
+      "collectedAt": "2026-11-20T12:52:07+09:00",
+      "summary": "krisgfx9氏は、ワイヤレス機器のバッテリ残量をタスクバーに表示するオープンソースツール「BatteryHub」を公開している。無料で利用でき、対応OSはWindows 10/11。Linux向けの実験的なビルドも用意されている。",
+      "why": "「キーボード、マウス」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "キーボード",
+        "マウス"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2158043.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-5b0615985f",
+      "title": "OpenAI Node SDK Releases v7.61.0",
+      "category": "ai",
+      "date": "2026-11-20",
+      "collectedAt": "2026-11-20T12:52:07+09:00",
+      "summary": "7.61.0 (2026-11-19) Features api: add gpt-live-1.1 to Live model choices ( #3168 ) ( 23b2dc1 )",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai",
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.61.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-dbc24c8081",
+      "title": "Next.js Releases v16.5.0-canary.56",
+      "category": "web",
+      "date": "2026-11-20",
+      "collectedAt": "2026-11-20T12:52:07+09:00",
+      "summary": "Core Changes Support bot and method-based prerender bypass capabilities: #101911 Compute Turbopack route bundle stats in Rust: #101540 Avoid full-segment writes without Cache Components: #101832 Add an experimental Go fr…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.56",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-cc28623419",
+      "title": "エレコム、映像・音声出力をオフにするボタンを搭載したUSB Type-Cハブ",
+      "category": "gadget",
+      "date": "2026-11-19",
+      "collectedAt": "2026-11-20T12:52:07+09:00",
+      "summary": "エレコムは、画面オフボタンを搭載したUSB Type-Cハブ「U3HC-M030SV」を11月中旬に発売する。直販価格は4,480円。",
+      "why": "「usb type-c」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "usb type-c"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2157954.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-79095da48a",
+      "title": "キャスター付きで家中どこでも。LGの31.5型4Kスマートモニター「Swing AI」",
+      "category": "gadget",
+      "date": "2026-11-19",
+      "collectedAt": "2026-11-20T12:52:07+09:00",
+      "summary": "LGは、移動式4Kスマートモニター「LG Smart Monitor Swing AI」を11月25日12時からMakuakeにて400台限定で先行販売する。最速割で購入した場合の価格は9万9,800円。",
+      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2157931.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-eeda2c32b9",
+      "title": "MSI、5層タンデムQD-OLEDパネルで180Hzの31.5型ゲーミングモニター",
+      "category": "gadget",
+      "date": "2026-11-19",
+      "collectedAt": "2026-11-20T12:52:07+09:00",
+      "summary": "MSIは、4K(3,840×2,160ドット)対応の5層タンデムQD-OLEDパネルを採用した31.5型ゲーミングモニター「MAG OLED 321UPX18」を11月26日に発売する。実売予想価格は12万3,800円前後の見込み。",
+      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2157949.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-6687f7be62",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "category": "ai",
+      "date": "2026-11-19",
+      "collectedAt": "2026-11-20T12:52:07+09:00",
+      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt",
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e29ac258c0",
+      "title": "Explore the Codex Security Plugin",
+      "category": "ai",
+      "date": "2026-11-19",
+      "collectedAt": "2026-11-20T12:52:07+09:00",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/business/learn/codex-security-plugin-demo",
         "kind": "primary"
       },
       "auto": true
@@ -78,25 +291,6 @@
       "auto": true
     },
     {
-      "slug": "auto-1a4ad5ef20",
-      "title": "【Hothotレビュー】デスクトップ版RTX Sparkはどこまで速い？128GB搭載のノートPC版と比較",
-      "category": "gadget",
-      "date": "2026-11-18",
-      "collectedAt": "2026-11-19T12:57:55+09:00",
-      "summary": "【Hothotレビュー】デスクトップ版RTX Sparkはどこまで速い？128GB搭載のノートPC版と比較",
-      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "デスク"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/column/hothot/2157471.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-b527b6f0dd",
       "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
       "category": "ai",
@@ -131,120 +325,6 @@
         "name": "OpenAI",
         "url": "https://openai.com/index/inside-the-codex-sandbox",
         "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-b000f2f121",
-      "title": "アイオーデータ、焼き付き保証込み3年の240Hz/WQHD QD-OLEDモニター",
-      "category": "gadget",
-      "date": "2026-11-18",
-      "collectedAt": "2026-11-19T12:57:55+09:00",
-      "summary": "アイオーデータは、ゲーミングモニター「GCFX」シリーズから、27型の「EX-GDQ272UEL」/「KH-GDQ272UEL」/「HT-GDQ272UEL」を発表した。いずれも特定販路向けで、12月中旬発売。価格はオープンプライス。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2157549.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-bc1c57e2ff",
-      "title": "Razer、カーボンファイバーボディのゲーミングマウス2機種",
-      "category": "gadget",
-      "date": "2026-11-18",
-      "collectedAt": "2026-11-19T12:57:55+09:00",
-      "summary": "Razerは、カーボンファイバー織物をボディに使用したゲーミングデバイス「Carbon Fiber Collection」から、ゲーミングマウスの「Viper V4 Pro Carbon Fiber Edition」および「DeathAdder V4 Pro Carbon Fiber Edition」を発表した。米国での直販価格はいずれも249.99ドル。",
-      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "マウス"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2157476.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-32cda1537c",
-      "title": "Codex CLI Release: 0.170.0",
-      "category": "ai",
-      "date": "2026-11-18",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "New Features Added WebRTC negotiation for realtime voice calls in the TUI. ( #61172 ) Added automatically refreshed authentication headers for OpenTelemetry HTTP exporters.…",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-6cab9c8cd3",
-      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-      "category": "ai",
-      "date": "2026-11-18",
-      "collectedAt": "2026-11-19T12:57:55+09:00",
-      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-c7d3ecb006",
-      "title": "Advancing chip design with OpenAI models",
-      "category": "ai",
-      "date": "2026-11-18",
-      "collectedAt": "2026-11-19T12:57:55+09:00",
-      "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
-      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "gpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/advancing-chip-design-with-our-models",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-11df25a92c",
-      "title": "薬指がくぼみにフィット、幅76mmの静音ワイヤレスマウス",
-      "category": "gadget",
-      "date": "2026-11-18",
-      "collectedAt": "2026-11-18T13:01:35+09:00",
-      "summary": "薬指を添えるくぼみで指の位置が自然に定まる、幅76mmの幅広ボディを採用したワイヤレスマウスが登場した。サンワサプライは11月17日、USB Type-A/Type-C対応のワイヤレスマウス「MA-WBIRS539」シリーズを発売した。直販価格は5,280円。",
-      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "マウス"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2157331.html",
-        "kind": "roundup"
       },
       "auto": true
     },
@@ -344,26 +424,6 @@
       "auto": true
     },
     {
-      "slug": "auto-0b1d0a8bc4",
-      "title": "OpenAI Node SDK Releases v7.58.0",
-      "category": "ai",
-      "date": "2026-11-18",
-      "collectedAt": "2026-11-18T13:01:35+09:00",
-      "summary": "7.58.0 (2026-11-17) Features api: add 2-hour and 8-hour Responses background windows ( 77e77ad ) api: add schedule pause reasons ( #3158 ) ( 4517ca8 ) api: add the GPT-6.2 Astra Law Responses model identifier ( 77e77ad )…",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai",
-        "gpt"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.58.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-0b2b6437e9",
       "title": "Claude Platform release notes — November 17, 2026",
       "category": "ai",
@@ -377,26 +437,6 @@
       "source": {
         "name": "Claude Platform",
         "url": "https://platform.claude.com/docs/en/release-notes/overview",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-bb7be87244",
-      "title": "Next.js Releases v16.5.0-canary.53",
-      "category": "web",
-      "date": "2026-11-17",
-      "collectedAt": "2026-11-17T13:57:13+09:00",
-      "summary": "Core Changes Lint against new as any casts and require a reason to disable it: #101255 [no-unsafe-inline] Stop inlining the Turbopack chunk group bootstrap: #97574 Omit required-server-files from the Node.js proxy adapte…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js",
-        "node.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.53",
         "kind": "primary"
       },
       "auto": true
@@ -435,44 +475,6 @@
       "source": {
         "name": "Vite Releases",
         "url": "https://github.com/vitejs/vite/releases/tag/v8.4.0-beta.1",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-67df6c148c",
-      "title": "Next.js Releases v16.5.0-canary.52",
-      "category": "web",
-      "date": "2026-11-16",
-      "collectedAt": "2026-11-16T11:33:30+09:00",
-      "summary": "Core Changes Remove stale .next/dev/types in next typegen and next build: #100612 Simplify the code gen that adds deployment ids conditionally: #101785 Misc Changes turbo-tasks-backend: store collectibles dependents in a…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.52",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-b47a08916b",
-      "title": "OpenAI Node SDK Releases v7.57.0",
-      "category": "ai",
-      "date": "2026-11-14",
-      "collectedAt": "2026-11-14T11:54:10+09:00",
-      "summary": "7.57.0 (2026-11-13) Features api: update Agents, Live, Images, and admin types ( #3147 ) ( 543ed94 )",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.57.0",
         "kind": "primary"
       },
       "auto": true
