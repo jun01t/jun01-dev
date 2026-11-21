@@ -1,6 +1,178 @@
 {
-  "updatedAt": "2026-11-20T12:52:07+09:00",
+  "updatedAt": "2026-11-21T12:45:05+09:00",
   "items": [
+    {
+      "slug": "auto-e34544d1f1",
+      "title": "クーラーもビデオカードもAORUS、GIGABYTEのRTX 5060 Ti機",
+      "category": "gadget",
+      "date": "2026-11-21",
+      "collectedAt": "2026-11-21T12:45:05+09:00",
+      "summary": "ゲーミング向けパーツブランド「AORUS」の製品で主要パーツをそろえた完成品のゲーミングPCが登場した。GIGABYTEが11月20日に発売した、Ryzen 5 9500FとGeForce RTX 5060 Tiを搭載するデスクトップPC「AORUS PRIME 3 AP3A5N6T-5103P」だ。実売予想価格は41万1,000円前後。",
+      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "デスク"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2158420.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e9870de0da",
+      "title": "49gマウスも、ROGに「Phantom Blade Zero」コラボ3製品",
+      "category": "gadget",
+      "date": "2026-11-21",
+      "collectedAt": "2026-11-21T12:45:05+09:00",
+      "summary": "ASUSは11月20日、アクションゲーム「Phantom Blade Zero」とのコラボモデルとしてゲーミングデバイス3製品の予約を開始した。",
+      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "マウス"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2158419.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-1d9782715c",
+      "title": "Next.js Releases v16.5.0-canary.59",
+      "category": "web",
+      "date": "2026-11-21",
+      "collectedAt": "2026-11-21T12:45:05+09:00",
+      "summary": "Core Changes switchyard: restore 'in front of' in three test comments: #102082 Write Turbopack dist dir metadata from Rust: #101638 Example Changes examples: remove examples built on abandoned libraries: #102092 examples…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.59",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-59777eac39",
+      "title": "VALORANT王者Demon1と共同開発したゲーミングマウス。47gの軽量設計",
+      "category": "gadget",
+      "date": "2026-11-21",
+      "collectedAt": "2026-11-21T12:45:05+09:00",
+      "summary": "ASUSは、プロゲーマーのDemon1選手と共同開発した軽量ワイヤレスゲーミングマウス「ROG Harpe II Ace Mini」および同氏のシグネチャーモデル「ROG Harpe II Ace Mini Demon1 Edition」を12月3日に発売する。予約は11月27日より受付開始し、価格はいずれも2万5,020円。",
+      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "マウス"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2158406.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e54d787de1",
+      "title": "Claude Code 2.1.330",
+      "category": "ai",
+      "date": "2026-11-21",
+      "summary": "Added Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after claude auth login , Claude Code applies the organization's settings and uses its cloud provider or gateway Added easel, a built-…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code",
+        "anthropic"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-4fcf91bd8c",
+      "title": "世界初うたう競技向け24.5型/720Hz有機ELゲーミングモニター、ASUSから登場",
+      "category": "gadget",
+      "date": "2026-11-20",
+      "collectedAt": "2026-11-21T12:45:05+09:00",
+      "summary": "ASUSは、ROG(Republic of Gamers)ブランドの競技シーン向けシリーズ「ROG Ace Collection」から、世界初をうたう24.5型有機ELゲーミングモニター「ROG Swift OLED PG259QWS Ace」および「ROG Strix OLED XG259QWPG Ace」を11月27日に発売する。すでに予約受付を開始しており、価格はそれぞれ21万2,220円、13万4,820円。",
+      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "モニター"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2158343.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-ed6cdcdf0c",
+      "title": "Vue Releases v3.6.0-rc.16",
+      "category": "web",
+      "date": "2026-11-20",
+      "collectedAt": "2026-11-21T12:45:05+09:00",
+      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
+      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vue"
+      ],
+      "source": {
+        "name": "Vue Releases",
+        "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.16",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-450d117c84",
+      "title": "Next.js Releases v16.5.0-canary.58",
+      "category": "web",
+      "date": "2026-11-20",
+      "collectedAt": "2026-11-21T12:45:05+09:00",
+      "summary": "Core Changes Replace jest-worker with custom worker pool: #100297 Skip \"use cache\" timeout errors where they cannot be thrown, format owner stacks lazily: #102032 Misc Changes review: treat long-standing React behavior a…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "react",
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.58",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-519df97dba",
+      "title": "Vue Releases v3.5.46",
+      "category": "web",
+      "date": "2026-11-20",
+      "collectedAt": "2026-11-21T12:45:05+09:00",
+      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
+      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vue"
+      ],
+      "source": {
+        "name": "Vue Releases",
+        "url": "https://github.com/vuejs/core/releases/tag/v3.5.46",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-d1a6805120",
       "title": "OpenAI Node SDK Releases v7.62.0",
@@ -41,6 +213,44 @@
       "auto": true
     },
     {
+      "slug": "auto-d15c456432",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "category": "ai",
+      "date": "2026-11-20",
+      "collectedAt": "2026-11-21T12:45:05+09:00",
+      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/business/customer-stories/hebbia",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-166678665b",
+      "title": "Securing Rails",
+      "category": "web",
+      "date": "2026-11-20",
+      "collectedAt": "2026-11-21T12:45:05+09:00",
+      "summary": "Hi, it’s Claudio Baccigalupo . This week’s changes to the Rails codebase have a strong focus on security, from a rewritten guide to safer defaults for new apps.…",
+      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "rails"
+      ],
+      "source": {
+        "name": "Ruby on Rails",
+        "url": "https://rubyonrails.org/2026/11/20/this-week-in-rails",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
       "slug": "auto-5c62fca9c9",
       "title": "Next.js Releases v16.5.0-canary.57",
       "category": "web",
@@ -56,44 +266,6 @@
         "name": "Next.js Releases",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.57",
         "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.329",
-      "category": "ai",
-      "date": "2026-11-20",
-      "summary": "Added Added a trust dialog warning that says where a folder's hooks are declared Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in managed settings fail to load Added t…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-dbb0ea51f5",
-      "title": "マウスやキーボードの電池残量がタスクバーで確認できる「BatteryHub」",
-      "category": "gadget",
-      "date": "2026-11-20",
-      "collectedAt": "2026-11-20T12:52:07+09:00",
-      "summary": "krisgfx9氏は、ワイヤレス機器のバッテリ残量をタスクバーに表示するオープンソースツール「BatteryHub」を公開している。無料で利用でき、対応OSはWindows 10/11。Linux向けの実験的なビルドも用意されている。",
-      "why": "「キーボード、マウス」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "キーボード",
-        "マウス"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2158043.html",
-        "kind": "roundup"
       },
       "auto": true
     },
@@ -137,63 +309,6 @@
       "auto": true
     },
     {
-      "slug": "auto-cc28623419",
-      "title": "エレコム、映像・音声出力をオフにするボタンを搭載したUSB Type-Cハブ",
-      "category": "gadget",
-      "date": "2026-11-19",
-      "collectedAt": "2026-11-20T12:52:07+09:00",
-      "summary": "エレコムは、画面オフボタンを搭載したUSB Type-Cハブ「U3HC-M030SV」を11月中旬に発売する。直販価格は4,480円。",
-      "why": "「usb type-c」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "usb type-c"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2157954.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-79095da48a",
-      "title": "キャスター付きで家中どこでも。LGの31.5型4Kスマートモニター「Swing AI」",
-      "category": "gadget",
-      "date": "2026-11-19",
-      "collectedAt": "2026-11-20T12:52:07+09:00",
-      "summary": "LGは、移動式4Kスマートモニター「LG Smart Monitor Swing AI」を11月25日12時からMakuakeにて400台限定で先行販売する。最速割で購入した場合の価格は9万9,800円。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2157931.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-eeda2c32b9",
-      "title": "MSI、5層タンデムQD-OLEDパネルで180Hzの31.5型ゲーミングモニター",
-      "category": "gadget",
-      "date": "2026-11-19",
-      "collectedAt": "2026-11-20T12:52:07+09:00",
-      "summary": "MSIは、4K(3,840×2,160ドット)対応の5層タンデムQD-OLEDパネルを採用した31.5型ゲーミングモニター「MAG OLED 321UPX18」を11月26日に発売する。実売予想価格は12万3,800円前後の見込み。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2157949.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-6687f7be62",
       "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
       "category": "ai",
@@ -228,25 +343,6 @@
       "source": {
         "name": "OpenAI",
         "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-7e2aa396ec",
-      "title": "Next.js Releases v16.5.0-canary.55",
-      "category": "web",
-      "date": "2026-11-19",
-      "collectedAt": "2026-11-19T12:57:55+09:00",
-      "summary": "Core Changes fix(ts-plugin): accept quoted prefetch segment config values: #101895 Fix Navigation Inspector dark mode contrast: #102008 Turbopack: add max_chunk_size to production chunking: #100478 refactor: Move minimal…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.55",
         "kind": "primary"
       },
       "auto": true
@@ -305,44 +401,6 @@
       "source": {
         "name": "OpenAI",
         "url": "https://openai.com/business/customer-stories/sumitomo-life",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-53f2a14376",
-      "title": "Inside the Codex sandbox",
-      "category": "ai",
-      "date": "2026-11-18",
-      "collectedAt": "2026-11-19T12:57:55+09:00",
-      "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/inside-the-codex-sandbox",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-82ad8e4df9",
-      "title": "Next.js Releases v16.5.0-canary.54",
-      "category": "web",
-      "date": "2026-11-18",
-      "collectedAt": "2026-11-18T13:01:35+09:00",
-      "summary": "Core Changes Reject the experimental testing API opt-in without Cache Components: #101952 Preserve CSP nonces on static fallback bootstrap scripts: #101953 Turbopack: separate file tracing from NFT manifest emission, add…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.54",
         "kind": "primary"
       },
       "auto": true
@@ -626,63 +684,6 @@
       "source": {
         "name": "Cursor Changelog",
         "url": "https://cursor.com/changelog/voice-chat",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-d853316581",
-      "title": "This Week in Rails: November 6, 2026",
-      "category": "web",
-      "date": "2026-11-06",
-      "collectedAt": "2026-11-07T11:31:33+09:00",
-      "summary": "Hi, it’s Greg , bringing you the latest changes in the Rails codebase. It was a busy week, with a lot of changes, so buckle up! Rails 8.0.5.2 and 8.1.4.1 have been released! These are security releases, addressing 21 sec…",
-      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "rails"
-      ],
-      "source": {
-        "name": "Ruby on Rails",
-        "url": "https://rubyonrails.org/2026/11/6/this-week-in-rails",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-a22e0b1571",
-      "title": "Vue Releases v3.5.45",
-      "category": "web",
-      "date": "2026-11-05",
-      "collectedAt": "2026-11-06T12:10:25+09:00",
-      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
-      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vue"
-      ],
-      "source": {
-        "name": "Vue Releases",
-        "url": "https://github.com/vuejs/core/releases/tag/v3.5.45",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-5d176638f1",
-      "title": "Build Live Apps in Cursor",
-      "category": "ai",
-      "date": "2026-11-05",
-      "collectedAt": "2026-11-06T12:10:25+09:00",
-      "summary": "Agents have lowered the cost of writing code, but most apps and tools that users build never make it off of localhost. Now, you can build live apps directly in Cursor and share them with a link.…",
-      "why": "Cursor Changelogの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "cursor"
-      ],
-      "source": {
-        "name": "Cursor Changelog",
-        "url": "https://cursor.com/changelog/build-live-apps",
         "kind": "primary"
       },
       "auto": true
