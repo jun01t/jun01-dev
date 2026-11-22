@@ -1,6 +1,44 @@
 {
-  "updatedAt": "2026-11-21T12:45:05+09:00",
+  "updatedAt": "2026-11-22T11:48:58+09:00",
   "items": [
+    {
+      "slug": "auto-0b9e8b4bd7",
+      "title": "Next.js Releases v16.5.0-canary.60",
+      "category": "web",
+      "date": "2026-11-22",
+      "collectedAt": "2026-11-22T11:48:58+09:00",
+      "summary": "Core Changes switchyard: tell Switchyard the app's route.go paths and workers: #102101 Misc Changes Turbopack: resolve app directory entries in a filesystem-independent order: #102186 docs: update Route Handler AI SDK st…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.60",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-ccb4217b57",
+      "title": "インテル50周年記念のゲーミングPC、ツクモが50万円で発売",
+      "category": "gadget",
+      "date": "2026-11-21",
+      "collectedAt": "2026-11-22T11:48:58+09:00",
+      "summary": "4月28日に設立50周年を迎えたインテル株式会社を記念し、ケースに特別デザインを施した数量限定のゲーミングPCがツクモネットショップで販売されている。ヤマダデンキは11月20日、TSUKUMOブランドのゲーミングPCシリーズ「G-GEAR」から、インテル株式会社設立50周年を記念したデザインのデスクトップPC「GE7J-M261BH/INTEL50」を発売した。直販価格は50万円。",
+      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "デスク"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2158418.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-e34544d1f1",
       "title": "クーラーもビデオカードもAORUS、GIGABYTEのRTX 5060 Ti機",
@@ -93,25 +131,6 @@
         "name": "Claude Code",
         "url": "https://code.claude.com/docs/en/changelog",
         "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-4fcf91bd8c",
-      "title": "世界初うたう競技向け24.5型/720Hz有機ELゲーミングモニター、ASUSから登場",
-      "category": "gadget",
-      "date": "2026-11-20",
-      "collectedAt": "2026-11-21T12:45:05+09:00",
-      "summary": "ASUSは、ROG(Republic of Gamers)ブランドの競技シーン向けシリーズ「ROG Ace Collection」から、世界初をうたう24.5型有機ELゲーミングモニター「ROG Swift OLED PG259QWS Ace」および「ROG Strix OLED XG259QWPG Ace」を11月27日に発売する。すでに予約受付を開始しており、価格はそれぞれ21万2,220円、13万4,820円。",
-      "why": "「モニター」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "モニター"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2158343.html",
-        "kind": "roundup"
       },
       "auto": true
     },
@@ -285,25 +304,6 @@
       "source": {
         "name": "OpenAI Node SDK Releases",
         "url": "https://github.com/openai/openai-node/releases/tag/v7.61.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-dbc24c8081",
-      "title": "Next.js Releases v16.5.0-canary.56",
-      "category": "web",
-      "date": "2026-11-20",
-      "collectedAt": "2026-11-20T12:52:07+09:00",
-      "summary": "Core Changes Support bot and method-based prerender bypass capabilities: #101911 Compute Turbopack route bundle stats in Rust: #101540 Avoid full-segment writes without Cache Components: #101832 Add an experimental Go fr…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.56",
         "kind": "primary"
       },
       "auto": true
