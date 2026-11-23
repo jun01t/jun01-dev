@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-11-22T11:48:58+09:00",
+  "updatedAt": "2026-11-23T12:30:09+09:00",
   "items": [
+    {
+      "slug": "auto-82201eaaa7",
+      "title": "Next.js Releases v16.5.0-canary.61",
+      "category": "web",
+      "date": "2026-11-23",
+      "collectedAt": "2026-11-23T12:30:09+09:00",
+      "summary": "Core Changes [image-optimizer] Add experimental support for @next/safe-image-optimization: #101254 Misc Changes turbo-tasks-backend: report the caller location for missing-task panics: #102169 Turbopack: recover from an…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.61",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-0b9e8b4bd7",
       "title": "Next.js Releases v16.5.0-canary.60",
@@ -265,25 +284,6 @@
       "source": {
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/11/20/this-week-in-rails",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-5c62fca9c9",
-      "title": "Next.js Releases v16.5.0-canary.57",
-      "category": "web",
-      "date": "2026-11-20",
-      "collectedAt": "2026-11-20T12:52:07+09:00",
-      "summary": "Core Changes Share trace-style truncation and gzip the Request Insights journal: #102018 Preserve agent feedback instructions during temporary telemetry opt-out: #102062 Rename the experimental next start front server to…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.57",
         "kind": "primary"
       },
       "auto": true
