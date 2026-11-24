@@ -1,6 +1,195 @@
 {
-  "updatedAt": "2026-11-23T12:30:09+09:00",
+  "updatedAt": "2026-11-24T15:44:46+09:00",
   "items": [
+    {
+      "slug": "auto-32cda1537c",
+      "title": "Codex CLI Release: 0.172.0",
+      "category": "ai",
+      "date": "2026-11-24",
+      "collectedAt": "2026-10-24T10:21:19+09:00",
+      "summary": "New Features Follow thread links from search results and transcripts to open saved conversations and nested agents in the terminal. ( #62332 ) Press Tab to complete arguments for supported slash commands.…",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "Codex",
+        "url": "https://developers.openai.com/codex/changelog/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-7231d97ed5",
+      "title": "Next.js Releases v16.5.0-canary.62",
+      "category": "web",
+      "date": "2026-11-24",
+      "collectedAt": "2026-11-24T15:44:46+09:00",
+      "summary": "Core Changes switchyard: name gone workers by token, and test the worker events and route table: #102168 switchyard: no guessed Content-Type after 103 Early Hints: #102034 switchyard: run Go code on at most 4 threads: #1…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.62",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0e0714e827",
+      "title": "Nuxt Releases v4.7.0",
+      "category": "web",
+      "date": "2026-11-24",
+      "collectedAt": "2026-11-24T15:44:46+09:00",
+      "summary": "v4.7.0 is the next minor release. 📣 Some news 🧪 Try Nitro v3 today You can now build your Nuxt 4 app with Nitro v3 ( #37101 ).…",
+      "why": "Nuxt Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "nuxt"
+      ],
+      "source": {
+        "name": "Nuxt Releases",
+        "url": "https://github.com/nuxt/nuxt/releases/tag/v4.7.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e54d787de1",
+      "title": "Claude Code 2.1.331",
+      "category": "ai",
+      "date": "2026-11-24",
+      "summary": "Added Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS Added oidc.groups_jsonpath to the Claude apps gateway, to read groups from…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-b41ba87ef5",
+      "title": "OpenAI Node SDK Releases v7.63.0",
+      "category": "ai",
+      "date": "2026-11-24",
+      "collectedAt": "2026-11-24T15:44:46+09:00",
+      "summary": "7.63.0 (2026-11-23) Features api: add spending limits to agent sessions ( #3187 ) ( b2c99ad ) Bug Fixes api: clarify when to omit completion choice count ( #3174 ) ( 2442a0c ) deps-dev: bump @babel/preset-env from 7.29.7…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.63.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-95fbdaa014",
+      "title": "DHH氏が開発する「Omarchy 4.5」リリース。一般的なマルチウィンドウをサポート。最速7秒で導入、Appleシリコン対応、Webアプリ版MS Office用ランチャーなど新機能",
+      "category": "cloud",
+      "date": "2026-11-24",
+      "collectedAt": "2026-11-24T15:44:46+09:00",
+      "summary": "Ruby on Railsの作者として知られるDHH氏が主導して開発しているデスクトップ向けのLinux OS「Omarchy」の最新版「Omarchy 4.5」（別名Omarchy Quattro RS）正式版がリリースされました。…",
+      "why": "「ruby on rails、デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "ruby on rails",
+        "デスク"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/dhhomarchy_457applewebms_office.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-3fd64dd782",
+      "title": "PostgreSQL 19正式リリース。ノンブロッキングなREPACKやI/Oワーカーのオートスケールなど新機能",
+      "category": "cloud",
+      "date": "2026-11-24",
+      "collectedAt": "2026-11-24T15:44:46+09:00",
+      "summary": "オープンソースのリレーショナルデータベース「PostgreSQL」の最新版となる「PostgreSQL 19」正式版がリリースされました（日本語のプレスリリース）。 PostgreSQLは毎年9月もしくは10月にメジャーバージョンアップが行われてきました。しかし今年は9月下旬にリリースされたPostgreSQL 19β4で多数のバグのによる新機能の取り下げなどがあり、慎重を期すために正式版のリリースが11月に延期されていました。…",
+      "why": "「postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "postgresql"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/postgresql_19repackio.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-680b35173b",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "category": "ai",
+      "date": "2026-11-23",
+      "collectedAt": "2026-11-24T15:44:46+09:00",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0b2b6437e9",
+      "title": "Claude Platform release notes — November 23, 2026",
+      "category": "ai",
+      "date": "2026-11-23",
+      "summary": "We announced the deprecation of the Claude Opus 4.5 model ( claude-opus-4-5-20251101 and claude-opus-4-5 ), with retirement on the Claude API scheduled for January 22, 2027. We recommend migrating to Claude Opus 5.5.…",
+      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude"
+      ],
+      "source": {
+        "name": "Claude Platform",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-bd5d42adc4",
+      "title": "Nuxt 4.7",
+      "category": "web",
+      "date": "2026-11-23",
+      "collectedAt": "2026-11-24T15:44:46+09:00",
+      "summary": "Nuxt 4.7 lets you try Nitro v3, adds experimental WebMCP support, shows type and lint problems in the dev overlay and validates runtime config.",
+      "why": "Nuxt Blogの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "nuxt"
+      ],
+      "source": {
+        "name": "Nuxt Blog",
+        "url": "https://nuxt.com/blog/v4-7",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-82201eaaa7",
       "title": "Next.js Releases v16.5.0-canary.61",
@@ -135,25 +324,6 @@
       "auto": true
     },
     {
-      "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.330",
-      "category": "ai",
-      "date": "2026-11-21",
-      "summary": "Added Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after claude auth login , Claude Code applies the organization's settings and uses its cloud provider or gateway Added easel, a built-…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code",
-        "anthropic"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-ed6cdcdf0c",
       "title": "Vue Releases v3.6.0-rc.16",
       "category": "web",
@@ -168,26 +338,6 @@
       "source": {
         "name": "Vue Releases",
         "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.16",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-450d117c84",
-      "title": "Next.js Releases v16.5.0-canary.58",
-      "category": "web",
-      "date": "2026-11-20",
-      "collectedAt": "2026-11-21T12:45:05+09:00",
-      "summary": "Core Changes Replace jest-worker with custom worker pool: #100297 Skip \"use cache\" timeout errors where they cannot be thrown, format owner stacks lazily: #102032 Misc Changes review: treat long-standing React behavior a…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "react",
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.58",
         "kind": "primary"
       },
       "auto": true
@@ -226,26 +376,6 @@
       "source": {
         "name": "OpenAI Node SDK Releases",
         "url": "https://github.com/openai/openai-node/releases/tag/v7.62.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-32cda1537c",
-      "title": "Codex CLI Release: 0.171.0",
-      "category": "ai",
-      "date": "2026-11-20",
-      "collectedAt": "2026-10-24T10:21:19+09:00",
-      "summary": "New Features Added GPT-6.2 Sol and Astra to model catalogs, with Sol as the default catalog selection.…",
-      "why": "「codex、gpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex",
-        "gpt"
-      ],
-      "source": {
-        "name": "Codex",
-        "url": "https://developers.openai.com/codex/changelog/",
         "kind": "primary"
       },
       "auto": true
@@ -387,44 +517,6 @@
       "auto": true
     },
     {
-      "slug": "auto-b527b6f0dd",
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "category": "ai",
-      "date": "2026-11-18",
-      "collectedAt": "2026-11-19T12:57:55+09:00",
-      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "why": "「chatgpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/business/customer-stories/sumitomo-life",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e79ea23079",
-      "title": "OpenAI Node SDK Releases v7.59.0",
-      "category": "ai",
-      "date": "2026-11-18",
-      "collectedAt": "2026-11-18T13:01:35+09:00",
-      "summary": "7.59.0 (2026-11-17) Features api: type Managed Agents budget events ( #3162 ) ( bc12de0 )",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.59.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-f48e1ee82b",
       "title": "［速報］マイクロソフト、PostgreSQL互換のミッションクリティカル向けデータベースサービス「Azure HorizonDB」正式リリース",
       "category": "cloud",
@@ -458,62 +550,6 @@
       "source": {
         "name": "Publickey",
         "url": "https://www.publickey1.jp/blog/26/postgresqloltpolapmicrosoft_fabric_horizondb.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-ea043277e8",
-      "title": "［速報］AIがOracle DBからPostgreSQLへの移行を支援、「Azure Database Migration Service」プレビュー",
-      "category": "cloud",
-      "date": "2026-11-18",
-      "collectedAt": "2026-11-18T13:01:35+09:00",
-      "summary": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、Azure Database Migration Service （Azure DMS）におけるOracle DBからPostgreSQLへのデータ移行機能をプレビュー版として提供開始したと発表しました。…",
-      "why": "「postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "postgresql"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/aioracle_dbpostgresqlazure_database_migration_service.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-0b2b6437e9",
-      "title": "Claude Platform release notes — November 17, 2026",
-      "category": "ai",
-      "date": "2026-11-17",
-      "summary": "We’ve launched Linked billing in beta with the user-profiles-billing-2026-10-01 beta header. Your customers can now pay for the Claude usage in your app through their own Claude organization.…",
-      "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude"
-      ],
-      "source": {
-        "name": "Claude Platform",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-c9d32e8e24",
-      "title": "Node.jsとnpmをWebブラウザ上で実行可能にする「OpenVessel」、神戸ソフトがオープンソースで公開",
-      "category": "cloud",
-      "date": "2026-11-17",
-      "collectedAt": "2026-11-17T13:57:13+09:00",
-      "summary": "神戸ソフトは、Webブラウザ上でNode.jsとパッケージマネージャのnpm、AstroなどのNode.jsに対応したフレームワークなどが実行できる「OpenVessel」をオープンソースで公開しました。…",
-      "why": "「node.js」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "node.js"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/nodejsnpmwebopenvessel.html",
         "kind": "roundup"
       },
       "auto": true
@@ -648,42 +684,6 @@
       "source": {
         "name": "Vite Releases",
         "url": "https://github.com/vitejs/vite/releases/tag/v8.3.7",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-de8551a748",
-      "title": "Vite Releases v6.4.6",
-      "category": "web",
-      "date": "2026-11-09",
-      "collectedAt": "2026-11-10T13:29:22+09:00",
-      "summary": "Please refer to CHANGELOG.md for details.",
-      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vite"
-      ],
-      "source": {
-        "name": "Vite Releases",
-        "url": "https://github.com/vitejs/vite/releases/tag/v6.4.6",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-fd1a4c4700",
-      "title": "Voice Chat with Agents",
-      "category": "ai",
-      "date": "2026-11-06",
-      "collectedAt": "2026-11-07T11:31:33+09:00",
-      "summary": "You can now talk with your agents in a realtime voice call. Describe a change out loud, ask what an agent is working on, and hear updates as the work moves forward.…",
-      "why": "Cursor Changelogの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [],
-      "source": {
-        "name": "Cursor Changelog",
-        "url": "https://cursor.com/changelog/voice-chat",
         "kind": "primary"
       },
       "auto": true
