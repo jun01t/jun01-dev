@@ -1,6 +1,253 @@
 {
-  "updatedAt": "2026-11-24T15:44:46+09:00",
+  "updatedAt": "2026-11-25T14:13:32+09:00",
   "items": [
+    {
+      "slug": "auto-50565ab0d7",
+      "title": "Claudeで作ったツールがそのままデスクトップアプリに。APIキーも不要",
+      "category": "gadget",
+      "date": "2026-11-25",
+      "collectedAt": "2026-11-25T14:13:32+09:00",
+      "summary": "Claudeで作ったちょっとしたツールを、普通のデスクトップアプリとして使えるようになる。Anthropicは11月24日(米国時間)、ClaudeのArtifactsをデスクトップアプリとしてインストールできる機能を、MacおよびWindows向けClaudeでベータ機能として提供開始した。…",
+      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "デスク"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2159065.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-a9027c8d0b",
+      "title": "マウス、インテリアになじむ白いミニPC「mouse CA」",
+      "category": "gadget",
+      "date": "2026-11-25",
+      "collectedAt": "2026-11-25T14:13:32+09:00",
+      "summary": "リビングにも置きやすい、真っ白なミニPCが登場した。マウスコンピューターは11月25日、mouseブランドのミニPC「mouse CA」シリーズ2モデルを発売した。Ryzen 5 6600Hを搭載するスタンダードモデル「mouse CA-A5A01」の価格は13万9,800円。Ryzen 7 255を搭載するパフォーマンスモデル「mouse CA-A7A01」の価格は18万9,800円から。…",
+      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "マウス"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2158984.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-058ef7070a",
+      "title": "管理画面は本体ボタンを押さないと開かない、アイオーデータの新NAS「HDL-LH」",
+      "category": "gadget",
+      "date": "2026-11-25",
+      "collectedAt": "2026-11-25T14:13:32+09:00",
+      "summary": "アイオーデータは11月25日、法人向けNAS「LAN DISK」の新たなフラグシップモデルとして「HDL-LH」シリーズを発表した。デスクトップ型で2ドライブの「HDL2-LH」と、1Uラックマウント型4ドライブの「HDL4-LHU」の2シリーズを用意し、12月中旬より出荷する。ラインナップと価格は以下の通り。",
+      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "デスク"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2158654.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-e54d787de1",
+      "title": "Claude Code 2.1.332",
+      "category": "ai",
+      "date": "2026-11-25",
+      "summary": "Added Added skills from MCP servers (beta). They show as server:skill in the / menu; other skills keep their names Added a PreSkillShellCommand hook event that can refuse a skill or command's inline shell commands as it…",
+      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "claude code",
+        "mcp"
+      ],
+      "source": {
+        "name": "Claude Code",
+        "url": "https://code.claude.com/docs/en/changelog",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-86585edcaa",
+      "title": "Next.js Releases v16.5.0-canary.65",
+      "category": "web",
+      "date": "2026-11-25",
+      "collectedAt": "2026-11-25T14:13:32+09:00",
+      "summary": "v16.5.0-canary.65",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.65",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-896f623b8a",
+      "title": "Next.js Releases v16.5.0-canary.64",
+      "category": "web",
+      "date": "2026-11-25",
+      "collectedAt": "2026-11-25T14:13:32+09:00",
+      "summary": "v16.5.0-canary.64",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.64",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-f4d53b25b7",
+      "title": "Next.js Releases v16.5.0-canary.63",
+      "category": "web",
+      "date": "2026-11-25",
+      "collectedAt": "2026-11-25T14:13:32+09:00",
+      "summary": "v16.5.0-canary.63",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.63",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-8fb2311886",
+      "title": "OpenAI Node SDK Releases v7.64.0",
+      "category": "ai",
+      "date": "2026-11-25",
+      "collectedAt": "2026-11-25T14:13:32+09:00",
+      "summary": "7.64.0 (2026-11-24) Features api: add healthcare model IDs for Responses ( #3188 ) ( ff563a0 )",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.64.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-35284fc192",
+      "title": "AWS Weekly Roundup: Local Zone in Bogotá, 30-minute Lambda timeout, and more (November 24, 2026)",
+      "category": "cloud",
+      "date": "2026-11-25",
+      "collectedAt": "2026-11-25T14:13:32+09:00",
+      "summary": "Some limits shape architecture more than any feature does. AWS Lambda launched in 2014 with a 60-second timeout, moved to 5 minutes in 2015 and to 15 minutes in 2018, and then stayed there for eight years.…",
+      "why": "「lambda」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "lambda"
+      ],
+      "source": {
+        "name": "AWS News Blog",
+        "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-local-zone-in-bogota-30-minute-lambda-timeout-and-more-november-24-2026/",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-0e0714e827",
+      "title": "Nuxt Releases v4.7.0",
+      "category": "web",
+      "date": "2026-11-25",
+      "collectedAt": "2026-11-24T15:44:46+09:00",
+      "summary": "v4.7.0 is the next minor release. 📣 Some news 🧪 Try Nitro v3 today You can now build your Nuxt 4 app with Nitro v3 ( #37101 ).…",
+      "why": "Nuxt Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "nuxt"
+      ],
+      "source": {
+        "name": "Nuxt Releases",
+        "url": "https://github.com/nuxt/nuxt/releases/tag/v4.7.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-8adb937887",
+      "title": "jQuery 4.1正式版がリリース、内部実装をquerySelectorAllに統一でより高速に。jQuery 3.x系最後となるjQuery 3.8も同時リリース",
+      "category": "cloud",
+      "date": "2026-11-25",
+      "collectedAt": "2026-11-25T14:13:32+09:00",
+      "summary": "jQuery開発チームは、JavaScriptライブラリ「jQuery」の最新版となる「jQuery 4.1」正式版のリリースを発表しました。 また同時にjQuery 3.x系の最後のリリースとなる「jQuery 3.8」も同時にリリースしました。…",
+      "why": "「javascript」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "javascript"
+      ],
+      "source": {
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/blog/26/jquery_41queryselectoralljquery_3xjquery_38.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-3c6728c1bf",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "category": "ai",
+      "date": "2026-11-24",
+      "collectedAt": "2026-11-25T14:13:32+09:00",
+      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "gpt"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-f3aa9260f1",
+      "title": "Searching for distant planets with Astra",
+      "category": "ai",
+      "date": "2026-11-24",
+      "collectedAt": "2026-11-25T14:13:32+09:00",
+      "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-32cda1537c",
       "title": "Codex CLI Release: 0.172.0",
@@ -21,6 +268,26 @@
       "auto": true
     },
     {
+      "slug": "auto-99b93f3e10",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "category": "ai",
+      "date": "2026-11-24",
+      "collectedAt": "2026-11-25T14:13:32+09:00",
+      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "chatgpt",
+        "codex"
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
       "slug": "auto-7231d97ed5",
       "title": "Next.js Releases v16.5.0-canary.62",
       "category": "web",
@@ -35,43 +302,6 @@
       "source": {
         "name": "Next.js Releases",
         "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.62",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-0e0714e827",
-      "title": "Nuxt Releases v4.7.0",
-      "category": "web",
-      "date": "2026-11-24",
-      "collectedAt": "2026-11-24T15:44:46+09:00",
-      "summary": "v4.7.0 is the next minor release. 📣 Some news 🧪 Try Nitro v3 today You can now build your Nuxt 4 app with Nitro v3 ( #37101 ).…",
-      "why": "Nuxt Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "nuxt"
-      ],
-      "source": {
-        "name": "Nuxt Releases",
-        "url": "https://github.com/nuxt/nuxt/releases/tag/v4.7.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e54d787de1",
-      "title": "Claude Code 2.1.331",
-      "category": "ai",
-      "date": "2026-11-24",
-      "summary": "Added Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS Added oidc.groups_jsonpath to the Claude apps gateway, to read groups from…",
-      "why": "Claude Codeの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "claude code"
-      ],
-      "source": {
-        "name": "Claude Code",
-        "url": "https://code.claude.com/docs/en/changelog",
         "kind": "primary"
       },
       "auto": true
@@ -158,7 +388,7 @@
       "title": "Claude Platform release notes — November 23, 2026",
       "category": "ai",
       "date": "2026-11-23",
-      "summary": "We announced the deprecation of the Claude Opus 4.5 model ( claude-opus-4-5-20251101 and claude-opus-4-5 ), with retirement on the Claude API scheduled for January 22, 2027. We recommend migrating to Claude Opus 5.5.…",
+      "summary": "A fix is live for an undercount of web searches in the List User Activity endpoint of the Claude Enterprise Analytics API .…",
       "why": "Claude Platformの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
@@ -191,44 +421,6 @@
       "auto": true
     },
     {
-      "slug": "auto-82201eaaa7",
-      "title": "Next.js Releases v16.5.0-canary.61",
-      "category": "web",
-      "date": "2026-11-23",
-      "collectedAt": "2026-11-23T12:30:09+09:00",
-      "summary": "Core Changes [image-optimizer] Add experimental support for @next/safe-image-optimization: #101254 Misc Changes turbo-tasks-backend: report the caller location for missing-task panics: #102169 Turbopack: recover from an…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.61",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-0b9e8b4bd7",
-      "title": "Next.js Releases v16.5.0-canary.60",
-      "category": "web",
-      "date": "2026-11-22",
-      "collectedAt": "2026-11-22T11:48:58+09:00",
-      "summary": "Core Changes switchyard: tell Switchyard the app's route.go paths and workers: #102101 Misc Changes Turbopack: resolve app directory entries in a filesystem-independent order: #102186 docs: update Route Handler AI SDK st…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.60",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-ccb4217b57",
       "title": "インテル50周年記念のゲーミングPC、ツクモが50万円で発売",
       "category": "gadget",
@@ -243,82 +435,6 @@
       "source": {
         "name": "PC Watch",
         "url": "https://pc.watch.impress.co.jp/docs/news/2158418.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e34544d1f1",
-      "title": "クーラーもビデオカードもAORUS、GIGABYTEのRTX 5060 Ti機",
-      "category": "gadget",
-      "date": "2026-11-21",
-      "collectedAt": "2026-11-21T12:45:05+09:00",
-      "summary": "ゲーミング向けパーツブランド「AORUS」の製品で主要パーツをそろえた完成品のゲーミングPCが登場した。GIGABYTEが11月20日に発売した、Ryzen 5 9500FとGeForce RTX 5060 Tiを搭載するデスクトップPC「AORUS PRIME 3 AP3A5N6T-5103P」だ。実売予想価格は41万1,000円前後。",
-      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "デスク"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2158420.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e9870de0da",
-      "title": "49gマウスも、ROGに「Phantom Blade Zero」コラボ3製品",
-      "category": "gadget",
-      "date": "2026-11-21",
-      "collectedAt": "2026-11-21T12:45:05+09:00",
-      "summary": "ASUSは11月20日、アクションゲーム「Phantom Blade Zero」とのコラボモデルとしてゲーミングデバイス3製品の予約を開始した。",
-      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "マウス"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2158419.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-1d9782715c",
-      "title": "Next.js Releases v16.5.0-canary.59",
-      "category": "web",
-      "date": "2026-11-21",
-      "collectedAt": "2026-11-21T12:45:05+09:00",
-      "summary": "Core Changes switchyard: restore 'in front of' in three test comments: #102082 Write Turbopack dist dir metadata from Rust: #101638 Example Changes examples: remove examples built on abandoned libraries: #102092 examples…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.59",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-59777eac39",
-      "title": "VALORANT王者Demon1と共同開発したゲーミングマウス。47gの軽量設計",
-      "category": "gadget",
-      "date": "2026-11-21",
-      "collectedAt": "2026-11-21T12:45:05+09:00",
-      "summary": "ASUSは、プロゲーマーのDemon1選手と共同開発した軽量ワイヤレスゲーミングマウス「ROG Harpe II Ace Mini」および同氏のシグネチャーモデル「ROG Harpe II Ace Mini Demon1 Edition」を12月3日に発売する。予約は11月27日より受付開始し、価格はいずれも2万5,020円。",
-      "why": "「マウス」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "マウス"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2158406.html",
         "kind": "roundup"
       },
       "auto": true
@@ -381,25 +497,6 @@
       "auto": true
     },
     {
-      "slug": "auto-d15c456432",
-      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-      "category": "ai",
-      "date": "2026-11-20",
-      "collectedAt": "2026-11-21T12:45:05+09:00",
-      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-      "why": "「gpt」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "gpt"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/business/customer-stories/hebbia",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-166678665b",
       "title": "Securing Rails",
       "category": "web",
@@ -439,45 +536,6 @@
       "auto": true
     },
     {
-      "slug": "auto-6687f7be62",
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "category": "ai",
-      "date": "2026-11-19",
-      "collectedAt": "2026-11-20T12:52:07+09:00",
-      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-      "why": "「chatgpt、codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "chatgpt",
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-e29ac258c0",
-      "title": "Explore the Codex Security Plugin",
-      "category": "ai",
-      "date": "2026-11-19",
-      "collectedAt": "2026-11-20T12:52:07+09:00",
-      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-      "why": "「codex」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "codex"
-      ],
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-045cb3d368",
       "title": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances",
       "category": "cloud",
@@ -497,26 +555,6 @@
       "auto": true
     },
     {
-      "slug": "auto-c682e75676",
-      "title": "OpenAI Node SDK Releases v7.60.0",
-      "category": "ai",
-      "date": "2026-11-19",
-      "collectedAt": "2026-11-19T12:57:55+09:00",
-      "summary": "7.60.0 (2026-11-18) Features api: add Live MCP server configuration ( #3160 ) ( 015ddc9 ) api: add standalone CSAM moderation types ( #3167 ) ( b844556 ) api: hide Managed Agents session budget controls and events ( #316…",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai",
-        "mcp"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.60.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-f48e1ee82b",
       "title": "［速報］マイクロソフト、PostgreSQL互換のミッションクリティカル向けデータベースサービス「Azure HorizonDB」正式リリース",
       "category": "cloud",
@@ -531,25 +569,6 @@
       "source": {
         "name": "Publickey",
         "url": "https://www.publickey1.jp/blog/26/postgresqlazure_horizondb.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-b0f4b39b28",
-      "title": "［速報］PostgreSQL互換のサーバレスでOLTPとOLAP両対応を実現する「Microsoft Fabric HorizonDB」パブリックプレビュー",
-      "category": "cloud",
-      "date": "2026-11-18",
-      "collectedAt": "2026-11-18T13:01:35+09:00",
-      "summary": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、PostgreSQL互換のサーバレスデータベース「Microsoft Fabric HorizonDB」のパブリックプレビュー版を発表しました。…",
-      "why": "「postgresql」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "postgresql"
-      ],
-      "source": {
-        "name": "Publickey",
-        "url": "https://www.publickey1.jp/blog/26/postgresqloltpolapmicrosoft_fabric_horizondb.html",
         "kind": "roundup"
       },
       "auto": true
@@ -665,25 +684,6 @@
       "source": {
         "name": "Vite Releases",
         "url": "https://github.com/vitejs/vite/releases/tag/v8.3.8",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-024f8077f8",
-      "title": "Vite Releases v8.3.7",
-      "category": "web",
-      "date": "2026-11-09",
-      "collectedAt": "2026-11-10T13:29:22+09:00",
-      "summary": "Bug Fixes deps: update Rolldown to v1.2.18 ( #24038 ) ( 517affb ) Miscellaneous Chores enable more lint rules ( #24035 ) ( 72f86e5 ) Tests use onTestFinished for tear downs ( #24003 ) ( a579e35 ) Build System generate so…",
-      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vite"
-      ],
-      "source": {
-        "name": "Vite Releases",
-        "url": "https://github.com/vitejs/vite/releases/tag/v8.3.7",
         "kind": "primary"
       },
       "auto": true
