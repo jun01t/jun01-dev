@@ -1,6 +1,160 @@
 {
-  "updatedAt": "2026-11-26T13:42:18+09:00",
+  "updatedAt": "2026-11-27T13:47:03+09:00",
   "items": [
+    {
+      "slug": "auto-2f6195d7c1",
+      "title": "Next.js Releases v16.5.0-canary.70",
+      "category": "web",
+      "date": "2026-11-27",
+      "collectedAt": "2026-11-27T13:47:03+09:00",
+      "summary": "v16.5.0-canary.70",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.70",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-242b1a12fc",
+      "title": "Next.js Releases v16.5.0-canary.69",
+      "category": "web",
+      "date": "2026-11-27",
+      "collectedAt": "2026-11-27T13:47:03+09:00",
+      "summary": "Core Changes Upgrade React from 89d7b2b4-20261123 to edae846a-20261125 : #102463 Reword the error for a blocking route loaded while navigations are paused: #102398 Say that dev validation is skipped when server caches ar…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "react",
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.69",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-551295e13a",
+      "title": "GeForce搭載ゲーミングPCが6万3,000円引き！ブラックフライデー注目モデルまとめ [Sponsored]",
+      "category": "gadget",
+      "date": "2026-11-27",
+      "collectedAt": "2026-11-27T13:47:03+09:00",
+      "summary": "Amazonは、11月27日からブラックフライデー先行セールを開催中だ。その中で、GeForce RTX 5060を搭載するゲーミングノートPCやデスクトップPCなどが特別価格となっている。セールの対象外ではあるが、128GB統合メモリを備えローカルAIに強いRTX Spark搭載ノートPCも注目だ。",
+      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
+      "points": [],
+      "tags": [
+        "デスク"
+      ],
+      "source": {
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/topic/special/2159045.html",
+        "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-1820d4d38e",
+      "title": "Next.js Releases v16.5.0-canary.68",
+      "category": "web",
+      "date": "2026-11-26",
+      "collectedAt": "2026-11-27T13:47:03+09:00",
+      "summary": "Core Changes Mark @next/mcp as private: #102446 Clarify the Cache Components error for static exports: #101250 Add the next/go SDK and move Go Proxy helpers into it: #101874 Misc Changes Fix Go package declaration in nat…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "mcp",
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.68",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-ca80b0467b",
+      "title": "Vite Releases v8.4.0",
+      "category": "web",
+      "date": "2026-11-26",
+      "collectedAt": "2026-11-27T13:47:03+09:00",
+      "summary": "Features add plugin name to hook errors ( #24107 ) ( 40475e5 ) add plugin name to module hook errors ( #24151 ) ( e1e1ac8 ) add environment.addSafeModule ( #23974 ) ( e0fe98a ) add server.fs.strict: 'extended' ( #23972 )…",
+      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vite"
+      ],
+      "source": {
+        "name": "Vite Releases",
+        "url": "https://github.com/vitejs/vite/releases/tag/v8.4.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-2461aa396a",
+      "title": "create-vite@9.4.0",
+      "category": "web",
+      "date": "2026-11-26",
+      "collectedAt": "2026-11-27T13:47:03+09:00",
+      "summary": "Features create-vite: add devtools option ( #23833 ) ( f0a0b5a ) create-vite: support Vite+ (vp) package manager ( #22788 ) ( 4d21dc4 ) create-vite: use Solid 2 in solid templates ( #24130 ) ( 3dfda24 ) Bug Fixes deps: u…",
+      "why": "Vite Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vite"
+      ],
+      "source": {
+        "name": "Vite Releases",
+        "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.4.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-1d7134bfdd",
+      "title": "Next.js Releases v16.5.0-preview.0",
+      "category": "web",
+      "date": "2026-11-26",
+      "collectedAt": "2026-11-27T13:47:03+09:00",
+      "summary": "v16.5.0-preview.0",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-preview.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-c40527a629",
+      "title": "OpenAI Node SDK Releases v7.65.0",
+      "category": "ai",
+      "date": "2026-11-26",
+      "collectedAt": "2026-11-27T13:47:03+09:00",
+      "summary": "7.65.0 (2026-11-26) Features api: add spend alerts and response compaction fields ( #3196 ) ( 60103ca ) api: support updating session vaults ( #3194 ) ( b6ea5b6 ) Chores api: clarify message retries and Batch endpoints (…",
+      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "openai"
+      ],
+      "source": {
+        "name": "OpenAI Node SDK Releases",
+        "url": "https://github.com/openai/openai-node/releases/tag/v7.65.0",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-3eb9c4416a",
       "title": "JAPANNEXT、3万円台で4K対応の27型IPS広色域モニターなど3製品",
@@ -17,25 +171,6 @@
         "name": "PC Watch",
         "url": "https://pc.watch.impress.co.jp/docs/news/2159309.html",
         "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-58838c6052",
-      "title": "Next.js Releases v16.5.0-canary.66",
-      "category": "web",
-      "date": "2026-11-26",
-      "collectedAt": "2026-11-26T13:42:18+09:00",
-      "summary": "v16.5.0-canary.66",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.66",
-        "kind": "primary"
       },
       "auto": true
     },
@@ -98,44 +233,6 @@
       "auto": true
     },
     {
-      "slug": "auto-2945fd0577",
-      "title": "自作VRMキャラがウィンドウに座る！「VRM Mate」30日Steam発売",
-      "category": "gadget",
-      "date": "2026-11-25",
-      "collectedAt": "2026-11-26T13:42:18+09:00",
-      "summary": "インフィニットループは11月30日、デスクトップマスコットアプリ「VRM Mate」をSteamで発売する。価格は2,200円。リリース記念セールとして、12月14日3時までは440円オフの1,760円で販売する。",
-      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "デスク"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2159182.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-0f3d044bd2",
-      "title": "GIGABYTE、RTX Spark搭載の1.1LミニPC「AI TOP AERO」",
-      "category": "gadget",
-      "date": "2026-11-25",
-      "collectedAt": "2026-11-26T13:42:18+09:00",
-      "summary": "GIGABYTEは、RTX Sparkを採用したミニAIデスクトップPC「AI TOP AERO」を発売した。メモリとストレージの容量が異なる5モデルを用意する。",
-      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
-      "points": [],
-      "tags": [
-        "デスク"
-      ],
-      "source": {
-        "name": "PC Watch",
-        "url": "https://pc.watch.impress.co.jp/docs/news/2159177.html",
-        "kind": "roundup"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-6a65c26908",
       "title": "Vite Releases v8.4.0-beta.2",
       "category": "web",
@@ -174,59 +271,21 @@
       "auto": true
     },
     {
-      "slug": "auto-86585edcaa",
-      "title": "Next.js Releases v16.5.0-canary.65",
-      "category": "web",
+      "slug": "auto-2945fd0577",
+      "title": "自作VRMキャラがウィンドウに座る！「VRM Mate」30日Steam発売",
+      "category": "gadget",
       "date": "2026-11-25",
-      "collectedAt": "2026-11-25T14:13:32+09:00",
-      "summary": "v16.5.0-canary.65",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "collectedAt": "2026-11-26T13:42:18+09:00",
+      "summary": "インフィニットループは11月30日、デスクトップマスコットアプリ「VRM Mate」をSteamで発売する。価格は2,200円。リリース記念セールとして、12月14日3時までは440円オフの1,760円で販売する。",
+      "why": "「デスク」に触れているので拾いました。全文の判断は出典を見てください。",
       "points": [],
       "tags": [
-        "next.js"
+        "デスク"
       ],
       "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.65",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-896f623b8a",
-      "title": "Next.js Releases v16.5.0-canary.64",
-      "category": "web",
-      "date": "2026-11-25",
-      "collectedAt": "2026-11-25T14:13:32+09:00",
-      "summary": "v16.5.0-canary.64",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.64",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-f4d53b25b7",
-      "title": "Next.js Releases v16.5.0-canary.63",
-      "category": "web",
-      "date": "2026-11-25",
-      "collectedAt": "2026-11-25T14:13:32+09:00",
-      "summary": "v16.5.0-canary.63",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.63",
-        "kind": "primary"
+        "name": "PC Watch",
+        "url": "https://pc.watch.impress.co.jp/docs/news/2159182.html",
+        "kind": "roundup"
       },
       "auto": true
     },
@@ -555,26 +614,6 @@
       "auto": true
     },
     {
-      "slug": "auto-5b0615985f",
-      "title": "OpenAI Node SDK Releases v7.61.0",
-      "category": "ai",
-      "date": "2026-11-20",
-      "collectedAt": "2026-11-20T12:52:07+09:00",
-      "summary": "7.61.0 (2026-11-19) Features api: add gpt-live-1.1 to Live model choices ( #3168 ) ( 23b2dc1 )",
-      "why": "OpenAI Node SDK Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "openai",
-        "gpt"
-      ],
-      "source": {
-        "name": "OpenAI Node SDK Releases",
-        "url": "https://github.com/openai/openai-node/releases/tag/v7.61.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
       "slug": "auto-045cb3d368",
       "title": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances",
       "category": "cloud",
@@ -647,44 +686,6 @@
       "source": {
         "name": "Ruby on Rails",
         "url": "https://rubyonrails.org/2026/11/13/this-week-in-rails",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-7f70e4364b",
-      "title": "Vue Releases v3.6.0-rc.15",
-      "category": "web",
-      "date": "2026-11-12",
-      "collectedAt": "2026-11-13T12:08:28+09:00",
-      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
-      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "vue"
-      ],
-      "source": {
-        "name": "Vue Releases",
-        "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.15",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-7ac60267f1",
-      "title": "Terraform Releases v1.17.2",
-      "category": "cloud",
-      "date": "2026-11-11",
-      "collectedAt": "2026-11-12T12:35:55+09:00",
-      "summary": "1.17.2 (November 11, 2026) ENHANCEMENTS: query: Improve performance and reduce allocations when generating configuration from large HCP Terraform queries.…",
-      "why": "Terraform Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "terraform"
-      ],
-      "source": {
-        "name": "Terraform Releases",
-        "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.2",
         "kind": "primary"
       },
       "auto": true
