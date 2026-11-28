@@ -1,13 +1,51 @@
 {
-  "updatedAt": "2026-11-27T13:47:03+09:00",
+  "updatedAt": "2026-11-28T13:30:51+09:00",
   "items": [
+    {
+      "slug": "auto-83ea9fcbfa",
+      "title": "Next.js Releases v16.5.0-canary.71",
+      "category": "web",
+      "date": "2026-11-28",
+      "collectedAt": "2026-11-28T13:30:51+09:00",
+      "summary": "Core Changes [image-optimizer] Add request cancellation support when using nsio: #102405 [upgrade] Register the CI upgrade secrets from next upgrade --ci: #102422 [upgrade] Ask for the model and effort in next upgrade --…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.71",
+        "kind": "primary"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-30feff4664",
+      "title": "Vue Releases v3.6.0-rc.17",
+      "category": "web",
+      "date": "2026-11-27",
+      "collectedAt": "2026-11-28T13:30:51+09:00",
+      "summary": "For stable releases, please refer to CHANGELOG.md for details. For pre-releases, please refer to CHANGELOG.md of the minor branch.",
+      "why": "Vue Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "vue"
+      ],
+      "source": {
+        "name": "Vue Releases",
+        "url": "https://github.com/vuejs/core/releases/tag/v3.6.0-rc.17",
+        "kind": "primary"
+      },
+      "auto": true
+    },
     {
       "slug": "auto-2f6195d7c1",
       "title": "Next.js Releases v16.5.0-canary.70",
       "category": "web",
       "date": "2026-11-27",
       "collectedAt": "2026-11-27T13:47:03+09:00",
-      "summary": "v16.5.0-canary.70",
+      "summary": "Misc Changes Use instant() to inspect a link on the dev server: #102453 test: rename externals-transitive fixture deps: #102464 Turbopack: return StaticImageData for images imported from node_modules: #102389 Credits Hug…",
       "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
       "tags": [
@@ -21,21 +59,18 @@
       "auto": true
     },
     {
-      "slug": "auto-242b1a12fc",
-      "title": "Next.js Releases v16.5.0-canary.69",
+      "slug": "auto-ca890a7551",
+      "title": "credentials:keys, bulk Action Text, and more!",
       "category": "web",
       "date": "2026-11-27",
-      "collectedAt": "2026-11-27T13:47:03+09:00",
-      "summary": "Core Changes Upgrade React from 89d7b2b4-20261123 to edae846a-20261125 : #102463 Reword the error for a blocking route loaded while navigations are paused: #102398 Say that dev validation is skipped when server caches ar…",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "collectedAt": "2026-11-28T13:30:51+09:00",
+      "summary": "You can now list credential keys without printing their values, Action Text stops querying once per attachment, and Action Mailer boots without Active Job.…",
+      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
       "points": [],
-      "tags": [
-        "react",
-        "next.js"
-      ],
+      "tags": [],
       "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.69",
+        "name": "Ruby on Rails",
+        "url": "https://rubyonrails.org/2026/11/27/this-week-in-rails",
         "kind": "primary"
       },
       "auto": true
@@ -56,6 +91,26 @@
         "name": "PC Watch",
         "url": "https://pc.watch.impress.co.jp/docs/topic/special/2159045.html",
         "kind": "roundup"
+      },
+      "auto": true
+    },
+    {
+      "slug": "auto-242b1a12fc",
+      "title": "Next.js Releases v16.5.0-canary.69",
+      "category": "web",
+      "date": "2026-11-27",
+      "collectedAt": "2026-11-27T13:47:03+09:00",
+      "summary": "Core Changes Upgrade React from 89d7b2b4-20261123 to edae846a-20261125 : #102463 Reword the error for a blocking route loaded while navigations are paused: #102398 Say that dev validation is skipped when server caches ar…",
+      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
+      "points": [],
+      "tags": [
+        "react",
+        "next.js"
+      ],
+      "source": {
+        "name": "Next.js Releases",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.69",
+        "kind": "primary"
       },
       "auto": true
     },
@@ -113,25 +168,6 @@
       "source": {
         "name": "Vite Releases",
         "url": "https://github.com/vitejs/vite/releases/tag/create-vite%409.4.0",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-1d7134bfdd",
-      "title": "Next.js Releases v16.5.0-preview.0",
-      "category": "web",
-      "date": "2026-11-26",
-      "collectedAt": "2026-11-27T13:47:03+09:00",
-      "summary": "v16.5.0-preview.0",
-      "why": "Next.js Releasesの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "next.js"
-      ],
-      "source": {
-        "name": "Next.js Releases",
-        "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-preview.0",
         "kind": "primary"
       },
       "auto": true
@@ -647,45 +683,6 @@
       "source": {
         "name": "Vite Releases",
         "url": "https://github.com/vitejs/vite/releases/tag/v8.4.0-beta.1",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-54ca37aa41",
-      "title": "On Rails — Marco Roth: Teaching Rails to Read Its Own Template",
-      "category": "web",
-      "date": "2026-11-13",
-      "collectedAt": "2026-11-14T11:54:10+09:00",
-      "summary": "Marco Roth , independent consultant and the creator of Herb and ReActionView , joins Robby to talk about teaching Rails to understand its own templates.…",
-      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "react",
-        "rails"
-      ],
-      "source": {
-        "name": "Ruby on Rails",
-        "url": "https://rubyonrails.org/2026/11/13/on-rails-marco-roth-herb-reaction-view",
-        "kind": "primary"
-      },
-      "auto": true
-    },
-    {
-      "slug": "auto-d640aa9adc",
-      "title": "Hotwire guide and more",
-      "category": "web",
-      "date": "2026-11-13",
-      "collectedAt": "2026-11-14T11:54:10+09:00",
-      "summary": "Hi, Wojtek here. Let’s explore this week’s changes with another big round of fixes in the Rails codebase. Add a guide for using Hotwire with Rails The guide can already be read on the Edge Guides .…",
-      "why": "Ruby on Railsの更新です。机の対象に入っているので、抜粋だけ置いています。続きは出典で確認できます。",
-      "points": [],
-      "tags": [
-        "rails"
-      ],
-      "source": {
-        "name": "Ruby on Rails",
-        "url": "https://rubyonrails.org/2026/11/13/this-week-in-rails",
         "kind": "primary"
       },
       "auto": true
